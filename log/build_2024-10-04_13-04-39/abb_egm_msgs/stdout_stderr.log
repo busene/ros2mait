@@ -1,0 +1,13 @@
+[ 10%] Built target abb_egm_msgs__rosidl_generator_c
+[ 12%] Built target abb_egm_msgs__cpp
+failed to create symbolic link '/home/ubuntu/ros2ws/build/abb_egm_msgs/ament_cmake_python/abb_egm_msgs/abb_egm_msgs' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_abb_egm_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_abb_egm_msgs] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_abb_egm_msgs.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[35m[1mConsolidate compiler generated dependencies of target abb_egm_msgs__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target abb_egm_msgs__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target abb_egm_msgs__rosidl_typesupport_introspection_c[0m
+[ 23%] Built target abb_egm_msgs__rosidl_typesupport_c
+[ 33%] Built target abb_egm_msgs__rosidl_typesupport_introspection_c
+[ 43%] Built target abb_egm_msgs__rosidl_typesupport_fastrtps_c
+gmake: *** [Makefile:146: all] Error 2

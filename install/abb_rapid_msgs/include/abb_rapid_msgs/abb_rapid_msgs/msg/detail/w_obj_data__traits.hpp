@@ -1,0 +1,1 @@
+/home/ubuntu/ros2ws/build/abb_rapid_msgs/rosidl_generator_cpp/abb_rapid_msgs/msg/detail/w_obj_data__traits.hpp

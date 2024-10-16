@@ -1,0 +1,9 @@
+setup.py
+linkattacher_msgs/__init__.py
+linkattacher_msgs.egg-info/PKG-INFO
+linkattacher_msgs.egg-info/SOURCES.txt
+linkattacher_msgs.egg-info/dependency_links.txt
+linkattacher_msgs.egg-info/top_level.txt
+linkattacher_msgs/srv/__init__.py
+linkattacher_msgs/srv/_attach_link.py
+linkattacher_msgs/srv/_detach_link.py

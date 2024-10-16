@@ -1,0 +1,10 @@
+/home/ubuntu/ros2ws/build/ros2_objectpose/CMakeFiles/uninstall.dir
+/home/ubuntu/ros2ws/build/ros2_objectpose/CMakeFiles/ros2_objectpose_uninstall.dir
+/home/ubuntu/ros2ws/build/ros2_objectpose/CMakeFiles/ros2_objectpose_plugin.dir
+/home/ubuntu/ros2ws/build/ros2_objectpose/CMakeFiles/test.dir
+/home/ubuntu/ros2ws/build/ros2_objectpose/CMakeFiles/edit_cache.dir
+/home/ubuntu/ros2ws/build/ros2_objectpose/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ros2ws/build/ros2_objectpose/CMakeFiles/list_install_components.dir
+/home/ubuntu/ros2ws/build/ros2_objectpose/CMakeFiles/install.dir
+/home/ubuntu/ros2ws/build/ros2_objectpose/CMakeFiles/install/local.dir
+/home/ubuntu/ros2ws/build/ros2_objectpose/CMakeFiles/install/strip.dir

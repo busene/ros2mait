@@ -1,0 +1,50 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from abb_rapid_sm_addin_msgs/msg/StateMachineState.msg
+// generated code does not contain a copyright notice
+
+
+module abb_rapid_sm_addin_msgs {
+  module msg {
+    module StateMachineState_Constants {
+      @verbatim (language="comment", text=
+        "-------------------------------------------------------------------------------" "\n"        " Enumerations" "\n"        "-------------------------------------------------------------------------------" "\n"        " Possible \"StateMachine Add-In\" RAPID states:" "\n"        "" "\n"        " Note: These enumeration values differ from the RAPID implementation" "\n"        "       values to avoid conflict with default values in ROS messages.")
+      const uint8 SM_STATE_UNKNOWN = 1;
+      const uint8 SM_STATE_IDLE = 2;
+      const uint8 SM_STATE_INITIALIZE = 3;
+      const uint8 SM_STATE_RUN_RAPID_ROUTINE = 4;
+      const uint8 SM_STATE_RUN_EGM_ROUTINE = 5;
+      @verbatim (language="comment", text=
+        "Possible \"StateMachine Add-In\" RAPID EGM actions:" "\n"        "" "\n"        "Note: These enumeration values differ from the RAPID implementation" "\n"        "      values to avoid conflict with default values in ROS messages.")
+      const uint8 EGM_ACTION_UNKNOWN = 1;
+      const uint8 EGM_ACTION_NONE = 2;
+      const uint8 EGM_ACTION_RUN_JOINT = 3;
+      const uint8 EGM_ACTION_RUN_POSE = 4;
+      const uint8 EGM_ACTION_STOP = 5;
+      const uint8 EGM_ACTION_START_STREAM = 6;
+      const uint8 EGM_ACTION_STOP_STREAM = 7;
+    };
+    @verbatim (language="comment", text=
+      "-------------------------------------------------------------------------------" "\n"
+      " Description:" "\n"
+      "   The purpose of this message definition, is to represent the state of an" "\n"
+      "   instance of the RobotWare \"StateMachine Add-In\"'s RAPID implementation." "\n"
+      "-------------------------------------------------------------------------------")
+    struct StateMachineState {
+      @verbatim (language="comment", text=
+        "-------------------------------------------------------------------------------" "\n"
+        " Message fields" "\n"
+        "-------------------------------------------------------------------------------" "\n"
+        " The RAPID task that runs the \"StateMachine Add-In\" instance.")
+      string rapid_task;
+
+      @verbatim (language="comment", text=
+        "The \"StateMachine Add-In\" instance's current state.")
+      uint8 sm_state;
+
+      @verbatim (language="comment", text=
+        "The \"StateMachine Add-In\" instance's current EGM action" "\n"
+        "(only used if the RobotWare EGM option is present).")
+      uint8 egm_action;
+    };
+  };
+};

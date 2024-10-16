@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from abb_robot_msgs/srv/SetFileContents.srv
+// generated code does not contain a copyright notice
+
+
+module abb_robot_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "-------------------------------------------------------------------------------" "\n"
+      " Description:" "\n"
+      "   The purpose of this service definition, is to define a way to set the" "\n"
+      "   contents of a file in an ABB robot controller system." "\n"
+      "" "\n"
+      " Note:" "\n"
+      "   The file will be placed in the system's home directory. If the file" "\n"
+      "   doesn't exist, then it will be created, otherwise it will be overwritten." "\n"
+      "-------------------------------------------------------------------------------")
+    struct SetFileContents_Request {
+      @verbatim (language="comment", text=
+        "-------------------------------------------------------------------------------" "\n"
+        " Service request fields" "\n"
+        "-------------------------------------------------------------------------------" "\n"
+        " Filename (including file extension) for the file in the system.")
+      string filename;
+
+      @verbatim (language="comment", text=
+        "New contents for the file.")
+      string contents;
+    };
+    struct SetFileContents_Response {
+      @verbatim (language="comment", text=
+        "-------------------------------------------------------------------------------" "\n"
+        " Service response fields" "\n"
+        "-------------------------------------------------------------------------------" "\n"
+        " Service success/failure indicator." "\n"
+        " Refer to 'abb_robot_msgs/ServiceResponses' for defined error codes.")
+      uint16 result_code;
+
+      @verbatim (language="comment", text=
+        "Status message (empty if service succeeded).")
+      string message;
+    };
+  };
+};

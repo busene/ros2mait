@@ -1,0 +1,54 @@
+[0.048s] Invoking command in '/home/ubuntu/ros2ws/build/cr35ia_ros2_moveit2': AMENT_PREFIX_PATH=/home/ubuntu/ros2ws/install/ros2_data:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/ros2_data:/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/ros2_data/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_RobotSimulation/Fanuc/CR35iA/cr35ia_ros2_moveit2 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2
+[0.149s] -- The C compiler identification is GNU 11.4.0
+[0.260s] -- The CXX compiler identification is GNU 11.4.0
+[0.273s] -- Detecting C compiler ABI info
+[0.416s] -- Detecting C compiler ABI info - done
+[0.427s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.430s] -- Detecting C compile features
+[0.430s] -- Detecting C compile features - done
+[0.433s] -- Detecting CXX compiler ABI info
+[0.584s] -- Detecting CXX compiler ABI info - done
+[0.599s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.599s] -- Detecting CXX compile features
+[0.599s] -- Detecting CXX compile features - done
+[0.602s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.908s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.063s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.202s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.205s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.207s] -- Added test 'lint_cmake' to check CMake code style
+[1.207s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.212s] -- Added test 'xmllint' to check XML markup files
+[1.212s] -- Configuring done
+[1.217s] -- Generating done
+[1.218s] -- Build files have been written to: /home/ubuntu/ros2ws/build/cr35ia_ros2_moveit2
+[1.229s] Invoked command in '/home/ubuntu/ros2ws/build/cr35ia_ros2_moveit2' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2ws/install/ros2_data:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/ros2_data:/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/ros2_data/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_RobotSimulation/Fanuc/CR35iA/cr35ia_ros2_moveit2 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2
+[1.230s] Invoking command in '/home/ubuntu/ros2ws/build/cr35ia_ros2_moveit2': AMENT_PREFIX_PATH=/home/ubuntu/ros2ws/install/ros2_data:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/ros2_data:/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/ros2_data/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2ws/build/cr35ia_ros2_moveit2 -- -j4 -l4
+[1.312s] Invoked command in '/home/ubuntu/ros2ws/build/cr35ia_ros2_moveit2' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2ws/install/ros2_data:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/ros2_data:/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/ros2_data/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2ws/build/cr35ia_ros2_moveit2 -- -j4 -l4
+[1.356s] Invoking command in '/home/ubuntu/ros2ws/build/cr35ia_ros2_moveit2': AMENT_PREFIX_PATH=/home/ubuntu/ros2ws/install/ros2_data:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/ros2_data:/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/ros2_data/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ros2ws/build/cr35ia_ros2_moveit2
+[1.381s] -- Install configuration: ""
+[1.382s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/config
+[1.382s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/config/ompl_planning.yaml
+[1.382s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/config/cr35ia_moveit2.rviz
+[1.384s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/config/cr35ia_controllers.yaml
+[1.384s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/config/cr35ia.srdf
+[1.384s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/config/kinematics.yaml
+[1.389s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/launch
+[1.389s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/launch/cr35ia_interface.launch.py
+[1.389s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/launch/cr35ia.launch.py
+[1.390s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/ament_index/resource_index/package_run_dependencies/cr35ia_ros2_moveit2
+[1.390s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/ament_index/resource_index/parent_prefix_path/cr35ia_ros2_moveit2
+[1.390s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/environment/ament_prefix_path.sh
+[1.391s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/environment/ament_prefix_path.dsv
+[1.391s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/environment/path.sh
+[1.391s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/environment/path.dsv
+[1.391s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/local_setup.bash
+[1.391s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/local_setup.sh
+[1.392s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/local_setup.zsh
+[1.392s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/local_setup.dsv
+[1.392s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/package.dsv
+[1.392s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/ament_index/resource_index/packages/cr35ia_ros2_moveit2
+[1.393s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/cmake/cr35ia_ros2_moveit2Config.cmake
+[1.394s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/cmake/cr35ia_ros2_moveit2Config-version.cmake
+[1.394s] -- Installing: /home/ubuntu/ros2ws/install/cr35ia_ros2_moveit2/share/cr35ia_ros2_moveit2/package.xml
+[1.398s] Invoked command in '/home/ubuntu/ros2ws/build/cr35ia_ros2_moveit2' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2ws/install/ros2_data:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/ros2_data:/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/ros2_data/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ros2ws/build/cr35ia_ros2_moveit2

@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from abb_rapid_msgs/msg/Orient.msg
+// generated code does not contain a copyright notice
+
+
+module abb_rapid_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "-------------------------------------------------------------------------------" "\n"
+      " Description:" "\n"
+      "   The purpose of this message definition, is to represent the" "\n"
+      "   RAPID data type \"orient\" (orientation)." "\n"
+      "" "\n"
+      " Note:" "\n"
+      "   Please see the \"Technical reference manual - RAPID Instructions," "\n"
+      "   Functions and Data types\" for more details." "\n"
+      "-------------------------------------------------------------------------------")
+    struct Orient {
+      @verbatim (language="comment", text=
+        "-------------------------------------------------------------------------------" "\n"
+        " Message fields" "\n"
+        "-------------------------------------------------------------------------------" "\n"
+        " Quaternion 1-4.")
+      float q1;
+
+      float q2;
+
+      float q3;
+
+      float q4;
+    };
+  };
+};

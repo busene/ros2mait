@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from abb_robot_msgs/srv/TriggerWithResultCode.srv
+// generated code does not contain a copyright notice
+
+
+module abb_robot_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "-------------------------------------------------------------------------------" "\n"
+      " Description:" "\n"
+      "   The purpose of this service definition, is to allow triggering a service" "\n"
+      "   where the response includes both a numerical result code and a human" "\n"
+      "   readable message." "\n"
+      "-------------------------------------------------------------------------------")
+    struct TriggerWithResultCode_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct TriggerWithResultCode_Response {
+      @verbatim (language="comment", text=
+        "-------------------------------------------------------------------------------" "\n"
+        " Service response fields" "\n"
+        "-------------------------------------------------------------------------------" "\n"
+        " Service success/failure indicator." "\n"
+        " Refer to 'abb_robot_msgs/ServiceResponses' for defined error codes.")
+      uint16 result_code;
+
+      @verbatim (language="comment", text=
+        "Informational, e.g. for error messages")
+      string message;
+    };
+  };
+};

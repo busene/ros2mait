@@ -1,0 +1,79 @@
+[0.019s] Invoking command in '/home/ubuntu/ros2ws/build/ur3_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_gazebo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ur3_ros2_gazebo
+[0.300s] -- The C compiler identification is GNU 11.4.0
+[0.597s] -- The CXX compiler identification is GNU 11.4.0
+[0.632s] -- Detecting C compiler ABI info
+[0.957s] -- Detecting C compiler ABI info - done
+[1.026s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.027s] -- Detecting C compile features
+[1.027s] -- Detecting C compile features - done
+[1.045s] -- Detecting CXX compiler ABI info
+[1.276s] -- Detecting CXX compiler ABI info - done
+[1.311s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.312s] -- Detecting CXX compile features
+[1.313s] -- Detecting CXX compile features - done
+[1.323s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.994s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.478s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.969s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.992s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.996s] -- Added test 'lint_cmake' to check CMake code style
+[3.000s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.010s] -- Added test 'xmllint' to check XML markup files
+[3.021s] -- Configuring done
+[3.041s] -- Generating done
+[3.044s] -- Build files have been written to: /home/ubuntu/ros2ws/build/ur3_ros2_gazebo
+[3.059s] Invoked command in '/home/ubuntu/ros2ws/build/ur3_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_RobotSimulation/UniversalRobots/UR3/ur3_ros2_gazebo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ur3_ros2_gazebo
+[3.070s] Invoking command in '/home/ubuntu/ros2ws/build/ur3_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ur3_ros2_gazebo -- -j4 -l4
+[3.272s] Invoked command in '/home/ubuntu/ros2ws/build/ur3_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ur3_ros2_gazebo -- -j4 -l4
+[3.411s] Invoking command in '/home/ubuntu/ros2ws/build/ur3_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ur3_ros2_gazebo
+[3.456s] -- Install configuration: ""
+[3.456s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/config
+[3.456s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/config/default_kinematics.yaml
+[3.462s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/config/physical_parameters.yaml
+[3.462s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/config/ur3_controller.yaml
+[3.462s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/config/visual_parameters.yaml
+[3.462s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/config/joint_limits.yaml
+[3.462s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/config/initial_positions.yaml
+[3.466s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/launch
+[3.466s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/launch/ur3_simulation.launch.py
+[3.466s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/urdf
+[3.470s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/urdf/ur3.urdf.xacro
+[3.470s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/urdf/ur3_common.xacro
+[3.470s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/urdf/ur3_transmission.xacro
+[3.472s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/urdf/ur3_ros2control.xacro
+[3.472s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/urdf/ur3_macro.urdf.xacro
+[3.472s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/worlds
+[3.472s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/worlds/ur3.world
+[3.472s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes
+[3.472s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/collision
+[3.472s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/collision/upperarm.stl
+[3.476s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/collision/wrist2.stl
+[3.480s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/collision/wrist3.stl
+[3.480s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/collision/base.stl
+[3.480s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/collision/shoulder.stl
+[3.483s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/collision/wrist1.stl
+[3.489s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/collision/forearm.stl
+[3.489s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/visual
+[3.489s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/visual/wrist2.dae
+[3.499s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/visual/wrist1.dae
+[3.504s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/visual/forearm.dae
+[3.504s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/visual/base.dae
+[3.508s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/visual/wrist3.dae
+[3.508s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/visual/upperarm.dae
+[3.523s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/meshes/visual/shoulder.dae
+[3.536s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ament_index/resource_index/package_run_dependencies/ur3_ros2_gazebo
+[3.536s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ament_index/resource_index/parent_prefix_path/ur3_ros2_gazebo
+[3.536s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/environment/ament_prefix_path.sh
+[3.536s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/environment/ament_prefix_path.dsv
+[3.536s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/environment/path.sh
+[3.536s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/environment/path.dsv
+[3.536s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/local_setup.bash
+[3.536s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/local_setup.sh
+[3.536s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/local_setup.zsh
+[3.536s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/local_setup.dsv
+[3.537s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/package.dsv
+[3.537s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ament_index/resource_index/packages/ur3_ros2_gazebo
+[3.537s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/cmake/ur3_ros2_gazeboConfig.cmake
+[3.537s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/cmake/ur3_ros2_gazeboConfig-version.cmake
+[3.537s] -- Installing: /home/ubuntu/ros2ws/install/ur3_ros2_gazebo/share/ur3_ros2_gazebo/package.xml
+[3.599s] Invoked command in '/home/ubuntu/ros2ws/build/ur3_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ur3_ros2_gazebo

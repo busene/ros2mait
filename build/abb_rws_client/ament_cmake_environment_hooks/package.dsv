@@ -1,0 +1,4 @@
+source;share/abb_rws_client/local_setup.bash
+source;share/abb_rws_client/local_setup.dsv
+source;share/abb_rws_client/local_setup.sh
+source;share/abb_rws_client/local_setup.zsh

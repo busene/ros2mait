@@ -1,0 +1,594 @@
+[0.022s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_data -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2srrc_data
+[0.216s] -- The C compiler identification is GNU 11.4.0
+[0.343s] -- The CXX compiler identification is GNU 11.4.0
+[0.356s] -- Detecting C compiler ABI info
+[0.486s] -- Detecting C compiler ABI info - done
+[0.500s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.500s] -- Detecting C compile features
+[0.500s] -- Detecting C compile features - done
+[0.509s] -- Detecting CXX compiler ABI info
+[0.655s] -- Detecting CXX compiler ABI info - done
+[0.667s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.667s] -- Detecting CXX compile features
+[0.668s] -- Detecting CXX compile features - done
+[0.673s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.018s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.197s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.347s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.351s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.363s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.444s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.074s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.447s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.881s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.922s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.928s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.971s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.971s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.971s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.971s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.005s] -- Found PythonExtra: .so  
+[3.091s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.102s] -- Added test 'lint_cmake' to check CMake code style
+[3.105s] -- Added test 'xmllint' to check XML markup files
+[3.113s] -- Configuring done
+[3.210s] -- Generating done
+[3.215s] -- Build files have been written to: /home/ubuntu/ros2ws/build/ros2srrc_data
+[3.234s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_data -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2srrc_data
+[3.236s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_data -- -j4 -l4
+[3.342s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.173s] [  0%] Built target ros2srrc_data__cpp
+[7.223s] [  0%] Built target ament_cmake_python_copy_ros2srrc_data
+[7.241s] [  1%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.385s] [  2%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2srrc_data/msg/detail/dds_fastrtps/specs__type_support.cpp.o[0m
+[11.169s] [  3%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2srrc_data/msg/detail/dds_fastrtps/robmove__type_support.cpp.o[0m
+[11.911s] [  4%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2srrc_data/msg/detail/dds_fastrtps/joint__type_support.cpp.o[0m
+[12.597s] [  4%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2srrc_data/msg/detail/dds_fastrtps/joints__type_support.cpp.o[0m
+[13.275s] [  5%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2srrc_data/msg/detail/dds_fastrtps/xyz__type_support.cpp.o[0m
+[13.967s] [  6%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2srrc_data/msg/detail/dds_fastrtps/xyzypr__type_support.cpp.o[0m
+[14.719s] [  7%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2srrc_data/msg/detail/dds_fastrtps/ypr__type_support.cpp.o[0m
+[15.472s] [  8%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2srrc_data/msg/detail/dds_fastrtps/action__type_support.cpp.o[0m
+[16.183s] [  8%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2srrc_data/msg/detail/dds_fastrtps/linkattacher__type_support.cpp.o[0m
+[16.908s] [  9%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2srrc_data/msg/detail/dds_fastrtps/robpose__type_support.cpp.o[0m
+[17.591s] [ 10%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2srrc_data/action/detail/dds_fastrtps/move__type_support.cpp.o[0m
+[18.602s] [ 11%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2srrc_data/action/detail/dds_fastrtps/sequence__type_support.cpp.o[0m
+[19.714s] [ 12%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2srrc_data/action/detail/dds_fastrtps/robmove__type_support.cpp.o[0m
+[20.704s] [ 12%] [32m[1mLinking CXX shared library libros2srrc_data__rosidl_typesupport_fastrtps_cpp.so[0m
+[20.866s] [ 12%] Built target ros2srrc_data__rosidl_typesupport_fastrtps_cpp
+[20.887s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[23.450s] [ 13%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2srrc_data/msg/detail/specs__type_support.cpp.o[0m
+[24.166s] [ 14%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2srrc_data/msg/detail/robmove__type_support.cpp.o[0m
+[24.849s] [ 15%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2srrc_data/msg/detail/joint__type_support.cpp.o[0m
+[25.580s] [ 16%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2srrc_data/msg/detail/joints__type_support.cpp.o[0m
+[26.278s] [ 16%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2srrc_data/msg/detail/xyz__type_support.cpp.o[0m
+[26.972s] [ 17%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2srrc_data/msg/detail/xyzypr__type_support.cpp.o[0m
+[27.634s] [ 18%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2srrc_data/msg/detail/ypr__type_support.cpp.o[0m
+[28.315s] [ 19%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2srrc_data/msg/detail/action__type_support.cpp.o[0m
+[29.016s] [ 20%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2srrc_data/msg/detail/linkattacher__type_support.cpp.o[0m
+[29.702s] [ 20%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2srrc_data/msg/detail/robpose__type_support.cpp.o[0m
+[30.374s] [ 21%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2srrc_data/action/detail/move__type_support.cpp.o[0m
+[31.464s] [ 22%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2srrc_data/action/detail/sequence__type_support.cpp.o[0m
+[32.655s] [ 23%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2srrc_data/action/detail/robmove__type_support.cpp.o[0m
+[33.717s] [ 24%] [32m[1mLinking CXX shared library libros2srrc_data__rosidl_typesupport_introspection_cpp.so[0m
+[33.886s] [ 24%] Built target ros2srrc_data__rosidl_typesupport_introspection_cpp
+[34.321s] running egg_info
+[34.322s] creating ros2srrc_data.egg-info
+[34.323s] writing ros2srrc_data.egg-info/PKG-INFO
+[34.323s] writing dependency_links to ros2srrc_data.egg-info/dependency_links.txt
+[34.324s] writing top-level names to ros2srrc_data.egg-info/top_level.txt
+[34.324s] writing manifest file 'ros2srrc_data.egg-info/SOURCES.txt'
+[34.329s] reading manifest file 'ros2srrc_data.egg-info/SOURCES.txt'
+[34.329s] writing manifest file 'ros2srrc_data.egg-info/SOURCES.txt'
+[34.384s] [ 24%] Built target ament_cmake_python_build_ros2srrc_data_egg
+[34.403s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[36.299s] [ 26%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2srrc_data/msg/specs__type_support.cpp.o[0m
+[36.807s] [ 26%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2srrc_data/msg/joint__type_support.cpp.o[0m
+[37.334s] [ 27%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2srrc_data/msg/joints__type_support.cpp.o[0m
+[37.852s] [ 28%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2srrc_data/msg/xyz__type_support.cpp.o[0m
+[38.351s] [ 29%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2srrc_data/msg/xyzypr__type_support.cpp.o[0m
+[38.874s] [ 30%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2srrc_data/msg/ypr__type_support.cpp.o[0m
+[39.302s] [ 30%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2srrc_data/msg/action__type_support.cpp.o[0m
+[39.790s] [ 31%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2srrc_data/msg/linkattacher__type_support.cpp.o[0m
+[40.261s] [ 32%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2srrc_data/msg/robpose__type_support.cpp.o[0m
+[40.766s] [ 33%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2srrc_data/action/move__type_support.cpp.o[0m
+[41.592s] [ 34%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2srrc_data/action/sequence__type_support.cpp.o[0m
+[42.529s] [ 34%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2srrc_data/action/robmove__type_support.cpp.o[0m
+[43.356s] [ 35%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2srrc_data/msg/robmove__type_support.cpp.o[0m
+[43.862s] [ 36%] [32m[1mLinking CXX shared library libros2srrc_data__rosidl_typesupport_cpp.so[0m
+[43.955s] [ 36%] Built target ros2srrc_data__rosidl_typesupport_cpp
+[43.984s] [ 37%] [34m[1mGenerating C code for ROS interfaces[0m
+[48.208s] [ 38%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_c.dir/rosidl_generator_c/ros2srrc_data/msg/detail/specs__functions.c.o[0m
+[48.294s] [ 39%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_c.dir/rosidl_generator_c/ros2srrc_data/msg/detail/joints__functions.c.o[0m
+[48.383s] [ 40%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_c.dir/rosidl_generator_c/ros2srrc_data/msg/detail/xyz__functions.c.o[0m
+[48.477s] [ 41%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_c.dir/rosidl_generator_c/ros2srrc_data/msg/detail/xyzypr__functions.c.o[0m
+[48.578s] [ 41%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_c.dir/rosidl_generator_c/ros2srrc_data/msg/detail/ypr__functions.c.o[0m
+[48.656s] [ 42%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_c.dir/rosidl_generator_c/ros2srrc_data/msg/detail/action__functions.c.o[0m
+[48.769s] [ 43%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_c.dir/rosidl_generator_c/ros2srrc_data/msg/detail/linkattacher__functions.c.o[0m
+[48.851s] [ 44%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_c.dir/rosidl_generator_c/ros2srrc_data/msg/detail/robpose__functions.c.o[0m
+[48.940s] [ 45%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_c.dir/rosidl_generator_c/ros2srrc_data/action/detail/move__functions.c.o[0m
+[49.189s] [ 45%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_c.dir/rosidl_generator_c/ros2srrc_data/action/detail/sequence__functions.c.o[0m
+[49.411s] [ 46%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_c.dir/rosidl_generator_c/ros2srrc_data/action/detail/robmove__functions.c.o[0m
+[49.646s] [ 47%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_c.dir/rosidl_generator_c/ros2srrc_data/msg/detail/joint__functions.c.o[0m
+[49.734s] [ 47%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_c.dir/rosidl_generator_c/ros2srrc_data/msg/detail/robmove__functions.c.o[0m
+[49.820s] [ 48%] [32m[1mLinking C shared library libros2srrc_data__rosidl_generator_c.so[0m
+[49.904s] [ 48%] Built target ros2srrc_data__rosidl_generator_c
+[49.923s] [ 49%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[53.030s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2srrc_data/msg/detail/specs__type_support_c.cpp.o[0m
+[53.641s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2srrc_data/msg/detail/robmove__type_support_c.cpp.o[0m
+[54.227s] [ 51%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2srrc_data/msg/detail/joint__type_support_c.cpp.o[0m
+[54.856s] [ 52%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2srrc_data/msg/detail/joints__type_support_c.cpp.o[0m
+[55.501s] [ 53%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2srrc_data/msg/detail/xyz__type_support_c.cpp.o[0m
+[56.140s] [ 54%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2srrc_data/msg/detail/xyzypr__type_support_c.cpp.o[0m
+[56.747s] [ 54%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2srrc_data/msg/detail/ypr__type_support_c.cpp.o[0m
+[57.314s] [ 55%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2srrc_data/msg/detail/action__type_support_c.cpp.o[0m
+[57.977s] [ 56%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2srrc_data/msg/detail/linkattacher__type_support_c.cpp.o[0m
+[58.600s] [ 57%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2srrc_data/msg/detail/robpose__type_support_c.cpp.o[0m
+[59.198s] [ 58%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2srrc_data/action/detail/move__type_support_c.cpp.o[0m
+[59.971s] [ 58%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2srrc_data/action/detail/sequence__type_support_c.cpp.o[0m
+[60.699s] [ 59%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2srrc_data/action/detail/robmove__type_support_c.cpp.o[0m
+[61.405s] [ 60%] [32m[1mLinking CXX shared library libros2srrc_data__rosidl_typesupport_fastrtps_c.so[0m
+[61.562s] [ 60%] Built target ros2srrc_data__rosidl_typesupport_fastrtps_c
+[61.582s] [ 61%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[63.480s] [ 61%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2srrc_data/msg/specs__type_support.cpp.o[0m
+[63.533s] [ 62%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2srrc_data/msg/joint__type_support.cpp.o[0m
+[63.584s] [ 63%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2srrc_data/msg/joints__type_support.cpp.o[0m
+[63.648s] [ 64%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2srrc_data/msg/xyz__type_support.cpp.o[0m
+[63.701s] [ 64%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2srrc_data/msg/xyzypr__type_support.cpp.o[0m
+[63.770s] [ 65%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2srrc_data/msg/ypr__type_support.cpp.o[0m
+[63.829s] [ 66%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2srrc_data/msg/action__type_support.cpp.o[0m
+[63.893s] [ 67%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2srrc_data/msg/linkattacher__type_support.cpp.o[0m
+[63.945s] [ 68%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2srrc_data/msg/robpose__type_support.cpp.o[0m
+[63.999s] [ 68%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2srrc_data/action/move__type_support.cpp.o[0m
+[64.093s] [ 69%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2srrc_data/action/sequence__type_support.cpp.o[0m
+[64.174s] [ 70%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2srrc_data/action/robmove__type_support.cpp.o[0m
+[64.265s] [ 71%] [32mBuilding CXX object CMakeFiles/ros2srrc_data__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2srrc_data/msg/robmove__type_support.cpp.o[0m
+[64.326s] [ 72%] [32m[1mLinking CXX shared library libros2srrc_data__rosidl_typesupport_c.so[0m
+[64.416s] [ 72%] Built target ros2srrc_data__rosidl_typesupport_c
+[64.436s] [ 73%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[67.089s] [ 74%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2srrc_data/msg/detail/specs__type_support.c.o[0m
+[67.182s] [ 75%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2srrc_data/msg/detail/joints__type_support.c.o[0m
+[67.243s] [ 76%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2srrc_data/msg/detail/xyz__type_support.c.o[0m
+[67.310s] [ 77%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2srrc_data/msg/detail/xyzypr__type_support.c.o[0m
+[67.383s] [ 78%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2srrc_data/msg/detail/ypr__type_support.c.o[0m
+[67.459s] [ 78%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2srrc_data/msg/detail/action__type_support.c.o[0m
+[67.528s] [ 79%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2srrc_data/msg/detail/linkattacher__type_support.c.o[0m
+[67.592s] [ 80%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2srrc_data/msg/detail/robpose__type_support.c.o[0m
+[67.705s] [ 81%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2srrc_data/action/detail/move__type_support.c.o[0m
+[67.778s] [ 82%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2srrc_data/action/detail/sequence__type_support.c.o[0m
+[67.883s] [ 82%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2srrc_data/action/detail/robmove__type_support.c.o[0m
+[67.984s] [ 82%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2srrc_data/msg/detail/joint__type_support.c.o[0m
+[68.053s] [ 83%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2srrc_data/msg/detail/robmove__type_support.c.o[0m
+[68.119s] [ 84%] [32m[1mLinking C shared library libros2srrc_data__rosidl_typesupport_introspection_c.so[0m
+[68.200s] [ 84%] Built target ros2srrc_data__rosidl_typesupport_introspection_c
+[68.241s] [ 84%] Built target ros2srrc_data
+[68.279s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[75.117s] [ 85%] Built target ros2srrc_data__py
+[75.151s] [ 86%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_py.dir/rosidl_generator_py/ros2srrc_data/msg/_specs_s.c.o[0m
+[75.398s] [ 87%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_py.dir/rosidl_generator_py/ros2srrc_data/msg/_joints_s.c.o[0m
+[75.622s] [ 88%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_py.dir/rosidl_generator_py/ros2srrc_data/msg/_xyz_s.c.o[0m
+[75.839s] [ 89%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_py.dir/rosidl_generator_py/ros2srrc_data/msg/_xyzypr_s.c.o[0m
+[76.059s] [ 89%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_py.dir/rosidl_generator_py/ros2srrc_data/msg/_ypr_s.c.o[0m
+[76.241s] [ 90%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_py.dir/rosidl_generator_py/ros2srrc_data/msg/_action_s.c.o[0m
+[76.454s] [ 91%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_py.dir/rosidl_generator_py/ros2srrc_data/msg/_linkattacher_s.c.o[0m
+[76.635s] [ 92%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_py.dir/rosidl_generator_py/ros2srrc_data/msg/_robpose_s.c.o[0m
+[76.839s] [ 93%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_py.dir/rosidl_generator_py/ros2srrc_data/action/_move_s.c.o[0m
+[77.155s] [ 93%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_py.dir/rosidl_generator_py/ros2srrc_data/action/_sequence_s.c.o[0m
+[77.435s] [ 94%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_py.dir/rosidl_generator_py/ros2srrc_data/action/_robmove_s.c.o[0m
+[77.734s] [ 95%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_py.dir/rosidl_generator_py/ros2srrc_data/msg/_joint_s.c.o[0m
+[77.921s] [ 95%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_generator_py.dir/rosidl_generator_py/ros2srrc_data/msg/_robmove_s.c.o[0m
+[78.116s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/ros2srrc_data/libros2srrc_data__rosidl_generator_py.so[0m
+[78.201s] [ 96%] Built target ros2srrc_data__rosidl_generator_py
+[78.240s] [ 97%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2srrc_data/_ros2srrc_data_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[78.618s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros2srrc_data/ros2srrc_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[78.692s] [ 97%] Built target ros2srrc_data__rosidl_typesupport_fastrtps_c__pyext
+[78.743s] [ 98%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2srrc_data/_ros2srrc_data_s.ep.rosidl_typesupport_c.c.o[0m
+[79.105s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/ros2srrc_data/ros2srrc_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[79.193s] [ 98%] Built target ros2srrc_data__rosidl_typesupport_c__pyext
+[79.253s] [ 99%] [32mBuilding C object CMakeFiles/ros2srrc_data__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2srrc_data/_ros2srrc_data_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[79.657s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros2srrc_data/ros2srrc_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[79.738s] [100%] Built target ros2srrc_data__rosidl_typesupport_introspection_c__pyext
+[79.761s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_data -- -j4 -l4
+[80.439s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_data': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_data
+[80.457s] -- Install configuration: ""
+[80.457s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/action
+[80.457s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/action/Robmove.action
+[80.457s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/action/Sequence.action
+[80.457s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/action/Move.action
+[80.457s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg
+[80.458s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Joint.msg
+[80.458s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Action.msg
+[80.461s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Specs.msg
+[80.461s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Ypr.msg
+[80.461s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Xyzypr.msg
+[80.461s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Joints.msg
+[80.462s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Xyz.msg
+[80.462s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Robmove.msg
+[80.462s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Linkattacher.msg
+[80.462s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Robpose.msg
+[80.463s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ament_index/resource_index/rosidl_interfaces/ros2srrc_data
+[80.463s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data
+[80.463s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg
+[80.463s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/robmove.h
+[80.463s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/specs.h
+[80.464s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/xyz.h
+[80.464s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/action.h
+[80.464s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/linkattacher.h
+[80.464s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/rosidl_generator_c__visibility_control.h
+[80.465s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/joint.h
+[80.467s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/robpose.h
+[80.467s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/ypr.h
+[80.467s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/xyzypr.h
+[80.468s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/joints.h
+[80.468s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail
+[80.468s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/ypr__type_support.h
+[80.468s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/specs__functions.c
+[80.468s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/ypr__functions.h
+[80.469s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/action__struct.h
+[80.469s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/linkattacher__functions.h
+[80.469s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyz__functions.c
+[80.469s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/action__functions.h
+[80.471s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joints__functions.c
+[80.472s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyzypr__type_support.h
+[80.472s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/specs__type_support.h
+[80.472s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyzypr__struct.h
+[80.473s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joints__type_support.h
+[80.476s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joint__struct.h
+[80.476s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/specs__functions.h
+[80.476s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/action__functions.c
+[80.476s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robpose__functions.c
+[80.476s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyzypr__functions.c
+[80.477s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robpose__functions.h
+[80.477s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joint__type_support.h
+[80.477s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/ypr__functions.c
+[80.477s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyzypr__functions.h
+[80.477s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robmove__type_support.h
+[80.478s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robmove__functions.h
+[80.478s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robpose__type_support.h
+[80.478s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/linkattacher__struct.h
+[80.478s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joints__functions.h
+[80.478s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robmove__functions.c
+[80.478s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyz__functions.h
+[80.478s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyz__struct.h
+[80.478s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/action__type_support.h
+[80.478s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robpose__struct.h
+[80.478s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/linkattacher__functions.c
+[80.478s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robmove__struct.h
+[80.478s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joint__functions.h
+[80.478s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyz__type_support.h
+[80.479s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joint__functions.c
+[80.479s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joints__struct.h
+[80.479s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/specs__struct.h
+[80.479s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/linkattacher__type_support.h
+[80.479s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/ypr__struct.h
+[80.479s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action
+[80.479s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/robmove.h
+[80.479s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/move.h
+[80.479s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/sequence.h
+[80.479s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail
+[80.482s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/sequence__functions.h
+[80.482s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/sequence__type_support.h
+[80.482s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/move__functions.h
+[80.482s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/sequence__functions.c
+[80.483s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/robmove__type_support.h
+[80.484s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/sequence__struct.h
+[80.485s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/robmove__functions.h
+[80.485s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/move__functions.c
+[80.485s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/robmove__functions.c
+[80.485s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/move__type_support.h
+[80.485s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/robmove__struct.h
+[80.486s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/move__struct.h
+[80.486s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/environment/library_path.sh
+[80.486s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/environment/library_path.dsv
+[80.486s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/lib/libros2srrc_data__rosidl_generator_c.so
+[80.489s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2srrc_data/lib/libros2srrc_data__rosidl_generator_c.so" to ""
+[80.490s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data
+[80.491s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg
+[80.491s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[80.492s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail
+[80.492s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyzypr__rosidl_typesupport_fastrtps_c.h
+[80.492s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robpose__rosidl_typesupport_fastrtps_c.h
+[80.493s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/specs__rosidl_typesupport_fastrtps_c.h
+[80.493s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joints__rosidl_typesupport_fastrtps_c.h
+[80.495s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joint__rosidl_typesupport_fastrtps_c.h
+[80.496s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/ypr__rosidl_typesupport_fastrtps_c.h
+[80.496s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/action__rosidl_typesupport_fastrtps_c.h
+[80.499s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyz__rosidl_typesupport_fastrtps_c.h
+[80.500s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robmove__rosidl_typesupport_fastrtps_c.h
+[80.500s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/linkattacher__rosidl_typesupport_fastrtps_c.h
+[80.500s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action
+[80.500s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail
+[80.500s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/move__rosidl_typesupport_fastrtps_c.h
+[80.501s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/sequence__rosidl_typesupport_fastrtps_c.h
+[80.501s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/robmove__rosidl_typesupport_fastrtps_c.h
+[80.501s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/lib/libros2srrc_data__rosidl_typesupport_fastrtps_c.so
+[80.501s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2srrc_data/lib/libros2srrc_data__rosidl_typesupport_fastrtps_c.so" to ""
+[80.501s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data
+[80.501s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg
+[80.501s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[80.501s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail
+[80.501s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/specs__type_support.c
+[80.502s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/linkattacher__rosidl_typesupport_introspection_c.h
+[80.502s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyzypr__type_support.c
+[80.502s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robpose__rosidl_typesupport_introspection_c.h
+[80.502s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joint__rosidl_typesupport_introspection_c.h
+[80.502s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyz__rosidl_typesupport_introspection_c.h
+[80.505s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/ypr__rosidl_typesupport_introspection_c.h
+[80.506s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/specs__rosidl_typesupport_introspection_c.h
+[80.506s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joints__type_support.c
+[80.506s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyz__type_support.c
+[80.506s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/action__rosidl_typesupport_introspection_c.h
+[80.506s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/linkattacher__type_support.c
+[80.507s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robmove__rosidl_typesupport_introspection_c.h
+[80.507s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/ypr__type_support.c
+[80.507s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/action__type_support.c
+[80.507s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joint__type_support.c
+[80.510s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robpose__type_support.c
+[80.510s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyzypr__rosidl_typesupport_introspection_c.h
+[80.510s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robmove__type_support.c
+[80.510s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joints__rosidl_typesupport_introspection_c.h
+[80.510s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action
+[80.510s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail
+[80.511s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/move__rosidl_typesupport_introspection_c.h
+[80.511s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/sequence__rosidl_typesupport_introspection_c.h
+[80.511s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/move__type_support.c
+[80.511s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/robmove__rosidl_typesupport_introspection_c.h
+[80.511s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/sequence__type_support.c
+[80.511s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/robmove__type_support.c
+[80.511s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/lib/libros2srrc_data__rosidl_typesupport_introspection_c.so
+[80.511s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2srrc_data/lib/libros2srrc_data__rosidl_typesupport_introspection_c.so" to ""
+[80.511s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/lib/libros2srrc_data__rosidl_typesupport_c.so
+[80.511s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2srrc_data/lib/libros2srrc_data__rosidl_typesupport_c.so" to ""
+[80.511s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data
+[80.512s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg
+[80.512s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/linkattacher.hpp
+[80.512s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/specs.hpp
+[80.512s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/joint.hpp
+[80.512s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/joints.hpp
+[80.512s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/robpose.hpp
+[80.512s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/robmove.hpp
+[80.512s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/xyzypr.hpp
+[80.512s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/action.hpp
+[80.512s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/xyz.hpp
+[80.512s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail
+[80.512s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/linkattacher__builder.hpp
+[80.512s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joint__traits.hpp
+[80.513s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/ypr__traits.hpp
+[80.513s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joint__builder.hpp
+[80.513s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/ypr__struct.hpp
+[80.514s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/linkattacher__struct.hpp
+[80.515s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/action__struct.hpp
+[80.515s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/action__builder.hpp
+[80.515s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joints__builder.hpp
+[80.515s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyzypr__builder.hpp
+[80.516s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joints__struct.hpp
+[80.516s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robpose__builder.hpp
+[80.516s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyz__struct.hpp
+[80.516s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/specs__builder.hpp
+[80.516s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyzypr__traits.hpp
+[80.519s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/action__traits.hpp
+[80.519s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/ypr__builder.hpp
+[80.519s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/linkattacher__traits.hpp
+[80.519s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robmove__builder.hpp
+[80.519s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyzypr__struct.hpp
+[80.520s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyz__traits.hpp
+[80.520s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robpose__traits.hpp
+[80.520s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joints__traits.hpp
+[80.520s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robmove__struct.hpp
+[80.520s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robmove__traits.hpp
+[80.520s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyz__builder.hpp
+[80.520s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joint__struct.hpp
+[80.520s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robpose__struct.hpp
+[80.520s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/specs__traits.hpp
+[80.520s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/specs__struct.hpp
+[80.520s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/ypr.hpp
+[80.520s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action
+[80.521s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/robmove.hpp
+[80.521s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/move.hpp
+[80.521s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/sequence.hpp
+[80.521s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail
+[80.521s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/move__struct.hpp
+[80.521s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/move__builder.hpp
+[80.522s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/move__traits.hpp
+[80.522s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/sequence__builder.hpp
+[80.522s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/robmove__builder.hpp
+[80.522s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/robmove__struct.hpp
+[80.526s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/sequence__struct.hpp
+[80.526s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/robmove__traits.hpp
+[80.527s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/sequence__traits.hpp
+[80.527s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data
+[80.527s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg
+[80.527s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[80.528s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail
+[80.528s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyzypr__rosidl_typesupport_fastrtps_cpp.hpp
+[80.528s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/action__rosidl_typesupport_fastrtps_cpp.hpp
+[80.528s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/dds_fastrtps
+[80.528s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyz__rosidl_typesupport_fastrtps_cpp.hpp
+[80.528s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joint__rosidl_typesupport_fastrtps_cpp.hpp
+[80.531s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/ypr__rosidl_typesupport_fastrtps_cpp.hpp
+[80.532s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joints__rosidl_typesupport_fastrtps_cpp.hpp
+[80.532s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/linkattacher__rosidl_typesupport_fastrtps_cpp.hpp
+[80.532s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robmove__rosidl_typesupport_fastrtps_cpp.hpp
+[80.532s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robpose__rosidl_typesupport_fastrtps_cpp.hpp
+[80.532s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/specs__rosidl_typesupport_fastrtps_cpp.hpp
+[80.532s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action
+[80.532s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail
+[80.533s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/dds_fastrtps
+[80.533s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp
+[80.533s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/sequence__rosidl_typesupport_fastrtps_cpp.hpp
+[80.533s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/robmove__rosidl_typesupport_fastrtps_cpp.hpp
+[80.533s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/lib/libros2srrc_data__rosidl_typesupport_fastrtps_cpp.so
+[80.533s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2srrc_data/lib/libros2srrc_data__rosidl_typesupport_fastrtps_cpp.so" to ""
+[80.533s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data
+[80.533s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg
+[80.533s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail
+[80.533s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/ypr__rosidl_typesupport_introspection_cpp.hpp
+[80.533s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/ypr__type_support.cpp
+[80.533s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robpose__rosidl_typesupport_introspection_cpp.hpp
+[80.537s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robpose__type_support.cpp
+[80.537s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyzypr__rosidl_typesupport_introspection_cpp.hpp
+[80.538s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/linkattacher__type_support.cpp
+[80.538s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/linkattacher__rosidl_typesupport_introspection_cpp.hpp
+[80.538s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyz__rosidl_typesupport_introspection_cpp.hpp
+[80.538s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/action__rosidl_typesupport_introspection_cpp.hpp
+[80.538s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joint__rosidl_typesupport_introspection_cpp.hpp
+[80.538s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robmove__rosidl_typesupport_introspection_cpp.hpp
+[80.539s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/robmove__type_support.cpp
+[80.539s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyzypr__type_support.cpp
+[80.539s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/specs__type_support.cpp
+[80.539s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joints__rosidl_typesupport_introspection_cpp.hpp
+[80.539s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joints__type_support.cpp
+[80.539s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/action__type_support.cpp
+[80.542s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/joint__type_support.cpp
+[80.542s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/xyz__type_support.cpp
+[80.542s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/msg/detail/specs__rosidl_typesupport_introspection_cpp.hpp
+[80.542s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action
+[80.542s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail
+[80.542s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/robmove__rosidl_typesupport_introspection_cpp.hpp
+[80.542s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/robmove__type_support.cpp
+[80.543s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/move__type_support.cpp
+[80.543s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/sequence__rosidl_typesupport_introspection_cpp.hpp
+[80.543s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/move__rosidl_typesupport_introspection_cpp.hpp
+[80.543s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/include/ros2srrc_data/ros2srrc_data/action/detail/sequence__type_support.cpp
+[80.544s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/lib/libros2srrc_data__rosidl_typesupport_introspection_cpp.so
+[80.544s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2srrc_data/lib/libros2srrc_data__rosidl_typesupport_introspection_cpp.so" to ""
+[80.544s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/lib/libros2srrc_data__rosidl_typesupport_cpp.so
+[80.545s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2srrc_data/lib/libros2srrc_data__rosidl_typesupport_cpp.so" to ""
+[80.545s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/environment/pythonpath.sh
+[80.545s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/environment/pythonpath.dsv
+[80.545s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data-0.0.0-py3.10.egg-info
+[80.545s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data-0.0.0-py3.10.egg-info/PKG-INFO
+[80.545s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data-0.0.0-py3.10.egg-info/top_level.txt
+[80.545s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data-0.0.0-py3.10.egg-info/dependency_links.txt
+[80.545s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data-0.0.0-py3.10.egg-info/SOURCES.txt
+[80.545s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data
+[80.545s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg
+[80.546s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_linkattacher.py
+[80.546s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_robpose.py
+[80.546s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_ypr_s.c
+[80.546s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_robmove.py
+[80.546s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_xyz.py
+[80.546s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_ypr.py
+[80.546s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_joints.py
+[80.546s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_robpose_s.c
+[80.546s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_robmove_s.c
+[80.546s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_linkattacher_s.c
+[80.546s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_specs.py
+[80.547s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_action.py
+[80.547s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_specs_s.c
+[80.547s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_joint_s.c
+[80.547s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_action_s.c
+[80.547s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_joints_s.c
+[80.547s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_xyz_s.c
+[80.547s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/__init__.py
+[80.547s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_xyzypr_s.c
+[80.547s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_joint.py
+[80.547s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_xyzypr.py
+[80.547s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/_ros2srrc_data_s.ep.rosidl_typesupport_introspection_c.c
+[80.548s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/libros2srrc_data__rosidl_generator_py.so
+[80.548s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/_ros2srrc_data_s.ep.rosidl_typesupport_c.c
+[80.548s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/ros2srrc_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[80.548s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/_ros2srrc_data_s.ep.rosidl_typesupport_fastrtps_c.c
+[80.548s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/ros2srrc_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[80.548s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/ros2srrc_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[80.548s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/__init__.py
+[80.548s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/action
+[80.548s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/action/_robmove.py
+[80.548s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/action/_move.py
+[80.549s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/action/_robmove_s.c
+[80.549s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/action/_sequence_s.c
+[80.549s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/action/_move_s.c
+[80.549s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/action/__init__.py
+[80.549s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/action/_sequence.py
+[80.653s] Listing '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data'...
+[80.653s] Compiling '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/__init__.py'...
+[80.653s] Listing '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/action'...
+[80.653s] Compiling '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/action/__init__.py'...
+[80.653s] Compiling '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/action/_move.py'...
+[80.653s] Compiling '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/action/_robmove.py'...
+[80.654s] Compiling '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/action/_sequence.py'...
+[80.654s] Listing '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg'...
+[80.654s] Compiling '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/__init__.py'...
+[80.654s] Compiling '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_action.py'...
+[80.654s] Compiling '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_joint.py'...
+[80.654s] Compiling '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_joints.py'...
+[80.654s] Compiling '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_linkattacher.py'...
+[80.654s] Compiling '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_robmove.py'...
+[80.654s] Compiling '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_robpose.py'...
+[80.654s] Compiling '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_specs.py'...
+[80.654s] Compiling '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_xyz.py'...
+[80.655s] Compiling '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_xyzypr.py'...
+[80.655s] Compiling '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/msg/_ypr.py'...
+[80.664s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/ros2srrc_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[80.666s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/ros2srrc_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[80.666s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/ros2srrc_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[80.666s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/ros2srrc_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[80.666s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/ros2srrc_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[80.667s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages/ros2srrc_data/ros2srrc_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[80.667s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/lib/libros2srrc_data__rosidl_generator_py.so
+[80.668s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2srrc_data/lib/libros2srrc_data__rosidl_generator_py.so" to ""
+[80.668s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Specs.idl
+[80.669s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Robmove.idl
+[80.670s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Joint.idl
+[80.670s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Joints.idl
+[80.673s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Xyz.idl
+[80.673s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Xyzypr.idl
+[80.674s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Ypr.idl
+[80.674s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Action.idl
+[80.674s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Linkattacher.idl
+[80.675s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Robpose.idl
+[80.675s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/action/Move.idl
+[80.675s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/action/Sequence.idl
+[80.675s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/action/Robmove.idl
+[80.675s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Specs.msg
+[80.675s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Robmove.msg
+[80.676s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Joint.msg
+[80.676s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Joints.msg
+[80.676s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Xyz.msg
+[80.678s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Xyzypr.msg
+[80.678s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Ypr.msg
+[80.679s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Action.msg
+[80.679s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Linkattacher.msg
+[80.679s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/msg/Robpose.msg
+[80.679s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/action/Move.action
+[80.679s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/action/Sequence.action
+[80.679s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/action/Robmove.action
+[80.679s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ament_index/resource_index/package_run_dependencies/ros2srrc_data
+[80.679s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ament_index/resource_index/parent_prefix_path/ros2srrc_data
+[80.680s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/environment/ament_prefix_path.sh
+[80.680s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/environment/ament_prefix_path.dsv
+[80.680s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/environment/path.sh
+[80.680s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/environment/path.dsv
+[80.680s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/local_setup.bash
+[80.680s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/local_setup.sh
+[80.680s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/local_setup.zsh
+[80.680s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/local_setup.dsv
+[80.680s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/package.dsv
+[80.680s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ament_index/resource_index/packages/ros2srrc_data
+[80.680s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/export_ros2srrc_data__rosidl_generator_cExport.cmake
+[80.680s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/export_ros2srrc_data__rosidl_generator_cExport-noconfig.cmake
+[80.681s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/export_ros2srrc_data__rosidl_typesupport_fastrtps_cExport.cmake
+[80.681s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/export_ros2srrc_data__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[80.681s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/ros2srrc_data__rosidl_typesupport_introspection_cExport.cmake
+[80.684s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/ros2srrc_data__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[80.684s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/ros2srrc_data__rosidl_typesupport_cExport.cmake
+[80.685s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/ros2srrc_data__rosidl_typesupport_cExport-noconfig.cmake
+[80.685s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/export_ros2srrc_data__rosidl_generator_cppExport.cmake
+[80.685s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/export_ros2srrc_data__rosidl_typesupport_fastrtps_cppExport.cmake
+[80.685s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/export_ros2srrc_data__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[80.685s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/ros2srrc_data__rosidl_typesupport_introspection_cppExport.cmake
+[80.685s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/ros2srrc_data__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[80.686s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/ros2srrc_data__rosidl_typesupport_cppExport.cmake
+[80.686s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/ros2srrc_data__rosidl_typesupport_cppExport-noconfig.cmake
+[80.688s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/export_ros2srrc_data__rosidl_generator_pyExport.cmake
+[80.690s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/export_ros2srrc_data__rosidl_generator_pyExport-noconfig.cmake
+[80.691s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/rosidl_cmake-extras.cmake
+[80.691s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/ament_cmake_export_dependencies-extras.cmake
+[80.691s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/ament_cmake_export_include_directories-extras.cmake
+[80.691s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/ament_cmake_export_libraries-extras.cmake
+[80.691s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/ament_cmake_export_targets-extras.cmake
+[80.691s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[80.692s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[80.692s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/ros2srrc_dataConfig.cmake
+[80.692s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake/ros2srrc_dataConfig-version.cmake
+[80.692s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/package.xml
+[80.695s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_data' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_data

@@ -1,0 +1,2 @@
+source;share/ros2srrc_endeffectors/environment/ament_prefix_path.sh
+source;share/ros2srrc_endeffectors/environment/path.sh

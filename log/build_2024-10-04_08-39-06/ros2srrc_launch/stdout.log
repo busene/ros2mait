@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/gazebo
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/gazebo/simulation.launch.py
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/moveit2
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/moveit2/moveit2.launch.py
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/bringup
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/bringup/bringup_abb.launch.py
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/bringup/bringup_ur.launch.py
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ament_index/resource_index/package_run_dependencies/ros2srrc_launch
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ament_index/resource_index/parent_prefix_path/ros2srrc_launch
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/environment/path.sh
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/environment/path.dsv
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/local_setup.bash
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/local_setup.sh
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/local_setup.zsh
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/local_setup.dsv
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/package.dsv
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ament_index/resource_index/packages/ros2srrc_launch
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/cmake/ros2srrc_launchConfig.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/cmake/ros2srrc_launchConfig-version.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/package.xml

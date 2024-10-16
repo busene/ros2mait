@@ -1,0 +1,64 @@
+[0.023s] Invoking command in '/home/ubuntu/ros2ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/linkattacher_msgs -- -j4 -l4
+[0.114s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.131s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.158s] [  5%] Built target ament_cmake_python_symlink_linkattacher_msgs
+[0.610s] running egg_info
+[0.610s] creating linkattacher_msgs.egg-info
+[0.610s] writing linkattacher_msgs.egg-info/PKG-INFO
+[0.611s] writing dependency_links to linkattacher_msgs.egg-info/dependency_links.txt
+[0.611s] writing top-level names to linkattacher_msgs.egg-info/top_level.txt
+[0.611s] writing manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[0.616s] reading manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[0.616s] writing manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[0.692s] [  5%] Built target ament_cmake_python_build_linkattacher_msgs_egg
+[1.047s] [  5%] Built target linkattacher_msgs__cpp
+[1.068s] [  7%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_generator_c.dir/rosidl_generator_c/linkattacher_msgs/srv/detail/attach_link__functions.c.o[0m
+[1.068s] [ 10%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_generator_c.dir/rosidl_generator_c/linkattacher_msgs/srv/detail/detach_link__functions.c.o[0m
+[1.077s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.094s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.224s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.242s] [ 20%] [32m[1mLinking C shared library liblinkattacher_msgs__rosidl_generator_c.so[0m
+[1.352s] [ 20%] Built target linkattacher_msgs__rosidl_generator_c
+[1.382s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.944s] [ 25%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/linkattacher_msgs/srv/detail/attach_link__type_support.cpp.o[0m
+[1.960s] [ 28%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/linkattacher_msgs/srv/detail/dds_fastrtps/attach_link__type_support.cpp.o[0m
+[2.044s] [ 30%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/linkattacher_msgs/srv/attach_link__type_support.cpp.o[0m
+[2.288s] [ 33%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/linkattacher_msgs/srv/detail/attach_link__type_support_c.cpp.o[0m
+[2.478s] [ 35%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/linkattacher_msgs/srv/detach_link__type_support.cpp.o[0m
+[2.602s] [ 38%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/linkattacher_msgs/srv/detail/detach_link__type_support.cpp.o[0m
+[2.772s] [ 41%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/linkattacher_msgs/srv/detail/dds_fastrtps/detach_link__type_support.cpp.o[0m
+[2.881s] [ 43%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/linkattacher_msgs/srv/detail/detach_link__type_support_c.cpp.o[0m
+[2.937s] [ 46%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_cpp.so[0m
+[2.998s] [ 46%] Built target linkattacher_msgs__rosidl_typesupport_cpp
+[3.014s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.261s] [ 51%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.395s] [ 51%] Built target linkattacher_msgs__rosidl_typesupport_introspection_cpp
+[3.428s] [ 53%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.454s] [ 56%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.618s] [ 56%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c
+[3.632s] [ 58%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.735s] [ 61%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/linkattacher_msgs/srv/detail/attach_link__type_support.c.o[0m
+[3.738s] [ 64%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/linkattacher_msgs/srv/detail/detach_link__type_support.c.o[0m
+[3.743s] [ 64%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_cpp
+[3.784s] [ 66%] [32m[1mLinking C shared library liblinkattacher_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.829s] [ 66%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c
+[3.962s] [ 71%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/linkattacher_msgs/srv/attach_link__type_support.cpp.o[0m
+[3.963s] [ 71%] [32mBuilding CXX object CMakeFiles/linkattacher_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/linkattacher_msgs/srv/detach_link__type_support.cpp.o[0m
+[4.003s] [ 74%] [32m[1mLinking CXX shared library liblinkattacher_msgs__rosidl_typesupport_c.so[0m
+[4.058s] [ 74%] Built target linkattacher_msgs__rosidl_typesupport_c
+[4.086s] [ 74%] Built target linkattacher_msgs
+[4.114s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.916s] [ 76%] Built target linkattacher_msgs__py
+[4.951s] [ 82%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_generator_py.dir/rosidl_generator_py/linkattacher_msgs/srv/_attach_link_s.c.o[0m
+[4.951s] [ 82%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_generator_py.dir/rosidl_generator_py/linkattacher_msgs/srv/_detach_link_s.c.o[0m
+[5.179s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/linkattacher_msgs/liblinkattacher_msgs__rosidl_generator_py.so[0m
+[5.232s] [ 84%] Built target linkattacher_msgs__rosidl_generator_py
+[5.262s] [ 89%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.262s] [ 89%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.263s] [ 92%] [32mBuilding C object CMakeFiles/linkattacher_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.392s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.396s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.402s] [100%] [32m[1mLinking C shared library rosidl_generator_py/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.444s] [100%] Built target linkattacher_msgs__rosidl_typesupport_c__pyext
+[5.449s] [100%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c__pyext
+[5.454s] [100%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c__pyext

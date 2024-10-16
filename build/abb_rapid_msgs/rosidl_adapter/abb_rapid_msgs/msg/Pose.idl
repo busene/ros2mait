@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from abb_rapid_msgs/msg/Pose.msg
+// generated code does not contain a copyright notice
+
+#include "abb_rapid_msgs/msg/Orient.idl"
+#include "abb_rapid_msgs/msg/Pos.idl"
+
+module abb_rapid_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "-------------------------------------------------------------------------------" "\n"
+      " Description:" "\n"
+      "   The purpose of this message definition, is to represent the" "\n"
+      "   RAPID data type \"pose\" (coordinate transformations)." "\n"
+      "" "\n"
+      " Note:" "\n"
+      "   Please see the \"Technical reference manual - RAPID Instructions," "\n"
+      "   Functions and Data types\" for more details." "\n"
+      "-------------------------------------------------------------------------------")
+    struct Pose {
+      @verbatim (language="comment", text=
+        "-------------------------------------------------------------------------------" "\n"
+        " Message fields" "\n"
+        "-------------------------------------------------------------------------------" "\n"
+        " The displacement in position (x, y, and z) of the coordinate system.")
+      abb_rapid_msgs::msg::Pos trans;
+
+      @verbatim (language="comment", text=
+        "The rotation of the coordinate system.")
+      abb_rapid_msgs::msg::Orient rot;
+    };
+  };
+};

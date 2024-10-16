@@ -1,0 +1,59 @@
+[0.022s] Invoking command in '/home/ubuntu/ros2ws/build/abb_egm_rws_managers': CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/abb_librws:/home/ubuntu/ros2ws/install/abb_libegm:/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/abb_librws/lib:/home/ubuntu/ros2ws/install/abb_libegm/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ubuntu/ros2ws/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_librws/lib/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/pkgconfig /usr/bin/cmake /home/ubuntu/ros2ws/src/ABBDriver/abb_egm_rws_managers -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/abb_egm_rws_managers
+[0.159s] -- The CXX compiler identification is GNU 11.4.0
+[0.176s] -- Detecting CXX compiler ABI info
+[0.334s] -- Detecting CXX compiler ABI info - done
+[0.352s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.353s] -- Detecting CXX compile features
+[0.354s] -- Detecting CXX compile features - done
+[0.358s] -- Looking for C++ include pthread.h
+[0.531s] -- Looking for C++ include pthread.h - found
+[0.532s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.707s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.707s] -- Found Threads: TRUE  
+[0.738s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: regex system thread 
+[0.742s] -- Searching for Poco library...
+[0.759s] --   Found Poco!
+[0.759s] -- components found: Foundation, Net, Util, XML.
+[0.783s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.786s] -- Generating protobuf C++ for: proto/robot_controller_description.proto
+[0.786s] -- abb_egm_rws_managers: Defaulting build type to RelWithDebInfo
+[0.789s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[0.955s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[0.958s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[1.131s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[1.131s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[1.303s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[1.311s] -- Configuring done
+[1.320s] -- Generating done
+[1.322s] -- Build files have been written to: /home/ubuntu/ros2ws/build/abb_egm_rws_managers
+[1.329s] Invoked command in '/home/ubuntu/ros2ws/build/abb_egm_rws_managers' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/abb_librws:/home/ubuntu/ros2ws/install/abb_libegm:/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/abb_librws/lib:/home/ubuntu/ros2ws/install/abb_libegm/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ubuntu/ros2ws/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_librws/lib/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/pkgconfig /usr/bin/cmake /home/ubuntu/ros2ws/src/ABBDriver/abb_egm_rws_managers -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/abb_egm_rws_managers
+[1.336s] Invoking command in '/home/ubuntu/ros2ws/build/abb_egm_rws_managers': CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/abb_librws:/home/ubuntu/ros2ws/install/abb_libegm:/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/abb_librws/lib:/home/ubuntu/ros2ws/install/abb_libegm/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ubuntu/ros2ws/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_librws/lib/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/pkgconfig /usr/bin/cmake --build /home/ubuntu/ros2ws/build/abb_egm_rws_managers -- -j4 -l4
+[1.405s] [ 14%] [34m[1mRunning cpp protocol buffer compiler on proto/robot_controller_description.proto[0m
+[1.484s] [ 28%] [32mBuilding CXX object CMakeFiles/abb_egm_rws_managers.dir/src/egm_manager.cpp.o[0m
+[15.487s] [ 42%] [32mBuilding CXX object CMakeFiles/abb_egm_rws_managers.dir/src/utilities.cpp.o[0m
+[25.403s] [ 57%] [32mBuilding CXX object CMakeFiles/abb_egm_rws_managers.dir/robot_controller_description.pb.cc.o[0m
+[32.857s] [ 71%] [32mBuilding CXX object CMakeFiles/abb_egm_rws_managers.dir/src/system_data_parser.cpp.o[0m
+[52.568s] [ 85%] [32mBuilding CXX object CMakeFiles/abb_egm_rws_managers.dir/src/rws_manager.cpp.o[0m
+[65.747s] [100%] [32m[1mLinking CXX shared library libabb_egm_rws_managers.so[0m
+[66.255s] [100%] Built target abb_egm_rws_managers
+[66.285s] Invoked command in '/home/ubuntu/ros2ws/build/abb_egm_rws_managers' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/abb_librws:/home/ubuntu/ros2ws/install/abb_libegm:/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/abb_librws/lib:/home/ubuntu/ros2ws/install/abb_libegm/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ubuntu/ros2ws/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_librws/lib/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/pkgconfig /usr/bin/cmake --build /home/ubuntu/ros2ws/build/abb_egm_rws_managers -- -j4 -l4
+[66.398s] Invoking command in '/home/ubuntu/ros2ws/build/abb_egm_rws_managers': CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/abb_librws:/home/ubuntu/ros2ws/install/abb_libegm:/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/abb_librws/lib:/home/ubuntu/ros2ws/install/abb_libegm/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ubuntu/ros2ws/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_librws/lib/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/pkgconfig /usr/bin/cmake --install /home/ubuntu/ros2ws/build/abb_egm_rws_managers
+[66.428s] -- Install configuration: "RelWithDebInfo"
+[66.432s] -- Installing: /home/ubuntu/ros2ws/install/abb_egm_rws_managers/include
+[66.432s] -- Installing: /home/ubuntu/ros2ws/install/abb_egm_rws_managers/include/abb_egm_rws_managers
+[66.433s] -- Installing: /home/ubuntu/ros2ws/install/abb_egm_rws_managers/include/abb_egm_rws_managers/system_data_parser.h
+[66.433s] -- Installing: /home/ubuntu/ros2ws/install/abb_egm_rws_managers/include/abb_egm_rws_managers/rws_manager.h
+[66.433s] -- Installing: /home/ubuntu/ros2ws/install/abb_egm_rws_managers/include/abb_egm_rws_managers/egm_manager.h
+[66.434s] -- Installing: /home/ubuntu/ros2ws/install/abb_egm_rws_managers/include/abb_egm_rws_managers/data_containers.h
+[66.434s] -- Installing: /home/ubuntu/ros2ws/install/abb_egm_rws_managers/include/abb_egm_rws_managers/utilities.h
+[66.434s] -- Installing: /home/ubuntu/ros2ws/install/abb_egm_rws_managers/include/abb_egm_rws_managers/robot_controller_description.proto
+[66.434s] -- Installing: /home/ubuntu/ros2ws/install/abb_egm_rws_managers/include/abb_egm_rws_managers/robot_controller_description.pb.h
+[66.438s] -- Installing: /home/ubuntu/ros2ws/install/abb_egm_rws_managers/include/abb_egm_rws_managers/abb_egm_rws_managers_export.h
+[66.439s] -- Installing: /home/ubuntu/ros2ws/install/abb_egm_rws_managers/share/abb_egm_rws_managers/abb_egm_rws_managersConfig.cmake
+[66.439s] -- Installing: /home/ubuntu/ros2ws/install/abb_egm_rws_managers/share/abb_egm_rws_managers/abb_egm_rws_managersConfigVersion.cmake
+[66.439s] -- Installing: /home/ubuntu/ros2ws/install/abb_egm_rws_managers/share/abb_egm_rws_managers/package.xml
+[66.440s] -- Installing: /home/ubuntu/ros2ws/install/abb_egm_rws_managers/lib/libabb_egm_rws_managers.so
+[66.481s] -- Set runtime path of "/home/ubuntu/ros2ws/install/abb_egm_rws_managers/lib/libabb_egm_rws_managers.so" to ""
+[66.481s] -- Installing: /home/ubuntu/ros2ws/install/abb_egm_rws_managers/share/abb_egm_rws_managers/abb_egm_rws_managersTargets.cmake
+[66.484s] -- Installing: /home/ubuntu/ros2ws/install/abb_egm_rws_managers/share/abb_egm_rws_managers/abb_egm_rws_managersTargets-relwithdebinfo.cmake
+[66.488s] Invoked command in '/home/ubuntu/ros2ws/build/abb_egm_rws_managers' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/abb_librws:/home/ubuntu/ros2ws/install/abb_libegm:/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/abb_librws/lib:/home/ubuntu/ros2ws/install/abb_libegm/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/ubuntu/ros2ws/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_librws/lib/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/pkgconfig /usr/bin/cmake --install /home/ubuntu/ros2ws/build/abb_egm_rws_managers

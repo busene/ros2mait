@@ -1,0 +1,64 @@
+[0.094s] Invoking command in '/home/ubuntu/ros2ws/build/abb_irb4600_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/abb_irb4600_support -- -j4 -l4
+[0.246s] Invoked command in '/home/ubuntu/ros2ws/build/abb_irb4600_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/abb_irb4600_support -- -j4 -l4
+[0.291s] Invoking command in '/home/ubuntu/ros2ws/build/abb_irb4600_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/abb_irb4600_support
+[0.310s] -- Install configuration: ""
+[0.370s] -- Execute custom install script
+[0.370s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/ament_index/resource_index/package_run_dependencies/abb_irb4600_support
+[0.387s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/ament_index/resource_index/parent_prefix_path/abb_irb4600_support
+[0.387s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/environment/ament_prefix_path.sh
+[0.388s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/environment/ament_prefix_path.dsv
+[0.389s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/environment/path.sh
+[0.390s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/environment/path.dsv
+[0.391s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/local_setup.bash
+[0.392s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/local_setup.sh
+[0.394s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/local_setup.zsh
+[0.394s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/local_setup.dsv
+[0.395s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/package.dsv
+[0.414s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/ament_index/resource_index/packages/abb_irb4600_support
+[0.425s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/cmake/abb_irb4600_supportConfig.cmake
+[0.428s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/cmake/abb_irb4600_supportConfig-version.cmake
+[0.428s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/package.xml
+[0.448s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/launch/view_robot.launch.py
+[0.527s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600/collision/base_link.stl
+[0.537s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600/collision/link_1.stl
+[0.551s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600/visual/base_link.dae
+[0.560s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600/visual/link_1.dae
+[0.574s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/collision/link_2.stl
+[0.577s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/collision/link_3.stl
+[0.579s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/collision/link_4.stl
+[0.583s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/collision/link_5.stl
+[0.590s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/collision/link_6.stl
+[0.608s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/visual/link_2.dae
+[0.617s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/visual/link_3.dae
+[0.643s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/visual/link_4.dae
+[0.651s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/visual/link_5.dae
+[0.667s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/visual/link_6.dae
+[0.679s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/collision/link_2.stl
+[0.688s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/collision/link_3.stl
+[0.709s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/collision/link_4.stl
+[0.711s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/collision/link_5.stl
+[0.718s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/collision/link_6.stl
+[0.720s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/visual/link_2.dae
+[0.721s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/visual/link_3.dae
+[0.735s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/visual/link_4.dae
+[0.743s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/visual/link_5.dae
+[0.753s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/visual/link_6.dae
+[0.756s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/collision/link_2.stl
+[0.757s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/collision/link_3.stl
+[0.758s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/collision/link_4.stl
+[0.760s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/collision/link_5.stl
+[0.762s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/collision/link_6.stl
+[0.763s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/visual/link_2.dae
+[0.774s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/visual/link_3.dae
+[0.775s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/visual/link_4.dae
+[0.779s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/visual/link_5.dae
+[0.779s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/visual/link_6.dae
+[0.781s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/rviz/urdf_description.rviz
+[0.809s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/urdf/irb4600.ros2_control.xacro
+[0.810s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/urdf/irb4600_20_250.xacro
+[0.811s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/urdf/irb4600_20_250_macro.xacro
+[0.821s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/urdf/irb4600_40_255.xacro
+[0.837s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/urdf/irb4600_40_255_macro.xacro
+[0.868s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/urdf/irb4600_60_205.xacro
+[0.870s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/urdf/irb4600_60_205_macro.xacro
+[0.874s] Invoked command in '/home/ubuntu/ros2ws/build/abb_irb4600_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/abb_irb4600_support

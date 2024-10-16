@@ -1,0 +1,169 @@
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveJs_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2_data::action::MoveJs_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveJs_action.cpp:95:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   95 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveJs_action.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2_data::action::MoveJs> >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveJs_action.cpp:258:112:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  258 |             bool success = (move_group_interface.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                                [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveJs_action.cpp:43[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveJ_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2_data::action::MoveJ_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveJ_action.cpp:95:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   95 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveJ_action.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2_data::action::MoveJ> >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveJ_action.cpp:312:112:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  312 | _group_interface.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                [01;35m[K^~~~~~~[m[K
+
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveJ_action.cpp:43[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveG_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2_data::action::MoveG_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveG_action.cpp:94:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   94 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveG_action.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2_data::action::MoveG> >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveG_action.cpp:180:112:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |             bool success = (move_group_interface.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                                [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveG_action.cpp:43[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveXYZW_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2_data::action::MoveXYZW_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveXYZW_action.cpp:94:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   94 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveXYZW_action.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2_data::action::MoveXYZW> >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveXYZW_action.cpp:196:108:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  196 |         bool success = (move_group_interface.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                            [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveXYZW_action.cpp:43[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveXYZW_action.cpp:162:46:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  162 |         const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K = move_group_interface.getCurrentState()->getJointModelGroup(my_param);
+      |                                              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveR_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2_data::action::MoveR_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveR_action.cpp:95:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   95 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveR_action.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2_data::action::MoveR> >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveR_action.cpp:337:112:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  337 | _group_interface.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                [01;35m[K^~~~~~~[m[K
+
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveR_action.cpp:43[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveR_action.cpp:362:53:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+  362 |         } else if (LimitCheck == true && [01;35m[KInputJoint == "Valid"[m[K) {
+      |                                          [01;35m[K~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveL_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2_data::action::MoveL_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveL_action.cpp:94:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   94 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveL_action.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2_data::action::MoveL> >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveL_action.cpp:190:109:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  190 |         bool success1 = (move_group_interface.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                             [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveL_action.cpp:43[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveL_action.cpp:206:119:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  206 |             bool success2 = (move_group_interface.execute(trajectory) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                                       [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveL_action.cpp:43[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveL_action.cpp:204:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfraction[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  204 |             double [01;35m[Kfraction[m[K = move_group_interface.computeCartesianPath(waypoints, eef_step, jump_threshold, trajectory);
+      |                    [01;35m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveL_action.cpp:154:46:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  154 |         const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K = move_group_interface.getCurrentState()->getJointModelGroup(my_param);
+      |                                              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveRs_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2_data::action::MoveR_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveRs_action.cpp:94:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   94 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveRs_action.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2_data::action::MoveR> >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveRs_action.cpp:284:112:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  284 |             bool success = (move_group_interface.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                                [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveRs_action.cpp:43[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveRs_action.cpp:309:53:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+  309 |         } else if (LimitCheck == true && [01;35m[KInputJoint == "Valid"[m[K) {
+      |                                          [01;35m[K~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveXYZ_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2_data::action::MoveXYZ_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveXYZ_action.cpp:94:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   94 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveXYZ_action.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2_data::action::MoveXYZ> >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveXYZ_action.cpp:177:108:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  177 |         bool success = (move_group_interface.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                            [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveXYZ_action.cpp:43[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveXYZ_action.cpp:155:46:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  155 |         const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K = move_group_interface.getCurrentState()->getJointModelGroup(my_param);
+      |                                              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveYPR_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2_data::action::MoveYPR_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveYPR_action.cpp:94:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   94 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveYPR_action.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2_data::action::MoveYPR> >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveYPR_action.cpp:189:108:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  189 |         bool success = (move_group_interface.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                            [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveYPR_action.cpp:43[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveYPR_action.cpp:155:46:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  155 |         const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K = move_group_interface.getCurrentState()->getJointModelGroup(my_param);
+      |                                              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveROT_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2_data::action::MoveROT_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveROT_action.cpp:94:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   94 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveROT_action.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2_data::action::MoveROT> >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveROT_action.cpp:201:108:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  201 | _group_interface.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                [01;35m[K^~~~~~~[m[K
+
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveROT_action.cpp:43[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveROT_action.cpp:155:46:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  155 |         const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K = move_group_interface.getCurrentState()->getJointModelGroup(my_param);
+      |                                              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveRP_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2_data::action::MoveRP_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveRP_action.cpp:95:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   95 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveRP_action.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2_data::action::MoveRP> >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveRP_action.cpp:257:108:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  257 |         bool success = (move_group_interface.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                            [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveRP_action.cpp:44[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_actions/scripts/moveRP_action.cpp:163:46:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kjoint_model_group[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  163 |         const moveit::core::JointModelGroup* [01;35m[Kjoint_model_group[m[K = move_group_interface.getCurrentState()->getJointModelGroup(my_param);
+      |                                              [01;35m[K^~~~~~~~~~~~~~~~~[m[K

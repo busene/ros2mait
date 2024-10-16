@@ -1,0 +1,15 @@
+[0.014s] Invoking command in '/home/ubuntu/ros2ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/linkattacher_msgs -- -j4 -l4
+[0.147s] [ 10%] Built target linkattacher_msgs__rosidl_generator_c
+[0.161s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_c[0m
+[0.166s] [ 12%] Built target linkattacher_msgs__cpp
+[0.172s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.173s] failed to create symbolic link '/home/ubuntu/ros2ws/build/linkattacher_msgs/ament_cmake_python/linkattacher_msgs/linkattacher_msgs' because existing path cannot be removed: Is a directory
+[0.174s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_linkattacher_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_linkattacher_msgs] Error 1
+[0.174s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_linkattacher_msgs.dir/all] Error 2
+[0.175s] gmake[1]: *** Waiting for unfinished jobs....
+[0.192s] [ 23%] Built target linkattacher_msgs__rosidl_typesupport_c
+[0.192s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_introspection_c[0m
+[0.197s] [ 33%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c
+[0.215s] [ 43%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c
+[0.218s] gmake: *** [Makefile:146: all] Error 2
+[0.227s] Invoked command in '/home/ubuntu/ros2ws/build/linkattacher_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/linkattacher_msgs -- -j4 -l4

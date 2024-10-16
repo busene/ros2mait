@@ -1,0 +1,1 @@
+/home/ubuntu/ros2ws/build/abb_robot_msgs/ament_cmake_core/abb_robot_msgsConfig-version.cmake

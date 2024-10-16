@@ -1,0 +1,60 @@
+[0.028s] Invoking command in '/home/ubuntu/ros2ws/build/abb_irb1200_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ABBDriver/abb_ros2/robot_specific_config/abb_irb1200_support -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/abb_irb1200_support
+[0.113s] -- The C compiler identification is GNU 11.4.0
+[0.199s] -- The CXX compiler identification is GNU 11.4.0
+[0.211s] -- Detecting C compiler ABI info
+[0.315s] -- Detecting C compiler ABI info - done
+[0.329s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.329s] -- Detecting C compile features
+[0.329s] -- Detecting C compile features - done
+[0.333s] -- Detecting CXX compiler ABI info
+[0.452s] -- Detecting CXX compiler ABI info - done
+[0.462s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.462s] -- Detecting CXX compile features
+[0.463s] -- Detecting CXX compile features - done
+[0.466s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.672s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.756s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.981s] -- Configuring done
+[0.990s] -- Generating done
+[0.996s] -- Build files have been written to: /home/ubuntu/ros2ws/build/abb_irb1200_support
+[1.011s] Invoked command in '/home/ubuntu/ros2ws/build/abb_irb1200_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ABBDriver/abb_ros2/robot_specific_config/abb_irb1200_support -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/abb_irb1200_support
+[1.011s] Invoking command in '/home/ubuntu/ros2ws/build/abb_irb1200_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/abb_irb1200_support -- -j4 -l4
+[1.121s] Invoked command in '/home/ubuntu/ros2ws/build/abb_irb1200_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/abb_irb1200_support -- -j4 -l4
+[1.245s] Invoking command in '/home/ubuntu/ros2ws/build/abb_irb1200_support': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/abb_irb1200_support
+[1.264s] -- Install configuration: ""
+[1.267s] -- Execute custom install script
+[1.269s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/ament_index/resource_index/package_run_dependencies/abb_irb1200_support
+[1.308s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/ament_index/resource_index/parent_prefix_path/abb_irb1200_support
+[1.333s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/environment/ament_prefix_path.sh
+[1.359s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/environment/ament_prefix_path.dsv
+[1.390s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/environment/path.sh
+[1.416s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/environment/path.dsv
+[1.454s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/local_setup.bash
+[1.481s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/local_setup.sh
+[1.509s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/local_setup.zsh
+[1.529s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/local_setup.dsv
+[1.588s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/package.dsv
+[1.611s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/ament_index/resource_index/packages/abb_irb1200_support
+[1.633s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/cmake/abb_irb1200_supportConfig.cmake
+[1.661s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/cmake/abb_irb1200_supportConfig-version.cmake
+[1.683s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/package.xml
+[1.715s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/launch/view_robot.launch.py
+[1.743s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/meshes/irb1200_5_90/collision/base_link.stl
+[1.769s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/meshes/irb1200_5_90/collision/link_1.stl
+[1.809s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/meshes/irb1200_5_90/collision/link_2.stl
+[1.844s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/meshes/irb1200_5_90/collision/link_3.stl
+[1.883s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/meshes/irb1200_5_90/collision/link_4.stl
+[1.933s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/meshes/irb1200_5_90/collision/link_5.stl
+[1.975s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/meshes/irb1200_5_90/collision/link_6.stl
+[2.010s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/meshes/irb1200_5_90/visual/base_link.dae
+[2.062s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/meshes/irb1200_5_90/visual/link_1.dae
+[2.098s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/meshes/irb1200_5_90/visual/link_2.dae
+[2.133s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/meshes/irb1200_5_90/visual/link_3.dae
+[2.176s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/meshes/irb1200_5_90/visual/link_4.dae
+[2.223s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/meshes/irb1200_5_90/visual/link_5.dae
+[2.265s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/meshes/irb1200_5_90/visual/link_6.dae
+[2.297s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/rviz/urdf_description.rviz
+[2.346s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/urdf/irb1200.ros2_control.xacro
+[2.387s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/urdf/irb1200_5_90.xacro
+[2.429s] -- Symlinking: /home/ubuntu/ros2ws/install/abb_irb1200_support/share/abb_irb1200_support/urdf/irb1200_5_90_macro.xacro
+[2.486s] Invoked command in '/home/ubuntu/ros2ws/build/abb_irb1200_support' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/abb_irb1200_support

@@ -1,0 +1,306 @@
+[  0%] Built target ros2_data__cpp
+[ 12%] Built target ros2_data__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_symlink_ros2_data
+[35m[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_typesupport_fastrtps_c[0m
+[ 24%] Built target ros2_data__rosidl_typesupport_cpp
+[ 36%] Built target ros2_data__rosidl_typesupport_introspection_cpp
+[ 47%] Built target ros2_data__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_typesupport_c[0m
+[ 59%] Built target ros2_data__rosidl_typesupport_fastrtps_c
+[ 71%] Built target ros2_data__rosidl_typesupport_c
+[ 83%] Built target ros2_data__rosidl_typesupport_introspection_c
+[ 83%] Built target ros2_data
+[ 84%] Built target ros2_data__py
+[35m[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_generator_py[0m
+[ 95%] Built target ros2_data__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/ros2_data/ros2_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/ros2_data/ros2_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/ros2_data/ros2_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 99%] Built target ros2_data__rosidl_typesupport_c__pyext
+[ 99%] Built target ros2_data__rosidl_typesupport_introspection_c__pyext
+[100%] Built target ros2_data__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing ros2_data.egg-info/PKG-INFO
+writing dependency_links to ros2_data.egg-info/dependency_links.txt
+writing top-level names to ros2_data.egg-info/top_level.txt
+reading manifest file 'ros2_data.egg-info/SOURCES.txt'
+writing manifest file 'ros2_data.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_ros2_data_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ament_index/resource_index/rosidl_interfaces/ros2_data
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__functions.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__struct.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__type_support.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__functions.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__struct.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__type_support.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__functions.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__struct.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__type_support.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__functions.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__struct.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__type_support.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__functions.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__struct.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__type_support.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__functions.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__struct.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__type_support.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__functions.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__struct.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__type_support.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__functions.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__struct.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__type_support.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__functions.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__struct.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__type_support.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__functions.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__struct.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__type_support.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_g.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_j.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_js.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_l.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_r.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_rot.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_rp.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_xyz.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_xyzw.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_ypr.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__functions.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__struct.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__type_support.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__functions.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__struct.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__type_support.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/joint_pose.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/joint_pose_s.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/environment/library_path.sh
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/environment/library_path.dsv
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__builder.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__struct.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__traits.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__builder.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__struct.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__traits.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__builder.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__struct.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__traits.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__builder.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__struct.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__traits.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__builder.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__struct.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__traits.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__builder.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__struct.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__traits.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__builder.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__struct.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__traits.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__builder.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__struct.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__traits.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__builder.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__struct.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__traits.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__builder.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__struct.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__traits.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_g.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_j.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_js.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_l.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_r.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_rot.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_rp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_xyz.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_xyzw.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_ypr.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__builder.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__struct.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__traits.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__builder.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__struct.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__traits.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/joint_pose.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/joint_pose_s.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/environment/pythonpath.sh
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/environment/pythonpath.dsv
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data-0.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data-0.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/__init__.py
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/_ros2_data_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/_ros2_data_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/_ros2_data_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/__init__.py
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_g.py
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_g_s.c
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_j.py
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_j_s.c
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_js.py
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_js_s.c
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_l.py
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_l_s.c
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_r.py
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_r_s.c
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_rot.py
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_rot_s.c
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_rp.py
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_rp_s.c
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_xyz.py
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_xyz_s.c
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_xyzw.py
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_xyzw_s.c
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_ypr.py
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_ypr_s.c
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/libros2_data__rosidl_generator_py.so
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/msg/__init__.py
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/msg/_joint_pose.py
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/msg/_joint_pose_s.c
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/msg/_joint_pose_s.py
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/msg/_joint_pose_s_s.c
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/ros2_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/ros2_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/ros2_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/ros2_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/ros2_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/ros2_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/msg/JointPose.idl
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/msg/JointPoseS.idl
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveJ.idl
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveJs.idl
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveG.idl
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveXYZW.idl
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveL.idl
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveR.idl
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveXYZ.idl
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveYPR.idl
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveROT.idl
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveRP.idl
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/msg/JointPose.msg
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/msg/JointPoseS.msg
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveJ.action
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveJs.action
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveG.action
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveXYZW.action
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveL.action
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveR.action
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveXYZ.action
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveYPR.action
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveROT.action
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveRP.action
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ament_index/resource_index/package_run_dependencies/ros2_data
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ament_index/resource_index/parent_prefix_path/ros2_data
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/environment/path.sh
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/environment/path.dsv
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/local_setup.bash
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/local_setup.sh
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/local_setup.zsh
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/local_setup.dsv
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/package.dsv
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ament_index/resource_index/packages/ros2_data
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_dataConfig.cmake
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_dataConfig-version.cmake
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/package.xml
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/lib/libros2_data__rosidl_generator_c.so
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/lib/libros2_data__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/lib/libros2_data__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/lib/libros2_data__rosidl_typesupport_c.so
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/lib/libros2_data__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/lib/libros2_data__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/lib/libros2_data__rosidl_typesupport_cpp.so
+Listing '/home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data'...
+Compiling '/home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/__init__.py'...
+Listing '/home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action'...
+Listing '/home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/msg'...
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/lib/libros2_data__rosidl_generator_py.so
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/export_ros2_data__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/export_ros2_data__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/export_ros2_data__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/export_ros2_data__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/export_ros2_data__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/export_ros2_data__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/export_ros2_data__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/export_ros2_data__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/export_ros2_data__rosidl_generator_pyExport-noconfig.cmake

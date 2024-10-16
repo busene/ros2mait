@@ -1,0 +1,123 @@
+[0.111s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_endeffectors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_endeffectors -- -j4 -l4
+[0.172s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_endeffectors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_endeffectors -- -j4 -l4
+[0.264s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_endeffectors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_endeffectors
+[0.281s] -- Install configuration: ""
+[0.281s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64
+[0.281s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/config
+[0.281s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/config/controller_moveit2.yaml
+[0.282s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/config/controller.yaml
+[0.282s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/config/joint_limits.yaml
+[0.282s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/config/joint_specifications.yaml
+[0.282s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes
+[0.282s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/egp64_RightFinger.dae
+[0.282s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/egp64_FingerCylinder_L.dae
+[0.282s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/Schunk Gripper - BASE.STL
+[0.282s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/egp64_LeftFinger.dae
+[0.282s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/egp64_LeftFingerBase.dae
+[0.283s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/egp64_FingerCylinder.stl
+[0.283s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/Schunk Gripper - BASE noAdapter.STL
+[0.283s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/egp64_FingerCylinder.dae
+[0.283s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/Schunk Gripper - LEFT FINGER.STL
+[0.284s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/egp64.dae
+[0.284s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/egp64_Base.dae
+[0.284s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/Schunk Gripper - Cranfield Robotics.STL
+[0.284s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/Schunk Gripper - RIGHT FINGER BASE.STL
+[0.284s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/00. Schunk Gripper - Component POSES
+[0.285s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/Schunk Gripper - ADAPTER.STL
+[0.285s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/egp64_BaseNoAdapter.dae
+[0.285s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/egp64_Adapter.dae
+[0.285s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/egp64_RightFingerBase.dae
+[0.288s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/Schunk Gripper - RIGHT FINGER.STL
+[0.289s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/egp64_FingerCylinder_R.dae
+[0.289s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/meshes/Schunk Gripper - LEFT FINGER BASE.STL
+[0.291s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/urdf
+[0.292s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/urdf/egp64_macro.urdf.xacro
+[0.292s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/urdf/egp64_transmission.xacro
+[0.293s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/urdf/egp64v2_macro.urdf.xacro
+[0.293s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/egp64/urdf/egp64_ros2control.xacro
+[0.293s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/gpp5010nc
+[0.293s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/gpp5010nc/config
+[0.293s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/gpp5010nc/config/controller_moveit2.yaml
+[0.294s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/gpp5010nc/config/controller.yaml
+[0.294s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/gpp5010nc/config/joint_limits.yaml
+[0.294s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/gpp5010nc/config/joint_specifications.yaml
+[0.294s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/gpp5010nc/meshes
+[0.294s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/gpp5010nc/meshes/gpp5010nc_irb6640_Adapter.dae
+[0.294s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/gpp5010nc/meshes/gpp5010nc_RightFinger.dae
+[0.296s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/gpp5010nc/meshes/gpp5010nc_MainBody.dae
+[0.296s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/gpp5010nc/meshes/gpp5010nc_LeftFinger.dae
+[0.296s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/gpp5010nc/urdf
+[0.296s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/gpp5010nc/urdf/gpp5010nc_ros2control.xacro
+[0.296s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/gpp5010nc/urdf/gpp5010nc_macro.urdf.xacro
+[0.297s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/gpp5010nc/urdf/gpp5010nc_transmission.xacro
+[0.297s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/ls_vgr
+[0.297s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/ls_vgr/meshes
+[0.302s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/ls_vgr/meshes/ls_vgr.dae
+[0.302s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/ls_vgr/urdf
+[0.302s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/ls_vgr/urdf/ls_vgr_transmission.xacro
+[0.303s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/ls_vgr/urdf/ls_vgr_macro.urdf.xacro
+[0.303s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/ls_vgr/urdf/ls_vgr_ros2control.xacro
+[0.303s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/ls_vgr_amrc
+[0.306s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/ls_vgr_amrc/meshes
+[0.306s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/ls_vgr_amrc/meshes/ls_vgr_amrc.dae
+[0.306s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/ls_vgr_amrc/urdf
+[0.307s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/ls_vgr_amrc/urdf/ls_vgr_amrc_macro.urdf.xacro
+[0.307s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/ls_vgr_amrc/urdf/ls_vgr_amrc_transmission.xacro
+[0.307s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/ls_vgr_amrc/urdf/ls_vgr_amrc_ros2control.xacro
+[0.307s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85
+[0.307s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/config
+[0.307s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/config/controller_moveit2.yaml
+[0.307s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/config/controller.yaml
+[0.307s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/config/joint_limits.yaml
+[0.307s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/config/joint_specifications.yaml
+[0.307s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/meshes
+[0.307s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/meshes/collision
+[0.307s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/meshes/collision/robotiq_85_base_link.stl
+[0.307s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/meshes/collision/robotiq_85_inner_knuckle_link.stl
+[0.307s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/meshes/collision/robotiq_85_knuckle_link.stl
+[0.307s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/meshes/collision/robotiq_85_finger_tip_link.stl
+[0.307s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/meshes/collision/robotiq_85_finger_link.stl
+[0.307s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/meshes/robotiq_85_coupler.stl
+[0.307s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/meshes/visual
+[0.311s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/meshes/visual/robotiq_85_knuckle_link.dae
+[0.311s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/meshes/visual/robotiq_85_finger_link.dae
+[0.312s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/meshes/visual/robotiq_85_inner_knuckle_link.dae
+[0.312s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/meshes/visual/robotiq_85_base_link.dae
+[0.312s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/meshes/visual/robotiq_85_finger_tip_link.dae
+[0.313s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/urdf
+[0.313s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/urdf/robotiq_2f85_ros2control.xacro
+[0.315s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/urdf/robotiq_2f85_transmission.xacro
+[0.315s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_2f85/urdf/robotiq_2f85_macro.urdf.xacro
+[0.316s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande
+[0.316s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande/config
+[0.320s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande/config/controller_moveit2.yaml
+[0.321s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande/config/controller.yaml
+[0.321s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande/config/joint_limits.yaml
+[0.321s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande/config/joint_specifications.yaml
+[0.321s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande/meshes
+[0.321s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande/meshes/hande_bracket.dae
+[0.321s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande/meshes/hand-e.dae
+[0.322s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande/meshes/finger_1.dae
+[0.322s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande/meshes/finger_2.dae
+[0.322s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande/meshes/robotiq_hande_coupler.stl
+[0.322s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande/meshes/robotiq_hande.dae
+[0.322s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande/urdf
+[0.322s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande/urdf/robotiq_hande_transmission.xacro
+[0.322s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande/urdf/robotiq_hande_ros2control.xacro
+[0.327s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande/urdf/robotiq_hande_macro.urdf.xacro
+[0.328s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ament_index/resource_index/package_run_dependencies/ros2srrc_endeffectors
+[0.328s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ament_index/resource_index/parent_prefix_path/ros2srrc_endeffectors
+[0.328s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/environment/ament_prefix_path.sh
+[0.328s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/environment/ament_prefix_path.dsv
+[0.329s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/environment/path.sh
+[0.329s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/environment/path.dsv
+[0.329s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/local_setup.bash
+[0.329s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/local_setup.sh
+[0.329s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/local_setup.zsh
+[0.329s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/local_setup.dsv
+[0.329s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/package.dsv
+[0.330s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ament_index/resource_index/packages/ros2srrc_endeffectors
+[0.330s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/cmake/ros2srrc_endeffectorsConfig.cmake
+[0.330s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/cmake/ros2srrc_endeffectorsConfig-version.cmake
+[0.330s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/package.xml
+[0.330s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_endeffectors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_endeffectors

@@ -1,0 +1,51 @@
+[0.019s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/packages/ur16e/ros2srrc_ur16e_gazebo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo
+[0.126s] -- The C compiler identification is GNU 11.4.0
+[0.239s] -- The CXX compiler identification is GNU 11.4.0
+[0.256s] -- Detecting C compiler ABI info
+[0.396s] -- Detecting C compiler ABI info - done
+[0.414s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.416s] -- Detecting C compile features
+[0.416s] -- Detecting C compile features - done
+[0.421s] -- Detecting CXX compiler ABI info
+[0.569s] -- Detecting CXX compiler ABI info - done
+[0.582s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.582s] -- Detecting CXX compile features
+[0.587s] -- Detecting CXX compile features - done
+[0.596s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.922s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.160s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.377s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.384s] -- Added test 'lint_cmake' to check CMake code style
+[1.388s] -- Added test 'xmllint' to check XML markup files
+[1.394s] -- Configuring done
+[1.399s] -- Generating done
+[1.400s] -- Build files have been written to: /home/ubuntu/ros2ws/build/ros2srrc_ur16e_gazebo
+[1.409s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/packages/ur16e/ros2srrc_ur16e_gazebo -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo
+[1.413s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_ur16e_gazebo -- -j4 -l4
+[1.500s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_ur16e_gazebo -- -j4 -l4
+[1.578s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_ur16e_gazebo
+[1.594s] -- Install configuration: ""
+[1.594s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/config
+[1.595s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/config/configurations.yaml
+[1.595s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/urdf
+[1.595s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/urdf/ur16e_robotiq_hande.urdf.xacro
+[1.596s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/urdf/ur16e.urdf.xacro
+[1.597s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/urdf/ur16e_robotiq_2f85.urdf.xacro
+[1.597s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/worlds
+[1.599s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/worlds/ros2srrc_ur16e.world
+[1.599s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ament_index/resource_index/package_run_dependencies/ros2srrc_ur16e_gazebo
+[1.600s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ament_index/resource_index/parent_prefix_path/ros2srrc_ur16e_gazebo
+[1.600s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/environment/ament_prefix_path.sh
+[1.602s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/environment/ament_prefix_path.dsv
+[1.602s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/environment/path.sh
+[1.602s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/environment/path.dsv
+[1.602s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/local_setup.bash
+[1.604s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/local_setup.sh
+[1.604s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/local_setup.zsh
+[1.605s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/local_setup.dsv
+[1.605s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/package.dsv
+[1.606s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ament_index/resource_index/packages/ros2srrc_ur16e_gazebo
+[1.609s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/cmake/ros2srrc_ur16e_gazeboConfig.cmake
+[1.609s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/cmake/ros2srrc_ur16e_gazeboConfig-version.cmake
+[1.609s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/package.xml
+[1.613s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_ur16e_gazebo

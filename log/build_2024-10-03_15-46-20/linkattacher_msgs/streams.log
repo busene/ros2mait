@@ -1,0 +1,38 @@
+[0.031s] Invoking command in '/home/ubuntu/ros2ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/IFRA_LinkAttacher/linkattacher_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/linkattacher_msgs
+[0.049s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.217s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.232s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.335s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.335s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.342s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.383s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.694s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.931s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.258s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.288s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.327s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.327s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.327s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.349s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.350s] -- Added test 'lint_cmake' to check CMake code style
+[1.351s] -- Added test 'xmllint' to check XML markup files
+[1.356s] -- Configuring done
+[1.398s] -- Generating done
+[1.405s] -- Build files have been written to: /home/ubuntu/ros2ws/build/linkattacher_msgs
+[1.412s] Invoked command in '/home/ubuntu/ros2ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/IFRA_LinkAttacher/linkattacher_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/linkattacher_msgs
+[1.413s] Invoking command in '/home/ubuntu/ros2ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/linkattacher_msgs -- -j4 -l4
+[1.481s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_generator_c[0m
+[1.496s] [  2%] Built target linkattacher_msgs__cpp
+[1.505s] [ 12%] Built target linkattacher_msgs__rosidl_generator_c
+[1.513s] failed to create symbolic link '/home/ubuntu/ros2ws/build/linkattacher_msgs/ament_cmake_python/linkattacher_msgs/linkattacher_msgs' because existing path cannot be removed: Is a directory
+[1.519s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_linkattacher_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_linkattacher_msgs] Error 1
+[1.519s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_linkattacher_msgs.dir/all] Error 2
+[1.519s] gmake[1]: *** Waiting for unfinished jobs....
+[1.520s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_cpp[0m
+[1.527s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.536s] [35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.550s] [ 23%] Built target linkattacher_msgs__rosidl_typesupport_cpp
+[1.556s] [ 33%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_cpp
+[1.557s] [ 43%] Built target linkattacher_msgs__rosidl_typesupport_introspection_cpp
+[1.559s] gmake: *** [Makefile:146: all] Error 2
+[1.562s] Invoked command in '/home/ubuntu/ros2ws/build/linkattacher_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/linkattacher_msgs -- -j4 -l4

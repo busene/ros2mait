@@ -1,0 +1,11 @@
+from abb_rapid_msgs.msg._conf_data import ConfData  # noqa: F401
+from abb_rapid_msgs.msg._ext_joint import ExtJoint  # noqa: F401
+from abb_rapid_msgs.msg._joint_target import JointTarget  # noqa: F401
+from abb_rapid_msgs.msg._load_data import LoadData  # noqa: F401
+from abb_rapid_msgs.msg._orient import Orient  # noqa: F401
+from abb_rapid_msgs.msg._pos import Pos  # noqa: F401
+from abb_rapid_msgs.msg._pose import Pose  # noqa: F401
+from abb_rapid_msgs.msg._rob_joint import RobJoint  # noqa: F401
+from abb_rapid_msgs.msg._rob_target import RobTarget  # noqa: F401
+from abb_rapid_msgs.msg._tool_data import ToolData  # noqa: F401
+from abb_rapid_msgs.msg._w_obj_data import WObjData  # noqa: F401

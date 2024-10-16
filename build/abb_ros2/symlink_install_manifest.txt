@@ -1,0 +1,15 @@
+/home/ubuntu/ros2ws/install/abb_ros2/share/ament_index/resource_index/package_run_dependencies/abb_ros2
+/home/ubuntu/ros2ws/install/abb_ros2/share/ament_index/resource_index/parent_prefix_path/abb_ros2
+/home/ubuntu/ros2ws/install/abb_ros2/share/abb_ros2/environment/ament_prefix_path.sh
+/home/ubuntu/ros2ws/install/abb_ros2/share/abb_ros2/environment/ament_prefix_path.dsv
+/home/ubuntu/ros2ws/install/abb_ros2/share/abb_ros2/environment/path.sh
+/home/ubuntu/ros2ws/install/abb_ros2/share/abb_ros2/environment/path.dsv
+/home/ubuntu/ros2ws/install/abb_ros2/share/abb_ros2/local_setup.bash
+/home/ubuntu/ros2ws/install/abb_ros2/share/abb_ros2/local_setup.sh
+/home/ubuntu/ros2ws/install/abb_ros2/share/abb_ros2/local_setup.zsh
+/home/ubuntu/ros2ws/install/abb_ros2/share/abb_ros2/local_setup.dsv
+/home/ubuntu/ros2ws/install/abb_ros2/share/abb_ros2/package.dsv
+/home/ubuntu/ros2ws/install/abb_ros2/share/ament_index/resource_index/packages/abb_ros2
+/home/ubuntu/ros2ws/install/abb_ros2/share/abb_ros2/cmake/abb_ros2Config.cmake
+/home/ubuntu/ros2ws/install/abb_ros2/share/abb_ros2/cmake/abb_ros2Config-version.cmake
+/home/ubuntu/ros2ws/install/abb_ros2/share/abb_ros2/package.xml

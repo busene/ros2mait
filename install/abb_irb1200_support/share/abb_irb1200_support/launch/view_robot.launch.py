@@ -1,0 +1,1 @@
+/home/ubuntu/ros2ws/src/ABBDriver/abb_ros2/robot_specific_config/abb_irb1200_support/launch/view_robot.launch.py

@@ -1,0 +1,1 @@
+Invoking command in '/home/ubuntu/ros2ws/build/abb_egm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/abb_egm_msgs -- -j4 -l4

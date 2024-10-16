@@ -1,0 +1,51 @@
+[0.013s] Invoking command in '/home/ubuntu/ros2ws/build/cr35ia_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/cr35ia_ros2_gazebo -- -j4 -l4
+[0.084s] Invoked command in '/home/ubuntu/ros2ws/build/cr35ia_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/cr35ia_ros2_gazebo -- -j4 -l4
+[0.136s] Invoking command in '/home/ubuntu/ros2ws/build/cr35ia_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/cr35ia_ros2_gazebo
+[0.157s] -- Install configuration: ""
+[0.159s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/config
+[0.160s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/config/cr35ia_controller.yaml
+[0.162s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/launch
+[0.163s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/launch/cr35ia_simulation.launch.py
+[0.165s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf
+[0.166s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/fanuc_resources
+[0.166s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/fanuc_resources/common_materials.xacro
+[0.166s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/fanuc_resources/common_colours.xacro
+[0.166s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/cr35ia_macro.urdf.xacro
+[0.166s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/cr35ia_ros2control.xacro
+[0.166s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/cr35ia_transmission.xacro
+[0.166s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/urdf/cr35ia.urdf.xacro
+[0.167s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/worlds
+[0.168s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/worlds/cr35ia.world
+[0.168s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes
+[0.168s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision
+[0.168s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/base_link.stl
+[0.168s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/link_4.stl
+[0.168s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/link_2.stl
+[0.168s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/link_1.stl
+[0.168s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/link_3.stl
+[0.168s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/link_5.stl
+[0.169s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/collision/link_6.stl
+[0.169s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual
+[0.169s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/base_link.stl
+[0.169s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/link_4.stl
+[0.169s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/link_2.stl
+[0.169s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/link_1.stl
+[0.172s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/link_3.stl
+[0.172s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/link_5.stl
+[0.173s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/meshes/visual/link_6.stl
+[0.173s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/ament_index/resource_index/package_run_dependencies/cr35ia_ros2_gazebo
+[0.174s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/ament_index/resource_index/parent_prefix_path/cr35ia_ros2_gazebo
+[0.174s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/environment/ament_prefix_path.sh
+[0.174s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/environment/ament_prefix_path.dsv
+[0.174s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/environment/path.sh
+[0.174s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/environment/path.dsv
+[0.174s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/local_setup.bash
+[0.175s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/local_setup.sh
+[0.175s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/local_setup.zsh
+[0.175s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/local_setup.dsv
+[0.175s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/package.dsv
+[0.175s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/ament_index/resource_index/packages/cr35ia_ros2_gazebo
+[0.175s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/cmake/cr35ia_ros2_gazeboConfig.cmake
+[0.175s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/cmake/cr35ia_ros2_gazeboConfig-version.cmake
+[0.175s] -- Up-to-date: /home/ubuntu/ros2ws/install/cr35ia_ros2_gazebo/share/cr35ia_ros2_gazebo/package.xml
+[0.175s] Invoked command in '/home/ubuntu/ros2ws/build/cr35ia_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/cr35ia_ros2_gazebo

@@ -1,0 +1,4 @@
+source;share/abb_hardware_interface/local_setup.bash
+source;share/abb_hardware_interface/local_setup.dsv
+source;share/abb_hardware_interface/local_setup.sh
+source;share/abb_hardware_interface/local_setup.zsh

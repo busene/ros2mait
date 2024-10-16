@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from abb_rapid_sm_addin_msgs/msg/EGMSettings.msg
+// generated code does not contain a copyright notice
+
+#include "abb_rapid_sm_addin_msgs/msg/EGMActivateSettings.idl"
+#include "abb_rapid_sm_addin_msgs/msg/EGMRunSettings.idl"
+#include "abb_rapid_sm_addin_msgs/msg/EGMSetupSettings.idl"
+#include "abb_rapid_sm_addin_msgs/msg/EGMStopSettings.idl"
+
+module abb_rapid_sm_addin_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "-------------------------------------------------------------------------------" "\n"
+      " Description:" "\n"
+      "   The purpose of this message definition, is to represent the custom RAPID" "\n"
+      "   data type \"EGMSettings\" from the RobotWare \"StateMachine Add-In\"." "\n"
+      "-------------------------------------------------------------------------------")
+    struct EGMSettings {
+      @verbatim (language="comment", text=
+        "-------------------------------------------------------------------------------" "\n"
+        " Message fields" "\n"
+        "-------------------------------------------------------------------------------" "\n"
+        " Indicator for if EGM motions are allowed to start.")
+      boolean allow_egm_motions;
+
+      @verbatim (language="comment", text=
+        "Indicator for if RAPID tasks should be synced before starting EGM motions" "\n"
+        "(only used in multi robot systems).")
+      boolean use_presync;
+
+      @verbatim (language="comment", text=
+        "Settings for EGMSetupUC instructions.")
+      abb_rapid_sm_addin_msgs::msg::EGMSetupSettings setup_uc;
+
+      @verbatim (language="comment", text=
+        "Settings for EGMAct instructions.")
+      abb_rapid_sm_addin_msgs::msg::EGMActivateSettings activate;
+
+      @verbatim (language="comment", text=
+        "Settings for EGMRun instructions.")
+      abb_rapid_sm_addin_msgs::msg::EGMRunSettings run;
+
+      @verbatim (language="comment", text=
+        "Settings for EGMStop instructions.")
+      abb_rapid_sm_addin_msgs::msg::EGMStopSettings stop;
+    };
+  };
+};

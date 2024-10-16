@@ -1,0 +1,4 @@
+source;share/linkpose_gazebo/local_setup.bash
+source;share/linkpose_gazebo/local_setup.dsv
+source;share/linkpose_gazebo/local_setup.sh
+source;share/linkpose_gazebo/local_setup.zsh

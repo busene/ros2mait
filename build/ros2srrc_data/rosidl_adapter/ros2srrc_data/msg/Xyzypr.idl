@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2srrc_data/msg/Xyzypr.msg
+// generated code does not contain a copyright notice
+
+
+module ros2srrc_data {
+  module msg {
+    struct Xyzypr {
+      double x;
+
+      double y;
+
+      double z;
+
+      double yaw;
+
+      double pitch;
+
+      double roll;
+    };
+  };
+};

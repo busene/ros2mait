@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from abb_rapid_msgs/msg/ToolData.msg
+// generated code does not contain a copyright notice
+
+#include "abb_rapid_msgs/msg/LoadData.idl"
+#include "abb_rapid_msgs/msg/Pose.idl"
+
+module abb_rapid_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "-------------------------------------------------------------------------------" "\n"
+      " Description:" "\n"
+      "   The purpose of this message definition, is to represent the" "\n"
+      "   RAPID data type \"tooldata\" (tool data)." "\n"
+      "" "\n"
+      " Note:" "\n"
+      "   Please see the \"Technical reference manual - RAPID Instructions," "\n"
+      "   Functions and Data types\" for more details." "\n"
+      "-------------------------------------------------------------------------------")
+    struct ToolData {
+      @verbatim (language="comment", text=
+        "-------------------------------------------------------------------------------" "\n"
+        " Message fields" "\n"
+        "-------------------------------------------------------------------------------" "\n"
+        " Defines whether or not the robot is holding the tool:" "\n"
+        " - TRUE: The robot is holding the tool." "\n"
+        " - FALSE: The robot is not holding the tool, that is, a stationary tool.")
+      boolean robhold;
+
+      @verbatim (language="comment", text=
+        "The tool coordinate system, that is:" "\n"
+        "- The position of the TCP (x, y and z) in mm," "\n"
+        "  expressed in the wrist coordinate system (tool0)." "\n"
+        "- The orientation of the tool coordinate system," "\n"
+        "  expressed in the wrist coordinate system.")
+      abb_rapid_msgs::msg::Pose tframe;
+
+      @verbatim (language="comment", text=
+        "The load of the tool (if robot held tool)." "\n"
+        "The load of the gripper holding the work object (if stationary tool).")
+      abb_rapid_msgs::msg::LoadData tload;
+    };
+  };
+};

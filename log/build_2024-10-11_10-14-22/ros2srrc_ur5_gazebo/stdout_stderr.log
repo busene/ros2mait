@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/config/configurations.yaml
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/urdf/ur5.urdf.xacro
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/urdf/ur5_robotiq_2f85.urdf.xacro
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/urdf/ur5_robotiq_hande.urdf.xacro
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/worlds/ros2srrc_ur5.world
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ament_index/resource_index/package_run_dependencies/ros2srrc_ur5_gazebo
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ament_index/resource_index/parent_prefix_path/ros2srrc_ur5_gazebo
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/environment/path.sh
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/environment/path.dsv
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/local_setup.bash
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/local_setup.sh
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/local_setup.zsh
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/local_setup.dsv
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/package.dsv
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ament_index/resource_index/packages/ros2srrc_ur5_gazebo
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/cmake/ros2srrc_ur5_gazeboConfig.cmake
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/cmake/ros2srrc_ur5_gazeboConfig-version.cmake
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/package.xml

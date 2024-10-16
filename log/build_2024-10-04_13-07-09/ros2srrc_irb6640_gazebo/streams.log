@@ -1,0 +1,49 @@
+[0.027s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_irb6640_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/packages/irb6640/ros2srrc_irb6640_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo
+[0.142s] -- The C compiler identification is GNU 11.4.0
+[0.260s] -- The CXX compiler identification is GNU 11.4.0
+[0.272s] -- Detecting C compiler ABI info
+[0.437s] -- Detecting C compiler ABI info - done
+[0.449s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.450s] -- Detecting C compile features
+[0.451s] -- Detecting C compile features - done
+[0.461s] -- Detecting CXX compiler ABI info
+[0.632s] -- Detecting CXX compiler ABI info - done
+[0.667s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.667s] -- Detecting CXX compile features
+[0.667s] -- Detecting CXX compile features - done
+[0.674s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.968s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.085s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.183s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.364s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.369s] -- Added test 'lint_cmake' to check CMake code style
+[1.375s] -- Added test 'xmllint' to check XML markup files
+[1.376s] -- Configuring done
+[1.383s] -- Generating done
+[1.385s] -- Build files have been written to: /home/ubuntu/ros2ws/build/ros2srrc_irb6640_gazebo
+[1.395s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_irb6640_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/packages/irb6640/ros2srrc_irb6640_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo
+[1.401s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_irb6640_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_irb6640_gazebo -- -j4 -l4
+[1.501s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_irb6640_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_irb6640_gazebo -- -j4 -l4
+[1.562s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_irb6640_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_irb6640_gazebo
+[1.575s] -- Install configuration: ""
+[1.577s] -- Execute custom install script
+[1.577s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/config/configurations.yaml
+[1.594s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/urdf/irb6640.urdf.xacro
+[1.617s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/urdf/irb6640_gpp5010nc.urdf.xacro
+[1.634s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/worlds/ros2srrc_irb6640.world
+[1.654s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ament_index/resource_index/package_run_dependencies/ros2srrc_irb6640_gazebo
+[1.678s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ament_index/resource_index/parent_prefix_path/ros2srrc_irb6640_gazebo
+[1.707s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/environment/ament_prefix_path.sh
+[1.724s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/environment/ament_prefix_path.dsv
+[1.739s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/environment/path.sh
+[1.757s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/environment/path.dsv
+[1.783s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/local_setup.bash
+[1.806s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/local_setup.sh
+[1.826s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/local_setup.zsh
+[1.845s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/local_setup.dsv
+[1.861s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/package.dsv
+[1.890s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ament_index/resource_index/packages/ros2srrc_irb6640_gazebo
+[1.917s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/cmake/ros2srrc_irb6640_gazeboConfig.cmake
+[1.934s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/cmake/ros2srrc_irb6640_gazeboConfig-version.cmake
+[1.951s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/package.xml
+[1.975s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_irb6640_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_irb6640_gazebo

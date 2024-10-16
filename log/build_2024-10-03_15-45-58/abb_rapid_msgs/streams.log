@@ -1,0 +1,28 @@
+[0.064s] Invoking command in '/home/ubuntu/ros2ws/build/abb_rapid_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ABBDriver/abb_ros2_msgs/abb_rapid_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/abb_rapid_msgs
+[0.076s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.076s] -- Found ament_cmake_core: 1.3.10 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.272s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.283s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.283s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.335s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.911s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.185s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.633s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.676s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.714s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.714s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.714s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.753s] -- Configuring done
+[1.856s] -- Generating done
+[1.868s] -- Build files have been written to: /home/ubuntu/ros2ws/build/abb_rapid_msgs
+[1.894s] Invoked command in '/home/ubuntu/ros2ws/build/abb_rapid_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ABBDriver/abb_ros2_msgs/abb_rapid_msgs -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/abb_rapid_msgs
+[1.909s] Invoking command in '/home/ubuntu/ros2ws/build/abb_rapid_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/abb_rapid_msgs -- -j4 -l4
+[2.021s] [35m[1mConsolidate compiler generated dependencies of target abb_rapid_msgs__rosidl_generator_c[0m
+[2.024s] failed to create symbolic link '/home/ubuntu/ros2ws/build/abb_rapid_msgs/ament_cmake_python/abb_rapid_msgs/abb_rapid_msgs' because existing path cannot be removed: Is a directory
+[2.027s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_abb_rapid_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_abb_rapid_msgs] Error 1
+[2.027s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_abb_rapid_msgs.dir/all] Error 2
+[2.027s] gmake[1]: *** Waiting for unfinished jobs....
+[2.047s] [  0%] Built target abb_rapid_msgs__cpp
+[2.062s] [ 12%] Built target abb_rapid_msgs__rosidl_generator_c
+[2.064s] gmake: *** [Makefile:146: all] Error 2
+[2.071s] Invoked command in '/home/ubuntu/ros2ws/build/abb_rapid_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/abb_rapid_msgs -- -j4 -l4

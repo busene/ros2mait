@@ -1,0 +1,238 @@
+[0.018s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_robots': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_robots -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2srrc_robots
+[0.129s] -- The C compiler identification is GNU 11.4.0
+[0.251s] -- The CXX compiler identification is GNU 11.4.0
+[0.268s] -- Detecting C compiler ABI info
+[0.424s] -- Detecting C compiler ABI info - done
+[0.442s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.442s] -- Detecting C compile features
+[0.442s] -- Detecting C compile features - done
+[0.447s] -- Detecting CXX compiler ABI info
+[0.607s] -- Detecting CXX compiler ABI info - done
+[0.623s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.623s] -- Detecting CXX compile features
+[0.623s] -- Detecting CXX compile features - done
+[0.631s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.947s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.082s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.199s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.450s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.512s] -- Added test 'lint_cmake' to check CMake code style
+[1.546s] -- Added test 'xmllint' to check XML markup files
+[1.556s] -- Configuring done
+[1.562s] -- Generating done
+[1.565s] -- Build files have been written to: /home/ubuntu/ros2ws/build/ros2srrc_robots
+[1.574s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_robots' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_robots -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2srrc_robots
+[1.576s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_robots': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_robots -- -j4 -l4
+[1.678s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_robots' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_robots -- -j4 -l4
+[1.742s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_robots': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_robots
+[1.762s] -- Install configuration: ""
+[1.763s] -- Execute custom install script
+[1.766s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/config/controller.yaml
+[1.785s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/config/controller_moveit2.yaml
+[1.807s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/config/joint_limits.yaml
+[1.822s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/config/joint_specifications.yaml
+[1.841s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/config/kinematics.yaml
+[1.859s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/config/pilz_cartesian_limits.yaml
+[1.877s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/meshes/collision/base_link.stl
+[1.898s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/meshes/collision/link_1.stl
+[1.917s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/meshes/collision/link_2.stl
+[1.939s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/meshes/collision/link_3.stl
+[1.960s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/meshes/collision/link_4.stl
+[1.981s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/meshes/collision/link_5.stl
+[1.998s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/meshes/collision/link_6.stl
+[2.022s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/meshes/visual/base_link.dae
+[2.045s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/meshes/visual/link_1.dae
+[2.071s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/meshes/visual/link_2.dae
+[2.093s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/meshes/visual/link_3.dae
+[2.111s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/meshes/visual/link_4.dae
+[2.129s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/meshes/visual/link_5.dae
+[2.146s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/meshes/visual/link_6.dae
+[2.176s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/urdf/abb_resources/common_colours.xacro
+[2.194s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/urdf/abb_resources/common_materials.xacro
+[2.211s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/urdf/irb120_macro.urdf.xacro
+[2.229s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/urdf/irb120_ros2control.xacro
+[2.247s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb120/urdf/irb120_transmission.xacro
+[2.266s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/config/controller.yaml
+[2.284s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/config/controller_moveit2.yaml
+[2.304s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/config/joint_limits.yaml
+[2.319s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/config/joint_specifications.yaml
+[2.335s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/config/kinematics.yaml
+[2.353s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/config/pilz_cartesian_limits.yaml
+[2.372s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/meshes/collision/base_link.stl
+[2.389s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/meshes/collision/link_1.stl
+[2.406s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/meshes/collision/link_2.stl
+[2.422s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/meshes/collision/link_3.stl
+[2.439s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/meshes/collision/link_4.stl
+[2.462s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/meshes/collision/link_5.stl
+[2.482s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/meshes/collision/link_6.stl
+[2.499s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/meshes/visual/base_link.dae
+[2.518s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/meshes/visual/link_1.dae
+[2.533s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/meshes/visual/link_2.dae
+[2.551s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/meshes/visual/link_3.dae
+[2.573s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/meshes/visual/link_4.dae
+[2.596s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/meshes/visual/link_5.dae
+[2.622s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/meshes/visual/link_6.dae
+[2.642s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/urdf/abb_resources/common_colours.xacro
+[2.664s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/urdf/abb_resources/common_materials.xacro
+[2.682s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/urdf/irb1200_macro.urdf.xacro
+[2.704s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/urdf/irb1200_ros2control.xacro
+[2.722s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb1200/urdf/irb1200_transmission.xacro
+[2.740s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb6640/config/controller.yaml
+[2.764s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb6640/config/controller_moveit2.yaml
+[2.782s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb6640/config/joint_limits.yaml
+[2.804s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb6640/config/joint_specifications.yaml
+[2.821s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb6640/config/kinematics.yaml
+[2.839s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb6640/config/pilz_cartesian_limits.yaml
+[2.867s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb6640/meshes/base_link.dae
+[2.887s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb6640/meshes/link_1.dae
+[2.906s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb6640/meshes/link_2.dae
+[2.925s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb6640/meshes/link_3.dae
+[2.942s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb6640/meshes/link_4.dae
+[2.961s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb6640/meshes/link_5.dae
+[2.983s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb6640/meshes/link_6.dae
+[3.002s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb6640/meshes/link_cylinder.dae
+[3.019s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb6640/meshes/link_piston.dae
+[3.037s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb6640/urdf/irb6640_macro.urdf.xacro
+[3.056s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb6640/urdf/irb6640_ros2control.xacro
+[3.075s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/irb6640/urdf/irb6640_transmission.xacro
+[3.091s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/config/controller.yaml
+[3.110s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/config/controller_moveit2.yaml
+[3.125s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/config/controller_ur.yaml
+[3.146s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/config/joint_limits.yaml
+[3.170s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/config/joint_specifications.yaml
+[3.190s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/config/kinematics.yaml
+[3.206s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/config/pilz_cartesian_limits.yaml
+[3.223s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/meshes/collision/base.stl
+[3.241s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/meshes/collision/forearm.stl
+[3.259s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/meshes/collision/shoulder.stl
+[3.276s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/meshes/collision/upperarm.stl
+[3.292s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/meshes/collision/wrist1.stl
+[3.322s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/meshes/collision/wrist2.stl
+[3.336s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/meshes/collision/wrist3.stl
+[3.352s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/meshes/visual/base.dae
+[3.376s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/meshes/visual/forearm.dae
+[3.393s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/meshes/visual/shoulder.dae
+[3.411s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/meshes/visual/upperarm.dae
+[3.425s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/meshes/visual/wrist1.dae
+[3.441s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/meshes/visual/wrist2.dae
+[3.461s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/meshes/visual/wrist3.dae
+[3.481s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/urdf/ur3_common.xacro
+[3.497s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/urdf/ur3_macro.urdf.xacro
+[3.510s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/urdf/ur3_ros2control.xacro
+[3.525s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur3/urdf/ur3_transmission.xacro
+[3.540s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/config/controller.yaml
+[3.560s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/config/controller_moveit2.yaml
+[3.576s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/config/controller_ur.yaml
+[3.594s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/config/joint_limits.yaml
+[3.613s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/config/joint_specifications.yaml
+[3.628s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/config/kinematics.yaml
+[3.644s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/config/pilz_cartesian_limits.yaml
+[3.664s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/meshes/collision/base.stl
+[3.681s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/meshes/collision/forearm.stl
+[3.696s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/meshes/collision/shoulder.stl
+[3.712s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/meshes/collision/upperarm.stl
+[3.732s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/meshes/collision/wrist1.stl
+[3.755s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/meshes/collision/wrist2.stl
+[3.782s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/meshes/collision/wrist3.stl
+[3.792s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/meshes/visual/base.dae
+[3.806s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/meshes/visual/forearm.dae
+[3.822s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/meshes/visual/shoulder.dae
+[3.841s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/meshes/visual/upperarm.dae
+[3.858s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/meshes/visual/wrist1.dae
+[3.879s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/meshes/visual/wrist2.dae
+[3.896s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/meshes/visual/wrist3.dae
+[3.912s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/urdf/ur5_common.xacro
+[3.929s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/urdf/ur5_macro.urdf.xacro
+[3.947s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/urdf/ur5_ros2control.xacro
+[3.966s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur5/urdf/ur5_transmission.xacro
+[3.996s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/config/controller.yaml
+[4.012s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/config/controller_moveit2.yaml
+[4.034s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/config/controller_ur.yaml
+[4.053s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/config/joint_limits.yaml
+[4.065s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/config/joint_specifications.yaml
+[4.083s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/config/kinematics.yaml
+[4.104s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/config/pilz_cartesian_limits.yaml
+[4.122s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/meshes/collision/base.stl
+[4.144s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/meshes/collision/forearm.stl
+[4.172s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/meshes/collision/shoulder.stl
+[4.194s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/meshes/collision/upperarm.stl
+[4.212s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/meshes/collision/wrist1.stl
+[4.230s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/meshes/collision/wrist2.stl
+[4.246s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/meshes/collision/wrist3.stl
+[4.277s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/meshes/visual/base.dae
+[4.290s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/meshes/visual/forearm.dae
+[4.308s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/meshes/visual/shoulder.dae
+[4.325s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/meshes/visual/upperarm.dae
+[4.342s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/meshes/visual/wrist1.dae
+[4.367s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/meshes/visual/wrist2.dae
+[4.390s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/meshes/visual/wrist3.dae
+[4.410s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/urdf/ur10e_common.xacro
+[4.426s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/urdf/ur10e_macro.urdf.xacro
+[4.448s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/urdf/ur10e_ros2control.xacro
+[4.471s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur10e/urdf/ur10e_transmission.xacro
+[4.498s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/config/controller.yaml
+[4.519s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/config/controller_moveit2.yaml
+[4.536s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/config/controller_ur.yaml
+[4.552s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/config/joint_limits.yaml
+[4.569s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/config/joint_specifications.yaml
+[4.590s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/config/kinematics.yaml
+[4.606s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/config/pilz_cartesian_limits.yaml
+[4.627s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/meshes/collision/base.stl
+[4.645s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/meshes/collision/forearm.stl
+[4.664s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/meshes/collision/shoulder.stl
+[4.681s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/meshes/collision/upperarm.stl
+[4.700s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/meshes/collision/wrist1.stl
+[4.717s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/meshes/collision/wrist2.stl
+[4.734s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/meshes/collision/wrist3.stl
+[4.758s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/meshes/visual/base.dae
+[4.780s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/meshes/visual/forearm.dae
+[4.805s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/meshes/visual/shoulder.dae
+[4.824s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/meshes/visual/upperarm.dae
+[4.844s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/meshes/visual/wrist1.dae
+[4.870s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/meshes/visual/wrist2.dae
+[4.891s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/meshes/visual/wrist3.dae
+[4.909s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/urdf/ur16e_common.xacro
+[4.939s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/urdf/ur16e_macro.urdf.xacro
+[4.944s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/urdf/ur16e_ros2control.xacro
+[4.958s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/ur16e/urdf/ur16e_transmission.xacro
+[4.976s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/config/controller.yaml
+[4.996s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/config/controller_moveit2.yaml
+[5.013s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/config/joint_limits.yaml
+[5.029s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/config/joint_specifications.yaml
+[5.046s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/config/kinematics.yaml
+[5.063s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/config/pilz_cartesian_limits.yaml
+[5.083s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/meshes/collision/base_link.stl
+[5.100s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/meshes/collision/link_1.stl
+[5.117s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/meshes/collision/link_2.stl
+[5.133s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/meshes/collision/link_3.stl
+[5.150s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/meshes/collision/link_4.stl
+[5.168s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/meshes/collision/link_5.stl
+[5.189s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/meshes/collision/link_6.stl
+[5.210s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/meshes/collision/link_7.stl
+[5.229s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/meshes/visual/base_link.dae
+[5.245s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/meshes/visual/link_1.dae
+[5.263s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/meshes/visual/link_2.dae
+[5.280s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/meshes/visual/link_3.dae
+[5.300s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/meshes/visual/link_4.dae
+[5.318s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/meshes/visual/link_5.dae
+[5.336s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/meshes/visual/link_6.dae
+[5.355s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/meshes/visual/link_7.dae
+[5.384s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/urdf/iiwa_macro.urdf.xacro
+[5.416s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/urdf/iiwa_ros2control.xacro
+[5.438s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/iiwa/urdf/iiwa_transmission.xacro
+[5.462s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ament_index/resource_index/package_run_dependencies/ros2srrc_robots
+[5.513s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ament_index/resource_index/parent_prefix_path/ros2srrc_robots
+[5.532s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/environment/ament_prefix_path.sh
+[5.551s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/environment/ament_prefix_path.dsv
+[5.574s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/environment/path.sh
+[5.598s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/environment/path.dsv
+[5.619s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/local_setup.bash
+[5.637s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/local_setup.sh
+[5.657s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/local_setup.zsh
+[5.683s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/local_setup.dsv
+[5.707s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/package.dsv
+[5.726s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ament_index/resource_index/packages/ros2srrc_robots
+[5.742s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/cmake/ros2srrc_robotsConfig.cmake
+[5.761s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/cmake/ros2srrc_robotsConfig-version.cmake
+[5.784s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_robots/share/ros2srrc_robots/package.xml
+[5.814s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_robots' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_robots

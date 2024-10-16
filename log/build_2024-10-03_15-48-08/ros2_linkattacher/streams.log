@@ -1,0 +1,144 @@
+[0.023s] Invoking command in '/home/ubuntu/ros2ws/build/ros2_linkattacher': AMENT_PREFIX_PATH=/home/ubuntu/ros2ws/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/linkattacher_msgs:/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2ws/src/IFRA_LinkAttacher/ros2_LinkAttacher -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2_linkattacher
+[0.134s] -- The C compiler identification is GNU 11.4.0
+[0.250s] -- The CXX compiler identification is GNU 11.4.0
+[0.259s] -- Detecting C compiler ABI info
+[0.398s] -- Detecting C compiler ABI info - done
+[0.412s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.412s] -- Detecting C compile features
+[0.413s] -- Detecting C compile features - done
+[0.421s] -- Detecting CXX compiler ABI info
+[0.632s] -- Detecting CXX compiler ABI info - done
+[0.646s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.646s] -- Detecting CXX compile features
+[0.646s] -- Detecting CXX compile features - done
+[0.649s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.966s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.148s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.321s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.411s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.418s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.432s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.484s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.557s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.561s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.600s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.614s] -- Looking for pthread.h
+[1.742s] -- Looking for pthread.h - found
+[1.742s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.872s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.873s] -- Found Threads: TRUE  
+[1.971s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.973s] -- Checking for module 'bullet>=2.82'
+[1.996s] --   Found bullet, version 3.05
+[2.183s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[2.277s] -- Found assimp: /usr/include (found version "5.2.0") 
+[2.310s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.367s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.393s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.400s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.410s] -- Searching for dependencies of ignition-math6
+[2.413s] -- Looking for OGRE...
+[2.414s] -- OGRE_PREFIX_WATCH changed.
+[2.424s] -- Checking for module 'OGRE'
+[2.444s] --   Found OGRE, version 1.9.0
+[2.510s] -- Found Ogre Ghadamon (1.9.0)
+[2.523s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.536s] -- Looking for OGRE_Paging...
+[2.542s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.542s] -- Looking for OGRE_Terrain...
+[2.550s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.551s] -- Looking for OGRE_Property...
+[2.555s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.555s] -- Looking for OGRE_RTShaderSystem...
+[2.561s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.561s] -- Looking for OGRE_Volume...
+[2.567s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.567s] -- Looking for OGRE_Overlay...
+[2.574s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.746s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.746s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.746s] -- Searching for dependencies of ignition-transport8
+[2.771s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.790s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.797s] -- Checking for module 'libzmq >= 4'
+[2.820s] --   Found libzmq , version 4.3.4
+[2.884s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.896s] -- Checking for module 'uuid'
+[2.917s] --   Found uuid, version 2.37.2
+[2.976s] -- Found UUID: TRUE  
+[2.977s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.978s] -- Searching for dependencies of ignition-msgs5
+[3.008s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.015s] -- Checking for module 'tinyxml2'
+[3.041s] --   Found tinyxml2, version 9.0.0
+[3.110s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.113s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.114s] -- Searching for dependencies of ignition-common3
+[3.114s] -- Looking for dlfcn.h - found
+[3.116s] -- Looking for libdl - found
+[3.121s] -- Found DL: TRUE  
+[3.139s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[3.142s] -- Searching for <ignition-common3> component [graphics]
+[3.144s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[3.145s] -- Searching for dependencies of ignition-common3-graphics
+[3.146s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.150s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[3.151s] -- Searching for dependencies of ignition-fuel_tools4
+[3.293s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[3.310s] -- Checking for module 'jsoncpp'
+[3.334s] --   Found jsoncpp, version 1.9.5
+[3.408s] -- Found JSONCPP: TRUE  
+[3.420s] -- Checking for module 'libzip'
+[3.447s] --   Found libzip, version 1.7.3
+[3.522s] -- Found ZIP: TRUE  
+[3.522s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.523s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.523s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.529s] -- Gazebo version: 11.10
+[3.529s] -- Checking for module 'tbb'
+[3.555s] --   Found tbb, version 2021.5.0
+[3.629s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[3.715s] -- Found linkattacher_msgs: 0.0.0 (/home/ubuntu/ros2ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake)
+[3.743s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.745s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.746s] -- Configured cppcheck include dirs: /home/ubuntu/ros2ws/src/IFRA_LinkAttacher/ros2_LinkAttacher/include
+[3.746s] -- Configured cppcheck exclude dirs and/or files: 
+[3.748s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.748s] -- Configured cpplint exclude dirs and/or files: 
+[3.749s] -- Added test 'lint_cmake' to check CMake code style
+[3.751s] -- Added test 'uncrustify' to check C / C++ code style
+[3.751s] -- Configured uncrustify additional arguments: 
+[3.752s] -- Added test 'xmllint' to check XML markup files
+[3.755s] -- Configuring done
+[3.820s] -- Generating done
+[3.824s] -- Build files have been written to: /home/ubuntu/ros2ws/build/ros2_linkattacher
+[3.845s] Invoked command in '/home/ubuntu/ros2ws/build/ros2_linkattacher' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2ws/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/linkattacher_msgs:/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/ros2ws/src/IFRA_LinkAttacher/ros2_LinkAttacher -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2_linkattacher
+[3.848s] Invoking command in '/home/ubuntu/ros2ws/build/ros2_linkattacher': AMENT_PREFIX_PATH=/home/ubuntu/ros2ws/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/linkattacher_msgs:/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2_linkattacher -- -j4 -l4
+[3.939s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_link_attacher.dir/src/gazebo_link_attacher.cpp.o[0m
+[23.809s] [100%] [32m[1mLinking CXX shared library libgazebo_link_attacher.so[0m
+[24.606s] [100%] Built target gazebo_link_attacher
+[24.625s] Invoked command in '/home/ubuntu/ros2ws/build/ros2_linkattacher' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2ws/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/linkattacher_msgs:/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2_linkattacher -- -j4 -l4
+[24.672s] Invoking command in '/home/ubuntu/ros2ws/build/ros2_linkattacher': AMENT_PREFIX_PATH=/home/ubuntu/ros2ws/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/linkattacher_msgs:/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2_linkattacher
+[24.682s] -- Install configuration: ""
+[24.682s] -- Installing: /home/ubuntu/ros2ws/install/ros2_linkattacher/share/ros2_linkattacher/environment/library_path.sh
+[24.682s] -- Installing: /home/ubuntu/ros2ws/install/ros2_linkattacher/share/ros2_linkattacher/environment/library_path.dsv
+[24.683s] -- Installing: /home/ubuntu/ros2ws/install/ros2_linkattacher/lib/libgazebo_link_attacher.so
+[24.687s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2_linkattacher/lib/libgazebo_link_attacher.so" to ""
+[24.687s] -- Installing: /home/ubuntu/ros2ws/install/ros2_linkattacher/share/ament_index/resource_index/package_run_dependencies/ros2_linkattacher
+[24.687s] -- Installing: /home/ubuntu/ros2ws/install/ros2_linkattacher/share/ament_index/resource_index/parent_prefix_path/ros2_linkattacher
+[24.687s] -- Installing: /home/ubuntu/ros2ws/install/ros2_linkattacher/share/ros2_linkattacher/environment/ament_prefix_path.sh
+[24.688s] -- Installing: /home/ubuntu/ros2ws/install/ros2_linkattacher/share/ros2_linkattacher/environment/ament_prefix_path.dsv
+[24.688s] -- Installing: /home/ubuntu/ros2ws/install/ros2_linkattacher/share/ros2_linkattacher/environment/path.sh
+[24.688s] -- Installing: /home/ubuntu/ros2ws/install/ros2_linkattacher/share/ros2_linkattacher/environment/path.dsv
+[24.688s] -- Installing: /home/ubuntu/ros2ws/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.bash
+[24.689s] -- Installing: /home/ubuntu/ros2ws/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.sh
+[24.689s] -- Installing: /home/ubuntu/ros2ws/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.zsh
+[24.689s] -- Installing: /home/ubuntu/ros2ws/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.dsv
+[24.689s] -- Installing: /home/ubuntu/ros2ws/install/ros2_linkattacher/share/ros2_linkattacher/package.dsv
+[24.689s] -- Installing: /home/ubuntu/ros2ws/install/ros2_linkattacher/share/ament_index/resource_index/packages/ros2_linkattacher
+[24.690s] -- Installing: /home/ubuntu/ros2ws/install/ros2_linkattacher/share/ros2_linkattacher/cmake/ament_cmake_export_libraries-extras.cmake
+[24.690s] -- Installing: /home/ubuntu/ros2ws/install/ros2_linkattacher/share/ros2_linkattacher/cmake/ros2_linkattacherConfig.cmake
+[24.690s] -- Installing: /home/ubuntu/ros2ws/install/ros2_linkattacher/share/ros2_linkattacher/cmake/ros2_linkattacherConfig-version.cmake
+[24.690s] -- Installing: /home/ubuntu/ros2ws/install/ros2_linkattacher/share/ros2_linkattacher/package.xml
+[24.694s] Invoked command in '/home/ubuntu/ros2ws/build/ros2_linkattacher' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2ws/install/linkattacher_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/linkattacher_msgs:/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/linkattacher_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2_linkattacher

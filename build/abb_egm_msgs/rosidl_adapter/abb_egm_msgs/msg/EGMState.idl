@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from abb_egm_msgs/msg/EGMState.msg
+// generated code does not contain a copyright notice
+
+#include "abb_egm_msgs/msg/EGMChannelState.idl"
+#include "std_msgs/msg/Header.idl"
+
+module abb_egm_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "-------------------------------------------------------------------------------" "\n"
+      " Description:" "\n"
+      "   The purpose of this message definition, is to represent a subset of states" "\n"
+      "   of all (known) EGM communication channels." "\n"
+      "-------------------------------------------------------------------------------")
+    struct EGMState {
+      @verbatim (language="comment", text=
+        "-------------------------------------------------------------------------------" "\n"
+        " Message fields" "\n"
+        "-------------------------------------------------------------------------------" "\n"
+        " Metadata.")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "EGM channel states.")
+      sequence<abb_egm_msgs::msg::EGMChannelState> egm_channels;
+    };
+  };
+};

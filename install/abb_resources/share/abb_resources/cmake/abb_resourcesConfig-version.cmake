@@ -1,0 +1,1 @@
+/home/ubuntu/ros2ws/build/abb_resources/ament_cmake_core/abb_resourcesConfig-version.cmake

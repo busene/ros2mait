@@ -1,0 +1,175 @@
+[0.039s] Invoking command in '/home/ubuntu/ros2ws/build/ros2_grasping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2_grasping -- -j4 -l4
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target ros2_grasping__rosidl_generator_c[0m
+[0.130s] [  3%] Built target ros2_grasping__cpp
+[0.135s] [ 12%] Built target ros2_grasping__rosidl_generator_c
+[0.157s] [35m[1mConsolidate compiler generated dependencies of target ros2_grasping__rosidl_typesupport_cpp[0m
+[0.161s] [35m[1mConsolidate compiler generated dependencies of target ros2_grasping__rosidl_typesupport_introspection_cpp[0m
+[0.161s] [35m[1mConsolidate compiler generated dependencies of target ros2_grasping__rosidl_typesupport_fastrtps_cpp[0m
+[0.183s] [ 12%] Built target ament_cmake_python_copy_ros2_grasping
+[0.212s] [ 22%] Built target ros2_grasping__rosidl_typesupport_fastrtps_cpp
+[0.213s] [ 32%] Built target ros2_grasping__rosidl_typesupport_introspection_cpp
+[0.221s] [35m[1mConsolidate compiler generated dependencies of target ros2_grasping__rosidl_typesupport_fastrtps_c[0m
+[0.221s] [ 41%] Built target ros2_grasping__rosidl_typesupport_cpp
+[0.242s] [35m[1mConsolidate compiler generated dependencies of target ros2_grasping__rosidl_typesupport_c[0m
+[0.264s] [35m[1mConsolidate compiler generated dependencies of target ros2_grasping__rosidl_typesupport_introspection_c[0m
+[0.278s] [ 51%] Built target ros2_grasping__rosidl_typesupport_fastrtps_c
+[0.278s] [ 61%] Built target ros2_grasping__rosidl_typesupport_c
+[0.308s] [ 70%] Built target ros2_grasping__rosidl_typesupport_introspection_c
+[0.350s] [ 70%] Built target ros2_grasping
+[0.388s] [ 74%] Built target ros2_grasping__py
+[0.413s] [35m[1mConsolidate compiler generated dependencies of target ros2_grasping__rosidl_generator_py[0m
+[0.449s] [ 80%] Built target ros2_grasping__rosidl_generator_py
+[0.477s] [35m[1mConsolidate compiler generated dependencies of target ros2_grasping__rosidl_typesupport_introspection_c__pyext[0m
+[0.477s] [35m[1mConsolidate compiler generated dependencies of target ros2_grasping__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.488s] [35m[1mConsolidate compiler generated dependencies of target ros2_grasping__rosidl_typesupport_c__pyext[0m
+[0.526s] [ 87%] Built target ros2_grasping__rosidl_typesupport_introspection_c__pyext
+[0.526s] [ 93%] Built target ros2_grasping__rosidl_typesupport_c__pyext
+[0.527s] [100%] Built target ros2_grasping__rosidl_typesupport_fastrtps_c__pyext
+[0.714s] running egg_info
+[0.721s] writing ros2_grasping.egg-info/PKG-INFO
+[0.722s] writing dependency_links to ros2_grasping.egg-info/dependency_links.txt
+[0.722s] writing top-level names to ros2_grasping.egg-info/top_level.txt
+[0.726s] reading manifest file 'ros2_grasping.egg-info/SOURCES.txt'
+[0.731s] writing manifest file 'ros2_grasping.egg-info/SOURCES.txt'
+[0.766s] [100%] Built target ament_cmake_python_build_ros2_grasping_egg
+[0.800s] Invoked command in '/home/ubuntu/ros2ws/build/ros2_grasping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2_grasping -- -j4 -l4
+[0.900s] Invoking command in '/home/ubuntu/ros2ws/build/ros2_grasping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2_grasping
+[0.913s] -- Install configuration: ""
+[0.913s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/urdf
+[0.914s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/urdf/box.urdf
+[0.916s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ament_index/resource_index/rosidl_interfaces/ros2_grasping
+[0.918s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping
+[0.919s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg
+[0.919s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg/rosidl_generator_c__visibility_control.h
+[0.920s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action
+[0.920s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/attacher.h
+[0.920s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail
+[0.920s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__type_support.h
+[0.920s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__functions.h
+[0.921s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__struct.h
+[0.922s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__functions.c
+[0.923s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/environment/library_path.sh
+[0.924s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/environment/library_path.dsv
+[0.924s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/lib/libros2_grasping__rosidl_generator_c.so
+[0.925s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2_grasping/lib/libros2_grasping__rosidl_generator_c.so" to ""
+[0.925s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping
+[0.925s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg
+[0.925s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.926s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action
+[0.926s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail
+[0.926s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__rosidl_typesupport_fastrtps_c.h
+[0.926s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_fastrtps_c.so
+[0.926s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_fastrtps_c.so" to ""
+[0.926s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping
+[0.926s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg
+[0.926s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.928s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action
+[0.929s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail
+[0.929s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__rosidl_typesupport_introspection_c.h
+[0.929s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__type_support.c
+[0.929s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_introspection_c.so
+[0.929s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_introspection_c.so" to ""
+[0.929s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_c.so
+[0.929s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_c.so" to ""
+[0.929s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping
+[0.930s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action
+[0.930s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/attacher.hpp
+[0.931s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail
+[0.931s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__builder.hpp
+[0.931s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__struct.hpp
+[0.931s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__traits.hpp
+[0.931s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping
+[0.931s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg
+[0.931s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.931s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action
+[0.931s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail
+[0.931s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/dds_fastrtps
+[0.932s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__rosidl_typesupport_fastrtps_cpp.hpp
+[0.932s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_fastrtps_cpp.so
+[0.932s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_fastrtps_cpp.so" to ""
+[0.932s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping
+[0.932s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action
+[0.933s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail
+[0.933s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__type_support.cpp
+[0.933s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/include/ros2_grasping/ros2_grasping/action/detail/attacher__rosidl_typesupport_introspection_cpp.hpp
+[0.934s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_introspection_cpp.so
+[0.934s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_introspection_cpp.so" to ""
+[0.934s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_cpp.so
+[0.934s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2_grasping/lib/libros2_grasping__rosidl_typesupport_cpp.so" to ""
+[0.934s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/environment/pythonpath.sh
+[0.935s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/environment/pythonpath.dsv
+[0.935s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping-0.0.0-py3.10.egg-info
+[0.935s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping-0.0.0-py3.10.egg-info/PKG-INFO
+[0.935s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping-0.0.0-py3.10.egg-info/top_level.txt
+[0.935s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.935s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.935s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping
+[0.935s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/libros2_grasping__rosidl_generator_py.so
+[0.935s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/_ros2_grasping_s.ep.rosidl_typesupport_c.c
+[0.936s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.936s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/_ros2_grasping_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.936s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.936s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/_ros2_grasping_s.ep.rosidl_typesupport_introspection_c.c
+[0.936s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.936s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/__init__.py
+[0.936s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action
+[0.937s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action/_attacher.py
+[0.937s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action/_attacher_s.c
+[0.937s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action/__init__.py
+[0.975s] Listing '/home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping'...
+[0.975s] Compiling '/home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/__init__.py'...
+[0.975s] Listing '/home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action'...
+[0.975s] Compiling '/home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action/__init__.py'...
+[0.975s] Compiling '/home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/action/_attacher.py'...
+[0.981s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.981s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[0.981s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.982s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[0.982s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.982s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2_grasping/local/lib/python3.10/dist-packages/ros2_grasping/ros2_grasping_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[0.989s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/lib/libros2_grasping__rosidl_generator_py.so
+[0.992s] -- Set runtime path of "/home/ubuntu/ros2ws/install/ros2_grasping/lib/libros2_grasping__rosidl_generator_py.so" to ""
+[0.992s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/action/Attacher.idl
+[0.992s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/action/Attacher.action
+[0.992s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/lib/ros2_grasping/attacher_action.py
+[0.992s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/lib/ros2_grasping/spawn_object.py
+[0.992s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ament_index/resource_index/package_run_dependencies/ros2_grasping
+[0.992s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ament_index/resource_index/parent_prefix_path/ros2_grasping
+[0.992s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/environment/ament_prefix_path.sh
+[0.992s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/environment/ament_prefix_path.dsv
+[0.992s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/environment/path.sh
+[0.992s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/environment/path.dsv
+[0.992s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/local_setup.bash
+[0.992s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/local_setup.sh
+[0.993s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/local_setup.zsh
+[0.993s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/local_setup.dsv
+[0.993s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/package.dsv
+[0.993s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ament_index/resource_index/packages/ros2_grasping
+[0.993s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_generator_cExport.cmake
+[0.993s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_generator_cExport-noconfig.cmake
+[0.993s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_typesupport_fastrtps_cExport.cmake
+[0.994s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.994s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_introspection_cExport.cmake
+[0.995s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.995s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_cExport.cmake
+[0.995s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_cExport-noconfig.cmake
+[0.995s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_generator_cppExport.cmake
+[0.995s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.995s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.996s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_introspection_cppExport.cmake
+[0.996s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.996s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_cppExport.cmake
+[0.996s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_grasping__rosidl_typesupport_cppExport-noconfig.cmake
+[0.996s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_generator_pyExport.cmake
+[0.996s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/export_ros2_grasping__rosidl_generator_pyExport-noconfig.cmake
+[0.996s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/rosidl_cmake-extras.cmake
+[0.997s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.997s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.997s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/ament_cmake_export_libraries-extras.cmake
+[0.998s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/ament_cmake_export_targets-extras.cmake
+[0.998s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.000s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.002s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_graspingConfig.cmake
+[1.002s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/cmake/ros2_graspingConfig-version.cmake
+[1.002s] -- Installing: /home/ubuntu/ros2ws/install/ros2_grasping/share/ros2_grasping/package.xml
+[1.034s] Invoked command in '/home/ubuntu/ros2ws/build/ros2_grasping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2_grasping

@@ -1,0 +1,8 @@
+setup.py
+objectpose_msgs/__init__.py
+objectpose_msgs.egg-info/PKG-INFO
+objectpose_msgs.egg-info/SOURCES.txt
+objectpose_msgs.egg-info/dependency_links.txt
+objectpose_msgs.egg-info/top_level.txt
+objectpose_msgs/msg/__init__.py
+objectpose_msgs/msg/_object_pose.py

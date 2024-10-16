@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2_robotiqgripper/srv/RobotiqGripper.srv
+// generated code does not contain a copyright notice
+
+
+module ros2_robotiqgripper {
+  module srv {
+    struct RobotiqGripper_Request {
+      string action;
+    };
+    struct RobotiqGripper_Response {
+      boolean success;
+
+      int64 value;
+
+      float average;
+
+      string message;
+    };
+  };
+};

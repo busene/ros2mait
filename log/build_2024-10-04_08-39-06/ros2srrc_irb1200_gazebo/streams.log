@@ -1,0 +1,27 @@
+[0.056s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_irb1200_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_irb1200_gazebo -- -j4 -l4
+[0.148s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_irb1200_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_irb1200_gazebo -- -j4 -l4
+[0.207s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_irb1200_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_irb1200_gazebo
+[0.218s] -- Install configuration: ""
+[0.219s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ros2srrc_irb1200_gazebo/config
+[0.219s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ros2srrc_irb1200_gazebo/config/configurations.yaml
+[0.219s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ros2srrc_irb1200_gazebo/urdf
+[0.220s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ros2srrc_irb1200_gazebo/urdf/irb1200_egp64.urdf.xacro
+[0.220s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ros2srrc_irb1200_gazebo/urdf/irb1200.urdf.xacro
+[0.220s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ros2srrc_irb1200_gazebo/worlds
+[0.220s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ros2srrc_irb1200_gazebo/worlds/ros2srrc_irb1200.world
+[0.221s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ament_index/resource_index/package_run_dependencies/ros2srrc_irb1200_gazebo
+[0.221s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ament_index/resource_index/parent_prefix_path/ros2srrc_irb1200_gazebo
+[0.221s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ros2srrc_irb1200_gazebo/environment/ament_prefix_path.sh
+[0.221s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ros2srrc_irb1200_gazebo/environment/ament_prefix_path.dsv
+[0.221s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ros2srrc_irb1200_gazebo/environment/path.sh
+[0.221s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ros2srrc_irb1200_gazebo/environment/path.dsv
+[0.221s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ros2srrc_irb1200_gazebo/local_setup.bash
+[0.222s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ros2srrc_irb1200_gazebo/local_setup.sh
+[0.222s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ros2srrc_irb1200_gazebo/local_setup.zsh
+[0.222s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ros2srrc_irb1200_gazebo/local_setup.dsv
+[0.222s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ros2srrc_irb1200_gazebo/package.dsv
+[0.223s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ament_index/resource_index/packages/ros2srrc_irb1200_gazebo
+[0.223s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ros2srrc_irb1200_gazebo/cmake/ros2srrc_irb1200_gazeboConfig.cmake
+[0.224s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ros2srrc_irb1200_gazebo/cmake/ros2srrc_irb1200_gazeboConfig-version.cmake
+[0.225s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo/share/ros2srrc_irb1200_gazebo/package.xml
+[0.232s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_irb1200_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_irb1200_gazebo

@@ -1,0 +1,52 @@
+[0.057s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_launch -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2srrc_launch
+[0.321s] -- The C compiler identification is GNU 11.4.0
+[0.607s] -- The CXX compiler identification is GNU 11.4.0
+[0.631s] -- Detecting C compiler ABI info
+[0.935s] -- Detecting C compiler ABI info - done
+[0.980s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.984s] -- Detecting C compile features
+[0.990s] -- Detecting C compile features - done
+[1.002s] -- Detecting CXX compiler ABI info
+[1.406s] -- Detecting CXX compiler ABI info - done
+[1.484s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.484s] -- Detecting CXX compile features
+[1.485s] -- Detecting CXX compile features - done
+[1.497s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.997s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.333s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.740s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.749s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.749s] -- Added test 'lint_cmake' to check CMake code style
+[2.754s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.754s] -- Added test 'xmllint' to check XML markup files
+[2.758s] -- Configuring done
+[2.769s] -- Generating done
+[2.775s] -- Build files have been written to: /home/ubuntu/ros2ws/build/ros2srrc_launch
+[2.786s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_launch -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2srrc_launch
+[2.795s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_launch -- -j4 -l4
+[2.958s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_launch -- -j4 -l4
+[3.073s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_launch
+[3.102s] -- Install configuration: ""
+[3.102s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/gazebo
+[3.102s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/gazebo/simulation.launch.py
+[3.103s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/moveit2
+[3.103s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/moveit2/moveit2.launch.py
+[3.103s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/bringup
+[3.103s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/bringup/bringup_abb.launch.py
+[3.103s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/bringup/bringup_ur.launch.py
+[3.103s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ament_index/resource_index/package_run_dependencies/ros2srrc_launch
+[3.103s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ament_index/resource_index/parent_prefix_path/ros2srrc_launch
+[3.103s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/environment/ament_prefix_path.sh
+[3.106s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/environment/ament_prefix_path.dsv
+[3.108s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/environment/path.sh
+[3.108s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/environment/path.dsv
+[3.108s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/local_setup.bash
+[3.109s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/local_setup.sh
+[3.109s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/local_setup.zsh
+[3.113s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/local_setup.dsv
+[3.116s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/package.dsv
+[3.117s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ament_index/resource_index/packages/ros2srrc_launch
+[3.117s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/cmake/ros2srrc_launchConfig.cmake
+[3.120s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/cmake/ros2srrc_launchConfig-version.cmake
+[3.121s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/package.xml
+[3.124s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_launch

@@ -1,0 +1,16 @@
+[0.040s] Invoking command in '/home/ubuntu/ros2ws/build/abb_rapid_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/abb_rapid_msgs -- -j4 -l4
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target abb_rapid_msgs__rosidl_generator_c[0m
+[0.145s] [  0%] Built target abb_rapid_msgs__cpp
+[0.151s] [ 12%] Built target abb_rapid_msgs__rosidl_generator_c
+[0.156s] failed to create symbolic link '/home/ubuntu/ros2ws/build/abb_rapid_msgs/ament_cmake_python/abb_rapid_msgs/abb_rapid_msgs' because existing path cannot be removed: Is a directory
+[0.157s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_abb_rapid_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_abb_rapid_msgs] Error 1
+[0.157s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_abb_rapid_msgs.dir/all] Error 2
+[0.157s] gmake[1]: *** Waiting for unfinished jobs....
+[0.176s] [35m[1mConsolidate compiler generated dependencies of target abb_rapid_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.182s] [35m[1mConsolidate compiler generated dependencies of target abb_rapid_msgs__rosidl_typesupport_cpp[0m
+[0.192s] [35m[1mConsolidate compiler generated dependencies of target abb_rapid_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.219s] [ 23%] Built target abb_rapid_msgs__rosidl_typesupport_fastrtps_cpp
+[0.219s] [ 35%] Built target abb_rapid_msgs__rosidl_typesupport_cpp
+[0.227s] [ 47%] Built target abb_rapid_msgs__rosidl_typesupport_introspection_cpp
+[0.230s] gmake: *** [Makefile:146: all] Error 2
+[0.244s] Invoked command in '/home/ubuntu/ros2ws/build/abb_rapid_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/abb_rapid_msgs -- -j4 -l4

@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from linkattacher_msgs/srv/AttachLink.srv
+// generated code does not contain a copyright notice
+
+
+module linkattacher_msgs {
+  module srv {
+    struct AttachLink_Request {
+      @verbatim (language="comment", text=
+        "Name of the first model.")
+      string model1_name;
+
+      @verbatim (language="comment", text=
+        "Name of the link in the first model.")
+      string link1_name;
+
+      @verbatim (language="comment", text=
+        "Name of the second model.")
+      string model2_name;
+
+      @verbatim (language="comment", text=
+        "Name of the link in the second model.")
+      string link2_name;
+    };
+    struct AttachLink_Response {
+      @verbatim (language="comment", text=
+        "Whether the links were successfully attached or not.")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "Feedback message.")
+      string message;
+    };
+  };
+};

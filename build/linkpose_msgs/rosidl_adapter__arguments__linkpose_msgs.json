@@ -1,0 +1,6 @@
+{
+  "package_name": "linkpose_msgs",
+  "non_idl_tuples": [
+    "/home/ubuntu/ros2ws/src/IFRA_LinkPose/linkpose_msgs:msg/LinkPose.msg"
+  ]
+}

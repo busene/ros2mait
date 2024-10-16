@@ -1,0 +1,5 @@
+
+bool success
+int64 value
+float32 average
+string message

@@ -1,0 +1,25 @@
+[0.039s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_irb6640_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_irb6640_moveit2 -- -j4 -l4
+[0.153s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_irb6640_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_irb6640_moveit2 -- -j4 -l4
+[0.229s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_irb6640_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_irb6640_moveit2
+[0.243s] -- Install configuration: ""
+[0.243s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ros2srrc_irb6640_moveit2/config
+[0.243s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ros2srrc_irb6640_moveit2/config/irb6640gpp5010nc_moveit2.rviz
+[0.243s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ros2srrc_irb6640_moveit2/config/irb6640_moveit2.rviz
+[0.243s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ros2srrc_irb6640_moveit2/config/irb6640.srdf
+[0.244s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ros2srrc_irb6640_moveit2/config/irb6640gpp5010nc.srdf
+[0.244s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ament_index/resource_index/package_run_dependencies/ros2srrc_irb6640_moveit2
+[0.244s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ament_index/resource_index/parent_prefix_path/ros2srrc_irb6640_moveit2
+[0.244s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ros2srrc_irb6640_moveit2/environment/ament_prefix_path.sh
+[0.244s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ros2srrc_irb6640_moveit2/environment/ament_prefix_path.dsv
+[0.245s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ros2srrc_irb6640_moveit2/environment/path.sh
+[0.245s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ros2srrc_irb6640_moveit2/environment/path.dsv
+[0.245s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ros2srrc_irb6640_moveit2/local_setup.bash
+[0.246s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ros2srrc_irb6640_moveit2/local_setup.sh
+[0.247s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ros2srrc_irb6640_moveit2/local_setup.zsh
+[0.248s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ros2srrc_irb6640_moveit2/local_setup.dsv
+[0.248s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ros2srrc_irb6640_moveit2/package.dsv
+[0.248s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ament_index/resource_index/packages/ros2srrc_irb6640_moveit2
+[0.249s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ros2srrc_irb6640_moveit2/cmake/ros2srrc_irb6640_moveit2Config.cmake
+[0.249s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ros2srrc_irb6640_moveit2/cmake/ros2srrc_irb6640_moveit2Config-version.cmake
+[0.249s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2/share/ros2srrc_irb6640_moveit2/package.xml
+[0.265s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_irb6640_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_irb6640_moveit2

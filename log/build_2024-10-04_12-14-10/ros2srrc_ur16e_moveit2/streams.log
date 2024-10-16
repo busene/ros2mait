@@ -1,0 +1,50 @@
+[0.016s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/packages/ur16e/ros2srrc_ur16e_moveit2 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2
+[0.134s] -- The C compiler identification is GNU 11.4.0
+[0.237s] -- The CXX compiler identification is GNU 11.4.0
+[0.254s] -- Detecting C compiler ABI info
+[0.405s] -- Detecting C compiler ABI info - done
+[0.419s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.420s] -- Detecting C compile features
+[0.421s] -- Detecting C compile features - done
+[0.427s] -- Detecting CXX compiler ABI info
+[0.621s] -- Detecting CXX compiler ABI info - done
+[0.638s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.638s] -- Detecting CXX compile features
+[0.639s] -- Detecting CXX compile features - done
+[0.650s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.966s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.257s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.463s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.467s] -- Added test 'lint_cmake' to check CMake code style
+[1.474s] -- Added test 'xmllint' to check XML markup files
+[1.477s] -- Configuring done
+[1.481s] -- Generating done
+[1.483s] -- Build files have been written to: /home/ubuntu/ros2ws/build/ros2srrc_ur16e_moveit2
+[1.493s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/packages/ur16e/ros2srrc_ur16e_moveit2 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2
+[1.497s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_ur16e_moveit2 -- -j4 -l4
+[1.568s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_ur16e_moveit2 -- -j4 -l4
+[1.624s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_ur16e_moveit2
+[1.645s] -- Install configuration: ""
+[1.646s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/config
+[1.646s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/config/ur16erobotiq_2f85.srdf
+[1.651s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/config/ur16erobotiq_2f85_moveit2.rviz
+[1.651s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/config/ur16erobotiq_hande.srdf
+[1.651s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/config/ur16e.srdf
+[1.651s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/config/ur16e_moveit2.rviz
+[1.651s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/config/ur16erobotiq_hande_moveit2.rviz
+[1.651s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ament_index/resource_index/package_run_dependencies/ros2srrc_ur16e_moveit2
+[1.651s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ament_index/resource_index/parent_prefix_path/ros2srrc_ur16e_moveit2
+[1.652s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/environment/ament_prefix_path.sh
+[1.654s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/environment/ament_prefix_path.dsv
+[1.654s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/environment/path.sh
+[1.654s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/environment/path.dsv
+[1.654s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/local_setup.bash
+[1.655s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/local_setup.sh
+[1.664s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/local_setup.zsh
+[1.664s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/local_setup.dsv
+[1.664s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/package.dsv
+[1.664s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ament_index/resource_index/packages/ros2srrc_ur16e_moveit2
+[1.664s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/cmake/ros2srrc_ur16e_moveit2Config.cmake
+[1.664s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/cmake/ros2srrc_ur16e_moveit2Config-version.cmake
+[1.664s] -- Installing: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/package.xml
+[1.667s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_ur16e_moveit2

@@ -1,0 +1,4 @@
+srv/RobotiqGripper.idl
+srv/RobotiqGripper.srv
+srv/RobotiqGripper_Request.msg
+srv/RobotiqGripper_Response.msg

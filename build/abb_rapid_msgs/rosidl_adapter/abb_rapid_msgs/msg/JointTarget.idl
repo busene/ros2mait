@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from abb_rapid_msgs/msg/JointTarget.msg
+// generated code does not contain a copyright notice
+
+#include "abb_rapid_msgs/msg/ExtJoint.idl"
+#include "abb_rapid_msgs/msg/RobJoint.idl"
+
+module abb_rapid_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "-------------------------------------------------------------------------------" "\n"
+      " Description:" "\n"
+      "   The purpose of this message definition, is to represent the" "\n"
+      "   RAPID data type \"jointtarget\" (joint position data)." "\n"
+      "" "\n"
+      " Note:" "\n"
+      "   Please see the \"Technical reference manual - RAPID Instructions," "\n"
+      "   Functions and Data types\" for more details." "\n"
+      "-------------------------------------------------------------------------------")
+    struct JointTarget {
+      @verbatim (language="comment", text=
+        "-------------------------------------------------------------------------------" "\n"
+        " Message fields" "\n"
+        "-------------------------------------------------------------------------------" "\n"
+        " Axis positions of the robot axes in degrees.")
+      abb_rapid_msgs::msg::RobJoint robax;
+
+      @verbatim (language="comment", text=
+        "The position of the external axes.")
+      abb_rapid_msgs::msg::ExtJoint extax;
+    };
+  };
+};

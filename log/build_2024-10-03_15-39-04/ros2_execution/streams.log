@@ -1,0 +1,48 @@
+[0.023s] Invoking command in '/home/ubuntu/ros2ws/build/ros2_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_execution -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2_execution
+[0.167s] -- The C compiler identification is GNU 11.4.0
+[0.278s] -- The CXX compiler identification is GNU 11.4.0
+[0.292s] -- Detecting C compiler ABI info
+[0.482s] -- Detecting C compiler ABI info - done
+[0.505s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.505s] -- Detecting C compile features
+[0.511s] -- Detecting C compile features - done
+[0.518s] -- Detecting CXX compiler ABI info
+[0.640s] -- Detecting CXX compiler ABI info - done
+[0.658s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.658s] -- Detecting CXX compile features
+[0.659s] -- Detecting CXX compile features - done
+[0.665s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.140s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.394s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.648s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.648s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.650s] -- Added test 'lint_cmake' to check CMake code style
+[1.650s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.650s] -- Added test 'xmllint' to check XML markup files
+[1.656s] -- Configuring done
+[1.657s] -- Generating done
+[1.657s] -- Build files have been written to: /home/ubuntu/ros2ws/build/ros2_execution
+[1.672s] Invoked command in '/home/ubuntu/ros2ws/build/ros2_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_execution -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2_execution
+[1.673s] Invoking command in '/home/ubuntu/ros2ws/build/ros2_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2_execution -- -j4 -l4
+[1.786s] Invoked command in '/home/ubuntu/ros2ws/build/ros2_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2_execution -- -j4 -l4
+[1.866s] Invoking command in '/home/ubuntu/ros2ws/build/ros2_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2_execution
+[1.887s] -- Install configuration: ""
+[1.891s] -- Installing: /home/ubuntu/ros2ws/install/ros2_execution/share/ros2_execution/scripts
+[1.892s] -- Installing: /home/ubuntu/ros2ws/install/ros2_execution/share/ros2_execution/scripts/ros2_execution.py
+[1.894s] -- Installing: /home/ubuntu/ros2ws/install/ros2_execution/lib/ros2_execution/ros2_execution.py
+[1.895s] -- Installing: /home/ubuntu/ros2ws/install/ros2_execution/share/ament_index/resource_index/package_run_dependencies/ros2_execution
+[1.897s] -- Installing: /home/ubuntu/ros2ws/install/ros2_execution/share/ament_index/resource_index/parent_prefix_path/ros2_execution
+[1.897s] -- Installing: /home/ubuntu/ros2ws/install/ros2_execution/share/ros2_execution/environment/ament_prefix_path.sh
+[1.897s] -- Installing: /home/ubuntu/ros2ws/install/ros2_execution/share/ros2_execution/environment/ament_prefix_path.dsv
+[1.899s] -- Installing: /home/ubuntu/ros2ws/install/ros2_execution/share/ros2_execution/environment/path.sh
+[1.899s] -- Installing: /home/ubuntu/ros2ws/install/ros2_execution/share/ros2_execution/environment/path.dsv
+[1.899s] -- Installing: /home/ubuntu/ros2ws/install/ros2_execution/share/ros2_execution/local_setup.bash
+[1.899s] -- Installing: /home/ubuntu/ros2ws/install/ros2_execution/share/ros2_execution/local_setup.sh
+[1.902s] -- Installing: /home/ubuntu/ros2ws/install/ros2_execution/share/ros2_execution/local_setup.zsh
+[1.902s] -- Installing: /home/ubuntu/ros2ws/install/ros2_execution/share/ros2_execution/local_setup.dsv
+[1.905s] -- Installing: /home/ubuntu/ros2ws/install/ros2_execution/share/ros2_execution/package.dsv
+[1.910s] -- Installing: /home/ubuntu/ros2ws/install/ros2_execution/share/ament_index/resource_index/packages/ros2_execution
+[1.910s] -- Installing: /home/ubuntu/ros2ws/install/ros2_execution/share/ros2_execution/cmake/ros2_executionConfig.cmake
+[1.910s] -- Installing: /home/ubuntu/ros2ws/install/ros2_execution/share/ros2_execution/cmake/ros2_executionConfig-version.cmake
+[1.912s] -- Installing: /home/ubuntu/ros2ws/install/ros2_execution/share/ros2_execution/package.xml
+[1.920s] Invoked command in '/home/ubuntu/ros2ws/build/ros2_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2_execution

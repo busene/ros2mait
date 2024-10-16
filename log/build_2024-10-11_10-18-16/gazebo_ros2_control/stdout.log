@@ -1,0 +1,35 @@
+[35m[1mConsolidate compiler generated dependencies of target gazebo_hardware_plugins[0m
+[35m[1mConsolidate compiler generated dependencies of target gazebo_ros2_control[0m
+[ 25%] [32m[1mLinking CXX shared library libgazebo_hardware_plugins.so[0m
+[ 50%] [32m[1mLinking CXX shared library libgazebo_ros2_control.so[0m
+[ 75%] Built target gazebo_hardware_plugins
+[100%] Built target gazebo_ros2_control
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+-- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml

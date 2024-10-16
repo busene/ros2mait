@@ -1,0 +1,418 @@
+[0.000000] (-) TimerEvent: {}
+[0.000203] (-) JobUnselected: {'identifier': 'abb_bringup'}
+[0.000229] (-) JobUnselected: {'identifier': 'abb_egm_msgs'}
+[0.000524] (-) JobUnselected: {'identifier': 'abb_egm_rws_managers'}
+[0.000586] (-) JobUnselected: {'identifier': 'abb_hardware_interface'}
+[0.000626] (-) JobUnselected: {'identifier': 'abb_irb1200_5_90_moveit_config'}
+[0.000642] (-) JobUnselected: {'identifier': 'abb_irb1200_support'}
+[0.000655] (-) JobUnselected: {'identifier': 'abb_irb4600_support'}
+[0.000704] (-) JobUnselected: {'identifier': 'abb_libegm'}
+[0.000740] (-) JobUnselected: {'identifier': 'abb_librws'}
+[0.000754] (-) JobUnselected: {'identifier': 'abb_rapid_msgs'}
+[0.000766] (-) JobUnselected: {'identifier': 'abb_rapid_sm_addin_msgs'}
+[0.000779] (-) JobUnselected: {'identifier': 'abb_resources'}
+[0.001053] (-) JobUnselected: {'identifier': 'abb_robot_msgs'}
+[0.001102] (-) JobUnselected: {'identifier': 'abb_ros2'}
+[0.001119] (-) JobUnselected: {'identifier': 'abb_rws_client'}
+[0.001133] (-) JobUnselected: {'identifier': 'cr35ia_ros2_gazebo'}
+[0.001193] (-) JobUnselected: {'identifier': 'cr35ia_ros2_moveit2'}
+[0.001230] (-) JobUnselected: {'identifier': 'iiwa_ros2_gazebo'}
+[0.001265] (-) JobUnselected: {'identifier': 'iiwa_ros2_moveit2'}
+[0.001281] (-) JobUnselected: {'identifier': 'irb1200_ros2_gazebo'}
+[0.001314] (-) JobUnselected: {'identifier': 'irb1200_ros2_moveit2'}
+[0.001349] (-) JobUnselected: {'identifier': 'irb120_ros2_gazebo'}
+[0.001367] (-) JobUnselected: {'identifier': 'irb120_ros2_moveit2'}
+[0.001381] (-) JobUnselected: {'identifier': 'irb6640_ros2_gazebo'}
+[0.001414] (-) JobUnselected: {'identifier': 'irb6640_ros2_moveit2'}
+[0.001431] (-) JobUnselected: {'identifier': 'linkattacher_msgs'}
+[0.001445] (-) JobUnselected: {'identifier': 'panda_ros2_gazebo'}
+[0.001479] (-) JobUnselected: {'identifier': 'panda_ros2_moveit2'}
+[0.001496] (-) JobUnselected: {'identifier': 'ros2_actions'}
+[0.001557] (-) JobUnselected: {'identifier': 'ros2_execution'}
+[0.001596] (-) JobUnselected: {'identifier': 'ros2_grasping'}
+[0.001616] (-) JobUnselected: {'identifier': 'ros2_linkattacher'}
+[0.001652] (-) JobUnselected: {'identifier': 'ros2srrc_data'}
+[0.001689] (-) JobUnselected: {'identifier': 'ros2srrc_endeffectors'}
+[0.001706] (-) JobUnselected: {'identifier': 'ros2srrc_execution'}
+[0.001756] (-) JobUnselected: {'identifier': 'ros2srrc_iiwa_gazebo'}
+[0.001804] (-) JobUnselected: {'identifier': 'ros2srrc_iiwa_moveit2'}
+[0.001818] (-) JobUnselected: {'identifier': 'ros2srrc_irb1200_gazebo'}
+[0.001831] (-) JobUnselected: {'identifier': 'ros2srrc_irb1200_moveit2'}
+[0.001843] (-) JobUnselected: {'identifier': 'ros2srrc_irb120_gazebo'}
+[0.001858] (-) JobUnselected: {'identifier': 'ros2srrc_irb120_moveit2'}
+[0.001913] (-) JobUnselected: {'identifier': 'ros2srrc_irb6640_gazebo'}
+[0.001948] (-) JobUnselected: {'identifier': 'ros2srrc_irb6640_moveit2'}
+[0.001965] (-) JobUnselected: {'identifier': 'ros2srrc_launch'}
+[0.001981] (-) JobUnselected: {'identifier': 'ros2srrc_robots'}
+[0.001995] (-) JobUnselected: {'identifier': 'ros2srrc_ur10e_gazebo'}
+[0.002057] (-) JobUnselected: {'identifier': 'ros2srrc_ur10e_moveit2'}
+[0.002094] (-) JobUnselected: {'identifier': 'ros2srrc_ur16e_gazebo'}
+[0.002132] (-) JobUnselected: {'identifier': 'ros2srrc_ur16e_moveit2'}
+[0.002168] (-) JobUnselected: {'identifier': 'ros2srrc_ur3_gazebo'}
+[0.002205] (-) JobUnselected: {'identifier': 'ros2srrc_ur3_moveit2'}
+[0.002233] (-) JobUnselected: {'identifier': 'ros2srrc_ur5_gazebo'}
+[0.002264] (-) JobUnselected: {'identifier': 'ros2srrc_ur5_moveit2'}
+[0.002278] (-) JobUnselected: {'identifier': 'ur10_ros2_gazebo'}
+[0.002311] (-) JobUnselected: {'identifier': 'ur10_ros2_moveit2'}
+[0.002348] (-) JobUnselected: {'identifier': 'ur3_ros2_gazebo'}
+[0.002363] (-) JobUnselected: {'identifier': 'ur3_ros2_moveit2'}
+[0.002377] (-) JobUnselected: {'identifier': 'ur5_ros2_gazebo'}
+[0.002390] (-) JobUnselected: {'identifier': 'ur5_ros2_moveit2'}
+[0.002407] (ros2_data) JobQueued: {'identifier': 'ros2_data', 'dependencies': OrderedDict()}
+[0.002429] (ros2_data) JobStarted: {'identifier': 'ros2_data'}
+[0.014912] (ros2_data) JobProgress: {'identifier': 'ros2_data', 'progress': 'cmake'}
+[0.015905] (ros2_data) JobProgress: {'identifier': 'ros2_data', 'progress': 'build'}
+[0.016802] (ros2_data) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2ws/build/ros2_data', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2ws/build/ros2_data', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1246'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1227,unix/ubuntu:/tmp/.ICE-unix/1227'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75de1300_0c66_46ac_88e7_a128e2474a81'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HUSRU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.165'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2ws/build/ros2_data'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[0.089075] (ros2_data) StdoutLine: {'line': b'[  0%] Built target ros2_data__cpp\n'}
+[0.093050] (ros2_data) StdoutLine: {'line': b'[ 12%] Built target ros2_data__rosidl_generator_c\n'}
+[0.100426] (-) TimerEvent: {}
+[0.100679] (ros2_data) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_ros2_data\n'}
+[0.108269] (ros2_data) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.108481] (ros2_data) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.108761] (ros2_data) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.121278] (ros2_data) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.138277] (ros2_data) StdoutLine: {'line': b'[ 24%] Built target ros2_data__rosidl_typesupport_cpp\n'}
+[0.139546] (ros2_data) StdoutLine: {'line': b'[ 36%] Built target ros2_data__rosidl_typesupport_introspection_cpp\n'}
+[0.148579] (ros2_data) StdoutLine: {'line': b'[ 47%] Built target ros2_data__rosidl_typesupport_fastrtps_cpp\n'}
+[0.157488] (ros2_data) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.157824] (ros2_data) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_typesupport_c\x1b[0m\n'}
+[0.157919] (ros2_data) StdoutLine: {'line': b'[ 59%] Built target ros2_data__rosidl_typesupport_fastrtps_c\n'}
+[0.178533] (ros2_data) StdoutLine: {'line': b'[ 71%] Built target ros2_data__rosidl_typesupport_c\n'}
+[0.179018] (ros2_data) StdoutLine: {'line': b'[ 83%] Built target ros2_data__rosidl_typesupport_introspection_c\n'}
+[0.201027] (-) TimerEvent: {}
+[0.204520] (ros2_data) StdoutLine: {'line': b'[ 83%] Built target ros2_data\n'}
+[0.230859] (ros2_data) StdoutLine: {'line': b'[ 84%] Built target ros2_data__py\n'}
+[0.252725] (ros2_data) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_generator_py\x1b[0m\n'}
+[0.279517] (ros2_data) StdoutLine: {'line': b'[ 95%] Built target ros2_data__rosidl_generator_py\n'}
+[0.294254] (ros2_data) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.294505] (ros2_data) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.295644] (ros2_data) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_data__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.301277] (-) TimerEvent: {}
+[0.309150] (ros2_data) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_data/ros2_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[0.309782] (ros2_data) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_data/ros2_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[0.318388] (ros2_data) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_data/ros2_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[0.384299] (ros2_data) StdoutLine: {'line': b'[ 99%] Built target ros2_data__rosidl_typesupport_c__pyext\n'}
+[0.384499] (ros2_data) StdoutLine: {'line': b'[ 99%] Built target ros2_data__rosidl_typesupport_introspection_c__pyext\n'}
+[0.394965] (ros2_data) StdoutLine: {'line': b'[100%] Built target ros2_data__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.401385] (-) TimerEvent: {}
+[0.486616] (ros2_data) StdoutLine: {'line': b'running egg_info\n'}
+[0.487484] (ros2_data) StdoutLine: {'line': b'writing ros2_data.egg-info/PKG-INFO\n'}
+[0.487932] (ros2_data) StdoutLine: {'line': b'writing dependency_links to ros2_data.egg-info/dependency_links.txt\n'}
+[0.489390] (ros2_data) StdoutLine: {'line': b'writing top-level names to ros2_data.egg-info/top_level.txt\n'}
+[0.491141] (ros2_data) StdoutLine: {'line': b"reading manifest file 'ros2_data.egg-info/SOURCES.txt'\n"}
+[0.492072] (ros2_data) StdoutLine: {'line': b"writing manifest file 'ros2_data.egg-info/SOURCES.txt'\n"}
+[0.501657] (-) TimerEvent: {}
+[0.523503] (ros2_data) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_ros2_data_egg\n'}
+[0.544685] (ros2_data) CommandEnded: {'returncode': 0}
+[0.602129] (-) TimerEvent: {}
+[0.702879] (-) TimerEvent: {}
+[0.804179] (-) TimerEvent: {}
+[0.904467] (-) TimerEvent: {}
+[0.957161] (ros2_data) JobProgress: {'identifier': 'ros2_data', 'progress': 'install'}
+[0.971253] (ros2_data) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2ws/build/ros2_data'], 'cwd': '/home/ubuntu/ros2ws/build/ros2_data', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('SYSTEMD_EXEC_PID', '1246'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1227,unix/ubuntu:/tmp/.ICE-unix/1227'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/75de1300_0c66_46ac_88e7_a128e2474a81'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HUSRU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.165'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2ws/build/ros2_data'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2ws/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[0.980262] (ros2_data) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.980934] (ros2_data) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.981280] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ament_index/resource_index/rosidl_interfaces/ros2_data\n'}
+[0.992221] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__functions.h\n'}
+[1.002564] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__struct.h\n'}
+[1.004545] (-) TimerEvent: {}
+[1.012725] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__type_support.h\n'}
+[1.023065] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__functions.h\n'}
+[1.034196] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__struct.h\n'}
+[1.049149] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__type_support.h\n'}
+[1.059419] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__functions.h\n'}
+[1.069787] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__struct.h\n'}
+[1.080188] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__type_support.h\n'}
+[1.090183] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__functions.h\n'}
+[1.100403] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__struct.h\n'}
+[1.104749] (-) TimerEvent: {}
+[1.110659] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__type_support.h\n'}
+[1.120885] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__functions.h\n'}
+[1.131084] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__struct.h\n'}
+[1.142077] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__type_support.h\n'}
+[1.156718] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__functions.h\n'}
+[1.170173] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__struct.h\n'}
+[1.181924] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__type_support.h\n'}
+[1.192219] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__functions.h\n'}
+[1.202829] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__struct.h\n'}
+[1.204960] (-) TimerEvent: {}
+[1.213339] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__type_support.h\n'}
+[1.223079] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__functions.h\n'}
+[1.233263] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__struct.h\n'}
+[1.247846] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__type_support.h\n'}
+[1.258104] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__functions.h\n'}
+[1.268684] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__struct.h\n'}
+[1.279552] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__type_support.h\n'}
+[1.289331] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__functions.h\n'}
+[1.300053] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__struct.h\n'}
+[1.305113] (-) TimerEvent: {}
+[1.310850] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__type_support.h\n'}
+[1.321096] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_g.h\n'}
+[1.331997] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_j.h\n'}
+[1.342905] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_js.h\n'}
+[1.357889] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_l.h\n'}
+[1.369209] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_r.h\n'}
+[1.379197] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_rot.h\n'}
+[1.389008] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_rp.h\n'}
+[1.399415] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_xyz.h\n'}
+[1.405333] (-) TimerEvent: {}
+[1.409939] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_xyzw.h\n'}
+[1.419877] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_ypr.h\n'}
+[1.430237] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__functions.h\n'}
+[1.445195] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__struct.h\n'}
+[1.455672] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__type_support.h\n'}
+[1.465976] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__functions.h\n'}
+[1.476458] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__struct.h\n'}
+[1.486292] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__type_support.h\n'}
+[1.496711] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/joint_pose.h\n'}
+[1.505573] (-) TimerEvent: {}
+[1.508113] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/joint_pose_s.h\n'}
+[1.518424] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.528934] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/environment/library_path.sh\n'}
+[1.540207] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/environment/library_path.dsv\n'}
+[1.558624] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__rosidl_typesupport_fastrtps_c.h\n'}
+[1.570222] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__rosidl_typesupport_fastrtps_c.h\n'}
+[1.580053] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__rosidl_typesupport_fastrtps_c.h\n'}
+[1.590335] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__rosidl_typesupport_fastrtps_c.h\n'}
+[1.601075] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__rosidl_typesupport_fastrtps_c.h\n'}
+[1.605769] (-) TimerEvent: {}
+[1.611275] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__rosidl_typesupport_fastrtps_c.h\n'}
+[1.621192] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__rosidl_typesupport_fastrtps_c.h\n'}
+[1.631856] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__rosidl_typesupport_fastrtps_c.h\n'}
+[1.646377] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__rosidl_typesupport_fastrtps_c.h\n'}
+[1.656448] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__rosidl_typesupport_fastrtps_c.h\n'}
+[1.668352] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[1.679277] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__rosidl_typesupport_fastrtps_c.h\n'}
+[1.689246] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.700803] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__rosidl_typesupport_introspection_c.h\n'}
+[1.705929] (-) TimerEvent: {}
+[1.710932] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__rosidl_typesupport_introspection_c.h\n'}
+[1.721143] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__rosidl_typesupport_introspection_c.h\n'}
+[1.731528] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__rosidl_typesupport_introspection_c.h\n'}
+[1.742966] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__rosidl_typesupport_introspection_c.h\n'}
+[1.756632] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__rosidl_typesupport_introspection_c.h\n'}
+[1.772685] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__rosidl_typesupport_introspection_c.h\n'}
+[1.785358] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__rosidl_typesupport_introspection_c.h\n'}
+[1.795424] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__rosidl_typesupport_introspection_c.h\n'}
+[1.805844] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__rosidl_typesupport_introspection_c.h\n'}
+[1.806100] (-) TimerEvent: {}
+[1.816052] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__rosidl_typesupport_introspection_c.h\n'}
+[1.826136] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__rosidl_typesupport_introspection_c.h\n'}
+[1.836472] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.851414] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__builder.hpp\n'}
+[1.863263] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__struct.hpp\n'}
+[1.873201] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__traits.hpp\n'}
+[1.884141] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__builder.hpp\n'}
+[1.894833] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__struct.hpp\n'}
+[1.905180] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__traits.hpp\n'}
+[1.906291] (-) TimerEvent: {}
+[1.915413] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__builder.hpp\n'}
+[1.926277] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__struct.hpp\n'}
+[1.936202] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__traits.hpp\n'}
+[1.948131] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__builder.hpp\n'}
+[1.961464] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__struct.hpp\n'}
+[1.971429] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__traits.hpp\n'}
+[1.981984] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__builder.hpp\n'}
+[1.992228] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__struct.hpp\n'}
+[2.002804] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__traits.hpp\n'}
+[2.006480] (-) TimerEvent: {}
+[2.013179] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__builder.hpp\n'}
+[2.024458] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__struct.hpp\n'}
+[2.034831] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__traits.hpp\n'}
+[2.050302] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__builder.hpp\n'}
+[2.061293] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__struct.hpp\n'}
+[2.072121] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__traits.hpp\n'}
+[2.082575] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__builder.hpp\n'}
+[2.093331] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__struct.hpp\n'}
+[2.103334] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__traits.hpp\n'}
+[2.106685] (-) TimerEvent: {}
+[2.113272] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__builder.hpp\n'}
+[2.123770] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__struct.hpp\n'}
+[2.134011] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__traits.hpp\n'}
+[2.147496] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__builder.hpp\n'}
+[2.159114] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__struct.hpp\n'}
+[2.168632] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__traits.hpp\n'}
+[2.179402] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_g.hpp\n'}
+[2.189436] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_j.hpp\n'}
+[2.199887] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_js.hpp\n'}
+[2.206960] (-) TimerEvent: {}
+[2.210292] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_l.hpp\n'}
+[2.220497] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_r.hpp\n'}
+[2.230782] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_rot.hpp\n'}
+[2.245430] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_rp.hpp\n'}
+[2.255822] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_xyz.hpp\n'}
+[2.266164] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_xyzw.hpp\n'}
+[2.276345] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/move_ypr.hpp\n'}
+[2.286309] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__builder.hpp\n'}
+[2.299163] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__struct.hpp\n'}
+[2.307127] (-) TimerEvent: {}
+[2.308661] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__traits.hpp\n'}
+[2.319890] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__builder.hpp\n'}
+[2.333782] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__struct.hpp\n'}
+[2.346132] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__traits.hpp\n'}
+[2.359934] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/joint_pose.hpp\n'}
+[2.375801] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/joint_pose_s.hpp\n'}
+[2.388021] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.398605] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.407286] (-) TimerEvent: {}
+[2.409650] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.419997] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.431585] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.446424] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.456825] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.468405] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.478584] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.488598] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.499897] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.507609] (-) TimerEvent: {}
+[2.511434] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.521481] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.535016] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_g__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.545324] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_j__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.560197] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_js__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.571349] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_l__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.583193] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_r__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.593375] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rot__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.603278] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_rp__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.608194] (-) TimerEvent: {}
+[2.613919] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyz__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.624478] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_xyzw__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.638371] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/action/detail/move_ypr__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.653655] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.665332] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/include/ros2_data/ros2_data/msg/detail/joint_pose_s__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.675355] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/environment/pythonpath.sh\n'}
+[2.686203] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/environment/pythonpath.dsv\n'}
+[2.696141] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.706780] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.708359] (-) TimerEvent: {}
+[2.717067] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.727395] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.738857] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/__init__.py\n'}
+[2.752619] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/_ros2_data_s.ep.rosidl_typesupport_c.c\n'}
+[2.765155] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/_ros2_data_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.775235] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/_ros2_data_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.785250] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/__init__.py\n'}
+[2.795328] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_g.py\n'}
+[2.805247] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_g_s.c\n'}
+[2.808538] (-) TimerEvent: {}
+[2.815844] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_j.py\n'}
+[2.826060] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_j_s.c\n'}
+[2.836663] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_js.py\n'}
+[2.850676] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_js_s.c\n'}
+[2.862352] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_l.py\n'}
+[2.872652] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_l_s.c\n'}
+[2.882863] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_r.py\n'}
+[2.893004] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_r_s.c\n'}
+[2.903603] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_rot.py\n'}
+[2.908784] (-) TimerEvent: {}
+[2.914054] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_rot_s.c\n'}
+[2.924401] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_rp.py\n'}
+[2.934332] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_rp_s.c\n'}
+[2.945220] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_xyz.py\n'}
+[2.960272] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_xyz_s.c\n'}
+[2.974281] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_xyzw.py\n'}
+[2.984812] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_xyzw_s.c\n'}
+[2.996419] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_ypr.py\n'}
+[3.007010] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action/_move_ypr_s.c\n'}
+[3.008897] (-) TimerEvent: {}
+[3.017018] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/libros2_data__rosidl_generator_py.so\n'}
+[3.027447] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/msg/__init__.py\n'}
+[3.037072] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/msg/_joint_pose.py\n'}
+[3.052031] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/msg/_joint_pose_s.c\n'}
+[3.063848] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/msg/_joint_pose_s.py\n'}
+[3.074043] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/msg/_joint_pose_s_s.c\n'}
+[3.084352] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/ros2_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.094934] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/ros2_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.105011] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/ros2_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.109142] (-) TimerEvent: {}
+[3.115236] (ros2_data) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/ros2_data_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.115439] (ros2_data) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/ros2_data_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.116367] (ros2_data) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/ros2_data_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.116524] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/msg/JointPose.idl\n'}
+[3.126903] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/msg/JointPoseS.idl\n'}
+[3.137227] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveJ.idl\n'}
+[3.147568] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveJs.idl\n'}
+[3.163263] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveG.idl\n'}
+[3.173224] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveXYZW.idl\n'}
+[3.183786] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveL.idl\n'}
+[3.193978] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveR.idl\n'}
+[3.204108] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveXYZ.idl\n'}
+[3.209354] (-) TimerEvent: {}
+[3.214514] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveYPR.idl\n'}
+[3.225622] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveROT.idl\n'}
+[3.239278] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveRP.idl\n'}
+[3.253693] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/msg/JointPose.msg\n'}
+[3.265075] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/msg/JointPoseS.msg\n'}
+[3.275361] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveJ.action\n'}
+[3.285908] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveJs.action\n'}
+[3.296259] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveG.action\n'}
+[3.306882] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveXYZW.action\n'}
+[3.309474] (-) TimerEvent: {}
+[3.317021] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveL.action\n'}
+[3.327349] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveR.action\n'}
+[3.337754] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveXYZ.action\n'}
+[3.350898] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveYPR.action\n'}
+[3.364532] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveROT.action\n'}
+[3.375503] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/action/MoveRP.action\n'}
+[3.386125] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ament_index/resource_index/package_run_dependencies/ros2_data\n'}
+[3.396480] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ament_index/resource_index/parent_prefix_path/ros2_data\n'}
+[3.407333] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/environment/ament_prefix_path.sh\n'}
+[3.409706] (-) TimerEvent: {}
+[3.417406] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/environment/ament_prefix_path.dsv\n'}
+[3.427828] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/environment/path.sh\n'}
+[3.438084] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/environment/path.dsv\n'}
+[3.453112] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/local_setup.bash\n'}
+[3.465209] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/local_setup.sh\n'}
+[3.475406] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/local_setup.zsh\n'}
+[3.485280] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/local_setup.dsv\n'}
+[3.495965] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/package.dsv\n'}
+[3.509054] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ament_index/resource_index/packages/ros2_data\n'}
+[3.509904] (-) TimerEvent: {}
+[3.519307] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/rosidl_cmake-extras.cmake\n'}
+[3.530167] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.540390] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.554360] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.566136] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.580219] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.590851] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.601976] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_dataConfig.cmake\n'}
+[3.610112] (-) TimerEvent: {}
+[3.612380] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_dataConfig-version.cmake\n'}
+[3.623283] (ros2_data) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/package.xml\n'}
+[3.633021] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/lib/libros2_data__rosidl_generator_c.so\n'}
+[3.633211] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/lib/libros2_data__rosidl_typesupport_fastrtps_c.so\n'}
+[3.634572] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/lib/libros2_data__rosidl_typesupport_introspection_c.so\n'}
+[3.634692] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/lib/libros2_data__rosidl_typesupport_c.so\n'}
+[3.634752] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/lib/libros2_data__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.634907] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/lib/libros2_data__rosidl_typesupport_introspection_cpp.so\n'}
+[3.635813] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/lib/libros2_data__rosidl_typesupport_cpp.so\n'}
+[3.675691] (ros2_data) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data'...\n"}
+[3.675880] (ros2_data) StdoutLine: {'line': b"Compiling '/home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/__init__.py'...\n"}
+[3.676012] (ros2_data) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/action'...\n"}
+[3.676089] (ros2_data) StdoutLine: {'line': b"Listing '/home/ubuntu/ros2ws/install/ros2_data/local/lib/python3.10/dist-packages/ros2_data/msg'...\n"}
+[3.681075] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/lib/libros2_data__rosidl_generator_py.so\n'}
+[3.681242] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/export_ros2_data__rosidl_generator_cExport.cmake\n'}
+[3.681308] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/export_ros2_data__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.681466] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/export_ros2_data__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.681542] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/export_ros2_data__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.681599] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.681664] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.681717] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_cExport.cmake\n'}
+[3.681771] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.681935] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/export_ros2_data__rosidl_generator_cppExport.cmake\n'}
+[3.682015] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/export_ros2_data__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.682071] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/export_ros2_data__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.682134] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.682189] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.682271] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_cppExport.cmake\n'}
+[3.682389] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/ros2_data__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.682464] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/export_ros2_data__rosidl_generator_pyExport.cmake\n'}
+[3.682519] (ros2_data) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2_data/share/ros2_data/cmake/export_ros2_data__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.685565] (ros2_data) CommandEnded: {'returncode': 0}
+[3.710324] (-) TimerEvent: {}
+[3.810765] (-) TimerEvent: {}
+[3.911158] (-) TimerEvent: {}
+[4.011572] (-) TimerEvent: {}
+[4.112413] (-) TimerEvent: {}
+[4.118698] (ros2_data) JobEnded: {'identifier': 'ros2_data', 'rc': 0}
+[4.119710] (-) EventReactorShutdown: {}

@@ -1,0 +1,15 @@
+[0.022s] Invoking command in '/home/ubuntu/ros2ws/build/abb_egm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/abb_egm_msgs -- -j4 -l4
+[0.148s] [ 10%] Built target abb_egm_msgs__rosidl_generator_c
+[0.154s] [ 12%] Built target abb_egm_msgs__cpp
+[0.172s] failed to create symbolic link '/home/ubuntu/ros2ws/build/abb_egm_msgs/ament_cmake_python/abb_egm_msgs/abb_egm_msgs' because existing path cannot be removed: Is a directory
+[0.185s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_abb_egm_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_abb_egm_msgs] Error 1
+[0.185s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_abb_egm_msgs.dir/all] Error 2
+[0.185s] gmake[1]: *** Waiting for unfinished jobs....
+[0.187s] [35m[1mConsolidate compiler generated dependencies of target abb_egm_msgs__rosidl_typesupport_c[0m
+[0.198s] [35m[1mConsolidate compiler generated dependencies of target abb_egm_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.198s] [35m[1mConsolidate compiler generated dependencies of target abb_egm_msgs__rosidl_typesupport_introspection_c[0m
+[0.225s] [ 23%] Built target abb_egm_msgs__rosidl_typesupport_c
+[0.240s] [ 33%] Built target abb_egm_msgs__rosidl_typesupport_introspection_c
+[0.242s] [ 43%] Built target abb_egm_msgs__rosidl_typesupport_fastrtps_c
+[0.246s] gmake: *** [Makefile:146: all] Error 2
+[0.250s] Invoked command in '/home/ubuntu/ros2ws/build/abb_egm_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/abb_egm_msgs -- -j4 -l4

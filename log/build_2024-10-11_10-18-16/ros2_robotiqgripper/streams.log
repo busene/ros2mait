@@ -1,0 +1,35 @@
+[0.018s] Invoking command in '/home/ubuntu/ros2ws/build/ros2_robotiqgripper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_RobotiqGripper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2_robotiqgripper
+[0.032s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.293s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.306s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.430s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.442s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.449s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.516s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.973s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.332s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.818s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.847s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.881s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.881s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.881s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.944s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.946s] -- Added test 'lint_cmake' to check CMake code style
+[1.946s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.948s] -- Added test 'xmllint' to check XML markup files
+[1.953s] -- Configuring done
+[2.003s] -- Generating done
+[2.013s] -- Build files have been written to: /home/ubuntu/ros2ws/build/ros2_robotiqgripper
+[2.029s] Invoked command in '/home/ubuntu/ros2ws/build/ros2_robotiqgripper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_RobotiqGripper -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2_robotiqgripper
+[2.029s] Invoking command in '/home/ubuntu/ros2ws/build/ros2_robotiqgripper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2_robotiqgripper -- -j4 -l4
+[2.125s] [35m[1mConsolidate compiler generated dependencies of target ros2_robotiqgripper__rosidl_generator_c[0m
+[2.144s] [  3%] Built target ros2_robotiqgripper__cpp
+[2.144s] failed to create symbolic link '/home/ubuntu/ros2ws/build/ros2_robotiqgripper/ament_cmake_python/ros2_robotiqgripper/ros2_robotiqgripper' because existing path cannot be removed: Is a directory
+[2.144s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_ros2_robotiqgripper.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_ros2_robotiqgripper] Error 1
+[2.144s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_ros2_robotiqgripper.dir/all] Error 2
+[2.145s] gmake[1]: *** Waiting for unfinished jobs....
+[2.157s] [ 12%] Built target ros2_robotiqgripper__rosidl_generator_c
+[2.168s] [35m[1mConsolidate compiler generated dependencies of target ros2_robotiqgripper__rosidl_typesupport_cpp[0m
+[2.189s] [ 22%] Built target ros2_robotiqgripper__rosidl_typesupport_cpp
+[2.192s] gmake: *** [Makefile:146: all] Error 2
+[2.202s] Invoked command in '/home/ubuntu/ros2ws/build/ros2_robotiqgripper' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2_robotiqgripper -- -j4 -l4

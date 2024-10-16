@@ -1,0 +1,16 @@
+#-------------------------------------------------------------------------------
+# Description:
+#   The purpose of this service definition, is to define a way to set the value
+#   of a RAPID 'num' symbol (e.g. a variable) defined in an ABB robot controller
+#   system.
+#-------------------------------------------------------------------------------
+
+#-------------------------------------------------------------------------------
+# Service request fields
+#-------------------------------------------------------------------------------
+# Path to the targeted RAPID symbol.
+abb_robot_msgs/RAPIDSymbolPath path
+
+# New value of the RAPID symbol.
+float32 value
+

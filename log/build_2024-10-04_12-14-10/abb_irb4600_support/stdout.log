@@ -1,0 +1,92 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/ros2ws/build/abb_irb4600_support
+-- Install configuration: ""
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/ament_index/resource_index/package_run_dependencies/abb_irb4600_support
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/ament_index/resource_index/parent_prefix_path/abb_irb4600_support
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/environment/path.sh
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/environment/path.dsv
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/local_setup.bash
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/local_setup.sh
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/local_setup.zsh
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/local_setup.dsv
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/package.dsv
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/ament_index/resource_index/packages/abb_irb4600_support
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/cmake/abb_irb4600_supportConfig.cmake
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/cmake/abb_irb4600_supportConfig-version.cmake
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/package.xml
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/launch
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/launch/view_robot.launch.py
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/collision
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/collision/link_4.stl
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/collision/link_2.stl
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/collision/link_3.stl
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/collision/link_5.stl
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/collision/link_6.stl
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/visual
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/visual/link_5.dae
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/visual/link_4.dae
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/visual/link_2.dae
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/visual/link_3.dae
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_20_250/visual/link_6.dae
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/collision
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/collision/link_4.stl
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/collision/link_2.stl
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/collision/link_3.stl
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/collision/link_5.stl
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/collision/link_6.stl
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/visual
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/visual/link_5.dae
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/visual/link_4.dae
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/visual/link_2.dae
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/visual/link_3.dae
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_40_255/visual/link_6.dae
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600/collision
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600/collision/base_link.stl
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600/collision/link_1.stl
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600/visual
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600/visual/link_1.dae
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600/visual/base_link.dae
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/collision
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/collision/link_4.stl
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/collision/link_2.stl
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/collision/link_3.stl
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/collision/link_5.stl
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/collision/link_6.stl
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/visual
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/visual/link_5.dae
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/visual/link_4.dae
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/visual/link_2.dae
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/visual/link_3.dae
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/meshes/irb4600_60_205/visual/link_6.dae
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/rviz
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/rviz/urdf_description.rviz
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/urdf
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/urdf/irb4600_60_205_macro.xacro
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/urdf/irb4600.ros2_control.xacro
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/urdf/irb4600_20_250_macro.xacro
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/urdf/irb4600_40_255_macro.xacro
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/urdf/irb4600_20_250.xacro
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/urdf/irb4600_40_255.xacro
+-- Installing: /home/ubuntu/ros2ws/install/abb_irb4600_support/share/abb_irb4600_support/urdf/irb4600_60_205.xacro

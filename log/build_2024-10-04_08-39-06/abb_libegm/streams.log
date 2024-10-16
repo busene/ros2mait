@@ -1,0 +1,30 @@
+[0.106s] Invoking command in '/home/ubuntu/ros2ws/build/abb_libegm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/abb_libegm -- -j4 -l4
+[0.652s] [35m[1mConsolidate compiler generated dependencies of target abb_libegm[0m
+[1.745s] [100%] Built target abb_libegm
+[1.845s] Invoked command in '/home/ubuntu/ros2ws/build/abb_libegm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/abb_libegm -- -j4 -l4
+[2.325s] Invoking command in '/home/ubuntu/ros2ws/build/abb_libegm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/abb_libegm
+[2.342s] -- Install configuration: ""
+[2.342s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/include
+[2.342s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/include/abb_libegm
+[2.342s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/include/abb_libegm/egm_logger.h
+[2.342s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/include/abb_libegm/egm_trajectory_interface.h
+[2.343s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/include/abb_libegm/egm_common_auxiliary.h
+[2.343s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/include/abb_libegm/egm_base_interface.h
+[2.343s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/include/abb_libegm/egm_common.h
+[2.343s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/include/abb_libegm/egm_interpolator.h
+[2.351s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/include/abb_libegm/egm_controller_interface.h
+[2.351s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/include/abb_libegm/egm_udp_server.h
+[2.351s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/include/abb_libegm/egm.proto
+[2.352s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/include/abb_libegm/egm_wrapper.proto
+[2.352s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/include/abb_libegm/egm_wrapper_trajectory.proto
+[2.352s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/include/abb_libegm/egm.pb.h
+[2.352s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/include/abb_libegm/egm_wrapper.pb.h
+[2.352s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/include/abb_libegm/egm_wrapper_trajectory.pb.h
+[2.352s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/include/abb_libegm/abb_libegm_export.h
+[2.352s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/lib/libabb_libegm.so
+[2.352s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/share/abb_libegm/abb_libegmConfig.cmake
+[2.353s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/share/abb_libegm/abb_libegmConfigVersion.cmake
+[2.353s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/share/abb_libegm/package.xml
+[2.353s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/share/abb_libegm/abb_libegmTargets.cmake
+[2.353s] -- Up-to-date: /home/ubuntu/ros2ws/install/abb_libegm/share/abb_libegm/abb_libegmTargets-noconfig.cmake
+[2.364s] Invoked command in '/home/ubuntu/ros2ws/build/abb_libegm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/abb_libegm

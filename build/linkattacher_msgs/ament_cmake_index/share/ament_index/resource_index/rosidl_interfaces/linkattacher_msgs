@@ -1,0 +1,8 @@
+srv/AttachLink.idl
+srv/AttachLink.srv
+srv/AttachLink_Request.msg
+srv/AttachLink_Response.msg
+srv/DetachLink.idl
+srv/DetachLink.srv
+srv/DetachLink_Request.msg
+srv/DetachLink_Response.msg

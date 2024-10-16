@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from abb_robot_msgs/msg/RAPIDSymbolPath.msg
+// generated code does not contain a copyright notice
+
+
+module abb_robot_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "-------------------------------------------------------------------------------" "\n"
+      " Description:" "\n"
+      "   The purpose of this message definition, is to represent the path to a RAPID" "\n"
+      "   symbol (e.g. a variable) defined in an ABB robot controller system." "\n"
+      "-------------------------------------------------------------------------------")
+    struct RAPIDSymbolPath {
+      @verbatim (language="comment", text=
+        "-------------------------------------------------------------------------------" "\n"
+        " Message fields" "\n"
+        "-------------------------------------------------------------------------------" "\n"
+        " Name of the RAPID task, where the symbol exists (i.e. the symbol's context).")
+      string task;
+
+      @verbatim (language="comment", text=
+        "Name of the RAPID module, where the symbol has been defined.")
+      string module;
+
+      @verbatim (language="comment", text=
+        "Name of the RAPID symbol in question.")
+      string symbol;
+    };
+  };
+};
