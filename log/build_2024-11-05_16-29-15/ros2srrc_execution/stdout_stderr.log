@@ -1,0 +1,297 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found ros2srrc_data: 0.0.0 (/home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake)
+-- Found abb_robot_msgs: 1.0.0 (/home/ubuntu/ros2ws/install/abb_robot_msgs/share/abb_robot_msgs/cmake)
+-- Found ros2_robotiqgripper: 1.0.0 (/home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake)
+-- Found linkattacher_msgs: 0.0.0 (/home/ubuntu/ros2ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/ros2ws/build/ros2srrc_execution
+[ 14%] [32mBuilding CXX object CMakeFiles/move.dir/src/moveg.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/robmove.dir/src/robmove.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/robpose.dir/src/robpose.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o[0m
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:[m[K In function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan plan_ROB()[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:74:108:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   74 |     bool success = (move_group_interface_ROB.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                            [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:41[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2srrc_data::action::Robmove_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:115:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  115 |     rclcpp_action::GoalResponse handle_goal([01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K, std::shared_ptr<const Robmove::Goal> goal)
+      |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2srrc_data::action::Robmove> >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:178:17:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+  178 |         if ([01;35m[KRES == "PLANNING: OK"[m[K){
+      |             [01;35m[K~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:180:122:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 |             bool ExecSUCCESS = (move_group_interface_ROB.execute(MyPlan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                                          [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:41[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:34[m[K:
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:246:25:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  246 |     RCLCPP_INFO(logger, [01;35m[K"MoveGroupInterface object created for ROBOT: %s"[m[K, ROBname);
+      |                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:246:72:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  246 |     RCLCPP_INFO(logger, "MoveGroupInterface object created for ROBOT: [01;36m[K%s[m[K", ROBname);
+      |                                                                       [01;36m[K~^[m[K
+      |                                                                        [01;36m[K|[m[K
+      |                                                                        [01;36m[Kchar*[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/moveg.cpp:[m[K In function ‘[01m[KMoveGSTRUCT MoveGAction(double, std::vector<double, std::allocator<double> >, ros2srrc_data::msg::Specs)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/moveg.cpp:75:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   75 |     for (int i=0; [01;35m[Ki<JP.size()[m[K; i++){
+      |                   [01;35m[K~^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:[m[K In function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan plan_ROB()[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:196:108:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  196 |     bool success = (move_group_interface_ROB.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                            [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43[m[K,
+                 from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:47[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:[m[K In function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan plan_EE()[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:215:107:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  215 |     bool success = (move_group_interface_EE.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                           [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43[m[K,
+                 from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:47[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2srrc_data::action::Move_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:265:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kspeed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  265 |         double [01;35m[Kspeed[m[K = goal->speed;
+      |                [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:259:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  259 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2srrc_data::action::Move> >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:443:122:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  443 |             bool ExecSUCCESS = (move_group_interface_ROB.execute(MyPlan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                                          [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43[m[K,
+                 from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:47[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[ 35%] [32mBuilding CXX object CMakeFiles/move.dir/src/moverp.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable robmove[0m
+[ 42%] Built target robmove
+[ 50%] [32mBuilding CXX object CMakeFiles/move.dir/src/moverot.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable robpose[0m
+[ 57%] Built target robpose
+[ 64%] [32mBuilding CXX object CMakeFiles/move.dir/src/mover.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable letter_writer_node[0m
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: warning: relocation against `_ZTVN4YAML13BadConversionE' in read-only section `.text._ZN4YAML13BadConversionC2ERKNS_4MarkE[_ZN4YAML13BadConversionC5ERKNS_4MarkE]'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `main':
+letter_writer_node.cpp:(.text+0x545): undefined reference to `YAML::LoadFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: letter_writer_node.cpp:(.text+0x7ce): undefined reference to `YAML::LoadFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::Exception::Exception(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+letter_writer_node.cpp:(.text._ZN4YAML9ExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML9ExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x61): undefined reference to `vtable for YAML::Exception'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::RepresentationException::RepresentationException(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+letter_writer_node.cpp:(.text._ZN4YAML23RepresentationExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML23RepresentationExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x32): undefined reference to `vtable for YAML::RepresentationException'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::InvalidNode::InvalidNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+letter_writer_node.cpp:(.text._ZN4YAML11InvalidNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML11InvalidNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x71): undefined reference to `vtable for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::BadConversion::BadConversion(YAML::Mark const&)':
+letter_writer_node.cpp:(.text._ZN4YAML13BadConversionC2ERKNS_4MarkE[_ZN4YAML13BadConversionC5ERKNS_4MarkE]+0x7c): undefined reference to `vtable for YAML::BadConversion'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::detail::memory_holder::create_node()':
+letter_writer_node.cpp:(.text._ZN4YAML6detail13memory_holder11create_nodeEv[_ZN4YAML6detail13memory_holder11create_nodeEv]+0x20): undefined reference to `YAML::detail::memory::create_node()'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::detail::node_ref::mark_defined()':
+letter_writer_node.cpp:(.text._ZN4YAML6detail8node_ref12mark_definedEv[_ZN4YAML6detail8node_ref12mark_definedEv]+0x20): undefined reference to `YAML::detail::node_data::mark_defined()'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::detail::node_ref::set_null()':
+letter_writer_node.cpp:(.text._ZN4YAML6detail8node_ref8set_nullEv[_ZN4YAML6detail8node_ref8set_nullEv]+0x20): undefined reference to `YAML::detail::node_data::set_null()'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::detail::node_ref::set_scalar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':
+letter_writer_node.cpp:(.text._ZN4YAML6detail8node_ref10set_scalarERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML6detail8node_ref10set_scalarERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x2e): undefined reference to `YAML::detail::node_data::set_scalar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::detail::node_ref::begin()':
+letter_writer_node.cpp:(.text._ZN4YAML6detail8node_ref5beginEv[_ZN4YAML6detail8node_ref5beginEv]+0x3d): undefined reference to `YAML::detail::node_data::begin()'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::detail::node_ref::end()':
+letter_writer_node.cpp:(.text._ZN4YAML6detail8node_ref3endEv[_ZN4YAML6detail8node_ref3endEv]+0x3d): undefined reference to `YAML::detail::node_data::end()'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::Node::EnsureNodeExists() const':
+letter_writer_node.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::Node::Mark() const':
+letter_writer_node.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::Node::Type() const':
+letter_writer_node.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::Node::Scalar[abi:cxx11]() const':
+letter_writer_node.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x7d): undefined reference to `YAML::detail::node_data::empty_scalar[abi:cxx11]()'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2srrc_data::action::Move> >)':
+letter_writer_node.cpp:(.text._ZN12ActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN13ros2srrc_data6action4MoveEEEE[_ZN12ActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN13ros2srrc_data6action4MoveEEEE]+0x1c1): undefined reference to `MoveJAction(ros2srrc_data::msg::Joints_<std::allocator<void> >, std::vector<double, std::allocator<double> >, ros2srrc_data::msg::Specs_<std::allocator<void> >)'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZN12ActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN13ros2srrc_data6action4MoveEEEE[_ZN12ActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN13ros2srrc_data6action4MoveEEEE]+0x459): undefined reference to `MoveLAction(ros2srrc_data::msg::Xyz_<std::allocator<void> >, geometry_msgs::msg::PoseStamped_<std::allocator<void> >)'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZN12ActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN13ros2srrc_data6action4MoveEEEE[_ZN12ActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN13ros2srrc_data6action4MoveEEEE]+0x6d9): undefined reference to `MoveRAction(ros2srrc_data::msg::Joint_<std::allocator<void> >, std::vector<double, std::allocator<double> >, ros2srrc_data::msg::Specs_<std::allocator<void> >)'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZN12ActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN13ros2srrc_data6action4MoveEEEE[_ZN12ActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN13ros2srrc_data6action4MoveEEEE]+0x97c): undefined reference to `MoveROTAction(ros2srrc_data::msg::Ypr_<std::allocator<void> >, geometry_msgs::msg::PoseStamped_<std::allocator<void> >)'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZN12ActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN13ros2srrc_data6action4MoveEEEE[_ZN12ActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN13ros2srrc_data6action4MoveEEEE]+0xbf4): undefined reference to `MoveRPAction(ros2srrc_data::msg::Xyzypr_<std::allocator<void> >, geometry_msgs::msg::PoseStamped_<std::allocator<void> >)'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZN12ActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN13ros2srrc_data6action4MoveEEEE[_ZN12ActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN13ros2srrc_data6action4MoveEEEE]+0xe63): undefined reference to `MoveGAction(double, std::vector<double, std::allocator<double> >, ros2srrc_data::msg::Specs_<std::allocator<void> >)'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `std::vector<double, std::allocator<double> > YAML::Node::as<std::vector<double, std::allocator<double> > >() const':
+letter_writer_node.cpp:(.text._ZNK4YAML4Node2asISt6vectorIdSaIdEEEET_v[_ZNK4YAML4Node2asISt6vectorIdSaIdEEEET_v]+0x57): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZNK4YAML4Node2asISt6vectorIdSaIdEEEET_v[_ZNK4YAML4Node2asISt6vectorIdSaIdEEEET_v]+0x61): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `double YAML::Node::as<double>() const':
+letter_writer_node.cpp:(.text._ZNK4YAML4Node2asIdEET_v[_ZNK4YAML4Node2asIdEET_v]+0x53): undefined reference to `YAML::InvalidNode::~InvalidNode()'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZNK4YAML4Node2asIdEET_v[_ZNK4YAML4Node2asIdEET_v]+0x5d): undefined reference to `typeinfo for YAML::InvalidNode'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::TypedBadConversion<std::vector<double, std::allocator<double> > >::~TypedBadConversion()':
+letter_writer_node.cpp:(.text._ZN4YAML18TypedBadConversionISt6vectorIdSaIdEEED2Ev[_ZN4YAML18TypedBadConversionISt6vectorIdSaIdEEED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::TypedBadConversion<double>::~TypedBadConversion()':
+letter_writer_node.cpp:(.text._ZN4YAML18TypedBadConversionIdED2Ev[_ZN4YAML18TypedBadConversionIdED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::get<char [7]>(char const (&) [7], std::shared_ptr<YAML::detail::memory_holder>)':
+letter_writer_node.cpp:(.text._ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x103): undefined reference to `YAML::BadSubscript::~BadSubscript()'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10d): undefined reference to `typeinfo for YAML::BadSubscript'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x1fb): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::get<char [4]>(char const (&) [4], std::shared_ptr<YAML::detail::memory_holder>)':
+letter_writer_node.cpp:(.text._ZN4YAML6detail9node_data3getIA4_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA4_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZN4YAML6detail9node_data3getIA4_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA4_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x103): undefined reference to `YAML::BadSubscript::~BadSubscript()'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZN4YAML6detail9node_data3getIA4_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA4_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10d): undefined reference to `typeinfo for YAML::BadSubscript'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZN4YAML6detail9node_data3getIA4_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA4_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x1fb): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::get<char [13]>(char const (&) [13], std::shared_ptr<YAML::detail::memory_holder>)':
+letter_writer_node.cpp:(.text._ZN4YAML6detail9node_data3getIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZN4YAML6detail9node_data3getIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x103): undefined reference to `YAML::BadSubscript::~BadSubscript()'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZN4YAML6detail9node_data3getIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10d): undefined reference to `typeinfo for YAML::BadSubscript'
+/usr/bin/ld: letter_writer_node.cpp:(.text._ZN4YAML6detail9node_data3getIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x1fb): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [7]>(YAML::Mark const&, char const (&) [7])':
+letter_writer_node.cpp:(.text._ZN4YAML12BadSubscriptC2IA7_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA7_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::convert_to_node<char [7]>(char const (&) [7], std::shared_ptr<YAML::detail::memory_holder>)':
+letter_writer_node.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIA7_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [4]>(YAML::Mark const&, char const (&) [4])':
+letter_writer_node.cpp:(.text._ZN4YAML12BadSubscriptC2IA4_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA4_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::convert_to_node<char [4]>(char const (&) [4], std::shared_ptr<YAML::detail::memory_holder>)':
+letter_writer_node.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIA4_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIA4_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [13]>(YAML::Mark const&, char const (&) [13])':
+letter_writer_node.cpp:(.text._ZN4YAML12BadSubscriptC2IA13_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA13_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::convert_to_node<char [13]>(char const (&) [13], std::shared_ptr<YAML::detail::memory_holder>)':
+letter_writer_node.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIA13_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionIdEE[_ZTIN4YAML18TypedBadConversionIdEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'
+/usr/bin/ld: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionISt6vectorIdSaIdEEEE[_ZTIN4YAML18TypedBadConversionISt6vectorIdSaIdEEEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/letter_writer_node.dir/build.make:363: letter_writer_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/letter_writer_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 78%] [32mBuilding CXX object CMakeFiles/move.dir/src/movel.cpp.o[0m
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/mover.cpp:[m[K In function ‘[01m[KMoveRSTRUCT MoveRAction(ros2srrc_data::msg::Joint, std::vector<double, std::allocator<double> >, ros2srrc_data::msg::Specs)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/mover.cpp:67:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   67 |     for (int i=0; [01;35m[Ki<JP.size()[m[K; i++){
+      |                   [01;35m[K~^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/mover.cpp:105:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  105 |         for (int i=0; [01;35m[Ki<JP.size()[m[K; i++){
+      |                       [01;35m[K~^~~~~~~~~~[m[K
+[ 85%] [32mBuilding CXX object CMakeFiles/move.dir/src/movej.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/move.dir/src/move.cpp.o[0m
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/movej.cpp:[m[K In function ‘[01m[KMoveJSTRUCT MoveJAction(ros2srrc_data::msg::Joints, std::vector<double, std::allocator<double> >, ros2srrc_data::msg::Specs)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/movej.cpp:81:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   81 |     for (int i=0; [01;35m[Ki<JP.size()[m[K; i++){
+      |                   [01;35m[K~^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/movej.cpp:95:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   95 |         for (int i=0; [01;35m[Ki<JP.size()[m[K; i++){
+      |                       [01;35m[K~^~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/movej.cpp:105:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  105 |         for (int k=0; [01;35m[Kk<jointLIST.size()[m[K; k++){
+      |                       [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:[m[K In function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan plan_ROB()[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:124:108:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  124 |     bool success = (move_group_interface_ROB.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                            [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43[m[K,
+                 from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:[m[K In function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan plan_EE()[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:143:107:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  143 |     bool success = (move_group_interface_EE.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                           [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43[m[K,
+                 from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2srrc_data::action::Move_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:193:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kspeed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  193 |         double [01;35m[Kspeed[m[K = goal->speed;
+      |                [01;35m[K^~~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:187:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  187 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2srrc_data::action::Move> >)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:371:122:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  371 |             bool ExecSUCCESS = (move_group_interface_ROB.execute(MyPlan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+      |                                                                                                                          [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43[m[K,
+                 from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:42[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable move[0m
+[100%] Built target move
+gmake: *** [Makefile:146: all] Error 2

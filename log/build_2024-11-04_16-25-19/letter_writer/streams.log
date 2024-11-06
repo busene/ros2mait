@@ -1,0 +1,53 @@
+[0.023s] Invoking command in '/home/ubuntu/ros2ws/build/letter_writer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/letter_writer -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/letter_writer
+[0.046s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.230s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.601s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.630s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.670s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.716s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.779s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.034s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.064s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.318s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.511s] -- Looking for pthread.h
+[1.829s] -- Looking for pthread.h - found
+[1.829s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.938s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.940s] -- Found Threads: TRUE  
+[2.185s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.406s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.407s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/ros2ws/src/letter_writer/include>
+[2.407s] -- Configured cppcheck exclude dirs and/or files: 
+[2.410s] -- Added test 'lint_cmake' to check CMake code style
+[2.414s] -- Added test 'uncrustify' to check C / C++ code style
+[2.414s] -- Configured uncrustify additional arguments: 
+[2.416s] -- Added test 'xmllint' to check XML markup files
+[2.422s] -- Configuring done
+[2.433s] -- Generating done
+[2.435s] -- Build files have been written to: /home/ubuntu/ros2ws/build/letter_writer
+[2.442s] Invoked command in '/home/ubuntu/ros2ws/build/letter_writer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/letter_writer -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/letter_writer
+[2.445s] Invoking command in '/home/ubuntu/ros2ws/build/letter_writer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/letter_writer -- -j4 -l4
+[2.519s] [ 50%] [32mBuilding CXX object CMakeFiles/letter_input_node.dir/src/letter_input_node.cpp.o[0m
+[9.829s] [100%] [32m[1mLinking CXX executable letter_input_node[0m
+[10.321s] [100%] Built target letter_input_node
+[10.337s] Invoked command in '/home/ubuntu/ros2ws/build/letter_writer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/letter_writer -- -j4 -l4
+[10.401s] Invoking command in '/home/ubuntu/ros2ws/build/letter_writer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/letter_writer
+[10.412s] -- Install configuration: ""
+[10.412s] -- Installing: /home/ubuntu/ros2ws/install/letter_writer/lib/letter_writer/letter_input_node
+[10.413s] -- Set runtime path of "/home/ubuntu/ros2ws/install/letter_writer/lib/letter_writer/letter_input_node" to ""
+[10.414s] -- Installing: /home/ubuntu/ros2ws/install/letter_writer/share/ament_index/resource_index/package_run_dependencies/letter_writer
+[10.414s] -- Installing: /home/ubuntu/ros2ws/install/letter_writer/share/ament_index/resource_index/parent_prefix_path/letter_writer
+[10.415s] -- Installing: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/ament_prefix_path.sh
+[10.415s] -- Installing: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/ament_prefix_path.dsv
+[10.415s] -- Installing: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/path.sh
+[10.415s] -- Installing: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/path.dsv
+[10.415s] -- Installing: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.bash
+[10.416s] -- Installing: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.sh
+[10.416s] -- Installing: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.zsh
+[10.416s] -- Installing: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.dsv
+[10.417s] -- Installing: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/package.dsv
+[10.417s] -- Installing: /home/ubuntu/ros2ws/install/letter_writer/share/ament_index/resource_index/packages/letter_writer
+[10.418s] -- Installing: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/cmake/letter_writerConfig.cmake
+[10.418s] -- Installing: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/cmake/letter_writerConfig-version.cmake
+[10.418s] -- Installing: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/package.xml
+[10.421s] Invoked command in '/home/ubuntu/ros2ws/build/letter_writer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/letter_writer

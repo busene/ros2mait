@@ -1,0 +1,257 @@
+[0.037s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_execution': CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/ros2srrc_data:/home/ubuntu/ros2ws/install/ros2_robotiqgripper:/home/ubuntu/ros2ws/install/linkattacher_msgs:/home/ubuntu/ros2ws/install/abb_robot_msgs:/home/ubuntu/ros2ws2/install/ur5_ros2_moveit2:/home/ubuntu/ros2ws2/install/ur5_ros2_gazebo:/home/ubuntu/ros2ws2/install/ur3_ros2_moveit2:/home/ubuntu/ros2ws2/install/ur3_ros2_gazebo:/home/ubuntu/ros2ws2/install/ur10_ros2_moveit2:/home/ubuntu/ros2ws2/install/ur10_ros2_gazebo:/home/ubuntu/ros2ws2/install/ros2_grasping:/home/ubuntu/ros2ws2/install/ros2_execution:/home/ubuntu/ros2ws2/install/ros2_actions:/home/ubuntu/ros2ws2/install/panda_ros2_moveit2:/home/ubuntu/ros2ws2/install/irb6640_ros2_moveit2:/home/ubuntu/ros2ws2/install/irb120_ros2_moveit2:/home/ubuntu/ros2ws2/install/irb1200_ros2_moveit2:/home/ubuntu/ros2ws2/install/iiwa_ros2_moveit2:/home/ubuntu/ros2ws2/install/cr35ia_ros2_moveit2:/home/ubuntu/ros2ws2/install/ros2_data:/home/ubuntu/ros2ws2/install/panda_ros2_gazebo:/home/ubuntu/ros2ws2/install/irb6640_ros2_gazebo:/home/ubuntu/ros2ws2/install/irb120_ros2_gazebo:/home/ubuntu/ros2ws2/install/irb1200_ros2_gazebo:/home/ubuntu/ros2ws2/install/iiwa_ros2_gazebo:/home/ubuntu/ros2ws2/install/gazebo_ros2_control_demos:/home/ubuntu/ros2ws2/install/gazebo_ros2_control:/home/ubuntu/ros2ws2/install/cr35ia_ros2_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur5_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur3_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur3_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_robots:/home/ubuntu/ros2ws/install/ros2srrc_launch:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb120_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_execution:/home/ubuntu/ros2ws/install/ros2srrc_endeffectors:/home/ubuntu/ros2ws/install/ros2_objectpose:/home/ubuntu/ros2ws/install/ros2_linkpose:/home/ubuntu/ros2ws/install/ros2_linkattacher:/home/ubuntu/ros2ws/install/objectpose_msgs:/home/ubuntu/ros2ws/install/objectpose_gazebo:/home/ubuntu/ros2ws/install/linkpose_msgs:/home/ubuntu/ros2ws/install/linkpose_gazebo:/home/ubuntu/ros2ws/install/letter_writer:/home/ubuntu/ros2ws/install/gazebo_ros2_control_demos:/home/ubuntu/ros2ws/install/gazebo_ros2_control:/home/ubuntu/ros2ws/install/abb_rws_client:/home/ubuntu/ros2ws/install/abb_ros2:/home/ubuntu/ros2ws/install/abb_resources:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs:/home/ubuntu/ros2ws/install/abb_rapid_msgs:/home/ubuntu/ros2ws/install/abb_hardware_interface:/home/ubuntu/ros2ws/install/abb_egm_rws_managers:/home/ubuntu/ros2ws/install/abb_librws:/home/ubuntu/ros2ws/install/abb_libegm:/home/ubuntu/ros2ws/install/abb_irb4600_support:/home/ubuntu/ros2ws/install/abb_irb1200_5_90_moveit_config:/home/ubuntu/ros2ws/install/abb_irb1200_support:/home/ubuntu/ros2ws/install/abb_egm_msgs:/home/ubuntu/ros2ws/install/abb_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/ros2srrc_data/lib:/home/ubuntu/ros2ws/install/ros2_robotiqgripper/lib:/home/ubuntu/ros2ws/install/linkattacher_msgs/lib:/home/ubuntu/ros2ws/install/abb_robot_msgs/lib:/home/ubuntu/ros2ws2/install/ros2_grasping/lib:/home/ubuntu/ros2ws2/install/ros2_data/lib:/home/ubuntu/ros2ws2/install/gazebo_ros2_control/lib:/home/ubuntu/ros2ws/install/ros2_objectpose/lib:/home/ubuntu/ros2ws/install/ros2_linkpose/lib:/home/ubuntu/ros2ws/install/ros2_linkattacher/lib:/home/ubuntu/ros2ws/install/objectpose_msgs/lib:/home/ubuntu/ros2ws/install/linkpose_msgs/lib:/home/ubuntu/ros2ws/install/gazebo_ros2_control/lib:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs/lib:/home/ubuntu/ros2ws/install/abb_rapid_msgs/lib:/home/ubuntu/ros2ws/install/abb_hardware_interface/lib:/home/ubuntu/ros2ws/install/abb_egm_rws_managers/lib:/home/ubuntu/ros2ws/install/abb_librws/lib:/home/ubuntu/ros2ws/install/abb_libegm/lib:/home/ubuntu/ros2ws/install/abb_egm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_execution -- -j4 -l4
+[0.074s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.222s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.257s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.259s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.266s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.279s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.295s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.332s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.336s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.360s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.411s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.444s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.455s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.608s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.617s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.624s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.649s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.700s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.728s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.855s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[0.888s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[0.921s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[0.950s] -- Found ros2srrc_data: 0.0.0 (/home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake)
+[0.965s] -- Found abb_robot_msgs: 1.0.0 (/home/ubuntu/ros2ws/install/abb_robot_msgs/share/abb_robot_msgs/cmake)
+[0.979s] -- Found ros2_robotiqgripper: 1.0.0 (/home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake)
+[0.989s] -- Found linkattacher_msgs: 0.0.0 (/home/ubuntu/ros2ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake)
+[0.999s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.131s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.132s] -- Configured cppcheck include dirs: /home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include
+[1.132s] -- Configured cppcheck exclude dirs and/or files: 
+[1.132s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.133s] -- Added test 'lint_cmake' to check CMake code style
+[1.134s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.137s] -- Added test 'uncrustify' to check C / C++ code style
+[1.137s] -- Configured uncrustify additional arguments: 
+[1.138s] -- Added test 'xmllint' to check XML markup files
+[1.139s] -- Configuring done
+[1.228s] -- Generating done
+[1.232s] -- Build files have been written to: /home/ubuntu/ros2ws/build/ros2srrc_execution
+[1.286s] [35m[1mConsolidate compiler generated dependencies of target robpose[0m
+[1.286s] [35m[1mConsolidate compiler generated dependencies of target letter_writer_node[0m
+[1.290s] [35m[1mConsolidate compiler generated dependencies of target robmove[0m
+[1.293s] [35m[1mConsolidate compiler generated dependencies of target move[0m
+[1.317s] [  7%] [32mBuilding CXX object CMakeFiles/robpose.dir/src/robpose.cpp.o[0m
+[1.328s] [ 14%] [32mBuilding CXX object CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o[0m
+[1.335s] [ 21%] [32mBuilding CXX object CMakeFiles/robmove.dir/src/robmove.cpp.o[0m
+[1.350s] [ 28%] [32mBuilding CXX object CMakeFiles/move.dir/src/moveg.cpp.o[0m
+[8.315s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:[m[K In function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan plan_ROB()[m[K’:
+[8.315s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:74:108:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[8.315s]    74 |     bool success = (move_group_interface_ROB.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[8.315s]       |                                                                                                            [01;35m[K^~~~~~~[m[K
+[8.315s] In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:41[m[K:
+[8.315s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.315s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[8.315s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[8.374s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2srrc_data::action::Robmove_Goal_<std::allocator<void> > >)[m[K’:
+[8.375s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:115:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.375s]   115 |     rclcpp_action::GoalResponse handle_goal([01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K, std::shared_ptr<const Robmove::Goal> goal)
+[8.375s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[8.391s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2srrc_data::action::Robmove> >)[m[K’:
+[8.391s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:178:17:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[8.391s]   178 |         if ([01;35m[KRES == "PLANNING: OK"[m[K){
+[8.391s]       |             [01;35m[K~~~~^~~~~~~~~~~~~~~~~[m[K
+[8.391s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:180:122:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[8.391s]   180 |             bool ExecSUCCESS = (move_group_interface_ROB.execute(MyPlan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[8.391s]       |                                                                                                                          [01;35m[K^~~~~~~[m[K
+[8.391s] In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:41[m[K:
+[8.391s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[8.391s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[8.391s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[8.403s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.403s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.403s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.403s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.403s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.403s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.403s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.403s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.403s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.403s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.404s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.404s]                  from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:34[m[K:
+[8.404s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.404s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:246:25:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[8.404s]   246 |     RCLCPP_INFO(logger, [01;35m[K"MoveGroupInterface object created for ROBOT: %s"[m[K, ROBname);
+[8.404s]       |                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.404s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:246:72:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[8.404s]   246 |     RCLCPP_INFO(logger, "MoveGroupInterface object created for ROBOT: [01;36m[K%s[m[K", ROBname);
+[8.404s]       |                                                                       [01;36m[K~^[m[K
+[8.404s]       |                                                                        [01;36m[K|[m[K
+[8.404s]       |                                                                        [01;36m[Kchar*[m[K
+[8.588s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/moveg.cpp:[m[K In function ‘[01m[KMoveGSTRUCT MoveGAction(double, std::vector<double, std::allocator<double> >, ros2srrc_data::msg::Specs)[m[K’:
+[8.588s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/moveg.cpp:75:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[8.588s]    75 |     for (int i=0; [01;35m[Ki<JP.size()[m[K; i++){
+[8.588s]       |                   [01;35m[K~^~~~~~~~~~[m[K
+[8.831s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:46:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const char [8])[m[K’
+[8.831s]    46 | moveit::planning_interface::MoveGroupInterface move_group_interface_ROB("ur5_arm"[01;31m[K)[m[K;
+[8.831s]       |                                                                                  [01;31m[K^[m[K
+[8.834s] In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43[m[K,
+[8.834s]                  from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:12[m[K:
+[8.834s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:160:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+[8.834s]   160 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+[8.834s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.834s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:160:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [8][m[K’ to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&&[m[K’
+[8.834s]   160 |   MoveGroupInterface([01;36m[KMoveGroupInterface&& other[m[K) noexcept;
+[8.834s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[8.834s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:149:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface()[m[K’
+[8.835s]   149 |   inline [01;36m[KMoveGroupInterface[m[K(){}
+[8.835s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.835s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:149:10:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[8.835s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+[8.835s]   145 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+[8.835s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.835s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:145:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.835s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+[8.835s]   134 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+[8.835s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.835s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:134:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.835s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:47:85:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const char [12])[m[K’
+[8.835s]    47 | moveit::planning_interface::MoveGroupInterface move_group_interface_EE("ur5_gripper"[01;31m[K)[m[K;
+[8.835s]       |                                                                                     [01;31m[K^[m[K
+[8.835s] In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43[m[K,
+[8.835s]                  from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:12[m[K:
+[8.835s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:160:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+[8.836s]   160 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+[8.836s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.836s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:160:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [12][m[K’ to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&&[m[K’
+[8.836s]   160 |   MoveGroupInterface([01;36m[KMoveGroupInterface&& other[m[K) noexcept;
+[8.836s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[8.836s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:149:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface()[m[K’
+[8.836s]   149 |   inline [01;36m[KMoveGroupInterface[m[K(){}
+[8.836s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.836s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:149:10:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[8.836s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+[8.836s]   145 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+[8.836s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.836s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:145:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.836s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+[8.836s]   134 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+[8.836s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.836s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:134:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.917s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.917s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:134:97:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const string&)[m[K’
+[8.918s]   134 |     move_group_interface_ROB = moveit::planning_interface::MoveGroupInterface(PLANNING_GROUP_ROB[01;31m[K)[m[K;
+[8.918s]       |                                                                                                 [01;31m[K^[m[K
+[8.918s] In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43[m[K,
+[8.918s]                  from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:12[m[K:
+[8.918s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:160:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+[8.919s]   160 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+[8.919s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.919s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:160:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&&[m[K’
+[8.919s]   160 |   MoveGroupInterface([01;36m[KMoveGroupInterface&& other[m[K) noexcept;
+[8.919s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[8.922s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:149:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface()[m[K’
+[8.922s]   149 |   inline [01;36m[KMoveGroupInterface[m[K(){}
+[8.922s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.922s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:149:10:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[8.922s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+[8.922s]   145 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+[8.922s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.922s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:145:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.922s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+[8.922s]   134 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+[8.922s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.922s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:134:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.922s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:135:95:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const string&)[m[K’
+[8.922s]   135 |     move_group_interface_EE = moveit::planning_interface::MoveGroupInterface(PLANNING_GROUP_EE[01;31m[K)[m[K;
+[8.922s]       |                                                                                               [01;31m[K^[m[K
+[8.922s] In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43[m[K,
+[8.923s]                  from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:12[m[K:
+[8.923s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:160:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+[8.923s]   160 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+[8.923s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.923s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:160:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&&[m[K’
+[8.923s]   160 |   MoveGroupInterface([01;36m[KMoveGroupInterface&& other[m[K) noexcept;
+[8.923s]       |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[8.923s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:149:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface()[m[K’
+[8.923s]   149 |   inline [01;36m[KMoveGroupInterface[m[K(){}
+[8.923s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.923s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:149:10:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[8.923s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+[8.923s]   145 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+[8.923s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.923s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:145:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.923s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+[8.923s]   134 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+[8.924s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[8.924s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:134:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[14.110s] [ 35%] [32mBuilding CXX object CMakeFiles/move.dir/src/moverp.cpp.o[0m
+[15.460s] [ 42%] [32m[1mLinking CXX executable robmove[0m
+[16.113s] [ 42%] Built target robmove
+[16.133s] [ 50%] [32mBuilding CXX object CMakeFiles/move.dir/src/moverot.cpp.o[0m
+[16.657s] [ 57%] [32m[1mLinking CXX executable robpose[0m
+[17.344s] [ 57%] Built target robpose
+[17.372s] [ 64%] [32mBuilding CXX object CMakeFiles/move.dir/src/mover.cpp.o[0m
+[17.851s] gmake[2]: *** [CMakeFiles/letter_writer_node.dir/build.make:76: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o] Error 1
+[17.852s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/letter_writer_node.dir/all] Error 2
+[17.854s] gmake[1]: *** Waiting for unfinished jobs....
+[17.873s] [ 71%] [32mBuilding CXX object CMakeFiles/move.dir/src/movel.cpp.o[0m
+[25.911s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/mover.cpp:[m[K In function ‘[01m[KMoveRSTRUCT MoveRAction(ros2srrc_data::msg::Joint, std::vector<double, std::allocator<double> >, ros2srrc_data::msg::Specs)[m[K’:
+[25.911s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/mover.cpp:67:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[25.912s]    67 |     for (int i=0; [01;35m[Ki<JP.size()[m[K; i++){
+[25.912s]       |                   [01;35m[K~^~~~~~~~~~[m[K
+[25.915s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/mover.cpp:105:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[25.916s]   105 |         for (int i=0; [01;35m[Ki<JP.size()[m[K; i++){
+[25.916s]       |                       [01;35m[K~^~~~~~~~~~[m[K
+[26.951s] [ 78%] [32mBuilding CXX object CMakeFiles/move.dir/src/movej.cpp.o[0m
+[29.077s] [ 85%] [32mBuilding CXX object CMakeFiles/move.dir/src/move.cpp.o[0m
+[34.398s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/movej.cpp:[m[K In function ‘[01m[KMoveJSTRUCT MoveJAction(ros2srrc_data::msg::Joints, std::vector<double, std::allocator<double> >, ros2srrc_data::msg::Specs)[m[K’:
+[34.398s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/movej.cpp:81:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[34.398s]    81 |     for (int i=0; [01;35m[Ki<JP.size()[m[K; i++){
+[34.398s]       |                   [01;35m[K~^~~~~~~~~~[m[K
+[34.398s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/movej.cpp:95:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[34.398s]    95 |         for (int i=0; [01;35m[Ki<JP.size()[m[K; i++){
+[34.399s]       |                       [01;35m[K~^~~~~~~~~~[m[K
+[34.399s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/movej.cpp:105:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[34.399s]   105 |         for (int k=0; [01;35m[Kk<jointLIST.size()[m[K; k++){
+[34.399s]       |                       [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[36.241s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:[m[K In function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan plan_ROB()[m[K’:
+[36.241s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:124:108:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[36.241s]   124 |     bool success = (move_group_interface_ROB.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[36.241s]       |                                                                                                            [01;35m[K^~~~~~~[m[K
+[36.241s] In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43[m[K,
+[36.241s]                  from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:42[m[K:
+[36.241s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[36.242s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[36.242s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[36.242s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:[m[K In function ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::Plan plan_EE()[m[K’:
+[36.242s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:143:107:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[36.242s]   143 |     bool success = (move_group_interface_EE.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[36.242s]       |                                                                                                           [01;35m[K^~~~~~~[m[K
+[36.242s] In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43[m[K,
+[36.242s]                  from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:42[m[K:
+[36.242s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[36.242s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[36.242s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[36.302s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2srrc_data::action::Move_Goal_<std::allocator<void> > >)[m[K’:
+[36.302s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:193:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kspeed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[36.302s]   193 |         double [01;35m[Kspeed[m[K = goal->speed;
+[36.302s]       |                [01;35m[K^~~~~[m[K
+[36.302s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:187:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[36.302s]   187 |         [01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K,
+[36.302s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[36.319s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2srrc_data::action::Move> >)[m[K’:
+[36.319s] [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:371:122:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode[m[K’ is deprecated: Use moveit::core::MoveItErrorCode [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[36.319s]   371 |             bool ExecSUCCESS = (move_group_interface_ROB.execute(MyPlan) == moveit::planning_interface::MoveItErrorCode::[01;35m[KSUCCESS[m[K);
+[36.319s]       |                                                                                                                          [01;35m[K^~~~~~~[m[K
+[36.319s] In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43[m[K,
+[36.319s]                  from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:42[m[K:
+[36.319s] [01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[36.319s]    71 | using [01;36m[KMoveItErrorCode[m[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;
+[36.319s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[40.791s] [ 92%] [32m[1mLinking CXX executable move[0m
+[41.265s] [ 92%] Built target move
+[41.266s] gmake: *** [Makefile:146: all] Error 2
+[41.268s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_execution' returned '2': CMAKE_PREFIX_PATH=/home/ubuntu/ros2ws/install/ros2srrc_data:/home/ubuntu/ros2ws/install/ros2_robotiqgripper:/home/ubuntu/ros2ws/install/linkattacher_msgs:/home/ubuntu/ros2ws/install/abb_robot_msgs:/home/ubuntu/ros2ws2/install/ur5_ros2_moveit2:/home/ubuntu/ros2ws2/install/ur5_ros2_gazebo:/home/ubuntu/ros2ws2/install/ur3_ros2_moveit2:/home/ubuntu/ros2ws2/install/ur3_ros2_gazebo:/home/ubuntu/ros2ws2/install/ur10_ros2_moveit2:/home/ubuntu/ros2ws2/install/ur10_ros2_gazebo:/home/ubuntu/ros2ws2/install/ros2_grasping:/home/ubuntu/ros2ws2/install/ros2_execution:/home/ubuntu/ros2ws2/install/ros2_actions:/home/ubuntu/ros2ws2/install/panda_ros2_moveit2:/home/ubuntu/ros2ws2/install/irb6640_ros2_moveit2:/home/ubuntu/ros2ws2/install/irb120_ros2_moveit2:/home/ubuntu/ros2ws2/install/irb1200_ros2_moveit2:/home/ubuntu/ros2ws2/install/iiwa_ros2_moveit2:/home/ubuntu/ros2ws2/install/cr35ia_ros2_moveit2:/home/ubuntu/ros2ws2/install/ros2_data:/home/ubuntu/ros2ws2/install/panda_ros2_gazebo:/home/ubuntu/ros2ws2/install/irb6640_ros2_gazebo:/home/ubuntu/ros2ws2/install/irb120_ros2_gazebo:/home/ubuntu/ros2ws2/install/irb1200_ros2_gazebo:/home/ubuntu/ros2ws2/install/iiwa_ros2_gazebo:/home/ubuntu/ros2ws2/install/gazebo_ros2_control_demos:/home/ubuntu/ros2ws2/install/gazebo_ros2_control:/home/ubuntu/ros2ws2/install/cr35ia_ros2_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur5_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur3_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur3_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_robots:/home/ubuntu/ros2ws/install/ros2srrc_launch:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb120_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_execution:/home/ubuntu/ros2ws/install/ros2srrc_endeffectors:/home/ubuntu/ros2ws/install/ros2_objectpose:/home/ubuntu/ros2ws/install/ros2_linkpose:/home/ubuntu/ros2ws/install/ros2_linkattacher:/home/ubuntu/ros2ws/install/objectpose_msgs:/home/ubuntu/ros2ws/install/objectpose_gazebo:/home/ubuntu/ros2ws/install/linkpose_msgs:/home/ubuntu/ros2ws/install/linkpose_gazebo:/home/ubuntu/ros2ws/install/letter_writer:/home/ubuntu/ros2ws/install/gazebo_ros2_control_demos:/home/ubuntu/ros2ws/install/gazebo_ros2_control:/home/ubuntu/ros2ws/install/abb_rws_client:/home/ubuntu/ros2ws/install/abb_ros2:/home/ubuntu/ros2ws/install/abb_resources:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs:/home/ubuntu/ros2ws/install/abb_rapid_msgs:/home/ubuntu/ros2ws/install/abb_hardware_interface:/home/ubuntu/ros2ws/install/abb_egm_rws_managers:/home/ubuntu/ros2ws/install/abb_librws:/home/ubuntu/ros2ws/install/abb_libegm:/home/ubuntu/ros2ws/install/abb_irb4600_support:/home/ubuntu/ros2ws/install/abb_irb1200_5_90_moveit_config:/home/ubuntu/ros2ws/install/abb_irb1200_support:/home/ubuntu/ros2ws/install/abb_egm_msgs:/home/ubuntu/ros2ws/install/abb_bringup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/ros2ws/install/ros2srrc_data/lib:/home/ubuntu/ros2ws/install/ros2_robotiqgripper/lib:/home/ubuntu/ros2ws/install/linkattacher_msgs/lib:/home/ubuntu/ros2ws/install/abb_robot_msgs/lib:/home/ubuntu/ros2ws2/install/ros2_grasping/lib:/home/ubuntu/ros2ws2/install/ros2_data/lib:/home/ubuntu/ros2ws2/install/gazebo_ros2_control/lib:/home/ubuntu/ros2ws/install/ros2_objectpose/lib:/home/ubuntu/ros2ws/install/ros2_linkpose/lib:/home/ubuntu/ros2ws/install/ros2_linkattacher/lib:/home/ubuntu/ros2ws/install/objectpose_msgs/lib:/home/ubuntu/ros2ws/install/linkpose_msgs/lib:/home/ubuntu/ros2ws/install/gazebo_ros2_control/lib:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs/lib:/home/ubuntu/ros2ws/install/abb_rapid_msgs/lib:/home/ubuntu/ros2ws/install/abb_hardware_interface/lib:/home/ubuntu/ros2ws/install/abb_egm_rws_managers/lib:/home/ubuntu/ros2ws/install/abb_librws/lib:/home/ubuntu/ros2ws/install/abb_libegm/lib:/home/ubuntu/ros2ws/install/abb_egm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_execution -- -j4 -l4

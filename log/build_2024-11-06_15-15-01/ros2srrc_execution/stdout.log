@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target robmove[0m
+[35m[1mConsolidate compiler generated dependencies of target letter_writer_node[0m
+[35m[1mConsolidate compiler generated dependencies of target robpose[0m
+[35m[1mConsolidate compiler generated dependencies of target move[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o[0m
+[ 21%] Built target robmove
+[ 35%] Built target robpose
+[ 92%] Built target move

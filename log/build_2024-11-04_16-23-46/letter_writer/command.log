@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/ros2ws/build/letter_writer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/letter_writer -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/letter_writer
+Invoked command in '/home/ubuntu/ros2ws/build/letter_writer' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/letter_writer -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/letter_writer

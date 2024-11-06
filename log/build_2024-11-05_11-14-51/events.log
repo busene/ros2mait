@@ -1,0 +1,669 @@
+[0.000000] (-) TimerEvent: {}
+[0.000224] (-) JobUnselected: {'identifier': 'abb_bringup'}
+[0.000272] (-) JobUnselected: {'identifier': 'abb_egm_msgs'}
+[0.000311] (-) JobUnselected: {'identifier': 'abb_egm_rws_managers'}
+[0.000348] (-) JobUnselected: {'identifier': 'abb_hardware_interface'}
+[0.000395] (-) JobUnselected: {'identifier': 'abb_irb1200_5_90_moveit_config'}
+[0.000428] (-) JobUnselected: {'identifier': 'abb_irb1200_support'}
+[0.000442] (-) JobUnselected: {'identifier': 'abb_irb4600_support'}
+[0.000455] (-) JobUnselected: {'identifier': 'abb_libegm'}
+[0.000467] (-) JobUnselected: {'identifier': 'abb_librws'}
+[0.000479] (-) JobUnselected: {'identifier': 'abb_rapid_msgs'}
+[0.000495] (-) JobUnselected: {'identifier': 'abb_rapid_sm_addin_msgs'}
+[0.000526] (-) JobUnselected: {'identifier': 'abb_resources'}
+[0.000559] (-) JobUnselected: {'identifier': 'abb_robot_msgs'}
+[0.000576] (-) JobUnselected: {'identifier': 'abb_ros2'}
+[0.000845] (-) JobUnselected: {'identifier': 'abb_rws_client'}
+[0.000903] (-) JobUnselected: {'identifier': 'gazebo_ros2_control'}
+[0.000925] (-) JobUnselected: {'identifier': 'gazebo_ros2_control_demos'}
+[0.001243] (-) JobUnselected: {'identifier': 'letter_writer'}
+[0.001290] (-) JobUnselected: {'identifier': 'linkattacher_msgs'}
+[0.001307] (-) JobUnselected: {'identifier': 'linkpose_gazebo'}
+[0.001321] (-) JobUnselected: {'identifier': 'linkpose_msgs'}
+[0.001334] (-) JobUnselected: {'identifier': 'objectpose_gazebo'}
+[0.001348] (-) JobUnselected: {'identifier': 'objectpose_msgs'}
+[0.001381] (-) JobUnselected: {'identifier': 'ros2_linkattacher'}
+[0.001397] (-) JobUnselected: {'identifier': 'ros2_linkpose'}
+[0.001429] (-) JobUnselected: {'identifier': 'ros2_objectpose'}
+[0.001462] (-) JobUnselected: {'identifier': 'ros2_robotiqgripper'}
+[0.001476] (-) JobUnselected: {'identifier': 'ros2srrc_data'}
+[0.001488] (-) JobUnselected: {'identifier': 'ros2srrc_endeffectors'}
+[0.001500] (-) JobUnselected: {'identifier': 'ros2srrc_iiwa_gazebo'}
+[0.001513] (-) JobUnselected: {'identifier': 'ros2srrc_iiwa_moveit2'}
+[0.001528] (-) JobUnselected: {'identifier': 'ros2srrc_irb1200_gazebo'}
+[0.001541] (-) JobUnselected: {'identifier': 'ros2srrc_irb1200_moveit2'}
+[0.001585] (-) JobUnselected: {'identifier': 'ros2srrc_irb120_gazebo'}
+[0.001619] (-) JobUnselected: {'identifier': 'ros2srrc_irb120_moveit2'}
+[0.001636] (-) JobUnselected: {'identifier': 'ros2srrc_irb6640_gazebo'}
+[0.001716] (-) JobUnselected: {'identifier': 'ros2srrc_irb6640_moveit2'}
+[0.001754] (-) JobUnselected: {'identifier': 'ros2srrc_launch'}
+[0.001769] (-) JobUnselected: {'identifier': 'ros2srrc_robots'}
+[0.001782] (-) JobUnselected: {'identifier': 'ros2srrc_ur10e_gazebo'}
+[0.001795] (-) JobUnselected: {'identifier': 'ros2srrc_ur10e_moveit2'}
+[0.001811] (-) JobUnselected: {'identifier': 'ros2srrc_ur16e_gazebo'}
+[0.001843] (-) JobUnselected: {'identifier': 'ros2srrc_ur16e_moveit2'}
+[0.001876] (-) JobUnselected: {'identifier': 'ros2srrc_ur3_gazebo'}
+[0.001889] (-) JobUnselected: {'identifier': 'ros2srrc_ur3_moveit2'}
+[0.001902] (-) JobUnselected: {'identifier': 'ros2srrc_ur5_gazebo'}
+[0.001914] (-) JobUnselected: {'identifier': 'ros2srrc_ur5_moveit2'}
+[0.001927] (-) JobUnselected: {'identifier': 'testV1'}
+[0.001995] (-) JobUnselected: {'identifier': 'testV2'}
+[0.002032] (ros2srrc_execution) JobQueued: {'identifier': 'ros2srrc_execution', 'dependencies': OrderedDict([('abb_robot_msgs', '/home/ubuntu/ros2ws/install/abb_robot_msgs'), ('linkattacher_msgs', '/home/ubuntu/ros2ws/install/linkattacher_msgs'), ('ros2_robotiqgripper', '/home/ubuntu/ros2ws/install/ros2_robotiqgripper'), ('ros2srrc_data', '/home/ubuntu/ros2ws/install/ros2srrc_data')])}
+[0.002055] (ros2srrc_execution) JobStarted: {'identifier': 'ros2srrc_execution'}
+[0.040330] (ros2srrc_execution) JobProgress: {'identifier': 'ros2srrc_execution', 'progress': 'cmake'}
+[0.040637] (ros2srrc_execution) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2srrc_execution'], 'cwd': '/home/ubuntu/ros2ws/build/ros2srrc_execution', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2ws/install/ros2srrc_data/lib:/home/ubuntu/ros2ws/install/ros2_robotiqgripper/lib:/home/ubuntu/ros2ws/install/linkattacher_msgs/lib:/home/ubuntu/ros2ws/install/abb_robot_msgs/lib:/home/ubuntu/ros2ws2/install/ros2_grasping/lib:/home/ubuntu/ros2ws2/install/ros2_data/lib:/home/ubuntu/ros2ws2/install/gazebo_ros2_control/lib:/home/ubuntu/ros2ws/install/ros2_objectpose/lib:/home/ubuntu/ros2ws/install/ros2_linkpose/lib:/home/ubuntu/ros2ws/install/ros2_linkattacher/lib:/home/ubuntu/ros2ws/install/objectpose_msgs/lib:/home/ubuntu/ros2ws/install/linkpose_msgs/lib:/home/ubuntu/ros2ws/install/gazebo_ros2_control/lib:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs/lib:/home/ubuntu/ros2ws/install/abb_rapid_msgs/lib:/home/ubuntu/ros2ws/install/abb_hardware_interface/lib:/home/ubuntu/ros2ws/install/abb_egm_rws_managers/lib:/home/ubuntu/ros2ws/install/abb_librws/lib:/home/ubuntu/ros2ws/install/abb_libegm/lib:/home/ubuntu/ros2ws/install/abb_egm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '1103'), ('SYSTEMD_EXEC_PID', '1306'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2432'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2ws/install:/home/ubuntu/ros2ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:19258'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ubuntu/ros2ws/install/abb_egm_rws_managers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_egm_rws_managers/lib/pkgconfig:/home/ubuntu/ros2ws/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_librws/lib/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1271,unix/ubuntu:/tmp/.ICE-unix/1271'), ('INVOCATION_ID', '80de6ddb85e44842809de93388dbeaea'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FFFFW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2ws2/install/ur5_ros2_moveit2:/home/ubuntu/ros2ws2/install/ur5_ros2_gazebo:/home/ubuntu/ros2ws2/install/ur3_ros2_moveit2:/home/ubuntu/ros2ws2/install/ur3_ros2_gazebo:/home/ubuntu/ros2ws2/install/ur10_ros2_moveit2:/home/ubuntu/ros2ws2/install/ur10_ros2_gazebo:/home/ubuntu/ros2ws2/install/ros2_grasping:/home/ubuntu/ros2ws2/install/ros2_execution:/home/ubuntu/ros2ws2/install/ros2_actions:/home/ubuntu/ros2ws2/install/panda_ros2_moveit2:/home/ubuntu/ros2ws2/install/irb6640_ros2_moveit2:/home/ubuntu/ros2ws2/install/irb120_ros2_moveit2:/home/ubuntu/ros2ws2/install/irb1200_ros2_moveit2:/home/ubuntu/ros2ws2/install/iiwa_ros2_moveit2:/home/ubuntu/ros2ws2/install/cr35ia_ros2_moveit2:/home/ubuntu/ros2ws2/install/ros2_data:/home/ubuntu/ros2ws2/install/panda_ros2_gazebo:/home/ubuntu/ros2ws2/install/irb6640_ros2_gazebo:/home/ubuntu/ros2ws2/install/irb120_ros2_gazebo:/home/ubuntu/ros2ws2/install/irb1200_ros2_gazebo:/home/ubuntu/ros2ws2/install/iiwa_ros2_gazebo:/home/ubuntu/ros2ws2/install/gazebo_ros2_control_demos:/home/ubuntu/ros2ws2/install/gazebo_ros2_control:/home/ubuntu/ros2ws2/install/cr35ia_ros2_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur5_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur3_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur3_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_robots:/home/ubuntu/ros2ws/install/ros2srrc_launch:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb120_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_execution:/home/ubuntu/ros2ws/install/ros2srrc_endeffectors:/home/ubuntu/ros2ws/install/ros2srrc_data:/home/ubuntu/ros2ws/install/ros2_robotiqgripper:/home/ubuntu/ros2ws/install/ros2_objectpose:/home/ubuntu/ros2ws/install/ros2_linkpose:/home/ubuntu/ros2ws/install/ros2_linkattacher:/home/ubuntu/ros2ws/install/objectpose_msgs:/home/ubuntu/ros2ws/install/objectpose_gazebo:/home/ubuntu/ros2ws/install/linkpose_msgs:/home/ubuntu/ros2ws/install/linkpose_gazebo:/home/ubuntu/ros2ws/install/linkattacher_msgs:/home/ubuntu/ros2ws/install/letter_writer:/home/ubuntu/ros2ws/install/gazebo_ros2_control_demos:/home/ubuntu/ros2ws/install/gazebo_ros2_control:/home/ubuntu/ros2ws/install/abb_rws_client:/home/ubuntu/ros2ws/install/abb_ros2:/home/ubuntu/ros2ws/install/abb_robot_msgs:/home/ubuntu/ros2ws/install/abb_resources:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs:/home/ubuntu/ros2ws/install/abb_rapid_msgs:/home/ubuntu/ros2ws/install/abb_hardware_interface:/home/ubuntu/ros2ws/install/abb_irb4600_support:/home/ubuntu/ros2ws/install/abb_irb1200_5_90_moveit_config:/home/ubuntu/ros2ws/install/abb_irb1200_support:/home/ubuntu/ros2ws/install/abb_egm_msgs:/home/ubuntu/ros2ws/install/abb_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1c1cbd7b-c58d-4f6a-929b-27fd07442a82'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/home/ubuntu/ros2ws/install/abb_librws/share/abb_librws/cmake'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2ws/build/ros2srrc_execution'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2ws2/install/ros2_grasping/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws2/install/ros2_data/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/abb_robot_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/abb_rapid_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/abb_egm_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2ws/install/ros2srrc_data:/home/ubuntu/ros2ws/install/ros2_robotiqgripper:/home/ubuntu/ros2ws/install/linkattacher_msgs:/home/ubuntu/ros2ws/install/abb_robot_msgs:/home/ubuntu/ros2ws2/install/ur5_ros2_moveit2:/home/ubuntu/ros2ws2/install/ur5_ros2_gazebo:/home/ubuntu/ros2ws2/install/ur3_ros2_moveit2:/home/ubuntu/ros2ws2/install/ur3_ros2_gazebo:/home/ubuntu/ros2ws2/install/ur10_ros2_moveit2:/home/ubuntu/ros2ws2/install/ur10_ros2_gazebo:/home/ubuntu/ros2ws2/install/ros2_grasping:/home/ubuntu/ros2ws2/install/ros2_execution:/home/ubuntu/ros2ws2/install/ros2_actions:/home/ubuntu/ros2ws2/install/panda_ros2_moveit2:/home/ubuntu/ros2ws2/install/irb6640_ros2_moveit2:/home/ubuntu/ros2ws2/install/irb120_ros2_moveit2:/home/ubuntu/ros2ws2/install/irb1200_ros2_moveit2:/home/ubuntu/ros2ws2/install/iiwa_ros2_moveit2:/home/ubuntu/ros2ws2/install/cr35ia_ros2_moveit2:/home/ubuntu/ros2ws2/install/ros2_data:/home/ubuntu/ros2ws2/install/panda_ros2_gazebo:/home/ubuntu/ros2ws2/install/irb6640_ros2_gazebo:/home/ubuntu/ros2ws2/install/irb120_ros2_gazebo:/home/ubuntu/ros2ws2/install/irb1200_ros2_gazebo:/home/ubuntu/ros2ws2/install/iiwa_ros2_gazebo:/home/ubuntu/ros2ws2/install/gazebo_ros2_control_demos:/home/ubuntu/ros2ws2/install/gazebo_ros2_control:/home/ubuntu/ros2ws2/install/cr35ia_ros2_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur5_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur3_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur3_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_robots:/home/ubuntu/ros2ws/install/ros2srrc_launch:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb120_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_execution:/home/ubuntu/ros2ws/install/ros2srrc_endeffectors:/home/ubuntu/ros2ws/install/ros2_objectpose:/home/ubuntu/ros2ws/install/ros2_linkpose:/home/ubuntu/ros2ws/install/ros2_linkattacher:/home/ubuntu/ros2ws/install/objectpose_msgs:/home/ubuntu/ros2ws/install/objectpose_gazebo:/home/ubuntu/ros2ws/install/linkpose_msgs:/home/ubuntu/ros2ws/install/linkpose_gazebo:/home/ubuntu/ros2ws/install/letter_writer:/home/ubuntu/ros2ws/install/gazebo_ros2_control_demos:/home/ubuntu/ros2ws/install/gazebo_ros2_control:/home/ubuntu/ros2ws/install/abb_rws_client:/home/ubuntu/ros2ws/install/abb_ros2:/home/ubuntu/ros2ws/install/abb_resources:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs:/home/ubuntu/ros2ws/install/abb_rapid_msgs:/home/ubuntu/ros2ws/install/abb_hardware_interface:/home/ubuntu/ros2ws/install/abb_egm_rws_managers:/home/ubuntu/ros2ws/install/abb_librws:/home/ubuntu/ros2ws/install/abb_libegm:/home/ubuntu/ros2ws/install/abb_irb4600_support:/home/ubuntu/ros2ws/install/abb_irb1200_5_90_moveit_config:/home/ubuntu/ros2ws/install/abb_irb1200_support:/home/ubuntu/ros2ws/install/abb_egm_msgs:/home/ubuntu/ros2ws/install/abb_bringup:/opt/ros/humble')]), 'shell': False}
+[0.098915] (-) TimerEvent: {}
+[0.118279] (ros2srrc_execution) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.197161] (ros2srrc_execution) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.199037] (-) TimerEvent: {}
+[0.205350] (ros2srrc_execution) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299482] (-) TimerEvent: {}
+[0.303421] (ros2srrc_execution) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.310285] (ros2srrc_execution) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.310411] (ros2srrc_execution) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.310654] (ros2srrc_execution) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.313729] (ros2srrc_execution) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399618] (-) TimerEvent: {}
+[0.421245] (ros2srrc_execution) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.431440] (ros2srrc_execution) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.433819] (ros2srrc_execution) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.434917] (ros2srrc_execution) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.445700] (ros2srrc_execution) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499846] (-) TimerEvent: {}
+[0.600507] (-) TimerEvent: {}
+[0.656965] (ros2srrc_execution) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.700690] (-) TimerEvent: {}
+[0.801388] (-) TimerEvent: {}
+[0.870572] (ros2srrc_execution) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.901574] (-) TimerEvent: {}
+[1.000932] (ros2srrc_execution) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.001788] (-) TimerEvent: {}
+[1.020436] (ros2srrc_execution) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.047755] (ros2srrc_execution) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.079491] (ros2srrc_execution) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101926] (-) TimerEvent: {}
+[1.123462] (ros2srrc_execution) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.202166] (-) TimerEvent: {}
+[1.263505] (ros2srrc_execution) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.276348] (ros2srrc_execution) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.302342] (-) TimerEvent: {}
+[1.349502] (ros2srrc_execution) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.379427] (ros2srrc_execution) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.402534] (-) TimerEvent: {}
+[1.485723] (ros2srrc_execution) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.485913] (ros2srrc_execution) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.502741] (-) TimerEvent: {}
+[1.588770] (ros2srrc_execution) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.589797] (ros2srrc_execution) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.602898] (-) TimerEvent: {}
+[1.688738] (ros2srrc_execution) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.703096] (-) TimerEvent: {}
+[1.766226] (ros2srrc_execution) StdoutLine: {'line': b'-- Found moveit: 2.5.5 (/opt/ros/humble/share/moveit/cmake)\n'}
+[1.774787] (ros2srrc_execution) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[1.803339] (-) TimerEvent: {}
+[1.866532] (ros2srrc_execution) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[1.903510] (-) TimerEvent: {}
+[2.004237] (-) TimerEvent: {}
+[2.104893] (-) TimerEvent: {}
+[2.128385] (ros2srrc_execution) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[2.178652] (ros2srrc_execution) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[2.205094] (-) TimerEvent: {}
+[2.242376] (ros2srrc_execution) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[2.296337] (ros2srrc_execution) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[2.305230] (-) TimerEvent: {}
+[2.405941] (-) TimerEvent: {}
+[2.506301] (-) TimerEvent: {}
+[2.540793] (ros2srrc_execution) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[2.607235] (-) TimerEvent: {}
+[2.645131] (ros2srrc_execution) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.645325] (ros2srrc_execution) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.709793] (-) TimerEvent: {}
+[2.810706] (-) TimerEvent: {}
+[2.913522] (-) TimerEvent: {}
+[3.014681] (-) TimerEvent: {}
+[3.117247] (-) TimerEvent: {}
+[3.206133] (ros2srrc_execution) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[3.219186] (-) TimerEvent: {}
+[3.319293] (ros2srrc_execution) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[3.319637] (-) TimerEvent: {}
+[3.421347] (-) TimerEvent: {}
+[3.521993] (-) TimerEvent: {}
+[3.545430] (ros2srrc_execution) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[3.622309] (-) TimerEvent: {}
+[3.630222] (ros2srrc_execution) StdoutLine: {'line': b'-- Found ros2srrc_data: 0.0.0 (/home/ubuntu/ros2ws/install/ros2srrc_data/share/ros2srrc_data/cmake)\n'}
+[3.664661] (ros2srrc_execution) StdoutLine: {'line': b'-- Found abb_robot_msgs: 1.0.0 (/home/ubuntu/ros2ws/install/abb_robot_msgs/share/abb_robot_msgs/cmake)\n'}
+[3.716452] (ros2srrc_execution) StdoutLine: {'line': b'-- Found ros2_robotiqgripper: 1.0.0 (/home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake)\n'}
+[3.725314] (-) TimerEvent: {}
+[3.738348] (ros2srrc_execution) StdoutLine: {'line': b'-- Found linkattacher_msgs: 0.0.0 (/home/ubuntu/ros2ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake)\n'}
+[3.825838] (-) TimerEvent: {}
+[3.854431] (ros2srrc_execution) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.926355] (-) TimerEvent: {}
+[4.026969] (-) TimerEvent: {}
+[4.077792] (ros2srrc_execution) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.078125] (ros2srrc_execution) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include\n'}
+[4.078208] (ros2srrc_execution) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.081724] (ros2srrc_execution) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.083187] (ros2srrc_execution) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.085764] (ros2srrc_execution) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.093246] (ros2srrc_execution) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.093483] (ros2srrc_execution) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.095797] (ros2srrc_execution) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.100489] (ros2srrc_execution) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.127784] (-) TimerEvent: {}
+[4.232189] (-) TimerEvent: {}
+[4.332997] (-) TimerEvent: {}
+[4.434397] (-) TimerEvent: {}
+[4.536349] (-) TimerEvent: {}
+[4.637002] (-) TimerEvent: {}
+[4.737833] (-) TimerEvent: {}
+[4.811263] (ros2srrc_execution) StdoutLine: {'line': b'-- Generating done\n'}
+[4.815122] (ros2srrc_execution) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2ws/build/ros2srrc_execution\n'}
+[4.838439] (-) TimerEvent: {}
+[4.853361] (ros2srrc_execution) CommandEnded: {'returncode': 0}
+[4.854657] (ros2srrc_execution) JobProgress: {'identifier': 'ros2srrc_execution', 'progress': 'build'}
+[4.854704] (ros2srrc_execution) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2ws/build/ros2srrc_execution', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2ws/build/ros2srrc_execution', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2ws/install/ros2srrc_data/lib:/home/ubuntu/ros2ws/install/ros2_robotiqgripper/lib:/home/ubuntu/ros2ws/install/linkattacher_msgs/lib:/home/ubuntu/ros2ws/install/abb_robot_msgs/lib:/home/ubuntu/ros2ws2/install/ros2_grasping/lib:/home/ubuntu/ros2ws2/install/ros2_data/lib:/home/ubuntu/ros2ws2/install/gazebo_ros2_control/lib:/home/ubuntu/ros2ws/install/ros2_objectpose/lib:/home/ubuntu/ros2ws/install/ros2_linkpose/lib:/home/ubuntu/ros2ws/install/ros2_linkattacher/lib:/home/ubuntu/ros2ws/install/objectpose_msgs/lib:/home/ubuntu/ros2ws/install/linkpose_msgs/lib:/home/ubuntu/ros2ws/install/gazebo_ros2_control/lib:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs/lib:/home/ubuntu/ros2ws/install/abb_rapid_msgs/lib:/home/ubuntu/ros2ws/install/abb_hardware_interface/lib:/home/ubuntu/ros2ws/install/abb_egm_rws_managers/lib:/home/ubuntu/ros2ws/install/abb_librws/lib:/home/ubuntu/ros2ws/install/abb_libegm/lib:/home/ubuntu/ros2ws/install/abb_egm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '1103'), ('SYSTEMD_EXEC_PID', '1306'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2432'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2ws/install:/home/ubuntu/ros2ws2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:19258'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ubuntu/ros2ws/install/abb_egm_rws_managers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_egm_rws_managers/lib/pkgconfig:/home/ubuntu/ros2ws/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_librws/lib/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1271,unix/ubuntu:/tmp/.ICE-unix/1271'), ('INVOCATION_ID', '80de6ddb85e44842809de93388dbeaea'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FFFFW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2ws2/install/ur5_ros2_moveit2:/home/ubuntu/ros2ws2/install/ur5_ros2_gazebo:/home/ubuntu/ros2ws2/install/ur3_ros2_moveit2:/home/ubuntu/ros2ws2/install/ur3_ros2_gazebo:/home/ubuntu/ros2ws2/install/ur10_ros2_moveit2:/home/ubuntu/ros2ws2/install/ur10_ros2_gazebo:/home/ubuntu/ros2ws2/install/ros2_grasping:/home/ubuntu/ros2ws2/install/ros2_execution:/home/ubuntu/ros2ws2/install/ros2_actions:/home/ubuntu/ros2ws2/install/panda_ros2_moveit2:/home/ubuntu/ros2ws2/install/irb6640_ros2_moveit2:/home/ubuntu/ros2ws2/install/irb120_ros2_moveit2:/home/ubuntu/ros2ws2/install/irb1200_ros2_moveit2:/home/ubuntu/ros2ws2/install/iiwa_ros2_moveit2:/home/ubuntu/ros2ws2/install/cr35ia_ros2_moveit2:/home/ubuntu/ros2ws2/install/ros2_data:/home/ubuntu/ros2ws2/install/panda_ros2_gazebo:/home/ubuntu/ros2ws2/install/irb6640_ros2_gazebo:/home/ubuntu/ros2ws2/install/irb120_ros2_gazebo:/home/ubuntu/ros2ws2/install/irb1200_ros2_gazebo:/home/ubuntu/ros2ws2/install/iiwa_ros2_gazebo:/home/ubuntu/ros2ws2/install/gazebo_ros2_control_demos:/home/ubuntu/ros2ws2/install/gazebo_ros2_control:/home/ubuntu/ros2ws2/install/cr35ia_ros2_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur5_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur3_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur3_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_robots:/home/ubuntu/ros2ws/install/ros2srrc_launch:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb120_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_execution:/home/ubuntu/ros2ws/install/ros2srrc_endeffectors:/home/ubuntu/ros2ws/install/ros2srrc_data:/home/ubuntu/ros2ws/install/ros2_robotiqgripper:/home/ubuntu/ros2ws/install/ros2_objectpose:/home/ubuntu/ros2ws/install/ros2_linkpose:/home/ubuntu/ros2ws/install/ros2_linkattacher:/home/ubuntu/ros2ws/install/objectpose_msgs:/home/ubuntu/ros2ws/install/objectpose_gazebo:/home/ubuntu/ros2ws/install/linkpose_msgs:/home/ubuntu/ros2ws/install/linkpose_gazebo:/home/ubuntu/ros2ws/install/linkattacher_msgs:/home/ubuntu/ros2ws/install/letter_writer:/home/ubuntu/ros2ws/install/gazebo_ros2_control_demos:/home/ubuntu/ros2ws/install/gazebo_ros2_control:/home/ubuntu/ros2ws/install/abb_rws_client:/home/ubuntu/ros2ws/install/abb_ros2:/home/ubuntu/ros2ws/install/abb_robot_msgs:/home/ubuntu/ros2ws/install/abb_resources:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs:/home/ubuntu/ros2ws/install/abb_rapid_msgs:/home/ubuntu/ros2ws/install/abb_hardware_interface:/home/ubuntu/ros2ws/install/abb_irb4600_support:/home/ubuntu/ros2ws/install/abb_irb1200_5_90_moveit_config:/home/ubuntu/ros2ws/install/abb_irb1200_support:/home/ubuntu/ros2ws/install/abb_egm_msgs:/home/ubuntu/ros2ws/install/abb_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:1c1cbd7b-c58d-4f6a-929b-27fd07442a82'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/home/ubuntu/ros2ws/install/abb_librws/share/abb_librws/cmake'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2ws/build/ros2srrc_execution'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2ws2/install/ros2_grasping/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws2/install/ros2_data/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/abb_robot_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/abb_rapid_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/abb_egm_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2ws/install/ros2srrc_data:/home/ubuntu/ros2ws/install/ros2_robotiqgripper:/home/ubuntu/ros2ws/install/linkattacher_msgs:/home/ubuntu/ros2ws/install/abb_robot_msgs:/home/ubuntu/ros2ws2/install/ur5_ros2_moveit2:/home/ubuntu/ros2ws2/install/ur5_ros2_gazebo:/home/ubuntu/ros2ws2/install/ur3_ros2_moveit2:/home/ubuntu/ros2ws2/install/ur3_ros2_gazebo:/home/ubuntu/ros2ws2/install/ur10_ros2_moveit2:/home/ubuntu/ros2ws2/install/ur10_ros2_gazebo:/home/ubuntu/ros2ws2/install/ros2_grasping:/home/ubuntu/ros2ws2/install/ros2_execution:/home/ubuntu/ros2ws2/install/ros2_actions:/home/ubuntu/ros2ws2/install/panda_ros2_moveit2:/home/ubuntu/ros2ws2/install/irb6640_ros2_moveit2:/home/ubuntu/ros2ws2/install/irb120_ros2_moveit2:/home/ubuntu/ros2ws2/install/irb1200_ros2_moveit2:/home/ubuntu/ros2ws2/install/iiwa_ros2_moveit2:/home/ubuntu/ros2ws2/install/cr35ia_ros2_moveit2:/home/ubuntu/ros2ws2/install/ros2_data:/home/ubuntu/ros2ws2/install/panda_ros2_gazebo:/home/ubuntu/ros2ws2/install/irb6640_ros2_gazebo:/home/ubuntu/ros2ws2/install/irb120_ros2_gazebo:/home/ubuntu/ros2ws2/install/irb1200_ros2_gazebo:/home/ubuntu/ros2ws2/install/iiwa_ros2_gazebo:/home/ubuntu/ros2ws2/install/gazebo_ros2_control_demos:/home/ubuntu/ros2ws2/install/gazebo_ros2_control:/home/ubuntu/ros2ws2/install/cr35ia_ros2_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur5_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur3_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur3_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_robots:/home/ubuntu/ros2ws/install/ros2srrc_launch:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb120_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_execution:/home/ubuntu/ros2ws/install/ros2srrc_endeffectors:/home/ubuntu/ros2ws/install/ros2_objectpose:/home/ubuntu/ros2ws/install/ros2_linkpose:/home/ubuntu/ros2ws/install/ros2_linkattacher:/home/ubuntu/ros2ws/install/objectpose_msgs:/home/ubuntu/ros2ws/install/objectpose_gazebo:/home/ubuntu/ros2ws/install/linkpose_msgs:/home/ubuntu/ros2ws/install/linkpose_gazebo:/home/ubuntu/ros2ws/install/letter_writer:/home/ubuntu/ros2ws/install/gazebo_ros2_control_demos:/home/ubuntu/ros2ws/install/gazebo_ros2_control:/home/ubuntu/ros2ws/install/abb_rws_client:/home/ubuntu/ros2ws/install/abb_ros2:/home/ubuntu/ros2ws/install/abb_resources:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs:/home/ubuntu/ros2ws/install/abb_rapid_msgs:/home/ubuntu/ros2ws/install/abb_hardware_interface:/home/ubuntu/ros2ws/install/abb_egm_rws_managers:/home/ubuntu/ros2ws/install/abb_librws:/home/ubuntu/ros2ws/install/abb_libegm:/home/ubuntu/ros2ws/install/abb_irb4600_support:/home/ubuntu/ros2ws/install/abb_irb1200_5_90_moveit_config:/home/ubuntu/ros2ws/install/abb_irb1200_support:/home/ubuntu/ros2ws/install/abb_egm_msgs:/home/ubuntu/ros2ws/install/abb_bringup:/opt/ros/humble')]), 'shell': False}
+[4.938666] (-) TimerEvent: {}
+[4.993877] (ros2srrc_execution) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/robmove.dir/src/robmove.cpp.o\x1b[0m\n'}
+[4.994173] (ros2srrc_execution) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/move.dir/src/moveg.cpp.o\x1b[0m\n'}
+[5.003054] (ros2srrc_execution) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/robpose.dir/src/robpose.cpp.o\x1b[0m\n'}
+[5.019849] (ros2srrc_execution) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o\x1b[0m\n'}
+[5.039239] (-) TimerEvent: {}
+[5.139926] (-) TimerEvent: {}
+[5.241601] (-) TimerEvent: {}
+[5.342307] (-) TimerEvent: {}
+[5.442967] (-) TimerEvent: {}
+[5.543668] (-) TimerEvent: {}
+[5.645346] (-) TimerEvent: {}
+[5.746023] (-) TimerEvent: {}
+[5.846422] (-) TimerEvent: {}
+[5.946912] (-) TimerEvent: {}
+[6.049093] (-) TimerEvent: {}
+[6.065515] (ros2srrc_execution) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:5\x1b[m\x1b[K:\n'}
+[6.065696] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:47:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kros2srrc_data/action/move.hpp: No such file or directory\n'}
+[6.065785] (ros2srrc_execution) StderrLine: {'line': b'   47 | #include \x1b[01;31m\x1b[K"ros2srrc_data/action/move.hpp"\x1b[m\x1b[K\n'}
+[6.065854] (ros2srrc_execution) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.065933] (ros2srrc_execution) StderrLine: {'line': b'compilation terminated.\n'}
+[6.071427] (ros2srrc_execution) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/letter_writer_node.dir/build.make:76: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o] Error 1\n'}
+[6.071790] (ros2srrc_execution) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/letter_writer_node.dir/all] Error 2\n'}
+[6.073358] (ros2srrc_execution) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[6.085209] (ros2srrc_execution) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/move.dir/src/moverp.cpp.o\x1b[0m\n'}
+[6.149291] (-) TimerEvent: {}
+[6.249981] (-) TimerEvent: {}
+[6.350669] (-) TimerEvent: {}
+[6.454356] (-) TimerEvent: {}
+[6.554917] (-) TimerEvent: {}
+[6.655722] (-) TimerEvent: {}
+[6.756342] (-) TimerEvent: {}
+[6.856950] (-) TimerEvent: {}
+[6.957525] (-) TimerEvent: {}
+[7.058018] (-) TimerEvent: {}
+[7.158662] (-) TimerEvent: {}
+[7.259083] (-) TimerEvent: {}
+[7.359541] (-) TimerEvent: {}
+[7.460127] (-) TimerEvent: {}
+[7.561414] (-) TimerEvent: {}
+[7.662042] (-) TimerEvent: {}
+[7.762478] (-) TimerEvent: {}
+[7.865380] (-) TimerEvent: {}
+[7.966018] (-) TimerEvent: {}
+[8.066638] (-) TimerEvent: {}
+[8.167147] (-) TimerEvent: {}
+[8.267752] (-) TimerEvent: {}
+[8.368249] (-) TimerEvent: {}
+[8.468857] (-) TimerEvent: {}
+[8.569471] (-) TimerEvent: {}
+[8.670508] (-) TimerEvent: {}
+[8.773317] (-) TimerEvent: {}
+[8.873857] (-) TimerEvent: {}
+[8.974550] (-) TimerEvent: {}
+[9.075108] (-) TimerEvent: {}
+[9.175948] (-) TimerEvent: {}
+[9.276547] (-) TimerEvent: {}
+[9.378344] (-) TimerEvent: {}
+[9.478992] (-) TimerEvent: {}
+[9.579607] (-) TimerEvent: {}
+[9.681450] (-) TimerEvent: {}
+[9.782061] (-) TimerEvent: {}
+[9.882692] (-) TimerEvent: {}
+[9.983254] (-) TimerEvent: {}
+[10.084309] (-) TimerEvent: {}
+[10.185313] (-) TimerEvent: {}
+[10.286092] (-) TimerEvent: {}
+[10.388146] (-) TimerEvent: {}
+[10.488519] (-) TimerEvent: {}
+[10.589065] (-) TimerEvent: {}
+[10.689710] (-) TimerEvent: {}
+[10.790267] (-) TimerEvent: {}
+[10.891453] (-) TimerEvent: {}
+[10.994237] (-) TimerEvent: {}
+[11.094875] (-) TimerEvent: {}
+[11.195261] (-) TimerEvent: {}
+[11.295844] (-) TimerEvent: {}
+[11.396424] (-) TimerEvent: {}
+[11.496910] (-) TimerEvent: {}
+[11.597426] (-) TimerEvent: {}
+[11.698123] (-) TimerEvent: {}
+[11.798828] (-) TimerEvent: {}
+[11.901491] (-) TimerEvent: {}
+[12.002204] (-) TimerEvent: {}
+[12.102869] (-) TimerEvent: {}
+[12.203548] (-) TimerEvent: {}
+[12.304242] (-) TimerEvent: {}
+[12.332446] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::Plan plan_ROB()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.332642] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:74:108:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use moveit::core::MoveItErrorCode [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.333018] (ros2srrc_execution) StderrLine: {'line': b'   74 |     bool success = (move_group_interface_ROB.plan(my_plan) == moveit::planning_interface::MoveItErrorCode::\x1b[01;35m\x1b[KSUCCESS\x1b[m\x1b[K);\n'}
+[12.333119] (ros2srrc_execution) StderrLine: {'line': b'      |                                                                                                            \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[12.333179] (ros2srrc_execution) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:41\x1b[m\x1b[K:\n'}
+[12.333233] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[12.333286] (ros2srrc_execution) StderrLine: {'line': b'   71 | using \x1b[01;36m\x1b[KMoveItErrorCode\x1b[m\x1b[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;\n'}
+[12.333338] (ros2srrc_execution) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.399471] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2srrc_data::action::Robmove_Goal_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.399661] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:115:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kuuid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.399734] (ros2srrc_execution) StderrLine: {'line': b'  115 |     rclcpp_action::GoalResponse handle_goal(\x1b[01;35m\x1b[Kconst rclcpp_action::GoalUUID & uuid\x1b[m\x1b[K, std::shared_ptr<const Robmove::Goal> goal)\n'}
+[12.399796] (ros2srrc_execution) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[12.404431] (-) TimerEvent: {}
+[12.405252] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2srrc_data::action::Robmove> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.405496] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:178:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison with string literal results in unspecified behavior [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress\x07-Waddress\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.405715] (ros2srrc_execution) StderrLine: {'line': b'  178 |         if (\x1b[01;35m\x1b[KRES == "PLANNING: OK"\x1b[m\x1b[K){\n'}
+[12.405777] (ros2srrc_execution) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.405852] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:180:122:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use moveit::core::MoveItErrorCode [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.405927] (ros2srrc_execution) StderrLine: {'line': b'  180 |             bool ExecSUCCESS = (move_group_interface_ROB.execute(MyPlan) == moveit::planning_interface::MoveItErrorCode::\x1b[01;35m\x1b[KSUCCESS\x1b[m\x1b[K);\n'}
+[12.405994] (ros2srrc_execution) StderrLine: {'line': b'      |                                                                                                                          \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[12.406050] (ros2srrc_execution) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:41\x1b[m\x1b[K:\n'}
+[12.406105] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[12.406165] (ros2srrc_execution) StderrLine: {'line': b'   71 | using \x1b[01;36m\x1b[KMoveItErrorCode\x1b[m\x1b[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;\n'}
+[12.406221] (ros2srrc_execution) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.419461] (ros2srrc_execution) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[12.419640] (ros2srrc_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[12.419711] (ros2srrc_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[12.419808] (ros2srrc_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[12.419866] (ros2srrc_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[12.419922] (ros2srrc_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[12.419978] (ros2srrc_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[12.420033] (ros2srrc_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[12.420088] (ros2srrc_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.420144] (ros2srrc_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.420200] (ros2srrc_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[12.420336] (ros2srrc_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:34\x1b[m\x1b[K:\n'}
+[12.420398] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.420456] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:246:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.420518] (ros2srrc_execution) StderrLine: {'line': b'  246 |     RCLCPP_INFO(logger, \x1b[01;35m\x1b[K"MoveGroupInterface object created for ROBOT: %s"\x1b[m\x1b[K, ROBname);\n'}
+[12.420574] (ros2srrc_execution) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.420630] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/robmove.cpp:246:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[12.420687] (ros2srrc_execution) StderrLine: {'line': b'  246 |     RCLCPP_INFO(logger, "MoveGroupInterface object created for ROBOT: \x1b[01;36m\x1b[K%s\x1b[m\x1b[K", ROBname);\n'}
+[12.420773] (ros2srrc_execution) StderrLine: {'line': b'      |                                                                       \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[12.420831] (ros2srrc_execution) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[12.420886] (ros2srrc_execution) StderrLine: {'line': b'      |                                                                        \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[12.470024] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/moveg.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KMoveGSTRUCT MoveGAction(double, std::vector<double, std::allocator<double> >, ros2srrc_data::msg::Specs)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.470229] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/moveg.cpp:75:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.470329] (ros2srrc_execution) StderrLine: {'line': b'   75 |     for (int i=0; \x1b[01;35m\x1b[Ki<JP.size()\x1b[m\x1b[K; i++){\n'}
+[12.470422] (ros2srrc_execution) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.504638] (-) TimerEvent: {}
+[12.605324] (-) TimerEvent: {}
+[12.706039] (-) TimerEvent: {}
+[12.806707] (-) TimerEvent: {}
+[12.908391] (-) TimerEvent: {}
+[13.009079] (-) TimerEvent: {}
+[13.109772] (-) TimerEvent: {}
+[13.210494] (-) TimerEvent: {}
+[13.313146] (-) TimerEvent: {}
+[13.413830] (-) TimerEvent: {}
+[13.514519] (-) TimerEvent: {}
+[13.615218] (-) TimerEvent: {}
+[13.715895] (-) TimerEvent: {}
+[13.820066] (-) TimerEvent: {}
+[13.920598] (-) TimerEvent: {}
+[14.021237] (-) TimerEvent: {}
+[14.122127] (-) TimerEvent: {}
+[14.222816] (-) TimerEvent: {}
+[14.323519] (-) TimerEvent: {}
+[14.424201] (-) TimerEvent: {}
+[14.524886] (-) TimerEvent: {}
+[14.625574] (-) TimerEvent: {}
+[14.728254] (-) TimerEvent: {}
+[14.828938] (-) TimerEvent: {}
+[14.929630] (-) TimerEvent: {}
+[15.031306] (-) TimerEvent: {}
+[15.131994] (-) TimerEvent: {}
+[15.232677] (-) TimerEvent: {}
+[15.333376] (-) TimerEvent: {}
+[15.437043] (-) TimerEvent: {}
+[15.537726] (-) TimerEvent: {}
+[15.638442] (-) TimerEvent: {}
+[15.739127] (-) TimerEvent: {}
+[15.839827] (-) TimerEvent: {}
+[15.940496] (-) TimerEvent: {}
+[16.041185] (-) TimerEvent: {}
+[16.141861] (-) TimerEvent: {}
+[16.244040] (-) TimerEvent: {}
+[16.344741] (-) TimerEvent: {}
+[16.445427] (-) TimerEvent: {}
+[16.546118] (-) TimerEvent: {}
+[16.647321] (-) TimerEvent: {}
+[16.750498] (-) TimerEvent: {}
+[16.851210] (-) TimerEvent: {}
+[16.951885] (-) TimerEvent: {}
+[17.052621] (-) TimerEvent: {}
+[17.130883] (ros2srrc_execution) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/move.dir/src/moverot.cpp.o\x1b[0m\n'}
+[17.153258] (-) TimerEvent: {}
+[17.255929] (-) TimerEvent: {}
+[17.356590] (-) TimerEvent: {}
+[17.457284] (-) TimerEvent: {}
+[17.558001] (-) TimerEvent: {}
+[17.661158] (-) TimerEvent: {}
+[17.761842] (-) TimerEvent: {}
+[17.862531] (-) TimerEvent: {}
+[17.963218] (-) TimerEvent: {}
+[18.065396] (-) TimerEvent: {}
+[18.166070] (-) TimerEvent: {}
+[18.266745] (-) TimerEvent: {}
+[18.367466] (-) TimerEvent: {}
+[18.469126] (-) TimerEvent: {}
+[18.569768] (-) TimerEvent: {}
+[18.671600] (-) TimerEvent: {}
+[18.772188] (-) TimerEvent: {}
+[18.872902] (-) TimerEvent: {}
+[18.973562] (-) TimerEvent: {}
+[19.076225] (-) TimerEvent: {}
+[19.100334] (ros2srrc_execution) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/move.dir/src/mover.cpp.o\x1b[0m\n'}
+[19.176471] (-) TimerEvent: {}
+[19.277072] (-) TimerEvent: {}
+[19.377813] (-) TimerEvent: {}
+[19.478345] (-) TimerEvent: {}
+[19.579686] (-) TimerEvent: {}
+[19.619465] (ros2srrc_execution) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable robmove\x1b[0m\n'}
+[19.679866] (-) TimerEvent: {}
+[19.780562] (-) TimerEvent: {}
+[19.883238] (-) TimerEvent: {}
+[19.983922] (-) TimerEvent: {}
+[20.084609] (-) TimerEvent: {}
+[20.185312] (-) TimerEvent: {}
+[20.278140] (ros2srrc_execution) StdoutLine: {'line': b'[ 57%] Built target robmove\n'}
+[20.285517] (-) TimerEvent: {}
+[20.298480] (ros2srrc_execution) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/move.dir/src/movel.cpp.o\x1b[0m\n'}
+[20.307799] (ros2srrc_execution) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable robpose\x1b[0m\n'}
+[20.388170] (-) TimerEvent: {}
+[20.488865] (-) TimerEvent: {}
+[20.589562] (-) TimerEvent: {}
+[20.690282] (-) TimerEvent: {}
+[20.790966] (-) TimerEvent: {}
+[20.891629] (-) TimerEvent: {}
+[20.992356] (-) TimerEvent: {}
+[21.085903] (ros2srrc_execution) StdoutLine: {'line': b'[ 71%] Built target robpose\n'}
+[21.092541] (-) TimerEvent: {}
+[21.108360] (ros2srrc_execution) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/move.dir/src/movej.cpp.o\x1b[0m\n'}
+[21.192696] (-) TimerEvent: {}
+[21.293393] (-) TimerEvent: {}
+[21.394573] (-) TimerEvent: {}
+[21.495263] (-) TimerEvent: {}
+[21.595950] (-) TimerEvent: {}
+[21.697627] (-) TimerEvent: {}
+[21.798313] (-) TimerEvent: {}
+[21.899007] (-) TimerEvent: {}
+[21.999692] (-) TimerEvent: {}
+[22.102392] (-) TimerEvent: {}
+[22.203065] (-) TimerEvent: {}
+[22.303753] (-) TimerEvent: {}
+[22.404457] (-) TimerEvent: {}
+[22.505160] (-) TimerEvent: {}
+[22.605823] (-) TimerEvent: {}
+[22.709519] (-) TimerEvent: {}
+[22.810165] (-) TimerEvent: {}
+[22.910853] (-) TimerEvent: {}
+[23.011567] (-) TimerEvent: {}
+[23.112230] (-) TimerEvent: {}
+[23.212919] (-) TimerEvent: {}
+[23.313611] (-) TimerEvent: {}
+[23.414248] (-) TimerEvent: {}
+[23.515004] (-) TimerEvent: {}
+[23.615689] (-) TimerEvent: {}
+[23.718386] (-) TimerEvent: {}
+[23.819051] (-) TimerEvent: {}
+[23.919746] (-) TimerEvent: {}
+[24.020455] (-) TimerEvent: {}
+[24.121136] (-) TimerEvent: {}
+[24.221837] (-) TimerEvent: {}
+[24.324501] (-) TimerEvent: {}
+[24.425186] (-) TimerEvent: {}
+[24.525856] (-) TimerEvent: {}
+[24.626549] (-) TimerEvent: {}
+[24.727268] (-) TimerEvent: {}
+[24.827933] (-) TimerEvent: {}
+[24.928618] (-) TimerEvent: {}
+[25.030466] (-) TimerEvent: {}
+[25.130992] (-) TimerEvent: {}
+[25.231649] (-) TimerEvent: {}
+[25.333354] (-) TimerEvent: {}
+[25.434053] (-) TimerEvent: {}
+[25.534737] (-) TimerEvent: {}
+[25.635458] (-) TimerEvent: {}
+[25.737694] (-) TimerEvent: {}
+[25.838427] (-) TimerEvent: {}
+[25.939484] (-) TimerEvent: {}
+[26.043151] (-) TimerEvent: {}
+[26.143829] (-) TimerEvent: {}
+[26.244551] (-) TimerEvent: {}
+[26.345223] (-) TimerEvent: {}
+[26.445902] (-) TimerEvent: {}
+[26.546610] (-) TimerEvent: {}
+[26.647274] (-) TimerEvent: {}
+[26.747759] (-) TimerEvent: {}
+[26.849645] (-) TimerEvent: {}
+[26.950347] (-) TimerEvent: {}
+[27.051063] (-) TimerEvent: {}
+[27.151724] (-) TimerEvent: {}
+[27.255380] (-) TimerEvent: {}
+[27.356082] (-) TimerEvent: {}
+[27.456760] (-) TimerEvent: {}
+[27.557459] (-) TimerEvent: {}
+[27.658149] (-) TimerEvent: {}
+[27.758836] (-) TimerEvent: {}
+[27.859544] (-) TimerEvent: {}
+[27.960210] (-) TimerEvent: {}
+[27.964809] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/mover.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KMoveRSTRUCT MoveRAction(ros2srrc_data::msg::Joint, std::vector<double, std::allocator<double> >, ros2srrc_data::msg::Specs)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[27.965190] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/mover.cpp:67:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.965380] (ros2srrc_execution) StderrLine: {'line': b'   67 |     for (int i=0; \x1b[01;35m\x1b[Ki<JP.size()\x1b[m\x1b[K; i++){\n'}
+[27.965546] (ros2srrc_execution) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[27.967986] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/mover.cpp:105:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[27.968322] (ros2srrc_execution) StderrLine: {'line': b'  105 |         for (int i=0; \x1b[01;35m\x1b[Ki<JP.size()\x1b[m\x1b[K; i++){\n'}
+[27.968504] (ros2srrc_execution) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[28.060415] (-) TimerEvent: {}
+[28.161101] (-) TimerEvent: {}
+[28.261801] (-) TimerEvent: {}
+[28.365450] (-) TimerEvent: {}
+[28.466159] (-) TimerEvent: {}
+[28.566823] (-) TimerEvent: {}
+[28.667514] (-) TimerEvent: {}
+[28.768205] (-) TimerEvent: {}
+[28.868919] (-) TimerEvent: {}
+[28.969602] (-) TimerEvent: {}
+[29.070273] (-) TimerEvent: {}
+[29.171012] (-) TimerEvent: {}
+[29.274131] (-) TimerEvent: {}
+[29.374818] (-) TimerEvent: {}
+[29.475515] (-) TimerEvent: {}
+[29.576239] (-) TimerEvent: {}
+[29.676892] (-) TimerEvent: {}
+[29.777581] (-) TimerEvent: {}
+[29.814924] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/movej.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KMoveJSTRUCT MoveJAction(ros2srrc_data::msg::Joints, std::vector<double, std::allocator<double> >, ros2srrc_data::msg::Specs)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[29.816857] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/movej.cpp:81:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[29.817097] (ros2srrc_execution) StderrLine: {'line': b'   81 |     for (int i=0; \x1b[01;35m\x1b[Ki<JP.size()\x1b[m\x1b[K; i++){\n'}
+[29.817406] (ros2srrc_execution) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.817558] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/movej.cpp:95:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double, std::allocator<double> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[29.817751] (ros2srrc_execution) StderrLine: {'line': b'   95 |         for (int i=0; \x1b[01;35m\x1b[Ki<JP.size()\x1b[m\x1b[K; i++){\n'}
+[29.817891] (ros2srrc_execution) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.818022] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/movej.cpp:105:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::__cxx11::basic_string<char> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[29.818245] (ros2srrc_execution) StderrLine: {'line': b'  105 |         for (int k=0; \x1b[01;35m\x1b[Kk<jointLIST.size()\x1b[m\x1b[K; k++){\n'}
+[29.818404] (ros2srrc_execution) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.880253] (-) TimerEvent: {}
+[29.980944] (-) TimerEvent: {}
+[30.081629] (-) TimerEvent: {}
+[30.182326] (-) TimerEvent: {}
+[30.283011] (-) TimerEvent: {}
+[30.383691] (-) TimerEvent: {}
+[30.484387] (-) TimerEvent: {}
+[30.586569] (-) TimerEvent: {}
+[30.687253] (-) TimerEvent: {}
+[30.787725] (-) TimerEvent: {}
+[30.888765] (-) TimerEvent: {}
+[30.986296] (ros2srrc_execution) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/move.dir/src/move.cpp.o\x1b[0m\n'}
+[30.989307] (-) TimerEvent: {}
+[31.090005] (-) TimerEvent: {}
+[31.190692] (-) TimerEvent: {}
+[31.291387] (-) TimerEvent: {}
+[31.392076] (-) TimerEvent: {}
+[31.492776] (-) TimerEvent: {}
+[31.593456] (-) TimerEvent: {}
+[31.694151] (-) TimerEvent: {}
+[31.794858] (-) TimerEvent: {}
+[31.897509] (-) TimerEvent: {}
+[31.998204] (-) TimerEvent: {}
+[32.098880] (-) TimerEvent: {}
+[32.199581] (-) TimerEvent: {}
+[32.300386] (-) TimerEvent: {}
+[32.401015] (-) TimerEvent: {}
+[32.501683] (-) TimerEvent: {}
+[32.602397] (-) TimerEvent: {}
+[32.703078] (-) TimerEvent: {}
+[32.803770] (-) TimerEvent: {}
+[32.904436] (-) TimerEvent: {}
+[33.005146] (-) TimerEvent: {}
+[33.105832] (-) TimerEvent: {}
+[33.206527] (-) TimerEvent: {}
+[33.307206] (-) TimerEvent: {}
+[33.407882] (-) TimerEvent: {}
+[33.508599] (-) TimerEvent: {}
+[33.609283] (-) TimerEvent: {}
+[33.709911] (-) TimerEvent: {}
+[33.810654] (-) TimerEvent: {}
+[33.911333] (-) TimerEvent: {}
+[34.012087] (-) TimerEvent: {}
+[34.112750] (-) TimerEvent: {}
+[34.213447] (-) TimerEvent: {}
+[34.314125] (-) TimerEvent: {}
+[34.414819] (-) TimerEvent: {}
+[34.515503] (-) TimerEvent: {}
+[34.616192] (-) TimerEvent: {}
+[34.716882] (-) TimerEvent: {}
+[34.817589] (-) TimerEvent: {}
+[34.918266] (-) TimerEvent: {}
+[35.018956] (-) TimerEvent: {}
+[35.119636] (-) TimerEvent: {}
+[35.220294] (-) TimerEvent: {}
+[35.320978] (-) TimerEvent: {}
+[35.421704] (-) TimerEvent: {}
+[35.522360] (-) TimerEvent: {}
+[35.623049] (-) TimerEvent: {}
+[35.723735] (-) TimerEvent: {}
+[35.824435] (-) TimerEvent: {}
+[35.925136] (-) TimerEvent: {}
+[36.025798] (-) TimerEvent: {}
+[36.126492] (-) TimerEvent: {}
+[36.227219] (-) TimerEvent: {}
+[36.327924] (-) TimerEvent: {}
+[36.428617] (-) TimerEvent: {}
+[36.529177] (-) TimerEvent: {}
+[36.630335] (-) TimerEvent: {}
+[36.731217] (-) TimerEvent: {}
+[36.831863] (-) TimerEvent: {}
+[36.932554] (-) TimerEvent: {}
+[37.033222] (-) TimerEvent: {}
+[37.133915] (-) TimerEvent: {}
+[37.234604] (-) TimerEvent: {}
+[37.335308] (-) TimerEvent: {}
+[37.436000] (-) TimerEvent: {}
+[37.536677] (-) TimerEvent: {}
+[37.601830] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::Plan plan_ROB()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[37.602364] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:124:108:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use moveit::core::MoveItErrorCode [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[37.602678] (ros2srrc_execution) StderrLine: {'line': b'  124 | == moveit::planning_interface::MoveItErrorCode::\x1b[01;35m\x1b[KSUCCESS\x1b[m\x1b[K);\n'}
+[37.602766] (ros2srrc_execution) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[37.602836] (ros2srrc_execution) StderrLine: {'line': b'\n'}
+[37.602891] (ros2srrc_execution) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43\x1b[m\x1b[K,\n'}
+[37.602947] (ros2srrc_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:42\x1b[m\x1b[K:\n'}
+[37.603072] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[37.603133] (ros2srrc_execution) StderrLine: {'line': b'   71 | using \x1b[01;36m\x1b[KMoveItErrorCode\x1b[m\x1b[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;\n'}
+[37.603204] (ros2srrc_execution) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[37.603257] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kmoveit::planning_interface::MoveGroupInterface::Plan plan_EE()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[37.603311] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:143:107:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use moveit::core::MoveItErrorCode [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[37.603375] (ros2srrc_execution) StderrLine: {'line': b'  143 | == moveit::planning_interface::MoveItErrorCode::\x1b[01;35m\x1b[KSUCCESS\x1b[m\x1b[K);\n'}
+[37.603427] (ros2srrc_execution) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[37.603529] (ros2srrc_execution) StderrLine: {'line': b'\n'}
+[37.603590] (ros2srrc_execution) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43\x1b[m\x1b[K,\n'}
+[37.603642] (ros2srrc_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:42\x1b[m\x1b[K:\n'}
+[37.603692] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[37.603743] (ros2srrc_execution) StderrLine: {'line': b'   71 | using \x1b[01;36m\x1b[KMoveItErrorCode\x1b[m\x1b[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;\n'}
+[37.603793] (ros2srrc_execution) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[37.636865] (-) TimerEvent: {}
+[37.653990] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::GoalResponse ActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const ros2srrc_data::action::Move_Goal_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[37.654210] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:193:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kspeed\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[37.654276] (ros2srrc_execution) StderrLine: {'line': b'  193 |         double \x1b[01;35m\x1b[Kspeed\x1b[m\x1b[K = goal->speed;\n'}
+[37.654332] (ros2srrc_execution) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[37.654385] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:187:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kuuid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[37.654453] (ros2srrc_execution) StderrLine: {'line': b'  187 |         \x1b[01;35m\x1b[Kconst rclcpp_action::GoalUUID & uuid\x1b[m\x1b[K,\n'}
+[37.654505] (ros2srrc_execution) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[37.670328] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<ros2srrc_data::action::Move> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[37.670819] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:371:122:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use moveit::core::MoveItErrorCode [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[37.670946] (ros2srrc_execution) StderrLine: {'line': b'  371 | == moveit::planning_interface::MoveItErrorCode::\x1b[01;35m\x1b[KSUCCESS\x1b[m\x1b[K);\n'}
+[37.671173] (ros2srrc_execution) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[37.671231] (ros2srrc_execution) StderrLine: {'line': b'\n'}
+[37.671283] (ros2srrc_execution) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43\x1b[m\x1b[K,\n'}
+[37.671339] (ros2srrc_execution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/move.cpp:42\x1b[m\x1b[K:\n'}
+[37.671404] (ros2srrc_execution) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[37.671553] (ros2srrc_execution) StderrLine: {'line': b'   71 | using \x1b[01;36m\x1b[KMoveItErrorCode\x1b[m\x1b[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;\n'}
+[37.671619] (ros2srrc_execution) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[37.737086] (-) TimerEvent: {}
+[37.837960] (-) TimerEvent: {}
+[37.938949] (-) TimerEvent: {}
+[38.039642] (-) TimerEvent: {}
+[38.140321] (-) TimerEvent: {}
+[38.241021] (-) TimerEvent: {}
+[38.341716] (-) TimerEvent: {}
+[38.442990] (-) TimerEvent: {}
+[38.543576] (-) TimerEvent: {}
+[38.644273] (-) TimerEvent: {}
+[38.744956] (-) TimerEvent: {}
+[38.845651] (-) TimerEvent: {}
+[38.946316] (-) TimerEvent: {}
+[39.047032] (-) TimerEvent: {}
+[39.147712] (-) TimerEvent: {}
+[39.248406] (-) TimerEvent: {}
+[39.349089] (-) TimerEvent: {}
+[39.449799] (-) TimerEvent: {}
+[39.550486] (-) TimerEvent: {}
+[39.651189] (-) TimerEvent: {}
+[39.751852] (-) TimerEvent: {}
+[39.852533] (-) TimerEvent: {}
+[39.953223] (-) TimerEvent: {}
+[40.053915] (-) TimerEvent: {}
+[40.154616] (-) TimerEvent: {}
+[40.255308] (-) TimerEvent: {}
+[40.355987] (-) TimerEvent: {}
+[40.456675] (-) TimerEvent: {}
+[40.557359] (-) TimerEvent: {}
+[40.658045] (-) TimerEvent: {}
+[40.758708] (-) TimerEvent: {}
+[40.859420] (-) TimerEvent: {}
+[40.960083] (-) TimerEvent: {}
+[41.060772] (-) TimerEvent: {}
+[41.161492] (-) TimerEvent: {}
+[41.262147] (-) TimerEvent: {}
+[41.362837] (-) TimerEvent: {}
+[41.463575] (-) TimerEvent: {}
+[41.564251] (-) TimerEvent: {}
+[41.664936] (-) TimerEvent: {}
+[41.765638] (-) TimerEvent: {}
+[41.866272] (-) TimerEvent: {}
+[41.966978] (-) TimerEvent: {}
+[42.028970] (ros2srrc_execution) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable move\x1b[0m\n'}
+[42.067225] (-) TimerEvent: {}
+[42.167826] (-) TimerEvent: {}
+[42.268320] (-) TimerEvent: {}
+[42.369011] (-) TimerEvent: {}
+[42.469727] (-) TimerEvent: {}
+[42.548629] (ros2srrc_execution) StdoutLine: {'line': b'[ 92%] Built target move\n'}
+[42.549218] (ros2srrc_execution) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[42.551743] (ros2srrc_execution) CommandEnded: {'returncode': 2}
+[42.569847] (-) TimerEvent: {}
+[42.660867] (ros2srrc_execution) JobEnded: {'identifier': 'ros2srrc_execution', 'rc': 2}
+[42.670451] (-) TimerEvent: {}
+[42.674257] (-) EventReactorShutdown: {}

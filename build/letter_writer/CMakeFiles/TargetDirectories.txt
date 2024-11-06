@@ -1,0 +1,10 @@
+/home/ubuntu/ros2ws/build/letter_writer/CMakeFiles/uninstall.dir
+/home/ubuntu/ros2ws/build/letter_writer/CMakeFiles/letter_writer_uninstall.dir
+/home/ubuntu/ros2ws/build/letter_writer/CMakeFiles/letter_input_node.dir
+/home/ubuntu/ros2ws/build/letter_writer/CMakeFiles/test.dir
+/home/ubuntu/ros2ws/build/letter_writer/CMakeFiles/edit_cache.dir
+/home/ubuntu/ros2ws/build/letter_writer/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/ros2ws/build/letter_writer/CMakeFiles/list_install_components.dir
+/home/ubuntu/ros2ws/build/letter_writer/CMakeFiles/install.dir
+/home/ubuntu/ros2ws/build/letter_writer/CMakeFiles/install/local.dir
+/home/ubuntu/ros2ws/build/letter_writer/CMakeFiles/install/strip.dir

@@ -1,0 +1,104 @@
+[35m[1mConsolidate compiler generated dependencies of target move[0m
+[ 57%] Built target move
+[35m[1mConsolidate compiler generated dependencies of target letter_writer_node[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o[0m
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:46:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const char [8])[m[K’
+   46 | ::MoveGroupInterface move_group_interface_ROB("ur5_arm"[01;31m[K)[m[K;
+      |                                                        [01;31m[K^[m[K
+
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43[m[K,
+                 from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:160:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+  160 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:160:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [8][m[K’ to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&&[m[K’
+  160 |   MoveGroupInterface([01;36m[KMoveGroupInterface&& other[m[K) noexcept;
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:149:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface()[m[K’
+  149 |   inline [01;36m[KMoveGroupInterface[m[K(){}
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:149:10:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  145 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:145:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  134 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:134:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:47:85:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const char [12])[m[K’
+   47 | oveGroupInterface move_group_interface_EE("ur5_gripper"[01;31m[K)[m[K;
+      |                                                        [01;31m[K^[m[K
+
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43[m[K,
+                 from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:160:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+  160 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:160:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst char [12][m[K’ to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&&[m[K’
+  160 |   MoveGroupInterface([01;36m[KMoveGroupInterface&& other[m[K) noexcept;
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:149:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface()[m[K’
+  149 |   inline [01;36m[KMoveGroupInterface[m[K(){}
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:149:10:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  145 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:145:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  134 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:134:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:134:97:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const string&)[m[K’
+  134 | anning_interface::MoveGroupInterface(PLANNING_GROUP_ROB[01;31m[K)[m[K;
+      |                                                        [01;31m[K^[m[K
+
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43[m[K,
+                 from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:160:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+  160 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:160:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&&[m[K’
+  160 |   MoveGroupInterface([01;36m[KMoveGroupInterface&& other[m[K) noexcept;
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:149:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface()[m[K’
+  149 |   inline [01;36m[KMoveGroupInterface[m[K(){}
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:149:10:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  145 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:145:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  134 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:134:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:135:95:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const string&)[m[K’
+  135 | lanning_interface::MoveGroupInterface(PLANNING_GROUP_EE[01;31m[K)[m[K;
+      |                                                        [01;31m[K^[m[K
+
+In file included from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/include/ros2srrc_execution/movej.h:43[m[K,
+                 from [01m[K/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_execution/src/letter_writer_node.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:160:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(moveit::planning_interface::MoveGroupInterface&&)[m[K’
+  160 |   [01;36m[KMoveGroupInterface[m[K(MoveGroupInterface&& other) noexcept;
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:160:43:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kmoveit::planning_interface::MoveGroupInterface&&[m[K’
+  160 |   MoveGroupInterface([01;36m[KMoveGroupInterface&& other[m[K) noexcept;
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:149:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface()[m[K’
+  149 |   inline [01;36m[KMoveGroupInterface[m[K(){}
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:149:10:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:145:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const string&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  145 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const std::string& group,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:145:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:134:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kmoveit::planning_interface::MoveGroupInterface::MoveGroupInterface(const SharedPtr&, const moveit::planning_interface::MoveGroupInterface::Options&, const std::shared_ptr<tf2_ros::Buffer>&, const rclcpp::Duration&)[m[K’
+  134 |   [01;36m[KMoveGroupInterface[m[K(const rclcpp::Node::SharedPtr& node, const Options& opt,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface_improved.h:134:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/letter_writer_node.dir/build.make:76: CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/letter_writer_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

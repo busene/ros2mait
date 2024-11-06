@@ -236,6 +236,43 @@ robpose/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robpose.dir/build.make CMakeFiles/robpose.dir/build
 .PHONY : robpose/fast
 
+#=============================================================================
+# Target rules for targets named letter_writer_node
+
+# Build rule for target.
+letter_writer_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 letter_writer_node
+.PHONY : letter_writer_node
+
+# fast build rule for target.
+letter_writer_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/letter_writer_node.dir/build.make CMakeFiles/letter_writer_node.dir/build
+.PHONY : letter_writer_node/fast
+
+src/letter_writer_node.o: src/letter_writer_node.cpp.o
+.PHONY : src/letter_writer_node.o
+
+# target to build an object file
+src/letter_writer_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/letter_writer_node.dir/build.make CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o
+.PHONY : src/letter_writer_node.cpp.o
+
+src/letter_writer_node.i: src/letter_writer_node.cpp.i
+.PHONY : src/letter_writer_node.i
+
+# target to preprocess a source file
+src/letter_writer_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/letter_writer_node.dir/build.make CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.i
+.PHONY : src/letter_writer_node.cpp.i
+
+src/letter_writer_node.s: src/letter_writer_node.cpp.s
+.PHONY : src/letter_writer_node.s
+
+# target to generate assembly for a file
+src/letter_writer_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/letter_writer_node.dir/build.make CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.s
+.PHONY : src/letter_writer_node.cpp.s
+
 src/move.o: src/move.cpp.o
 .PHONY : src/move.o
 
@@ -467,9 +504,13 @@ help:
 	@echo "... test"
 	@echo "... ros2srrc_execution_uninstall"
 	@echo "... uninstall"
+	@echo "... letter_writer_node"
 	@echo "... move"
 	@echo "... robmove"
 	@echo "... robpose"
+	@echo "... src/letter_writer_node.o"
+	@echo "... src/letter_writer_node.i"
+	@echo "... src/letter_writer_node.s"
 	@echo "... src/move.o"
 	@echo "... src/move.i"
 	@echo "... src/move.s"

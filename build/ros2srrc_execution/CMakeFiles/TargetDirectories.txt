@@ -3,6 +3,7 @@
 /home/ubuntu/ros2ws/build/ros2srrc_execution/CMakeFiles/move.dir
 /home/ubuntu/ros2ws/build/ros2srrc_execution/CMakeFiles/robmove.dir
 /home/ubuntu/ros2ws/build/ros2srrc_execution/CMakeFiles/robpose.dir
+/home/ubuntu/ros2ws/build/ros2srrc_execution/CMakeFiles/letter_writer_node.dir
 /home/ubuntu/ros2ws/build/ros2srrc_execution/CMakeFiles/test.dir
 /home/ubuntu/ros2ws/build/ros2srrc_execution/CMakeFiles/edit_cache.dir
 /home/ubuntu/ros2ws/build/ros2srrc_execution/CMakeFiles/rebuild_cache.dir

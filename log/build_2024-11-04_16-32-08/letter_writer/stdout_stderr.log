@@ -1,0 +1,30 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[31mCMake Error at CMakeLists.txt:12 (find_package):
+  By not providing "Findcurses.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "curses", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "curses" with any
+  of the following names:
+
+    cursesConfig.cmake
+    curses-config.cmake
+
+  Add the installation prefix of "curses" to CMAKE_PREFIX_PATH or set
+  "curses_DIR" to a directory containing one of the above files.  If "curses"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/ubuntu/ros2ws/build/letter_writer/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

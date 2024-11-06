@@ -1,1 +1,2 @@
-/home/ubuntu/ros2ws/build/ros2srrc_execution/ament_cmake_environment_hooks/local_setup.dsv
+source;share/ros2srrc_execution/environment/ament_prefix_path.sh
+source;share/ros2srrc_execution/environment/path.sh

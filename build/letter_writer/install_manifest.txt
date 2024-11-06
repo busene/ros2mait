@@ -1,0 +1,16 @@
+/home/ubuntu/ros2ws/install/letter_writer/lib/letter_writer/letter_input_node
+/home/ubuntu/ros2ws/install/letter_writer/share/ament_index/resource_index/package_run_dependencies/letter_writer
+/home/ubuntu/ros2ws/install/letter_writer/share/ament_index/resource_index/parent_prefix_path/letter_writer
+/home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/ament_prefix_path.sh
+/home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/ament_prefix_path.dsv
+/home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/path.sh
+/home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/path.dsv
+/home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.bash
+/home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.sh
+/home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.zsh
+/home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.dsv
+/home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/package.dsv
+/home/ubuntu/ros2ws/install/letter_writer/share/ament_index/resource_index/packages/letter_writer
+/home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/cmake/letter_writerConfig.cmake
+/home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/cmake/letter_writerConfig-version.cmake
+/home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/package.xml

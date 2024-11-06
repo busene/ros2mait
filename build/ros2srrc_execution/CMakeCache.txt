@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -338,7 +338,7 @@ TINYXML2_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libtinyxml2.so
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/home/ubuntu/ros2ws/install/ros2_robotiqgripper/lib/libros2_robotiqgripper__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/ubuntu/ros2ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for abb_robot_msgs.
 abb_robot_msgs_DIR:PATH=/home/ubuntu/ros2ws/install/abb_robot_msgs/share/abb_robot_msgs/cmake
@@ -1088,8 +1088,6 @@ _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=0f3e53742e142b1d9e50e4ca5b901dd8
-//Index for unique symlink install targets
-__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=3
 __pkg_config_arguments_PC_CURL:INTERNAL=QUIET;libcurl
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked_PC_CURL:INTERNAL=1
@@ -1122,5 +1120,5 @@ pkgcfg_lib_PC_CURL_curl-ADVANCED:INTERNAL=1
 pkgcfg_lib__OPENSSL_crypto-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_ssl
 pkgcfg_lib__OPENSSL_ssl-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=AsynchDNS;GSS-API;HSTS;HTTP2;HTTPS-proxy;IDN;IPv6;Kerberos;Largefile;NTLM;NTLM_WB;PSL;SPNEGO;SSL;TLS-SRP;UnixSockets;alt-svc;brotli;libz;zstd
+prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
 

@@ -1,0 +1,26 @@
+[0.023s] Invoking command in '/home/ubuntu/ros2ws/build/letter_writer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/letter_writer -- -j4 -l4
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target letter_input_node[0m
+[0.113s] [ 50%] [32mBuilding CXX object CMakeFiles/letter_input_node.dir/src/letter_input_node.cpp.o[0m
+[4.774s] [100%] [32m[1mLinking CXX executable letter_input_node[0m
+[4.990s] [100%] Built target letter_input_node
+[5.007s] Invoked command in '/home/ubuntu/ros2ws/build/letter_writer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/letter_writer -- -j4 -l4
+[5.069s] Invoking command in '/home/ubuntu/ros2ws/build/letter_writer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/letter_writer
+[5.080s] -- Install configuration: ""
+[5.083s] -- Installing: /home/ubuntu/ros2ws/install/letter_writer/lib/letter_writer/letter_input_node
+[5.083s] -- Set runtime path of "/home/ubuntu/ros2ws/install/letter_writer/lib/letter_writer/letter_input_node" to ""
+[5.083s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/ament_index/resource_index/package_run_dependencies/letter_writer
+[5.083s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/ament_index/resource_index/parent_prefix_path/letter_writer
+[5.083s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/ament_prefix_path.sh
+[5.083s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/ament_prefix_path.dsv
+[5.083s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/path.sh
+[5.083s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/path.dsv
+[5.084s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.bash
+[5.084s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.sh
+[5.084s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.zsh
+[5.084s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.dsv
+[5.084s] -- Installing: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/package.dsv
+[5.084s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/ament_index/resource_index/packages/letter_writer
+[5.084s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/cmake/letter_writerConfig.cmake
+[5.084s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/cmake/letter_writerConfig-version.cmake
+[5.084s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/package.xml
+[5.089s] Invoked command in '/home/ubuntu/ros2ws/build/letter_writer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/letter_writer
