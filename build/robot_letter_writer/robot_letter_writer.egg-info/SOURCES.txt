@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/robot_letter_writer/robot_letter_writer.egg-info/PKG-INFO
+../../build/robot_letter_writer/robot_letter_writer.egg-info/SOURCES.txt
+../../build/robot_letter_writer/robot_letter_writer.egg-info/dependency_links.txt
+../../build/robot_letter_writer/robot_letter_writer.egg-info/entry_points.txt
+../../build/robot_letter_writer/robot_letter_writer.egg-info/requires.txt
+../../build/robot_letter_writer/robot_letter_writer.egg-info/top_level.txt
+../../build/robot_letter_writer/robot_letter_writer.egg-info/zip-safe
+resource/robot_letter_writer
+robot_letter_writer/__init__.py
+robot_letter_writer/robot_letter_writer.py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

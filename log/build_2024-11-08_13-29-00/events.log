@@ -1,0 +1,478 @@
+[0.000000] (-) TimerEvent: {}
+[0.000474] (-) JobUnselected: {'identifier': 'abb_bringup'}
+[0.000533] (-) JobUnselected: {'identifier': 'abb_egm_msgs'}
+[0.000587] (-) JobUnselected: {'identifier': 'abb_egm_rws_managers'}
+[0.000638] (-) JobUnselected: {'identifier': 'abb_hardware_interface'}
+[0.000656] (-) JobUnselected: {'identifier': 'abb_irb1200_5_90_moveit_config'}
+[0.000672] (-) JobUnselected: {'identifier': 'abb_irb1200_support'}
+[0.000833] (-) JobUnselected: {'identifier': 'abb_irb4600_support'}
+[0.000860] (-) JobUnselected: {'identifier': 'abb_libegm'}
+[0.000876] (-) JobUnselected: {'identifier': 'abb_librws'}
+[0.000891] (-) JobUnselected: {'identifier': 'abb_rapid_msgs'}
+[0.000946] (-) JobUnselected: {'identifier': 'abb_rapid_sm_addin_msgs'}
+[0.000969] (-) JobUnselected: {'identifier': 'abb_resources'}
+[0.001005] (-) JobUnselected: {'identifier': 'abb_robot_msgs'}
+[0.001042] (-) JobUnselected: {'identifier': 'abb_ros2'}
+[0.001075] (-) JobUnselected: {'identifier': 'abb_rws_client'}
+[0.001112] (-) JobUnselected: {'identifier': 'gazebo_ros2_control'}
+[0.001130] (-) JobUnselected: {'identifier': 'gazebo_ros2_control_demos'}
+[0.001165] (-) JobUnselected: {'identifier': 'letter_writer'}
+[0.001212] (-) JobUnselected: {'identifier': 'linkattacher_msgs'}
+[0.001229] (-) JobUnselected: {'identifier': 'linkpose_gazebo'}
+[0.001244] (-) JobUnselected: {'identifier': 'linkpose_msgs'}
+[0.001275] (-) JobUnselected: {'identifier': 'objectpose_gazebo'}
+[0.001292] (-) JobUnselected: {'identifier': 'objectpose_msgs'}
+[0.001531] (-) JobUnselected: {'identifier': 'ros2_linkattacher'}
+[0.001607] (-) JobUnselected: {'identifier': 'ros2_linkpose'}
+[0.001660] (-) JobUnselected: {'identifier': 'ros2_objectpose'}
+[0.001694] (-) JobUnselected: {'identifier': 'ros2_robotiqgripper'}
+[0.001728] (-) JobUnselected: {'identifier': 'ros2srrc_data'}
+[0.001745] (-) JobUnselected: {'identifier': 'ros2srrc_endeffectors'}
+[0.001759] (-) JobUnselected: {'identifier': 'ros2srrc_iiwa_gazebo'}
+[0.001791] (-) JobUnselected: {'identifier': 'ros2srrc_iiwa_moveit2'}
+[0.001809] (-) JobUnselected: {'identifier': 'ros2srrc_irb1200_gazebo'}
+[0.001841] (-) JobUnselected: {'identifier': 'ros2srrc_irb1200_moveit2'}
+[0.001873] (-) JobUnselected: {'identifier': 'ros2srrc_irb120_gazebo'}
+[0.001890] (-) JobUnselected: {'identifier': 'ros2srrc_irb120_moveit2'}
+[0.001950] (-) JobUnselected: {'identifier': 'ros2srrc_irb6640_gazebo'}
+[0.001984] (-) JobUnselected: {'identifier': 'ros2srrc_irb6640_moveit2'}
+[0.002002] (-) JobUnselected: {'identifier': 'ros2srrc_launch'}
+[0.002032] (-) JobUnselected: {'identifier': 'ros2srrc_robots'}
+[0.002095] (-) JobUnselected: {'identifier': 'ros2srrc_ur10e_gazebo'}
+[0.002130] (-) JobUnselected: {'identifier': 'ros2srrc_ur10e_moveit2'}
+[0.002166] (-) JobUnselected: {'identifier': 'ros2srrc_ur16e_gazebo'}
+[0.002197] (-) JobUnselected: {'identifier': 'ros2srrc_ur16e_moveit2'}
+[0.002229] (-) JobUnselected: {'identifier': 'ros2srrc_ur3_gazebo'}
+[0.002262] (-) JobUnselected: {'identifier': 'ros2srrc_ur3_moveit2'}
+[0.002279] (-) JobUnselected: {'identifier': 'ros2srrc_ur5_gazebo'}
+[0.002332] (-) JobUnselected: {'identifier': 'ros2srrc_ur5_moveit2'}
+[0.002370] (-) JobUnselected: {'identifier': 'testV1'}
+[0.002403] (-) JobUnselected: {'identifier': 'testV2'}
+[0.002438] (ros2srrc_execution) JobQueued: {'identifier': 'ros2srrc_execution', 'dependencies': OrderedDict([('abb_robot_msgs', '/home/ubuntu/ros2ws/install/abb_robot_msgs'), ('linkattacher_msgs', '/home/ubuntu/ros2ws/install/linkattacher_msgs'), ('ros2_robotiqgripper', '/home/ubuntu/ros2ws/install/ros2_robotiqgripper'), ('ros2srrc_data', '/home/ubuntu/ros2ws/install/ros2srrc_data')])}
+[0.002482] (ros2srrc_execution) JobStarted: {'identifier': 'ros2srrc_execution'}
+[0.079624] (ros2srrc_execution) JobProgress: {'identifier': 'ros2srrc_execution', 'progress': 'cmake'}
+[0.082019] (ros2srrc_execution) JobProgress: {'identifier': 'ros2srrc_execution', 'progress': 'build'}
+[0.082101] (ros2srrc_execution) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2ws/build/ros2srrc_execution', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2ws/build/ros2srrc_execution', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2ws/install/ros2srrc_data/lib:/home/ubuntu/ros2ws/install/ros2_robotiqgripper/lib:/home/ubuntu/ros2ws/install/linkattacher_msgs/lib:/home/ubuntu/ros2ws/install/abb_robot_msgs/lib:/home/ubuntu/ros2ws/install/ros2_objectpose/lib:/home/ubuntu/ros2ws/install/ros2_linkpose/lib:/home/ubuntu/ros2ws/install/ros2_linkattacher/lib:/home/ubuntu/ros2ws/install/objectpose_msgs/lib:/home/ubuntu/ros2ws/install/linkpose_msgs/lib:/home/ubuntu/ros2ws/install/gazebo_ros2_control/lib:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs/lib:/home/ubuntu/ros2ws/install/abb_rapid_msgs/lib:/home/ubuntu/ros2ws/install/abb_hardware_interface/lib:/home/ubuntu/ros2ws/install/abb_egm_rws_managers/lib:/home/ubuntu/ros2ws/install/abb_librws/lib:/home/ubuntu/ros2ws/install/abb_libegm/lib:/home/ubuntu/ros2ws/install/abb_egm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '1102'), ('SYSTEMD_EXEC_PID', '1303'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2167'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:20449'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ubuntu/ros2ws/install/abb_egm_rws_managers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_egm_rws_managers/lib/pkgconfig:/home/ubuntu/ros2ws/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_librws/lib/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1278,unix/ubuntu:/tmp/.ICE-unix/1278'), ('INVOCATION_ID', '5ac9a0b988784e30849a37d66864a3a9'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z4HIW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2ws/install/ros2srrc_ur5_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur3_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur3_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_robots:/home/ubuntu/ros2ws/install/ros2srrc_launch:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb120_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_execution:/home/ubuntu/ros2ws/install/ros2srrc_endeffectors:/home/ubuntu/ros2ws/install/ros2srrc_data:/home/ubuntu/ros2ws/install/ros2_robotiqgripper:/home/ubuntu/ros2ws/install/ros2_objectpose:/home/ubuntu/ros2ws/install/ros2_linkpose:/home/ubuntu/ros2ws/install/ros2_linkattacher:/home/ubuntu/ros2ws/install/objectpose_msgs:/home/ubuntu/ros2ws/install/objectpose_gazebo:/home/ubuntu/ros2ws/install/linkpose_msgs:/home/ubuntu/ros2ws/install/linkpose_gazebo:/home/ubuntu/ros2ws/install/linkattacher_msgs:/home/ubuntu/ros2ws/install/letter_writer:/home/ubuntu/ros2ws/install/gazebo_ros2_control_demos:/home/ubuntu/ros2ws/install/gazebo_ros2_control:/home/ubuntu/ros2ws/install/abb_rws_client:/home/ubuntu/ros2ws/install/abb_ros2:/home/ubuntu/ros2ws/install/abb_robot_msgs:/home/ubuntu/ros2ws/install/abb_resources:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs:/home/ubuntu/ros2ws/install/abb_rapid_msgs:/home/ubuntu/ros2ws/install/abb_hardware_interface:/home/ubuntu/ros2ws/install/abb_irb4600_support:/home/ubuntu/ros2ws/install/abb_irb1200_5_90_moveit_config:/home/ubuntu/ros2ws/install/abb_irb1200_support:/home/ubuntu/ros2ws/install/abb_egm_msgs:/home/ubuntu/ros2ws/install/abb_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:142a6b60-dd5d-45ba-8a33-4c7ca9970cb9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/home/ubuntu/ros2ws/install/abb_librws/share/abb_librws/cmake'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2ws/build/ros2srrc_execution'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/abb_robot_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/abb_rapid_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/abb_egm_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2ws/install/ros2srrc_data:/home/ubuntu/ros2ws/install/ros2_robotiqgripper:/home/ubuntu/ros2ws/install/linkattacher_msgs:/home/ubuntu/ros2ws/install/abb_robot_msgs:/home/ubuntu/ros2ws/install/ros2srrc_ur5_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur3_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur3_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_robots:/home/ubuntu/ros2ws/install/ros2srrc_launch:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb120_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_execution:/home/ubuntu/ros2ws/install/ros2srrc_endeffectors:/home/ubuntu/ros2ws/install/ros2_objectpose:/home/ubuntu/ros2ws/install/ros2_linkpose:/home/ubuntu/ros2ws/install/ros2_linkattacher:/home/ubuntu/ros2ws/install/objectpose_msgs:/home/ubuntu/ros2ws/install/objectpose_gazebo:/home/ubuntu/ros2ws/install/linkpose_msgs:/home/ubuntu/ros2ws/install/linkpose_gazebo:/home/ubuntu/ros2ws/install/letter_writer:/home/ubuntu/ros2ws/install/gazebo_ros2_control_demos:/home/ubuntu/ros2ws/install/gazebo_ros2_control:/home/ubuntu/ros2ws/install/abb_rws_client:/home/ubuntu/ros2ws/install/abb_ros2:/home/ubuntu/ros2ws/install/abb_resources:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs:/home/ubuntu/ros2ws/install/abb_rapid_msgs:/home/ubuntu/ros2ws/install/abb_hardware_interface:/home/ubuntu/ros2ws/install/abb_egm_rws_managers:/home/ubuntu/ros2ws/install/abb_librws:/home/ubuntu/ros2ws/install/abb_libegm:/home/ubuntu/ros2ws/install/abb_irb4600_support:/home/ubuntu/ros2ws/install/abb_irb1200_5_90_moveit_config:/home/ubuntu/ros2ws/install/abb_irb1200_support:/home/ubuntu/ros2ws/install/abb_egm_msgs:/home/ubuntu/ros2ws/install/abb_bringup:/opt/ros/humble')]), 'shell': False}
+[0.099155] (-) TimerEvent: {}
+[0.199514] (-) TimerEvent: {}
+[0.280574] (ros2srrc_execution) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robpose\x1b[0m\n'}
+[0.280776] (ros2srrc_execution) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target letter_writer_node\x1b[0m\n'}
+[0.280845] (ros2srrc_execution) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robmove\x1b[0m\n'}
+[0.290425] (ros2srrc_execution) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target move\x1b[0m\n'}
+[0.299679] (-) TimerEvent: {}
+[0.353617] (ros2srrc_execution) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/letter_writer_node.dir/src/letter_writer_node.cpp.o\x1b[0m\n'}
+[0.353901] (ros2srrc_execution) StdoutLine: {'line': b'[ 64%] Built target move\n'}
+[0.355717] (ros2srrc_execution) StdoutLine: {'line': b'[ 78%] Built target robpose\n'}
+[0.356499] (ros2srrc_execution) StdoutLine: {'line': b'[ 92%] Built target robmove\n'}
+[0.400017] (-) TimerEvent: {}
+[0.500721] (-) TimerEvent: {}
+[0.601416] (-) TimerEvent: {}
+[0.702095] (-) TimerEvent: {}
+[0.802682] (-) TimerEvent: {}
+[0.903379] (-) TimerEvent: {}
+[1.003992] (-) TimerEvent: {}
+[1.104664] (-) TimerEvent: {}
+[1.205395] (-) TimerEvent: {}
+[1.306027] (-) TimerEvent: {}
+[1.406494] (-) TimerEvent: {}
+[1.507163] (-) TimerEvent: {}
+[1.607894] (-) TimerEvent: {}
+[1.708579] (-) TimerEvent: {}
+[1.809279] (-) TimerEvent: {}
+[1.909959] (-) TimerEvent: {}
+[2.010778] (-) TimerEvent: {}
+[2.112231] (-) TimerEvent: {}
+[2.214051] (-) TimerEvent: {}
+[2.314703] (-) TimerEvent: {}
+[2.415560] (-) TimerEvent: {}
+[2.516283] (-) TimerEvent: {}
+[2.616895] (-) TimerEvent: {}
+[2.717605] (-) TimerEvent: {}
+[2.818171] (-) TimerEvent: {}
+[2.918882] (-) TimerEvent: {}
+[3.019323] (-) TimerEvent: {}
+[3.119745] (-) TimerEvent: {}
+[3.220200] (-) TimerEvent: {}
+[3.320906] (-) TimerEvent: {}
+[3.421378] (-) TimerEvent: {}
+[3.521776] (-) TimerEvent: {}
+[3.622442] (-) TimerEvent: {}
+[3.722823] (-) TimerEvent: {}
+[3.823449] (-) TimerEvent: {}
+[3.924180] (-) TimerEvent: {}
+[4.024897] (-) TimerEvent: {}
+[4.125275] (-) TimerEvent: {}
+[4.225692] (-) TimerEvent: {}
+[4.326639] (-) TimerEvent: {}
+[4.427811] (-) TimerEvent: {}
+[4.528480] (-) TimerEvent: {}
+[4.629133] (-) TimerEvent: {}
+[4.729718] (-) TimerEvent: {}
+[4.830297] (-) TimerEvent: {}
+[4.931607] (-) TimerEvent: {}
+[5.032452] (-) TimerEvent: {}
+[5.133132] (-) TimerEvent: {}
+[5.233543] (-) TimerEvent: {}
+[5.334234] (-) TimerEvent: {}
+[5.434941] (-) TimerEvent: {}
+[5.535977] (-) TimerEvent: {}
+[5.636726] (-) TimerEvent: {}
+[5.737117] (-) TimerEvent: {}
+[5.838059] (-) TimerEvent: {}
+[5.938697] (-) TimerEvent: {}
+[6.039590] (-) TimerEvent: {}
+[6.140342] (-) TimerEvent: {}
+[6.240885] (-) TimerEvent: {}
+[6.341490] (-) TimerEvent: {}
+[6.442261] (-) TimerEvent: {}
+[6.543226] (-) TimerEvent: {}
+[6.644016] (-) TimerEvent: {}
+[6.744546] (-) TimerEvent: {}
+[6.845053] (-) TimerEvent: {}
+[6.945421] (-) TimerEvent: {}
+[7.046094] (-) TimerEvent: {}
+[7.146869] (-) TimerEvent: {}
+[7.247433] (-) TimerEvent: {}
+[7.347950] (-) TimerEvent: {}
+[7.448690] (-) TimerEvent: {}
+[7.549385] (-) TimerEvent: {}
+[7.649997] (-) TimerEvent: {}
+[7.750545] (-) TimerEvent: {}
+[7.851232] (-) TimerEvent: {}
+[7.952043] (-) TimerEvent: {}
+[8.052735] (-) TimerEvent: {}
+[8.153208] (-) TimerEvent: {}
+[8.253900] (-) TimerEvent: {}
+[8.354606] (-) TimerEvent: {}
+[8.455296] (-) TimerEvent: {}
+[8.555979] (-) TimerEvent: {}
+[8.656668] (-) TimerEvent: {}
+[8.757639] (-) TimerEvent: {}
+[8.859389] (-) TimerEvent: {}
+[8.960285] (-) TimerEvent: {}
+[9.061063] (-) TimerEvent: {}
+[9.161700] (-) TimerEvent: {}
+[9.262540] (-) TimerEvent: {}
+[9.362882] (-) TimerEvent: {}
+[9.463558] (-) TimerEvent: {}
+[9.564042] (-) TimerEvent: {}
+[9.664647] (-) TimerEvent: {}
+[9.767151] (-) TimerEvent: {}
+[9.868174] (-) TimerEvent: {}
+[9.968733] (-) TimerEvent: {}
+[10.069635] (-) TimerEvent: {}
+[10.170494] (-) TimerEvent: {}
+[10.271451] (-) TimerEvent: {}
+[10.372664] (-) TimerEvent: {}
+[10.473733] (-) TimerEvent: {}
+[10.574231] (-) TimerEvent: {}
+[10.675001] (-) TimerEvent: {}
+[10.775621] (-) TimerEvent: {}
+[10.876357] (-) TimerEvent: {}
+[10.977057] (-) TimerEvent: {}
+[11.077812] (-) TimerEvent: {}
+[11.178482] (-) TimerEvent: {}
+[11.279220] (-) TimerEvent: {}
+[11.379820] (-) TimerEvent: {}
+[11.480602] (-) TimerEvent: {}
+[11.581328] (-) TimerEvent: {}
+[11.681780] (-) TimerEvent: {}
+[11.782166] (-) TimerEvent: {}
+[11.882634] (-) TimerEvent: {}
+[11.983826] (-) TimerEvent: {}
+[12.084389] (-) TimerEvent: {}
+[12.185119] (-) TimerEvent: {}
+[12.285755] (-) TimerEvent: {}
+[12.386523] (-) TimerEvent: {}
+[12.487042] (-) TimerEvent: {}
+[12.587729] (-) TimerEvent: {}
+[12.688891] (-) TimerEvent: {}
+[12.789539] (-) TimerEvent: {}
+[12.890381] (-) TimerEvent: {}
+[12.991240] (-) TimerEvent: {}
+[13.092103] (-) TimerEvent: {}
+[13.192558] (-) TimerEvent: {}
+[13.292958] (-) TimerEvent: {}
+[13.393698] (-) TimerEvent: {}
+[13.494191] (-) TimerEvent: {}
+[13.595076] (-) TimerEvent: {}
+[13.695464] (-) TimerEvent: {}
+[13.796164] (-) TimerEvent: {}
+[13.896771] (-) TimerEvent: {}
+[13.998160] (-) TimerEvent: {}
+[14.099138] (-) TimerEvent: {}
+[14.199816] (-) TimerEvent: {}
+[14.300329] (-) TimerEvent: {}
+[14.400738] (-) TimerEvent: {}
+[14.501550] (-) TimerEvent: {}
+[14.602016] (-) TimerEvent: {}
+[14.702626] (-) TimerEvent: {}
+[14.803009] (-) TimerEvent: {}
+[14.903796] (-) TimerEvent: {}
+[15.004660] (-) TimerEvent: {}
+[15.105498] (-) TimerEvent: {}
+[15.206224] (-) TimerEvent: {}
+[15.307702] (-) TimerEvent: {}
+[15.408914] (-) TimerEvent: {}
+[15.510057] (-) TimerEvent: {}
+[15.611470] (-) TimerEvent: {}
+[15.712264] (-) TimerEvent: {}
+[15.812662] (-) TimerEvent: {}
+[15.913668] (-) TimerEvent: {}
+[16.014897] (-) TimerEvent: {}
+[16.115341] (-) TimerEvent: {}
+[16.215689] (-) TimerEvent: {}
+[16.316298] (-) TimerEvent: {}
+[16.416716] (-) TimerEvent: {}
+[16.517241] (-) TimerEvent: {}
+[16.617729] (-) TimerEvent: {}
+[16.718889] (-) TimerEvent: {}
+[16.819926] (-) TimerEvent: {}
+[16.921319] (-) TimerEvent: {}
+[17.022053] (-) TimerEvent: {}
+[17.122427] (-) TimerEvent: {}
+[17.223112] (-) TimerEvent: {}
+[17.323810] (-) TimerEvent: {}
+[17.424491] (-) TimerEvent: {}
+[17.525188] (-) TimerEvent: {}
+[17.625875] (-) TimerEvent: {}
+[17.726561] (-) TimerEvent: {}
+[17.827797] (-) TimerEvent: {}
+[17.928474] (-) TimerEvent: {}
+[18.029157] (-) TimerEvent: {}
+[18.129794] (-) TimerEvent: {}
+[18.230390] (-) TimerEvent: {}
+[18.331597] (-) TimerEvent: {}
+[18.432080] (-) TimerEvent: {}
+[18.532490] (-) TimerEvent: {}
+[18.633109] (-) TimerEvent: {}
+[18.733832] (-) TimerEvent: {}
+[18.834648] (-) TimerEvent: {}
+[18.935375] (-) TimerEvent: {}
+[19.036345] (-) TimerEvent: {}
+[19.137863] (-) TimerEvent: {}
+[19.238420] (-) TimerEvent: {}
+[19.338983] (-) TimerEvent: {}
+[19.439381] (-) TimerEvent: {}
+[19.539767] (-) TimerEvent: {}
+[19.640439] (-) TimerEvent: {}
+[19.741285] (-) TimerEvent: {}
+[19.842653] (-) TimerEvent: {}
+[19.943195] (-) TimerEvent: {}
+[20.044091] (-) TimerEvent: {}
+[20.144586] (-) TimerEvent: {}
+[20.245662] (-) TimerEvent: {}
+[20.346658] (-) TimerEvent: {}
+[20.448045] (-) TimerEvent: {}
+[20.548682] (-) TimerEvent: {}
+[20.649746] (-) TimerEvent: {}
+[20.750856] (-) TimerEvent: {}
+[20.851643] (-) TimerEvent: {}
+[20.952126] (-) TimerEvent: {}
+[21.052697] (-) TimerEvent: {}
+[21.165847] (-) TimerEvent: {}
+[21.267535] (-) TimerEvent: {}
+[21.368388] (-) TimerEvent: {}
+[21.468932] (-) TimerEvent: {}
+[21.569803] (-) TimerEvent: {}
+[21.670353] (-) TimerEvent: {}
+[21.770889] (-) TimerEvent: {}
+[21.896249] (-) TimerEvent: {}
+[21.998049] (-) TimerEvent: {}
+[22.098548] (-) TimerEvent: {}
+[22.199485] (-) TimerEvent: {}
+[22.300474] (-) TimerEvent: {}
+[22.401554] (-) TimerEvent: {}
+[22.502329] (-) TimerEvent: {}
+[22.602749] (-) TimerEvent: {}
+[22.703382] (-) TimerEvent: {}
+[22.803993] (-) TimerEvent: {}
+[22.904731] (-) TimerEvent: {}
+[23.005394] (-) TimerEvent: {}
+[23.105737] (-) TimerEvent: {}
+[23.206602] (-) TimerEvent: {}
+[23.307202] (-) TimerEvent: {}
+[23.408028] (-) TimerEvent: {}
+[23.508547] (-) TimerEvent: {}
+[23.609223] (-) TimerEvent: {}
+[23.709680] (-) TimerEvent: {}
+[23.810284] (-) TimerEvent: {}
+[23.910933] (-) TimerEvent: {}
+[24.011634] (-) TimerEvent: {}
+[24.112379] (-) TimerEvent: {}
+[24.213021] (-) TimerEvent: {}
+[24.313738] (-) TimerEvent: {}
+[24.414388] (-) TimerEvent: {}
+[24.515209] (-) TimerEvent: {}
+[24.615926] (-) TimerEvent: {}
+[24.716569] (-) TimerEvent: {}
+[24.817261] (-) TimerEvent: {}
+[24.917990] (-) TimerEvent: {}
+[25.018664] (-) TimerEvent: {}
+[25.119334] (-) TimerEvent: {}
+[25.220035] (-) TimerEvent: {}
+[25.320706] (-) TimerEvent: {}
+[25.421603] (-) TimerEvent: {}
+[25.525329] (-) TimerEvent: {}
+[25.626710] (-) TimerEvent: {}
+[25.727479] (-) TimerEvent: {}
+[25.828123] (-) TimerEvent: {}
+[25.928805] (-) TimerEvent: {}
+[26.029512] (-) TimerEvent: {}
+[26.130178] (-) TimerEvent: {}
+[26.230871] (-) TimerEvent: {}
+[26.331563] (-) TimerEvent: {}
+[26.432264] (-) TimerEvent: {}
+[26.532955] (-) TimerEvent: {}
+[26.633613] (-) TimerEvent: {}
+[26.734417] (-) TimerEvent: {}
+[26.835101] (-) TimerEvent: {}
+[26.935734] (-) TimerEvent: {}
+[27.036473] (-) TimerEvent: {}
+[27.137068] (-) TimerEvent: {}
+[27.237770] (-) TimerEvent: {}
+[27.338527] (-) TimerEvent: {}
+[27.439420] (-) TimerEvent: {}
+[27.540166] (-) TimerEvent: {}
+[27.641047] (-) TimerEvent: {}
+[27.741951] (-) TimerEvent: {}
+[27.842679] (-) TimerEvent: {}
+[27.943611] (-) TimerEvent: {}
+[28.044117] (-) TimerEvent: {}
+[28.144696] (-) TimerEvent: {}
+[28.245658] (-) TimerEvent: {}
+[28.346466] (-) TimerEvent: {}
+[28.447278] (-) TimerEvent: {}
+[28.548159] (-) TimerEvent: {}
+[28.648619] (-) TimerEvent: {}
+[28.749024] (-) TimerEvent: {}
+[28.849782] (-) TimerEvent: {}
+[28.950374] (-) TimerEvent: {}
+[29.051028] (-) TimerEvent: {}
+[29.151425] (-) TimerEvent: {}
+[29.251965] (-) TimerEvent: {}
+[29.352806] (-) TimerEvent: {}
+[29.453184] (-) TimerEvent: {}
+[29.553873] (-) TimerEvent: {}
+[29.654540] (-) TimerEvent: {}
+[29.755319] (-) TimerEvent: {}
+[29.856028] (-) TimerEvent: {}
+[29.956442] (-) TimerEvent: {}
+[30.056844] (-) TimerEvent: {}
+[30.157376] (-) TimerEvent: {}
+[30.258155] (-) TimerEvent: {}
+[30.358562] (-) TimerEvent: {}
+[30.459321] (-) TimerEvent: {}
+[30.572375] (-) TimerEvent: {}
+[30.673072] (-) TimerEvent: {}
+[30.773616] (-) TimerEvent: {}
+[30.874709] (-) TimerEvent: {}
+[30.975326] (-) TimerEvent: {}
+[31.076424] (-) TimerEvent: {}
+[31.177144] (-) TimerEvent: {}
+[31.277506] (-) TimerEvent: {}
+[31.377973] (-) TimerEvent: {}
+[31.478482] (-) TimerEvent: {}
+[31.579219] (-) TimerEvent: {}
+[31.679755] (-) TimerEvent: {}
+[31.780434] (-) TimerEvent: {}
+[31.881499] (-) TimerEvent: {}
+[31.987966] (-) TimerEvent: {}
+[32.088839] (-) TimerEvent: {}
+[32.189492] (-) TimerEvent: {}
+[32.291198] (-) TimerEvent: {}
+[32.392459] (-) TimerEvent: {}
+[32.493178] (-) TimerEvent: {}
+[32.593903] (-) TimerEvent: {}
+[32.694595] (-) TimerEvent: {}
+[32.795329] (-) TimerEvent: {}
+[32.896485] (-) TimerEvent: {}
+[32.997465] (-) TimerEvent: {}
+[33.098296] (-) TimerEvent: {}
+[33.103067] (ros2srrc_execution) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable letter_writer_node\x1b[0m\n'}
+[33.202527] (-) TimerEvent: {}
+[33.308631] (-) TimerEvent: {}
+[33.412673] (-) TimerEvent: {}
+[33.513293] (-) TimerEvent: {}
+[33.614224] (-) TimerEvent: {}
+[33.726133] (-) TimerEvent: {}
+[33.827490] (-) TimerEvent: {}
+[33.928621] (-) TimerEvent: {}
+[34.029509] (-) TimerEvent: {}
+[34.130258] (-) TimerEvent: {}
+[34.230845] (-) TimerEvent: {}
+[34.331504] (-) TimerEvent: {}
+[34.432068] (-) TimerEvent: {}
+[34.532801] (-) TimerEvent: {}
+[34.633508] (-) TimerEvent: {}
+[34.734561] (-) TimerEvent: {}
+[34.835239] (-) TimerEvent: {}
+[34.909688] (ros2srrc_execution) StdoutLine: {'line': b'[100%] Built target letter_writer_node\n'}
+[34.931500] (ros2srrc_execution) CommandEnded: {'returncode': 0}
+[34.936499] (-) TimerEvent: {}
+[35.037111] (-) TimerEvent: {}
+[35.055958] (ros2srrc_execution) JobProgress: {'identifier': 'ros2srrc_execution', 'progress': 'install'}
+[35.071923] (ros2srrc_execution) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2ws/build/ros2srrc_execution'], 'cwd': '/home/ubuntu/ros2ws/build/ros2srrc_execution', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2ws/install/ros2srrc_data/lib:/home/ubuntu/ros2ws/install/ros2_robotiqgripper/lib:/home/ubuntu/ros2ws/install/linkattacher_msgs/lib:/home/ubuntu/ros2ws/install/abb_robot_msgs/lib:/home/ubuntu/ros2ws/install/ros2_objectpose/lib:/home/ubuntu/ros2ws/install/ros2_linkpose/lib:/home/ubuntu/ros2ws/install/ros2_linkattacher/lib:/home/ubuntu/ros2ws/install/objectpose_msgs/lib:/home/ubuntu/ros2ws/install/linkpose_msgs/lib:/home/ubuntu/ros2ws/install/gazebo_ros2_control/lib:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs/lib:/home/ubuntu/ros2ws/install/abb_rapid_msgs/lib:/home/ubuntu/ros2ws/install/abb_hardware_interface/lib:/home/ubuntu/ros2ws/install/abb_egm_rws_managers/lib:/home/ubuntu/ros2ws/install/abb_librws/lib:/home/ubuntu/ros2ws/install/abb_libegm/lib:/home/ubuntu/ros2ws/install/abb_egm_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('MANAGERPID', '1102'), ('SYSTEMD_EXEC_PID', '1303'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2167'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:20449'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/ubuntu/ros2ws/install/abb_egm_rws_managers/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_egm_rws_managers/lib/pkgconfig:/home/ubuntu/ros2ws/install/abb_librws/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_librws/lib/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/x86_64-linux-gnu/pkgconfig:/home/ubuntu/ros2ws/install/abb_libegm/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1278,unix/ubuntu:/tmp/.ICE-unix/1278'), ('INVOCATION_ID', '5ac9a0b988784e30849a37d66864a3a9'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z4HIW2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2ws/install/ros2srrc_ur5_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur3_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur3_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_robots:/home/ubuntu/ros2ws/install/ros2srrc_launch:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb120_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_execution:/home/ubuntu/ros2ws/install/ros2srrc_endeffectors:/home/ubuntu/ros2ws/install/ros2srrc_data:/home/ubuntu/ros2ws/install/ros2_robotiqgripper:/home/ubuntu/ros2ws/install/ros2_objectpose:/home/ubuntu/ros2ws/install/ros2_linkpose:/home/ubuntu/ros2ws/install/ros2_linkattacher:/home/ubuntu/ros2ws/install/objectpose_msgs:/home/ubuntu/ros2ws/install/objectpose_gazebo:/home/ubuntu/ros2ws/install/linkpose_msgs:/home/ubuntu/ros2ws/install/linkpose_gazebo:/home/ubuntu/ros2ws/install/linkattacher_msgs:/home/ubuntu/ros2ws/install/letter_writer:/home/ubuntu/ros2ws/install/gazebo_ros2_control_demos:/home/ubuntu/ros2ws/install/gazebo_ros2_control:/home/ubuntu/ros2ws/install/abb_rws_client:/home/ubuntu/ros2ws/install/abb_ros2:/home/ubuntu/ros2ws/install/abb_robot_msgs:/home/ubuntu/ros2ws/install/abb_resources:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs:/home/ubuntu/ros2ws/install/abb_rapid_msgs:/home/ubuntu/ros2ws/install/abb_hardware_interface:/home/ubuntu/ros2ws/install/abb_irb4600_support:/home/ubuntu/ros2ws/install/abb_irb1200_5_90_moveit_config:/home/ubuntu/ros2ws/install/abb_irb1200_support:/home/ubuntu/ros2ws/install/abb_egm_msgs:/home/ubuntu/ros2ws/install/abb_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:142a6b60-dd5d-45ba-8a33-4c7ca9970cb9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/home/ubuntu/ros2ws/install/abb_librws/share/abb_librws/cmake'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros2ws/build/ros2srrc_execution'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2ws/install/ros2srrc_data/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/abb_robot_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/abb_rapid_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ros2ws/install/abb_egm_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2ws/install/ros2srrc_data:/home/ubuntu/ros2ws/install/ros2_robotiqgripper:/home/ubuntu/ros2ws/install/linkattacher_msgs:/home/ubuntu/ros2ws/install/abb_robot_msgs:/home/ubuntu/ros2ws/install/ros2srrc_ur5_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur3_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur3_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_ur10e_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_robots:/home/ubuntu/ros2ws/install/ros2srrc_launch:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb120_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_irb1200_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_moveit2:/home/ubuntu/ros2ws/install/ros2srrc_iiwa_gazebo:/home/ubuntu/ros2ws/install/ros2srrc_execution:/home/ubuntu/ros2ws/install/ros2srrc_endeffectors:/home/ubuntu/ros2ws/install/ros2_objectpose:/home/ubuntu/ros2ws/install/ros2_linkpose:/home/ubuntu/ros2ws/install/ros2_linkattacher:/home/ubuntu/ros2ws/install/objectpose_msgs:/home/ubuntu/ros2ws/install/objectpose_gazebo:/home/ubuntu/ros2ws/install/linkpose_msgs:/home/ubuntu/ros2ws/install/linkpose_gazebo:/home/ubuntu/ros2ws/install/letter_writer:/home/ubuntu/ros2ws/install/gazebo_ros2_control_demos:/home/ubuntu/ros2ws/install/gazebo_ros2_control:/home/ubuntu/ros2ws/install/abb_rws_client:/home/ubuntu/ros2ws/install/abb_ros2:/home/ubuntu/ros2ws/install/abb_resources:/home/ubuntu/ros2ws/install/abb_rapid_sm_addin_msgs:/home/ubuntu/ros2ws/install/abb_rapid_msgs:/home/ubuntu/ros2ws/install/abb_hardware_interface:/home/ubuntu/ros2ws/install/abb_egm_rws_managers:/home/ubuntu/ros2ws/install/abb_librws:/home/ubuntu/ros2ws/install/abb_libegm:/home/ubuntu/ros2ws/install/abb_irb4600_support:/home/ubuntu/ros2ws/install/abb_irb1200_5_90_moveit_config:/home/ubuntu/ros2ws/install/abb_irb1200_support:/home/ubuntu/ros2ws/install/abb_egm_msgs:/home/ubuntu/ros2ws/install/abb_bringup:/opt/ros/humble')]), 'shell': False}
+[35.089206] (ros2srrc_execution) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.090687] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/lib/ros2srrc_execution/move\n'}
+[35.091930] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/lib/ros2srrc_execution/robmove\n'}
+[35.093068] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/lib/ros2srrc_execution/robpose\n'}
+[35.093492] (ros2srrc_execution) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2ws/install/ros2srrc_execution/lib/ros2srrc_execution/letter_writer_node\n'}
+[35.098144] (ros2srrc_execution) StdoutLine: {'line': b'-- Set runtime path of "/home/ubuntu/ros2ws/install/ros2srrc_execution/lib/ros2srrc_execution/letter_writer_node" to ""\n'}
+[35.098313] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/include/\n'}
+[35.098748] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/include//ros2srrc_execution\n'}
+[35.137782] (-) TimerEvent: {}
+[35.146321] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/include//ros2srrc_execution/movej.h\n'}
+[35.146620] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/include//ros2srrc_execution/moveg.h\n'}
+[35.147029] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/include//ros2srrc_execution/moverot.h\n'}
+[35.147188] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/include//ros2srrc_execution/moverp.h\n'}
+[35.147298] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/include//ros2srrc_execution/mover.h\n'}
+[35.147424] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/include//ros2srrc_execution/movel.h\n'}
+[35.147615] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/python\n'}
+[35.147969] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/python/endeffector\n'}
+[35.156847] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/python/endeffector/schunk_abb.py\n'}
+[35.157063] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/python/endeffector/robotiq_ur.py\n'}
+[35.157144] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/python/sequence.py\n'}
+[35.157310] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/python/endeffector_gz\n'}
+[35.158209] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/python/endeffector_gz/parallelGripper.py\n'}
+[35.158472] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/python/endeffector_gz/vacuumGripper.py\n'}
+[35.158572] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/python/testClients\n'}
+[35.159344] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/python/testClients/test_VG.py\n'}
+[35.159611] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/python/testClients/test_Move.py\n'}
+[35.159786] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/python/testClients/test_RobMove.py\n'}
+[35.160300] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/python/testClients/test_PG.py\n'}
+[35.160513] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/python/ExecuteProgram.py\n'}
+[35.160617] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/python/RobotState.py\n'}
+[35.160831] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/python/robot\n'}
+[35.161106] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/python/robot/robot.py\n'}
+[35.161185] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/python/SpawnObject.py\n'}
+[35.161256] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/programs\n'}
+[35.162451] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/programs/templates.yaml\n'}
+[35.162681] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/programs/irb120_demo.yaml\n'}
+[35.163066] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/lib/ros2srrc_execution/RobotState.py\n'}
+[35.163204] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/lib/ros2srrc_execution/SpawnObject.py\n'}
+[35.163555] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/lib/ros2srrc_execution/ExecuteProgram.py\n'}
+[35.163726] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/lib/ros2srrc_execution/test_Move.py\n'}
+[35.163927] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/lib/ros2srrc_execution/test_RobMove.py\n'}
+[35.164069] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/lib/ros2srrc_execution/test_PG.py\n'}
+[35.164223] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/lib/ros2srrc_execution/test_VG.py\n'}
+[35.164579] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ament_index/resource_index/package_run_dependencies/ros2srrc_execution\n'}
+[35.164672] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ament_index/resource_index/parent_prefix_path/ros2srrc_execution\n'}
+[35.164808] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/environment/ament_prefix_path.sh\n'}
+[35.164941] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/environment/ament_prefix_path.dsv\n'}
+[35.165022] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/environment/path.sh\n'}
+[35.165118] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/environment/path.dsv\n'}
+[35.165319] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/local_setup.bash\n'}
+[35.165819] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/local_setup.sh\n'}
+[35.166011] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/local_setup.zsh\n'}
+[35.166234] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/local_setup.dsv\n'}
+[35.166567] (ros2srrc_execution) StdoutLine: {'line': b'-- Installing: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/package.dsv\n'}
+[35.166680] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ament_index/resource_index/packages/ros2srrc_execution\n'}
+[35.166784] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/cmake/ros2srrc_executionConfig.cmake\n'}
+[35.166877] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/cmake/ros2srrc_executionConfig-version.cmake\n'}
+[35.166954] (ros2srrc_execution) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2ws/install/ros2srrc_execution/share/ros2srrc_execution/package.xml\n'}
+[35.170625] (ros2srrc_execution) CommandEnded: {'returncode': 0}
+[35.237866] (-) TimerEvent: {}
+[35.338643] (-) TimerEvent: {}
+[35.382438] (ros2srrc_execution) JobEnded: {'identifier': 'ros2srrc_execution', 'rc': 0}
+[35.384442] (-) EventReactorShutdown: {}

@@ -3,6 +3,8 @@
 #include <ncurses.h>
 #include <string>
 
+// benodigde packages
+
 class LetterInputNode : public rclcpp::Node
 {
 public:
