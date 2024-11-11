@@ -42,7 +42,7 @@ class RobotMover:
             10)
 
     def letter_callback(self, msg):
-        if msg.data == 'A':
+        if msg.data == 'a':
             self.move_to_zero()
 
     def move_to_zero(self):
@@ -60,7 +60,7 @@ class RobotMover:
         ACTION.movej = INPUT
 
         RES = self.client.Move_EXECUTE(ACTION)
-        self.node.get_logger().info(f"Moved to zero position. Result: {RES['Message']}")
+        self.node.get_logger().info(f"Path for letter A confirmed. Result: {RES['Message']}")
 
 def main(args=None):
     rclpy.init(args=args)
