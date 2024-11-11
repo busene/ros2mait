@@ -10,6 +10,7 @@ setup.py
 ../../build/robot_letter_writer/robot_letter_writer.egg-info/zip-safe
 resource/robot_letter_writer
 robot_letter_writer/__init__.py
+robot_letter_writer/letter_writer_V2.py
 robot_letter_writer/robot_letter_writer.py
 test/test_copyright.py
 test/test_flake8.py
