@@ -1,3 +1,3 @@
-Busse Lommers' graduation internship project at MA-IT.
+Busse Lommers' graduation internship project.
 -------
-Working on controlling an ABB IRB120 with ROS2
+Working on controlling an ABB IRB120 with ROS2.
