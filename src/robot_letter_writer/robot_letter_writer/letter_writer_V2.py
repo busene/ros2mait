@@ -26,11 +26,12 @@ from robot import RBT
 
 from std_msgs.msg import String #heb ik toegevoegd
 
+from .letter_movements import move_to_zero, move_to_a, move_to_b, move_to_c  # Import all letter movements
+
 # ===================================================================== #
 # ===================================================================== #
 
-#vanaf hier.... tot.....
-
+#vanaf hier....
 class RobotMover:
     def __init__(self):
         self.node = rclpy.create_node('robot_mover')
@@ -43,24 +44,17 @@ class RobotMover:
 
     def letter_callback(self, msg):
         if msg.data == 'a':
-            self.move_to_zero()
+            self.execute_movement(move_to_a())
+        elif msg.data == 'b':
+            self.execute_movement(move_to_b())
+        elif msg.data == 'c':
+            self.execute_movement(move_to_c())
+        elif msg.data == '0':
+            self.execute_movement(move_to_zero())
 
-    def move_to_zero(self):
-        ACTION = Action()
-        ACTION.action = "MoveJ"
-        ACTION.speed = 1.0
-
-        INPUT = Joints()
-        INPUT.joint1 = 0.0
-        INPUT.joint2 = 0.0
-        INPUT.joint3 = 0.0
-        INPUT.joint4 = 0.0
-        INPUT.joint5 = 0.0
-        INPUT.joint6 = 0.0
-        ACTION.movej = INPUT
-
-        RES = self.client.Move_EXECUTE(ACTION)
-        self.node.get_logger().info(f"Path for letter A confirmed. Result: {RES['Message']}")
+    def execute_movement(self, action):
+        RES = self.client.Move_EXECUTE(action)
+        self.node.get_logger().info(f"Moved to position. Result: {RES['Message']}")
 
 def main(args=None):
     rclpy.init(args=args)
@@ -75,8 +69,6 @@ def main(args=None):
     robot_mover.node.destroy_node()
     rclpy.shutdown()
     print("CLOSING PROGRAM... BYE!")
-
-#tot hier vervangen
 
 if __name__ == '__main__':
     main()

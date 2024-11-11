@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target letter_input_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/letter_input_node.dir/src/letter_input_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable letter_input_node[0m
+[100%] Built target letter_input_node
+-- Install configuration: ""
+-- Installing: /home/ubuntu/ros2ws/install/letter_writer/lib/letter_writer/letter_input_node
+-- Set runtime path of "/home/ubuntu/ros2ws/install/letter_writer/lib/letter_writer/letter_input_node" to ""
+-- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/ament_index/resource_index/package_run_dependencies/letter_writer
+-- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/ament_index/resource_index/parent_prefix_path/letter_writer
+-- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/path.sh
+-- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/path.dsv
+-- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.bash
+-- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.sh
+-- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.zsh
+-- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.dsv
+-- Installing: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/package.dsv
+-- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/ament_index/resource_index/packages/letter_writer
+-- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/cmake/letter_writerConfig.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/cmake/letter_writerConfig-version.cmake
+-- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/package.xml

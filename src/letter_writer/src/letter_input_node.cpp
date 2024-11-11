@@ -38,12 +38,12 @@ private:
         int ch = getch();
         if (ch != ERR)
         {
-            if (std::isalpha(ch) || ch == ' ')
+            if (std::isalnum(ch) || ch == ' ')
             {
                 auto message = std_msgs::msg::String();
                 message.data = std::string(1, static_cast<char>(ch));
                 publisher_->publish(message);
-                RCLCPP_INFO(this->get_logger(), "Published letter: '%s'", message.data.c_str());
+                RCLCPP_INFO(this->get_logger(), "Published character: '%s'", message.data.c_str());
                 
                 // Display the pressed key
                 printw("%c", ch);
