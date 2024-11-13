@@ -1,0 +1,1 @@
+In deze map worden files die ik nodig heb voor de gripper bewaard. Zo kan ik makkelijk bestanden van mijn windows pc naar de linux pc transferen via git.
