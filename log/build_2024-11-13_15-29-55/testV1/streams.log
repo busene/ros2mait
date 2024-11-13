@@ -1,0 +1,33 @@
+[0.936s] Invoking command in '/home/ubuntu/ros2ws/src/testV1': PYTHONPATH=/home/ubuntu/ros2ws/build/testV1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2ws/install/testV1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/testV1 build --build-base /home/ubuntu/ros2ws/build/testV1/build install --record /home/ubuntu/ros2ws/build/testV1/install.log --single-version-externally-managed install_data
+[1.287s] running egg_info
+[1.293s] creating ../../build/testV1/testV1.egg-info
+[1.293s] writing ../../build/testV1/testV1.egg-info/PKG-INFO
+[1.293s] writing dependency_links to ../../build/testV1/testV1.egg-info/dependency_links.txt
+[1.293s] writing entry points to ../../build/testV1/testV1.egg-info/entry_points.txt
+[1.293s] writing requirements to ../../build/testV1/testV1.egg-info/requires.txt
+[1.293s] writing top-level names to ../../build/testV1/testV1.egg-info/top_level.txt
+[1.293s] writing manifest file '../../build/testV1/testV1.egg-info/SOURCES.txt'
+[1.295s] reading manifest file '../../build/testV1/testV1.egg-info/SOURCES.txt'
+[1.298s] writing manifest file '../../build/testV1/testV1.egg-info/SOURCES.txt'
+[1.298s] running build
+[1.298s] running build_py
+[1.298s] creating /home/ubuntu/ros2ws/build/testV1/build
+[1.298s] creating /home/ubuntu/ros2ws/build/testV1/build/lib
+[1.298s] creating /home/ubuntu/ros2ws/build/testV1/build/lib/testV1
+[1.298s] copying testV1/__init__.py -> /home/ubuntu/ros2ws/build/testV1/build/lib/testV1
+[1.299s] running install
+[1.299s] running install_lib
+[1.301s] creating /home/ubuntu/ros2ws/install/testV1/lib/python3.10/site-packages/testV1
+[1.301s] copying /home/ubuntu/ros2ws/build/testV1/build/lib/testV1/__init__.py -> /home/ubuntu/ros2ws/install/testV1/lib/python3.10/site-packages/testV1
+[1.304s] byte-compiling /home/ubuntu/ros2ws/install/testV1/lib/python3.10/site-packages/testV1/__init__.py to __init__.cpython-310.pyc
+[1.305s] running install_data
+[1.305s] creating /home/ubuntu/ros2ws/install/testV1/share/ament_index
+[1.305s] creating /home/ubuntu/ros2ws/install/testV1/share/ament_index/resource_index
+[1.305s] creating /home/ubuntu/ros2ws/install/testV1/share/ament_index/resource_index/packages
+[1.308s] copying resource/testV1 -> /home/ubuntu/ros2ws/install/testV1/share/ament_index/resource_index/packages
+[1.308s] copying package.xml -> /home/ubuntu/ros2ws/install/testV1/share/testV1
+[1.308s] running install_egg_info
+[1.315s] Copying ../../build/testV1/testV1.egg-info to /home/ubuntu/ros2ws/install/testV1/lib/python3.10/site-packages/testV1-0.0.0-py3.10.egg-info
+[1.319s] running install_scripts
+[1.350s] writing list of installed files to '/home/ubuntu/ros2ws/build/testV1/install.log'
+[1.380s] Invoked command in '/home/ubuntu/ros2ws/src/testV1' returned '0': PYTHONPATH=/home/ubuntu/ros2ws/build/testV1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2ws/install/testV1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/testV1 build --build-base /home/ubuntu/ros2ws/build/testV1/build install --record /home/ubuntu/ros2ws/build/testV1/install.log --single-version-externally-managed install_data

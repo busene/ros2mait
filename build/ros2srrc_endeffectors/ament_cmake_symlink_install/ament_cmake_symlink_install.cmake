@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "egp64" "gpp5010nc" "ls_vgr" "ls_vgr_amrc" "robotiq_2f85" "robotiq_hande" "DESTINATION" "share/ros2srrc_endeffectors")
-ament_cmake_symlink_install_directory("/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_endeffectors" DIRECTORY "egp64" "gpp5010nc" "ls_vgr" "ls_vgr_amrc" "robotiq_2f85" "robotiq_hande" "DESTINATION" "share/ros2srrc_endeffectors")
+# install(DIRECTORY "egp64" "gpp5010nc" "ls_vgr" "ls_vgr_amrc" "robotiq_2f85" "robotiq_hande" "mpz45" "DESTINATION" "share/ros2srrc_endeffectors")
+ament_cmake_symlink_install_directory("/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_endeffectors" DIRECTORY "egp64" "gpp5010nc" "ls_vgr" "ls_vgr_amrc" "robotiq_2f85" "robotiq_hande" "mpz45" "DESTINATION" "share/ros2srrc_endeffectors")
 
 # install(FILES "/home/ubuntu/ros2ws/build/ros2srrc_endeffectors/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2srrc_endeffectors" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/ubuntu/ros2ws/src/ros2_SimRealRobotControl/ros2srrc_endeffectors" FILES "/home/ubuntu/ros2ws/build/ros2srrc_endeffectors/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2srrc_endeffectors" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

@@ -1,0 +1,35 @@
+[0.054s] Invoking command in '/home/ubuntu/ros2ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/gazebo_ros2_control -- -j4 -l4
+[0.731s] [ 50%] Built target gazebo_hardware_plugins
+[0.750s] [100%] Built target gazebo_ros2_control
+[0.777s] Invoked command in '/home/ubuntu/ros2ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/gazebo_ros2_control -- -j4 -l4
+[0.844s] Invoking command in '/home/ubuntu/ros2ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/gazebo_ros2_control
+[0.873s] -- Install configuration: ""
+[0.906s] -- Execute custom install script
+[0.933s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[0.936s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[0.946s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[0.947s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[0.952s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[0.961s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[0.962s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[0.963s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml
+[0.963s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[0.977s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[0.978s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[0.978s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[0.979s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[0.979s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[0.981s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[0.983s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[0.984s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[0.984s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[0.985s] -- Symlinking: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[1.002s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[1.003s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[1.004s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.006s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.007s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[1.007s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[1.008s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[1.008s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[1.017s] Invoked command in '/home/ubuntu/ros2ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/gazebo_ros2_control

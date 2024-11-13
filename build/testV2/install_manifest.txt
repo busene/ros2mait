@@ -1,0 +1,15 @@
+/home/ubuntu/ros2ws/install/testV2/share/ament_index/resource_index/package_run_dependencies/testV2
+/home/ubuntu/ros2ws/install/testV2/share/ament_index/resource_index/parent_prefix_path/testV2
+/home/ubuntu/ros2ws/install/testV2/share/testV2/environment/ament_prefix_path.sh
+/home/ubuntu/ros2ws/install/testV2/share/testV2/environment/ament_prefix_path.dsv
+/home/ubuntu/ros2ws/install/testV2/share/testV2/environment/path.sh
+/home/ubuntu/ros2ws/install/testV2/share/testV2/environment/path.dsv
+/home/ubuntu/ros2ws/install/testV2/share/testV2/local_setup.bash
+/home/ubuntu/ros2ws/install/testV2/share/testV2/local_setup.sh
+/home/ubuntu/ros2ws/install/testV2/share/testV2/local_setup.zsh
+/home/ubuntu/ros2ws/install/testV2/share/testV2/local_setup.dsv
+/home/ubuntu/ros2ws/install/testV2/share/testV2/package.dsv
+/home/ubuntu/ros2ws/install/testV2/share/ament_index/resource_index/packages/testV2
+/home/ubuntu/ros2ws/install/testV2/share/testV2/cmake/testV2Config.cmake
+/home/ubuntu/ros2ws/install/testV2/share/testV2/cmake/testV2Config-version.cmake
+/home/ubuntu/ros2ws/install/testV2/share/testV2/package.xml

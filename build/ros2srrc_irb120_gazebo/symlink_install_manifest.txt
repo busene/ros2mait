@@ -3,6 +3,7 @@
 /home/ubuntu/ros2ws/install/ros2srrc_irb120_gazebo/share/ros2srrc_irb120_gazebo/urdf/irb120_egp64.urdf.xacro
 /home/ubuntu/ros2ws/install/ros2srrc_irb120_gazebo/share/ros2srrc_irb120_gazebo/urdf/irb120_egp64v2.urdf.xacro
 /home/ubuntu/ros2ws/install/ros2srrc_irb120_gazebo/share/ros2srrc_irb120_gazebo/urdf/irb120_ls_vgr.urdf.xacro
+/home/ubuntu/ros2ws/install/ros2srrc_irb120_gazebo/share/ros2srrc_irb120_gazebo/urdf/irb120_mpz45.urdf.xacro
 /home/ubuntu/ros2ws/install/ros2srrc_irb120_gazebo/share/ros2srrc_irb120_gazebo/worlds/ros2srrc_irb120.world
 /home/ubuntu/ros2ws/install/ros2srrc_irb120_gazebo/share/ament_index/resource_index/package_run_dependencies/ros2srrc_irb120_gazebo
 /home/ubuntu/ros2ws/install/ros2srrc_irb120_gazebo/share/ament_index/resource_index/parent_prefix_path/ros2srrc_irb120_gazebo

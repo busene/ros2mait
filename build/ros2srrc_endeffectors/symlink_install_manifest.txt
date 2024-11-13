@@ -77,6 +77,18 @@
 /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande/urdf/robotiq_hande_macro.urdf.xacro
 /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande/urdf/robotiq_hande_ros2control.xacro
 /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/robotiq_hande/urdf/robotiq_hande_transmission.xacro
+/home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/mpz45/meshes/00. mzp45 component POSES
+/home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/mpz45/meshes/MPZ45_gripper_base.STL
+/home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/mpz45/meshes/MPZ45_tooth.STL
+/home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/mpz45/meshes/MPZ45_tooth_2.STL
+/home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/mpz45/meshes/MPZ45_tooth_3.STL
+/home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/mpz45/meshes/mpz45_gripper_base.dae
+/home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/mpz45/meshes/mpz45_tooth_1.dae
+/home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/mpz45/meshes/mpz45_tooth_2.dae
+/home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/mpz45/meshes/mpz45_tooth_3.dae
+/home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/mpz45/urdf/mpz45_macro.urdf.xacro
+/home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/mpz45/urdf/mpz45_ros2control.xacro
+/home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/mpz45/urdf/mpz45_transmission.xacro
 /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ament_index/resource_index/package_run_dependencies/ros2srrc_endeffectors
 /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ament_index/resource_index/parent_prefix_path/ros2srrc_endeffectors
 /home/ubuntu/ros2ws/install/ros2srrc_endeffectors/share/ros2srrc_endeffectors/environment/ament_prefix_path.sh
