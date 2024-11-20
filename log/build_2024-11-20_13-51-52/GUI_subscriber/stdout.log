@@ -1,0 +1,28 @@
+running egg_info
+creating ../../build/GUI_subscriber/GUI_subscriber.egg-info
+writing ../../build/GUI_subscriber/GUI_subscriber.egg-info/PKG-INFO
+writing dependency_links to ../../build/GUI_subscriber/GUI_subscriber.egg-info/dependency_links.txt
+writing entry points to ../../build/GUI_subscriber/GUI_subscriber.egg-info/entry_points.txt
+writing requirements to ../../build/GUI_subscriber/GUI_subscriber.egg-info/requires.txt
+writing top-level names to ../../build/GUI_subscriber/GUI_subscriber.egg-info/top_level.txt
+writing manifest file '../../build/GUI_subscriber/GUI_subscriber.egg-info/SOURCES.txt'
+reading manifest file '../../build/GUI_subscriber/GUI_subscriber.egg-info/SOURCES.txt'
+writing manifest file '../../build/GUI_subscriber/GUI_subscriber.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/ros2ws/build/GUI_subscriber/build
+creating /home/ubuntu/ros2ws/build/GUI_subscriber/build/lib
+creating /home/ubuntu/ros2ws/build/GUI_subscriber/build/lib/gui_subscriber
+copying gui_subscriber/gui_subscriber.py -> /home/ubuntu/ros2ws/build/GUI_subscriber/build/lib/gui_subscriber
+copying gui_subscriber/__init__.py -> /home/ubuntu/ros2ws/build/GUI_subscriber/build/lib/gui_subscriber
+running install
+running install_lib
+creating /home/ubuntu/ros2ws/install/GUI_subscriber/lib/python3.10/site-packages/gui_subscriber
+copying /home/ubuntu/ros2ws/build/GUI_subscriber/build/lib/gui_subscriber/gui_subscriber.py -> /home/ubuntu/ros2ws/install/GUI_subscriber/lib/python3.10/site-packages/gui_subscriber
+copying /home/ubuntu/ros2ws/build/GUI_subscriber/build/lib/gui_subscriber/__init__.py -> /home/ubuntu/ros2ws/install/GUI_subscriber/lib/python3.10/site-packages/gui_subscriber
+byte-compiling /home/ubuntu/ros2ws/install/GUI_subscriber/lib/python3.10/site-packages/gui_subscriber/gui_subscriber.py to gui_subscriber.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2ws/install/GUI_subscriber/lib/python3.10/site-packages/gui_subscriber/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ubuntu/ros2ws/install/GUI_subscriber/share/ament_index
+creating /home/ubuntu/ros2ws/install/GUI_subscriber/share/ament_index/resource_index
+creating /home/ubuntu/ros2ws/install/GUI_subscriber/share/ament_index/resource_index/packages

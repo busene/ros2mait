@@ -24,14 +24,13 @@ PATH_robot = PATH + "/robot"
 sys.path.append(PATH_robot)
 from robot import RBT
 
-from std_msgs.msg import String #heb ik toegevoegd
+from std_msgs.msg import String 
 
 from .letter_movements import move_to_zero, move_to_a, move_to_b, move_to_c  # Import all letter movements
 
 # ===================================================================== #
 # ===================================================================== #
 
-#vanaf hier....
 class RobotMover:
     def __init__(self):
         self.node = rclpy.create_node('robot_mover')

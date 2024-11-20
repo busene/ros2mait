@@ -1,0 +1,36 @@
+[1.320s] Invoking command in '/home/ubuntu/ros2ws/src/GUI_subscriber': PYTHONPATH=/home/ubuntu/ros2ws/build/GUI_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2ws/install/GUI_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/GUI_subscriber build --build-base /home/ubuntu/ros2ws/build/GUI_subscriber/build install --record /home/ubuntu/ros2ws/build/GUI_subscriber/install.log --single-version-externally-managed install_data
+[1.638s] running egg_info
+[1.639s] creating ../../build/GUI_subscriber/GUI_subscriber.egg-info
+[1.640s] writing ../../build/GUI_subscriber/GUI_subscriber.egg-info/PKG-INFO
+[1.641s] writing dependency_links to ../../build/GUI_subscriber/GUI_subscriber.egg-info/dependency_links.txt
+[1.641s] writing entry points to ../../build/GUI_subscriber/GUI_subscriber.egg-info/entry_points.txt
+[1.641s] writing requirements to ../../build/GUI_subscriber/GUI_subscriber.egg-info/requires.txt
+[1.641s] writing top-level names to ../../build/GUI_subscriber/GUI_subscriber.egg-info/top_level.txt
+[1.642s] writing manifest file '../../build/GUI_subscriber/GUI_subscriber.egg-info/SOURCES.txt'
+[1.642s] reading manifest file '../../build/GUI_subscriber/GUI_subscriber.egg-info/SOURCES.txt'
+[1.643s] writing manifest file '../../build/GUI_subscriber/GUI_subscriber.egg-info/SOURCES.txt'
+[1.643s] running build
+[1.644s] running build_py
+[1.646s] creating /home/ubuntu/ros2ws/build/GUI_subscriber/build
+[1.647s] creating /home/ubuntu/ros2ws/build/GUI_subscriber/build/lib
+[1.647s] creating /home/ubuntu/ros2ws/build/GUI_subscriber/build/lib/GUI_subscriber
+[1.647s] copying GUI_subscriber/GUI_subscriber.py -> /home/ubuntu/ros2ws/build/GUI_subscriber/build/lib/GUI_subscriber
+[1.647s] copying GUI_subscriber/__init__.py -> /home/ubuntu/ros2ws/build/GUI_subscriber/build/lib/GUI_subscriber
+[1.648s] running install
+[1.648s] running install_lib
+[1.649s] creating /home/ubuntu/ros2ws/install/GUI_subscriber/lib/python3.10/site-packages/GUI_subscriber
+[1.653s] copying /home/ubuntu/ros2ws/build/GUI_subscriber/build/lib/GUI_subscriber/GUI_subscriber.py -> /home/ubuntu/ros2ws/install/GUI_subscriber/lib/python3.10/site-packages/GUI_subscriber
+[1.654s] copying /home/ubuntu/ros2ws/build/GUI_subscriber/build/lib/GUI_subscriber/__init__.py -> /home/ubuntu/ros2ws/install/GUI_subscriber/lib/python3.10/site-packages/GUI_subscriber
+[1.655s] byte-compiling /home/ubuntu/ros2ws/install/GUI_subscriber/lib/python3.10/site-packages/GUI_subscriber/GUI_subscriber.py to GUI_subscriber.cpython-310.pyc
+[1.655s] byte-compiling /home/ubuntu/ros2ws/install/GUI_subscriber/lib/python3.10/site-packages/GUI_subscriber/__init__.py to __init__.cpython-310.pyc
+[1.655s] running install_data
+[1.655s] creating /home/ubuntu/ros2ws/install/GUI_subscriber/share/ament_index
+[1.655s] creating /home/ubuntu/ros2ws/install/GUI_subscriber/share/ament_index/resource_index
+[1.655s] creating /home/ubuntu/ros2ws/install/GUI_subscriber/share/ament_index/resource_index/packages
+[1.655s] copying resource/GUI_subscriber -> /home/ubuntu/ros2ws/install/GUI_subscriber/share/ament_index/resource_index/packages
+[1.655s] copying package.xml -> /home/ubuntu/ros2ws/install/GUI_subscriber/share/GUI_subscriber
+[1.656s] running install_egg_info
+[1.659s] Copying ../../build/GUI_subscriber/GUI_subscriber.egg-info to /home/ubuntu/ros2ws/install/GUI_subscriber/lib/python3.10/site-packages/GUI_subscriber-0.0.0-py3.10.egg-info
+[1.660s] running install_scripts
+[1.692s] writing list of installed files to '/home/ubuntu/ros2ws/build/GUI_subscriber/install.log'
+[1.720s] Invoked command in '/home/ubuntu/ros2ws/src/GUI_subscriber' returned '0': PYTHONPATH=/home/ubuntu/ros2ws/build/GUI_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2ws/install/GUI_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/GUI_subscriber build --build-base /home/ubuntu/ros2ws/build/GUI_subscriber/build install --record /home/ubuntu/ros2ws/build/GUI_subscriber/install.log --single-version-externally-managed install_data

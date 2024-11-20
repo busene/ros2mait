@@ -1,0 +1,26 @@
+[0.055s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_ur16e_gazebo -- -j4 -l4
+[0.143s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_ur16e_gazebo -- -j4 -l4
+[0.186s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_ur16e_gazebo
+[0.203s] -- Install configuration: ""
+[0.223s] -- Execute custom install script
+[0.235s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/config/configurations.yaml
+[0.256s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/urdf/ur16e.urdf.xacro
+[0.269s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/urdf/ur16e_robotiq_2f85.urdf.xacro
+[0.269s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/urdf/ur16e_robotiq_hande.urdf.xacro
+[0.270s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/worlds/ros2srrc_ur16e.world
+[0.282s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ament_index/resource_index/package_run_dependencies/ros2srrc_ur16e_gazebo
+[0.283s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ament_index/resource_index/parent_prefix_path/ros2srrc_ur16e_gazebo
+[0.284s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/environment/ament_prefix_path.sh
+[0.290s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/environment/ament_prefix_path.dsv
+[0.291s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/environment/path.sh
+[0.291s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/environment/path.dsv
+[0.292s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/local_setup.bash
+[0.293s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/local_setup.sh
+[0.296s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/local_setup.zsh
+[0.297s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/local_setup.dsv
+[0.302s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/package.dsv
+[0.308s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ament_index/resource_index/packages/ros2srrc_ur16e_gazebo
+[0.308s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/cmake/ros2srrc_ur16e_gazeboConfig.cmake
+[0.308s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/cmake/ros2srrc_ur16e_gazeboConfig-version.cmake
+[0.309s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_gazebo/share/ros2srrc_ur16e_gazebo/package.xml
+[0.311s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_ur16e_gazebo

@@ -1,0 +1,1 @@
+Invoking command in '/home/ubuntu/ros2ws/build/letter_writer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/letter_writer -- -j4 -l4

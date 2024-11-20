@@ -1,0 +1,3 @@
+[console_scripts]
+gui_subscriber_node = gui_subscriber.gui_subscriber:main
+

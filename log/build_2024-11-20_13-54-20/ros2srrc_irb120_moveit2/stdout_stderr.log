@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ros2srrc_irb120_moveit2/config/irb120.srdf
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ros2srrc_irb120_moveit2/config/irb120_moveit2.rviz
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ros2srrc_irb120_moveit2/config/irb120egp64.srdf
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ros2srrc_irb120_moveit2/config/irb120egp64_moveit2.rviz
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ros2srrc_irb120_moveit2/config/irb120ls_vgr.srdf
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ros2srrc_irb120_moveit2/config/irb120ls_vgr_moveit2.rviz
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ament_index/resource_index/package_run_dependencies/ros2srrc_irb120_moveit2
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ament_index/resource_index/parent_prefix_path/ros2srrc_irb120_moveit2
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ros2srrc_irb120_moveit2/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ros2srrc_irb120_moveit2/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ros2srrc_irb120_moveit2/environment/path.sh
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ros2srrc_irb120_moveit2/environment/path.dsv
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ros2srrc_irb120_moveit2/local_setup.bash
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ros2srrc_irb120_moveit2/local_setup.sh
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ros2srrc_irb120_moveit2/local_setup.zsh
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ros2srrc_irb120_moveit2/local_setup.dsv
+-- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ros2srrc_irb120_moveit2/package.dsv
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ament_index/resource_index/packages/ros2srrc_irb120_moveit2
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ros2srrc_irb120_moveit2/cmake/ros2srrc_irb120_moveit2Config.cmake
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ros2srrc_irb120_moveit2/cmake/ros2srrc_irb120_moveit2Config-version.cmake
+-- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb120_moveit2/share/ros2srrc_irb120_moveit2/package.xml
