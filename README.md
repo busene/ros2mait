@@ -98,7 +98,7 @@ This repository is a copy of the ROS2 workspace on my system. Just use this fold
 
 To run gui_subscriber:
 
-[ros2 run gui_subscriber gui_subscriber_node]
+`ros2 run gui_subscriber gui_subscriber_node`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
