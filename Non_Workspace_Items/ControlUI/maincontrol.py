@@ -21,7 +21,7 @@ class RobotArmController:
         self.master = master
         self.ros_publisher = ros_publisher
         master.title("6DOF Robot Arm Controller")
-        master.geometry("400x300")
+        master.geometry("500x400")
 
         self.create_widgets()
 
@@ -43,6 +43,15 @@ class RobotArmController:
         # Add reset button
         self.create_button(main_frame, "Reset", 3, 1, self.reset)
 
+        # Add joint control buttons
+        joint_frame = ttk.Frame(main_frame, padding="5")
+        joint_frame.grid(row=4, column=0, columnspan=2, pady=(10, 0))
+
+        for i in range(6):
+            ttk.Label(joint_frame, text=f"Joint {i+1}").grid(row=i, column=0, padx=(0, 5))
+            self.create_button(joint_frame, "+", i, 1, lambda j=i+1: self.move_joint(j, "positive"))
+            self.create_button(joint_frame, "-", i, 2, lambda j=i+1: self.move_joint(j, "negative"))
+
     def create_button(self, parent, text, row, col, command):
         button = ttk.Button(parent, text=text, command=command, width=5)
         button.grid(row=row, column=col, padx=2, pady=2)
@@ -55,6 +64,11 @@ class RobotArmController:
     def reset(self):
         print("Resetting")
         self.ros_publisher.publish_command("reset")
+
+    def move_joint(self, joint_number, direction):
+        command = f"joint{joint_number}_{direction}"
+        print(f"Moving joint {joint_number} in {direction} direction")
+        self.ros_publisher.publish_command(command)
 
 def main(args=None):
     rclpy.init(args=args)

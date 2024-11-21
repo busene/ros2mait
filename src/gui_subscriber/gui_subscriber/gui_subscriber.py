@@ -40,24 +40,35 @@ class RobotArmControlNode(Node):
     def command_callback(self, msg):
         self.get_logger().info(f'Received command: "{msg.data}"')
         try:
-            if msg.data == 'forward':
-                self.execute_movement(self.move_forward())
-            elif msg.data == 'backward':
-                self.execute_movement(self.move_backward())
-            elif msg.data == 'left':
-                self.execute_movement(self.move_left())
-            elif msg.data == 'right':
-                self.execute_movement(self.move_right())
-            elif msg.data == 'up':
-                self.execute_movement(self.move_up())
-            elif msg.data == 'down':
-                self.execute_movement(self.move_down())
-            elif msg.data == 'reset':
-                self.execute_movement(self.move_reset())
+            if msg.data.startswith('joint'):
+                self.handle_joint_command(msg.data)
+            elif msg.data in ['forward', 'backward', 'left', 'right', 'up', 'down', 'reset']:
+                method_name = f'move_{msg.data}'
+                if hasattr(self, method_name):
+                    self.execute_movement(getattr(self, method_name)())
+                else:
+                    self.get_logger().warn(f'Unknown movement command: {msg.data}')
             else:
                 self.get_logger().warn(f'Unknown command: {msg.data}')
         except Exception as e:
             self.get_logger().error(f'Error executing command: {e}')
+
+    def handle_joint_command(self, command):
+        parts = command.split('_')
+        if len(parts) == 2 and parts[0].startswith('joint') and parts[1] in ['positive', 'negative']:
+            joint_num = int(parts[0][5:])
+            direction = 1 if parts[1] == 'positive' else -1
+            self.execute_movement(self.move_joint(joint_num, direction))
+        else:
+            self.get_logger().warn(f'Invalid joint command format: {command}')
+
+    def move_joint(self, joint_num, direction):
+        if 1 <= joint_num <= 6:
+            value = 5.0 * direction  # 5.0 for positive, -5.0 for negative
+            return self.create_action_move_joint(joint_num, value)
+        else:
+            self.get_logger().warn(f'Invalid joint number: {joint_num}')
+            return None
 
     def move_forward(self):
         return self.create_action(0.01, 0.0, 0.0)
@@ -78,7 +89,7 @@ class RobotArmControlNode(Node):
         return self.create_action(0.0, 0.0, -0.01)
     
     def move_reset(self):
-        return self.create_action_joints(0, 0, 0, 0, 0, 0)
+        return self.create_action_joints(0.0, 0.0, 0.0, 0.0, 90.0, 0.0)
 
     def create_action(self, x, y, z):
         ACTION = Action()
@@ -104,6 +115,16 @@ class RobotArmControlNode(Node):
         INPUT.joint6 = j6
         ACTION.movej = INPUT
         return ACTION
+    
+    def create_action_move_joint(self, joint_num, value):
+        ACTION = Action()
+        ACTION.action = "MoveR"
+        ACTION.speed = 1.0
+        INPUT = Joint()
+        INPUT.joint = f"joint{joint_num}"
+        INPUT.value = value
+        ACTION.mover = INPUT
+        return ACTION
 
     def execute_movement(self, action):
         try:
@@ -111,6 +132,7 @@ class RobotArmControlNode(Node):
             self.get_logger().info(f"Moved to position. Result: {RES['Message']}")
         except Exception as e:
             self.get_logger().error(f"Error executing movement: {e}")
+
 
 def main(args=None):
     rclpy.init(args=args)
