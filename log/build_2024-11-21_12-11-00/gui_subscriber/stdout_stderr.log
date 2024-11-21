@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/gui_subscriber/gui_subscriber.egg-info/PKG-INFO
+writing dependency_links to ../../build/gui_subscriber/gui_subscriber.egg-info/dependency_links.txt
+writing entry points to ../../build/gui_subscriber/gui_subscriber.egg-info/entry_points.txt
+writing requirements to ../../build/gui_subscriber/gui_subscriber.egg-info/requires.txt
+writing top-level names to ../../build/gui_subscriber/gui_subscriber.egg-info/top_level.txt
+reading manifest file '../../build/gui_subscriber/gui_subscriber.egg-info/SOURCES.txt'
+writing manifest file '../../build/gui_subscriber/gui_subscriber.egg-info/SOURCES.txt'
+running build
+running build_py
+copying gui_subscriber/gui_subscriber.py -> /home/ubuntu/ros2ws/build/gui_subscriber/build/lib/gui_subscriber
+running install
+running install_lib
+copying /home/ubuntu/ros2ws/build/gui_subscriber/build/lib/gui_subscriber/gui_subscriber.py -> /home/ubuntu/ros2ws/install/gui_subscriber/lib/python3.10/site-packages/gui_subscriber
+byte-compiling /home/ubuntu/ros2ws/install/gui_subscriber/lib/python3.10/site-packages/gui_subscriber/gui_subscriber.py to gui_subscriber.cpython-310.pyc
+  File "/home/ubuntu/ros2ws/install/gui_subscriber/lib/python3.10/site-packages/gui_subscriber/gui_subscriber.py", line 55
+    elif msg.data == 'reset'
+                            ^
+SyntaxError: expected ':'
+
+running install_data
+running install_egg_info
+removing '/home/ubuntu/ros2ws/install/gui_subscriber/lib/python3.10/site-packages/gui_subscriber-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/gui_subscriber/gui_subscriber.egg-info to /home/ubuntu/ros2ws/install/gui_subscriber/lib/python3.10/site-packages/gui_subscriber-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gui_subscriber_node script to /home/ubuntu/ros2ws/install/gui_subscriber/lib/gui_subscriber
+writing list of installed files to '/home/ubuntu/ros2ws/build/gui_subscriber/install.log'

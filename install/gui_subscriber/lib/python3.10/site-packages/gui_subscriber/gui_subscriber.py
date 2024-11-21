@@ -52,6 +52,8 @@ class RobotArmControlNode(Node):
                 self.execute_movement(self.move_up())
             elif msg.data == 'down':
                 self.execute_movement(self.move_down())
+            elif msg.data == 'reset':
+                self.execute_movement(self.move_reset())
             else:
                 self.get_logger().warn(f'Unknown command: {msg.data}')
         except Exception as e:
@@ -74,6 +76,9 @@ class RobotArmControlNode(Node):
 
     def move_down(self):
         return self.create_action(0.0, 0.0, -0.01)
+    
+    def move_reset(self):
+        return self.create_action_joints(0, 0, 0, 0, 0, 0)
 
     def create_action(self, x, y, z):
         ACTION = Action()
@@ -84,6 +89,20 @@ class RobotArmControlNode(Node):
         INPUT.y = y
         INPUT.z = z
         ACTION.movel = INPUT
+        return ACTION
+    
+    def create_action_joints(self, j1, j2, j3, j4, j5, j6):
+        ACTION = Action()
+        ACTION.action = "MoveJ"
+        ACTION.speed = 1.0
+        INPUT = Joints()
+        INPUT.joint1 = j1
+        INPUT.joint2 = j2
+        INPUT.joint3 = j3
+        INPUT.joint4 = j4
+        INPUT.joint5 = j5
+        INPUT.joint6 = j6
+        ACTION.movej = INPUT
         return ACTION
 
     def execute_movement(self, action):

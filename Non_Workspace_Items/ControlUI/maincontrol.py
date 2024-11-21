@@ -40,6 +40,9 @@ class RobotArmController:
         self.create_button(main_frame, "Up", 0, 1, lambda: self.move("up"))
         self.create_button(main_frame, "Down", 2, 1, lambda: self.move("down"))
 
+        # Add reset button
+        self.create_button(main_frame, "Reset", 3, 1, self.reset)
+
     def create_button(self, parent, text, row, col, command):
         button = ttk.Button(parent, text=text, command=command, width=5)
         button.grid(row=row, column=col, padx=2, pady=2)
@@ -48,6 +51,10 @@ class RobotArmController:
     def move(self, direction):
         print(f"Moving {direction}")
         self.ros_publisher.publish_command(direction)
+
+    def reset(self):
+        print("Resetting")
+        self.ros_publisher.publish_command("reset")
 
 def main(args=None):
     rclpy.init(args=args)
@@ -69,4 +76,3 @@ def main(args=None):
 
 if __name__ == "__main__":
     main()
-credits
