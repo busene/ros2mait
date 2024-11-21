@@ -73,6 +73,14 @@ To run gui_subscriber:
 
 `ros2 run gui_subscriber gui_subscriber_node`
 
+To open the controller UI that makes it possible to control the robot with cartesian paths. Navigate to:
+
+`cd ros2ws/Non_Workspace_Items/ControlUI`
+
+and then type:
+
+`python3 maincontrol.py`
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
