@@ -36,64 +36,76 @@ class RobotArmControlNode(Node):
             10)
         self.subscription  # prevent unused variable warning
         self.client = RBT()  # Initialize the RBT client
+        self.joint_step = 5.0  # Fixed step size for joint movements
 
     def command_callback(self, msg):
         self.get_logger().info(f'Received command: "{msg.data}"')
         try:
-            if msg.data.startswith('joint'):
-                self.handle_joint_command(msg.data)
-            elif msg.data in ['forward', 'backward', 'left', 'right', 'up', 'down', 'reset']:
-                method_name = f'move_{msg.data}'
-                if hasattr(self, method_name):
-                    self.execute_movement(getattr(self, method_name)())
-                else:
-                    self.get_logger().warn(f'Unknown movement command: {msg.data}')
+            parts = msg.data.split('_')
+            if parts[0].startswith('joint'):
+                self.handle_joint_command(parts)
+            elif parts[0] in ['forward', 'backward', 'left', 'right', 'up', 'down']:
+                self.handle_movement_command(parts)
+            elif msg.data == 'reset':
+                self.execute_movement(self.move_reset())
             else:
                 self.get_logger().warn(f'Unknown command: {msg.data}')
         except Exception as e:
             self.get_logger().error(f'Error executing command: {e}')
 
-    def handle_joint_command(self, command):
-        parts = command.split('_')
+    def handle_joint_command(self, parts):
         if len(parts) == 2 and parts[0].startswith('joint') and parts[1] in ['positive', 'negative']:
             joint_num = int(parts[0][5:])
             direction = 1 if parts[1] == 'positive' else -1
             self.execute_movement(self.move_joint(joint_num, direction))
         else:
-            self.get_logger().warn(f'Invalid joint command format: {command}')
+            self.get_logger().warn(f'Invalid joint command format: {parts}')
+
+    def handle_movement_command(self, parts):
+        if len(parts) == 2:
+            direction = parts[0]
+            step = float(parts[1])
+            method_name = f'move_{direction}'
+            if hasattr(self, method_name):
+                self.execute_movement(getattr(self, method_name)(step))
+            else:
+                self.get_logger().warn(f'Unknown movement command: {direction}')
+        else:
+            self.get_logger().warn(f'Invalid movement command format: {parts}')
 
     def move_joint(self, joint_num, direction):
         if 1 <= joint_num <= 6:
-            value = 5.0 * direction  # 5.0 for positive, -5.0 for negative
+            value = self.joint_step * direction
             return self.create_action_move_joint(joint_num, value)
         else:
             self.get_logger().warn(f'Invalid joint number: {joint_num}')
             return None
 
-    def move_forward(self):
-        return self.create_action(0.01, 0.0, 0.0)
+    def move_forward(self, step):
+        return self.create_action(step, 0.0, 0.0)
 
-    def move_backward(self):
-        return self.create_action(-0.01, 0.0, 0.0)
+    def move_backward(self, step):
+        return self.create_action(-step, 0.0, 0.0)
 
-    def move_left(self):
-        return self.create_action(0.0, 0.01, 0.0)
+    def move_left(self, step):
+        return self.create_action(0.0, step, 0.0)
 
-    def move_right(self):
-        return self.create_action(0.0, -0.01, 0.0)
+    def move_right(self, step):
+        return self.create_action(0.0, -step, 0.0)
 
-    def move_up(self):
-        return self.create_action(0.0, 0.0, 0.01)
+    def move_up(self, step):
+        return self.create_action(0.0, 0.0, step)
 
-    def move_down(self):
-        return self.create_action(0.0, 0.0, -0.01)
+    def move_down(self, step):
+        return self.create_action(0.0, 0.0, -step)
+
     
     def move_reset(self):
         return self.create_action_joints(0.0, 0.0, 0.0, 0.0, 90.0, 0.0)
 
     def create_action(self, x, y, z):
         ACTION = Action()
-        ACTION.action = "MoveL"
+        ACTION.action = "MoveL" # MoveL makes the robot move a certain amount over a cartesian path
         ACTION.speed = 1.0
         INPUT = Xyz()
         INPUT.x = x
@@ -104,7 +116,7 @@ class RobotArmControlNode(Node):
     
     def create_action_joints(self, j1, j2, j3, j4, j5, j6):
         ACTION = Action()
-        ACTION.action = "MoveJ"
+        ACTION.action = "MoveJ" # MoveJ moves a joint to the desires position
         ACTION.speed = 1.0
         INPUT = Joints()
         INPUT.joint1 = j1
@@ -118,7 +130,7 @@ class RobotArmControlNode(Node):
     
     def create_action_move_joint(self, joint_num, value):
         ACTION = Action()
-        ACTION.action = "MoveR"
+        ACTION.action = "MoveR" # MoveR rotates a joint a specific amount
         ACTION.speed = 1.0
         INPUT = Joint()
         INPUT.joint = f"joint{joint_num}"

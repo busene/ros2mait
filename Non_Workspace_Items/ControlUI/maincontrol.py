@@ -23,29 +23,34 @@ class RobotArmController:
         master.title("6DOF Robot Arm Controller")
         master.geometry("500x400")
 
+        self.step_size = tk.StringVar(value="0.01")
         self.create_widgets()
 
     def create_widgets(self):
         main_frame = ttk.Frame(self.master, padding="10")
         main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
 
+        # Step size entry
+        ttk.Label(main_frame, text="Step Size:").grid(row=0, column=0, sticky=tk.W)
+        step_entry = ttk.Entry(main_frame, textvariable=self.step_size, width=10)
+        step_entry.grid(row=0, column=1, sticky=tk.W)
+
         joystick_frame = ttk.Frame(main_frame, padding="5")
-        joystick_frame.grid(row=0, column=0, rowspan=3, padx=(0, 10))
+        joystick_frame.grid(row=1, column=0, rowspan=3, padx=(0, 10))
 
         self.create_button(joystick_frame, "↑", 0, 1, lambda: self.move("forward"))
         self.create_button(joystick_frame, "↓", 2, 1, lambda: self.move("backward"))
         self.create_button(joystick_frame, "←", 1, 0, lambda: self.move("left"))
         self.create_button(joystick_frame, "→", 1, 2, lambda: self.move("right"))
 
-        self.create_button(main_frame, "Up", 0, 1, lambda: self.move("up"))
-        self.create_button(main_frame, "Down", 2, 1, lambda: self.move("down"))
+        self.create_button(main_frame, "Up", 1, 1, lambda: self.move("up"))
+        self.create_button(main_frame, "Down", 3, 1, lambda: self.move("down"))
 
-        # Add reset button
-        self.create_button(main_frame, "Reset", 3, 1, self.reset)
+        self.create_button(main_frame, "Reset", 4, 1, self.reset)
 
-        # Add joint control buttons
+        # Joint control buttons
         joint_frame = ttk.Frame(main_frame, padding="5")
-        joint_frame.grid(row=4, column=0, columnspan=2, pady=(10, 0))
+        joint_frame.grid(row=5, column=0, columnspan=2, pady=(10, 0))
 
         for i in range(6):
             ttk.Label(joint_frame, text=f"Joint {i+1}").grid(row=i, column=0, padx=(0, 5))
@@ -58,8 +63,10 @@ class RobotArmController:
         return button
 
     def move(self, direction):
-        print(f"Moving {direction}")
-        self.ros_publisher.publish_command(direction)
+        step = self.step_size.get()
+        command = f"{direction}_{step}"
+        print(f"Moving {direction} with step {step}")
+        self.ros_publisher.publish_command(command)
 
     def reset(self):
         print("Resetting")
@@ -67,8 +74,9 @@ class RobotArmController:
 
     def move_joint(self, joint_number, direction):
         command = f"joint{joint_number}_{direction}"
-        print(f"Moving joint {joint_number} in {direction} direction")
+        print(f"Moving joint {joint_number} {direction}")
         self.ros_publisher.publish_command(command)
+
 
 def main(args=None):
     rclpy.init(args=args)
