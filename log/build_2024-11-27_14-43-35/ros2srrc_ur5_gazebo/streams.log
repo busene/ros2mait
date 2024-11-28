@@ -1,0 +1,26 @@
+[0.036s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_ur5_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_ur5_gazebo -- -j4 -l4
+[0.123s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_ur5_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_ur5_gazebo -- -j4 -l4
+[0.193s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_ur5_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_ur5_gazebo
+[0.208s] -- Install configuration: ""
+[0.210s] -- Execute custom install script
+[0.213s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/config/configurations.yaml
+[0.215s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/urdf/ur5.urdf.xacro
+[0.218s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/urdf/ur5_robotiq_2f85.urdf.xacro
+[0.219s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/urdf/ur5_robotiq_hande.urdf.xacro
+[0.220s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/worlds/ros2srrc_ur5.world
+[0.220s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ament_index/resource_index/package_run_dependencies/ros2srrc_ur5_gazebo
+[0.220s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ament_index/resource_index/parent_prefix_path/ros2srrc_ur5_gazebo
+[0.220s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/environment/ament_prefix_path.sh
+[0.220s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/environment/ament_prefix_path.dsv
+[0.220s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/environment/path.sh
+[0.220s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/environment/path.dsv
+[0.221s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/local_setup.bash
+[0.222s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/local_setup.sh
+[0.222s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/local_setup.zsh
+[0.224s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/local_setup.dsv
+[0.224s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/package.dsv
+[0.247s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ament_index/resource_index/packages/ros2srrc_ur5_gazebo
+[0.248s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/cmake/ros2srrc_ur5_gazeboConfig.cmake
+[0.251s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/cmake/ros2srrc_ur5_gazeboConfig-version.cmake
+[0.252s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur5_gazebo/share/ros2srrc_ur5_gazebo/package.xml
+[0.261s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_ur5_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_ur5_gazebo

@@ -1,0 +1,34 @@
+[0.039s] Invoking command in '/home/ubuntu/ros2ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/moveit2/moveit_common -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/moveit_common
+[0.100s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.356s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.602s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.888s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.891s] -- Added test 'lint_cmake' to check CMake code style
+[0.896s] -- Added test 'xmllint' to check XML markup files
+[0.905s] -- Configuring done
+[0.912s] -- Generating done
+[0.917s] -- Build files have been written to: /home/ubuntu/ros2ws/build/moveit_common
+[0.934s] Invoked command in '/home/ubuntu/ros2ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/moveit2/moveit_common -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/moveit_common
+[0.934s] Invoking command in '/home/ubuntu/ros2ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/moveit_common -- -j4 -l4
+[0.997s] Invoked command in '/home/ubuntu/ros2ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/moveit_common -- -j4 -l4
+[1.063s] Invoking command in '/home/ubuntu/ros2ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/moveit_common
+[1.076s] -- Install configuration: ""
+[1.078s] -- Installing: /home/ubuntu/ros2ws/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[1.078s] -- Installing: /home/ubuntu/ros2ws/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[1.078s] -- Installing: /home/ubuntu/ros2ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[1.078s] -- Installing: /home/ubuntu/ros2ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[1.080s] -- Installing: /home/ubuntu/ros2ws/install/moveit_common/share/moveit_common/environment/path.sh
+[1.080s] -- Installing: /home/ubuntu/ros2ws/install/moveit_common/share/moveit_common/environment/path.dsv
+[1.080s] -- Installing: /home/ubuntu/ros2ws/install/moveit_common/share/moveit_common/local_setup.bash
+[1.080s] -- Installing: /home/ubuntu/ros2ws/install/moveit_common/share/moveit_common/local_setup.sh
+[1.081s] -- Installing: /home/ubuntu/ros2ws/install/moveit_common/share/moveit_common/local_setup.zsh
+[1.081s] -- Installing: /home/ubuntu/ros2ws/install/moveit_common/share/moveit_common/local_setup.dsv
+[1.081s] -- Installing: /home/ubuntu/ros2ws/install/moveit_common/share/moveit_common/package.dsv
+[1.081s] -- Installing: /home/ubuntu/ros2ws/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[1.081s] -- Installing: /home/ubuntu/ros2ws/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[1.081s] -- Installing: /home/ubuntu/ros2ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[1.081s] -- Installing: /home/ubuntu/ros2ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[1.081s] -- Installing: /home/ubuntu/ros2ws/install/moveit_common/share/moveit_common/package.xml
+[1.081s] -- Up-to-date: /home/ubuntu/ros2ws/install/moveit_common/share/moveit_common/cmake
+[1.081s] -- Installing: /home/ubuntu/ros2ws/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[1.088s] Invoked command in '/home/ubuntu/ros2ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/moveit_common

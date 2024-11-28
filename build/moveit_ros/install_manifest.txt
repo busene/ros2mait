@@ -1,0 +1,15 @@
+/home/ubuntu/ros2ws/install/moveit_ros/share/ament_index/resource_index/package_run_dependencies/moveit_ros
+/home/ubuntu/ros2ws/install/moveit_ros/share/ament_index/resource_index/parent_prefix_path/moveit_ros
+/home/ubuntu/ros2ws/install/moveit_ros/share/moveit_ros/environment/ament_prefix_path.sh
+/home/ubuntu/ros2ws/install/moveit_ros/share/moveit_ros/environment/ament_prefix_path.dsv
+/home/ubuntu/ros2ws/install/moveit_ros/share/moveit_ros/environment/path.sh
+/home/ubuntu/ros2ws/install/moveit_ros/share/moveit_ros/environment/path.dsv
+/home/ubuntu/ros2ws/install/moveit_ros/share/moveit_ros/local_setup.bash
+/home/ubuntu/ros2ws/install/moveit_ros/share/moveit_ros/local_setup.sh
+/home/ubuntu/ros2ws/install/moveit_ros/share/moveit_ros/local_setup.zsh
+/home/ubuntu/ros2ws/install/moveit_ros/share/moveit_ros/local_setup.dsv
+/home/ubuntu/ros2ws/install/moveit_ros/share/moveit_ros/package.dsv
+/home/ubuntu/ros2ws/install/moveit_ros/share/ament_index/resource_index/packages/moveit_ros
+/home/ubuntu/ros2ws/install/moveit_ros/share/moveit_ros/cmake/moveit_rosConfig.cmake
+/home/ubuntu/ros2ws/install/moveit_ros/share/moveit_ros/cmake/moveit_rosConfig-version.cmake
+/home/ubuntu/ros2ws/install/moveit_ros/share/moveit_ros/package.xml

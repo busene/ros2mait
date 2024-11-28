@@ -1,3 +1,5 @@
+# This program is the ROS2 Node that receives messages from the controlUI.py program. It processes these messages and sends commands to the robot to move.
+#
 # Importing necessary ROS2 and system libraries
 import rclpy
 from rclpy.node import Node

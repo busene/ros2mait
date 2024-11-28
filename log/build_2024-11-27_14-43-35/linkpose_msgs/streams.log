@@ -1,0 +1,156 @@
+[0.031s] Invoking command in '/home/ubuntu/ros2ws/build/linkpose_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/linkpose_msgs -- -j4 -l4
+[0.147s] [  3%] Built target linkpose_msgs__cpp
+[0.217s] [  3%] Built target ament_cmake_python_copy_linkpose_msgs
+[0.262s] [ 12%] Built target linkpose_msgs__rosidl_typesupport_fastrtps_cpp
+[0.307s] [ 22%] Built target linkpose_msgs__rosidl_typesupport_introspection_cpp
+[0.774s] running egg_info
+[0.777s] writing linkpose_msgs.egg-info/PKG-INFO
+[0.777s] writing dependency_links to linkpose_msgs.egg-info/dependency_links.txt
+[0.778s] writing top-level names to linkpose_msgs.egg-info/top_level.txt
+[0.786s] reading manifest file 'linkpose_msgs.egg-info/SOURCES.txt'
+[0.787s] writing manifest file 'linkpose_msgs.egg-info/SOURCES.txt'
+[0.839s] [ 22%] Built target ament_cmake_python_build_linkpose_msgs_egg
+[0.894s] [ 32%] Built target linkpose_msgs__rosidl_typesupport_cpp
+[0.948s] [ 41%] Built target linkpose_msgs__rosidl_generator_c
+[1.003s] [ 51%] Built target linkpose_msgs__rosidl_typesupport_fastrtps_c
+[1.057s] [ 61%] Built target linkpose_msgs__rosidl_typesupport_c
+[1.107s] [ 70%] Built target linkpose_msgs__rosidl_typesupport_introspection_c
+[1.154s] [ 70%] Built target linkpose_msgs
+[1.202s] [ 74%] Built target linkpose_msgs__py
+[1.259s] [ 77%] [32mBuilding C object CMakeFiles/linkpose_msgs__rosidl_generator_py.dir/rosidl_generator_py/linkpose_msgs/msg/_link_pose_s.c.o[0m
+[1.507s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/linkpose_msgs/liblinkpose_msgs__rosidl_generator_py.so[0m
+[1.595s] [ 80%] Built target linkpose_msgs__rosidl_generator_py
+[1.658s] [ 83%] [32mBuilding C object CMakeFiles/linkpose_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/linkpose_msgs/_linkpose_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.848s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.931s] [ 87%] Built target linkpose_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.974s] [ 90%] [32mBuilding C object CMakeFiles/linkpose_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/linkpose_msgs/_linkpose_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.169s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.252s] [ 93%] Built target linkpose_msgs__rosidl_typesupport_c__pyext
+[2.310s] [ 96%] [32mBuilding C object CMakeFiles/linkpose_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/linkpose_msgs/_linkpose_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.547s] [100%] [32m[1mLinking C shared library rosidl_generator_py/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.645s] [100%] Built target linkpose_msgs__rosidl_typesupport_introspection_c__pyext
+[2.673s] Invoked command in '/home/ubuntu/ros2ws/build/linkpose_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/linkpose_msgs -- -j4 -l4
+[2.897s] Invoking command in '/home/ubuntu/ros2ws/build/linkpose_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/linkpose_msgs
+[2.922s] -- Install configuration: ""
+[2.922s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/msg
+[2.923s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/msg/LinkPose.msg
+[2.923s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/ament_index/resource_index/rosidl_interfaces/linkpose_msgs
+[2.925s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs
+[2.925s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg
+[2.925s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/link_pose.h
+[2.925s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.925s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail
+[2.926s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__functions.c
+[2.926s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__functions.h
+[2.926s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__struct.h
+[2.926s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__type_support.h
+[2.926s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/environment/library_path.sh
+[2.927s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/environment/library_path.dsv
+[2.927s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_generator_c.so
+[2.927s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs
+[2.927s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg
+[2.928s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.928s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail
+[2.928s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__rosidl_typesupport_fastrtps_c.h
+[2.929s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_typesupport_fastrtps_c.so
+[2.932s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs
+[2.932s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg
+[2.932s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.932s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail
+[2.932s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__type_support.c
+[2.933s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__rosidl_typesupport_introspection_c.h
+[2.933s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_typesupport_introspection_c.so
+[2.933s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_typesupport_c.so
+[2.936s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs
+[2.936s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg
+[2.936s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/link_pose.hpp
+[2.937s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail
+[2.940s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__traits.hpp
+[2.940s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__struct.hpp
+[2.940s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__builder.hpp
+[2.940s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs
+[2.941s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg
+[2.941s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.941s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail
+[2.941s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/dds_fastrtps
+[2.941s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[2.946s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.947s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs
+[2.947s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg
+[2.947s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail
+[2.947s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__type_support.cpp
+[2.947s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/include/linkpose_msgs/linkpose_msgs/msg/detail/link_pose__rosidl_typesupport_introspection_cpp.hpp
+[2.947s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_typesupport_introspection_cpp.so
+[2.947s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_typesupport_cpp.so
+[2.947s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/environment/pythonpath.sh
+[2.947s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/environment/pythonpath.dsv
+[2.947s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs-0.0.0-py3.10.egg-info
+[2.947s] -- Installing: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.948s] -- Installing: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.948s] -- Installing: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.948s] -- Installing: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.948s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs
+[2.948s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/msg
+[2.948s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/msg/_link_pose_s.c
+[2.948s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/msg/_link_pose.py
+[2.948s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/msg/__init__.py
+[2.948s] -- Installing: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/liblinkpose_msgs__rosidl_generator_py.so
+[2.948s] -- Installing: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.948s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/_linkpose_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.951s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/_linkpose_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.951s] -- Installing: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.951s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/_linkpose_msgs_s.ep.rosidl_typesupport_c.c
+[2.951s] -- Installing: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.951s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/__init__.py
+[3.030s] Listing '/home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs'...
+[3.030s] Listing '/home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/msg'...
+[3.035s] -- Installing: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.036s] -- Set runtime path of "/home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.036s] -- Installing: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.037s] -- Set runtime path of "/home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.039s] -- Installing: /home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.039s] -- Set runtime path of "/home/ubuntu/ros2ws/install/linkpose_msgs/local/lib/python3.10/dist-packages/linkpose_msgs/linkpose_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.040s] -- Installing: /home/ubuntu/ros2ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_generator_py.so
+[3.041s] -- Set runtime path of "/home/ubuntu/ros2ws/install/linkpose_msgs/lib/liblinkpose_msgs__rosidl_generator_py.so" to ""
+[3.041s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/msg/LinkPose.idl
+[3.042s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/msg/LinkPose.msg
+[3.043s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/ament_index/resource_index/package_run_dependencies/linkpose_msgs
+[3.044s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/ament_index/resource_index/parent_prefix_path/linkpose_msgs
+[3.045s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/environment/ament_prefix_path.sh
+[3.045s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/environment/ament_prefix_path.dsv
+[3.045s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/environment/path.sh
+[3.045s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/environment/path.dsv
+[3.045s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/local_setup.bash
+[3.045s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/local_setup.sh
+[3.045s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/local_setup.zsh
+[3.045s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/local_setup.dsv
+[3.045s] -- Installing: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/package.dsv
+[3.048s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/ament_index/resource_index/packages/linkpose_msgs
+[3.048s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/export_linkpose_msgs__rosidl_generator_cExport.cmake
+[3.048s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/export_linkpose_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.049s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/export_linkpose_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.049s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/export_linkpose_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.051s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.051s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.052s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgs__rosidl_typesupport_cExport.cmake
+[3.053s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.053s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/export_linkpose_msgs__rosidl_generator_cppExport.cmake
+[3.054s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/export_linkpose_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.054s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/export_linkpose_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.059s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.059s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.059s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgs__rosidl_typesupport_cppExport.cmake
+[3.059s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.059s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/export_linkpose_msgs__rosidl_generator_pyExport.cmake
+[3.059s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/export_linkpose_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.060s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/rosidl_cmake-extras.cmake
+[3.060s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.060s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.060s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.060s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.060s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.060s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.060s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgsConfig.cmake
+[3.060s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/cmake/linkpose_msgsConfig-version.cmake
+[3.060s] -- Up-to-date: /home/ubuntu/ros2ws/install/linkpose_msgs/share/linkpose_msgs/package.xml
+[3.066s] Invoked command in '/home/ubuntu/ros2ws/build/linkpose_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/linkpose_msgs
