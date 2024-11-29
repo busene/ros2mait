@@ -1,12 +1,36 @@
 #!/usr/bin/env Python3
- 
+
+# test_Move.py -> This python script creates an instance of the RBT() class in ros2srrc_execution and executes the Move ROS 2 Action.
+
+# ===== IMPORT REQUIRED COMPONENTS ===== #
+# System functions and classes:
+import sys, os
+# Required to include ROS2 and its components:
 import rclpy
+from ament_index_python.packages import get_package_share_directory
+
+# IMPORT ROS2 Custom Messages:
+from ros2srrc_data.msg import Action
+from ros2srrc_data.msg import Joint
+from ros2srrc_data.msg import Joints
+from ros2srrc_data.msg import Xyz
+from ros2srrc_data.msg import Xyzypr
+from ros2srrc_data.msg import Ypr
+
+# IMPORT Python classes:
+PATH = os.path.join(get_package_share_directory("ros2srrc_execution"), 'python')
+PATH_robot = PATH + "/robot"
+# ROBOT CLASS:
+sys.path.append(PATH_robot)
+from robot import RBT
+
+from std_msgs.msg import String 
 from rclpy.node import Node
-from std_msgs.msg import String
-from ros2srrc_data.msg import Specs
-from ros2srrc_data.action import Move
-from moveit_msgs.msg import MoveGroupInterface
-from geometry_msgs.msg import Pose
+
+from .letter_movements import move_to_zero, move_to_a, move_to_b, move_to_c  # Import all letter movements
+
+# ===================================================================== #
+# ===================================================================== #
 
 class RobotLetterWriterNode(Node):
     def __init__(self):
@@ -17,39 +41,28 @@ class RobotLetterWriterNode(Node):
             self.letter_callback,
             10)
         self.subscription  # prevent unused variable warning
-        
-        # Global variables (as class attributes)
-        self.param_ROB = "none"
-        self.param_EE = "none"
-        self.param_ENV = "none"
-        
-        # MoveIt!2 Interface (placeholder, actual implementation may differ)
-        self.move_group_interface_ROB = None
-        self.move_group_interface_EE = None
-        
-        # JointModelGroup (placeholder, actual implementation may differ)
-        self.joint_model_group_ROB = None
-        self.joint_model_group_EE = None
-        
-        self.RES = "none"
-        
-        # robotSPECS and eeSPECS
-        self.robotSPECS = Specs()
-        self.eeSPECS = Specs()
 
     def letter_callback(self, msg):
-        self.get_logger().info(f"Received letter: '{msg.data}'")
-        if msg.data[0].lower() == 'a':
-            self.get_logger().info("Writing letter A")
-            # Add logic for writing letter A here
-        # Add more letters as needed
+        if msg.data == 'a':
+            self.execute_movement(move_to_a())
+        elif msg.data == 'b':
+            self.execute_movement(move_to_b())
+        elif msg.data == 'c':
+            self.execute_movement(move_to_c())
+        elif msg.data == '0':
+            self.execute_movement(move_to_zero())
+
+    def execute_movement(self, action):
+        RES = self.client.Move_EXECUTE(action)
+        self.node.get_logger().info(f"Moved to position. Result: {RES['Message']}")
 
 def main(args=None):
     rclpy.init(args=args)
     letter_writer_node = RobotLetterWriterNode()
-    rclpy.spin(lrobot_letter_writer_node)
+    rclpy.spin(robot_letter_writer_node)
     letter_writer_node.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
+

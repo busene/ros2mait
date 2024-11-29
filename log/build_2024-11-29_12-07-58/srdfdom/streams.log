@@ -1,0 +1,58 @@
+[0.075s] Invoking command in '/home/ubuntu/ros2ws/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/launch_param_builder:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/srdfdom -- -j4 -l4
+[0.257s] [ 27%] Built target srdfdom
+[0.339s] [ 45%] Built target gtest
+[0.481s] [ 63%] Built target gtest_main
+[0.499s] [ 63%] Built target ament_cmake_python_copy_srdfdom
+[0.587s] [ 81%] Built target test_cpp_nl_NL.UTF-8
+[1.091s] running egg_info
+[1.093s] writing srdfdom.egg-info/PKG-INFO
+[1.093s] writing dependency_links to srdfdom.egg-info/dependency_links.txt
+[1.093s] writing top-level names to srdfdom.egg-info/top_level.txt
+[1.099s] reading manifest file 'srdfdom.egg-info/SOURCES.txt'
+[1.099s] writing manifest file 'srdfdom.egg-info/SOURCES.txt'
+[1.155s] [ 81%] Built target ament_cmake_python_build_srdfdom_egg
+[1.230s] [100%] Built target test_cpp_C
+[1.260s] Invoked command in '/home/ubuntu/ros2ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/launch_param_builder:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/srdfdom -- -j4 -l4
+[1.464s] Invoking command in '/home/ubuntu/ros2ws/build/srdfdom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/launch_param_builder:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/srdfdom
+[1.500s] -- Install configuration: ""
+[1.501s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/lib/libsrdfdom.so.2.0.7
+[1.502s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/lib/libsrdfdom.so
+[1.502s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/include/srdfdom
+[1.506s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/include/srdfdom/srdfdom
+[1.507s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/include/srdfdom/srdfdom/visibility_control.h
+[1.507s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/include/srdfdom/srdfdom/model.h
+[1.509s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/include/srdfdom/srdfdom/srdf_writer.h
+[1.510s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/lib/srdfdom/display_srdf
+[1.510s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/environment/pythonpath.sh
+[1.511s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/environment/pythonpath.dsv
+[1.511s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info
+[1.511s] -- Installing: /home/ubuntu/ros2ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/PKG-INFO
+[1.515s] -- Installing: /home/ubuntu/ros2ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/top_level.txt
+[1.516s] -- Installing: /home/ubuntu/ros2ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/dependency_links.txt
+[1.516s] -- Installing: /home/ubuntu/ros2ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom-2.0.7-py3.10.egg-info/SOURCES.txt
+[1.516s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom
+[1.516s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/srdf.py
+[1.517s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom/__init__.py
+[1.589s] Listing '/home/ubuntu/ros2ws/install/srdfdom/local/lib/python3.10/dist-packages/srdfdom'...
+[1.600s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/environment/library_path.sh
+[1.600s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/environment/library_path.dsv
+[1.605s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/ament_index/resource_index/package_run_dependencies/srdfdom
+[1.607s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/ament_index/resource_index/parent_prefix_path/srdfdom
+[1.607s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.sh
+[1.607s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/environment/ament_prefix_path.dsv
+[1.607s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/environment/path.sh
+[1.607s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/environment/path.dsv
+[1.607s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/local_setup.bash
+[1.608s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/local_setup.sh
+[1.608s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/local_setup.zsh
+[1.608s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/local_setup.dsv
+[1.608s] -- Installing: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/package.dsv
+[1.608s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/ament_index/resource_index/packages/srdfdom
+[1.608s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport.cmake
+[1.608s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/cmake/srdfdomTargetsExport-noconfig.cmake
+[1.609s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_targets-extras.cmake
+[1.610s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.610s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig.cmake
+[1.611s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/cmake/srdfdomConfig-version.cmake
+[1.611s] -- Up-to-date: /home/ubuntu/ros2ws/install/srdfdom/share/srdfdom/package.xml
+[1.612s] Invoked command in '/home/ubuntu/ros2ws/build/srdfdom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/launch_param_builder:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/srdfdom

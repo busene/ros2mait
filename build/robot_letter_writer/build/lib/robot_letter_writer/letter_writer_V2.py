@@ -33,7 +33,7 @@ from .letter_movements import move_to_zero, move_to_a, move_to_b, move_to_c  # I
 
 class RobotMover:
     def __init__(self):
-        self.node = rclpy.create_node('robot_mover')
+        self.node = rclpy.create_node('robot_letter_writer_V2_node')
         self.client = RBT()
         self.subscription = self.node.create_subscription(
             String,
@@ -58,14 +58,14 @@ class RobotMover:
 def main(args=None):
     rclpy.init(args=args)
 
-    robot_mover = RobotMover()
+    robot_letter_writer_V2_node = RobotMover()
 
     try:
-        rclpy.spin(robot_mover.node)
+        rclpy.spin(robot_letter_writer_V2_node.node)
     except KeyboardInterrupt:
         pass
 
-    robot_mover.node.destroy_node()
+    robot_letter_writer_V2_node.node.destroy_node()
     rclpy.shutdown()
     print("CLOSING PROGRAM... BYE!")
 

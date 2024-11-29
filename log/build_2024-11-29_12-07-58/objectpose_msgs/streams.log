@@ -1,0 +1,144 @@
+[0.155s] Invoking command in '/home/ubuntu/ros2ws/build/objectpose_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/launch_param_builder:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/objectpose_msgs -- -j4 -l4
+[0.339s] [  3%] Built target objectpose_msgs__cpp
+[0.445s] [  3%] Built target ament_cmake_python_copy_objectpose_msgs
+[0.537s] [ 12%] Built target objectpose_msgs__rosidl_typesupport_fastrtps_cpp
+[0.615s] [ 22%] Built target objectpose_msgs__rosidl_typesupport_introspection_cpp
+[1.260s] running egg_info
+[1.262s] writing objectpose_msgs.egg-info/PKG-INFO
+[1.263s] writing dependency_links to objectpose_msgs.egg-info/dependency_links.txt
+[1.266s] writing top-level names to objectpose_msgs.egg-info/top_level.txt
+[1.268s] reading manifest file 'objectpose_msgs.egg-info/SOURCES.txt'
+[1.270s] writing manifest file 'objectpose_msgs.egg-info/SOURCES.txt'
+[1.354s] [ 22%] Built target ament_cmake_python_build_objectpose_msgs_egg
+[1.457s] [ 32%] Built target objectpose_msgs__rosidl_typesupport_cpp
+[1.562s] [ 41%] Built target objectpose_msgs__rosidl_generator_c
+[1.660s] [ 51%] Built target objectpose_msgs__rosidl_typesupport_fastrtps_c
+[1.750s] [ 61%] Built target objectpose_msgs__rosidl_typesupport_c
+[1.846s] [ 70%] Built target objectpose_msgs__rosidl_typesupport_introspection_c
+[1.949s] [ 70%] Built target objectpose_msgs
+[2.032s] [ 74%] Built target objectpose_msgs__py
+[2.120s] [ 80%] Built target objectpose_msgs__rosidl_generator_py
+[2.218s] [ 87%] Built target objectpose_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.296s] [ 93%] Built target objectpose_msgs__rosidl_typesupport_c__pyext
+[2.398s] [100%] Built target objectpose_msgs__rosidl_typesupport_introspection_c__pyext
+[2.438s] Invoked command in '/home/ubuntu/ros2ws/build/objectpose_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/launch_param_builder:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/objectpose_msgs -- -j4 -l4
+[2.831s] Invoking command in '/home/ubuntu/ros2ws/build/objectpose_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/launch_param_builder:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/objectpose_msgs
+[2.872s] -- Install configuration: ""
+[2.872s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/msg
+[2.875s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/msg/ObjectPose.msg
+[2.876s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/ament_index/resource_index/rosidl_interfaces/objectpose_msgs
+[2.876s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs
+[2.876s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg
+[2.876s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/object_pose.h
+[2.876s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.876s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail
+[2.876s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail/object_pose__type_support.h
+[2.876s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail/object_pose__struct.h
+[2.876s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail/object_pose__functions.h
+[2.882s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail/object_pose__functions.c
+[2.882s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/environment/library_path.sh
+[2.882s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/environment/library_path.dsv
+[2.882s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/lib/libobjectpose_msgs__rosidl_generator_c.so
+[2.883s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs
+[2.883s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg
+[2.883s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.883s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail
+[2.883s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail/object_pose__rosidl_typesupport_fastrtps_c.h
+[2.883s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/lib/libobjectpose_msgs__rosidl_typesupport_fastrtps_c.so
+[2.883s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs
+[2.883s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg
+[2.883s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.883s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail
+[2.883s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail/object_pose__rosidl_typesupport_introspection_c.h
+[2.883s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail/object_pose__type_support.c
+[2.884s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/lib/libobjectpose_msgs__rosidl_typesupport_introspection_c.so
+[2.884s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/lib/libobjectpose_msgs__rosidl_typesupport_c.so
+[2.884s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs
+[2.884s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg
+[2.884s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/object_pose.hpp
+[2.884s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail
+[2.885s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail/object_pose__struct.hpp
+[2.885s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail/object_pose__traits.hpp
+[2.885s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail/object_pose__builder.hpp
+[2.885s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs
+[2.885s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg
+[2.885s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.885s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail
+[2.885s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail/dds_fastrtps
+[2.885s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail/object_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[2.885s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/lib/libobjectpose_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.885s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs
+[2.886s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg
+[2.886s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail
+[2.886s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail/object_pose__type_support.cpp
+[2.886s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/include/objectpose_msgs/objectpose_msgs/msg/detail/object_pose__rosidl_typesupport_introspection_cpp.hpp
+[2.886s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/lib/libobjectpose_msgs__rosidl_typesupport_introspection_cpp.so
+[2.886s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/lib/libobjectpose_msgs__rosidl_typesupport_cpp.so
+[2.886s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/environment/pythonpath.sh
+[2.888s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/environment/pythonpath.dsv
+[2.891s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs-0.0.0-py3.10.egg-info
+[2.892s] -- Installing: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.892s] -- Installing: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.892s] -- Installing: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.893s] -- Installing: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.893s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs
+[2.893s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs/msg
+[2.893s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs/msg/_object_pose.py
+[2.893s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs/msg/_object_pose_s.c
+[2.893s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs/msg/__init__.py
+[2.894s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs/objectpose_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.894s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs/libobjectpose_msgs__rosidl_generator_py.so
+[2.894s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs/_objectpose_msgs_s.ep.rosidl_typesupport_c.c
+[2.894s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs/objectpose_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.894s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs/_objectpose_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.896s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs/objectpose_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.896s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs/__init__.py
+[2.896s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs/_objectpose_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.953s] Listing '/home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs'...
+[2.955s] Listing '/home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs/msg'...
+[2.970s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs/objectpose_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.971s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs/objectpose_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.971s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/local/lib/python3.10/dist-packages/objectpose_msgs/objectpose_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.971s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/lib/libobjectpose_msgs__rosidl_generator_py.so
+[2.971s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/msg/ObjectPose.idl
+[2.973s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/msg/ObjectPose.msg
+[2.973s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/ament_index/resource_index/package_run_dependencies/objectpose_msgs
+[2.973s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/ament_index/resource_index/parent_prefix_path/objectpose_msgs
+[2.973s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/environment/ament_prefix_path.sh
+[2.973s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/environment/ament_prefix_path.dsv
+[2.973s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/environment/path.sh
+[2.975s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/environment/path.dsv
+[2.976s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/local_setup.bash
+[2.976s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/local_setup.sh
+[2.978s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/local_setup.zsh
+[2.978s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/local_setup.dsv
+[2.978s] -- Installing: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/package.dsv
+[2.978s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/ament_index/resource_index/packages/objectpose_msgs
+[2.978s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/export_objectpose_msgs__rosidl_generator_cExport.cmake
+[2.979s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/export_objectpose_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.979s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/export_objectpose_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.979s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/export_objectpose_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.979s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/objectpose_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.979s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/objectpose_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.979s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/objectpose_msgs__rosidl_typesupport_cExport.cmake
+[2.979s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/objectpose_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.979s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/export_objectpose_msgs__rosidl_generator_cppExport.cmake
+[2.980s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/export_objectpose_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.980s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/export_objectpose_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.980s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/objectpose_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.980s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/objectpose_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.980s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/objectpose_msgs__rosidl_typesupport_cppExport.cmake
+[2.980s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/objectpose_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.980s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/export_objectpose_msgs__rosidl_generator_pyExport.cmake
+[2.982s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/export_objectpose_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.982s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/rosidl_cmake-extras.cmake
+[2.982s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.982s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.982s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.983s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.983s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.983s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.983s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/objectpose_msgsConfig.cmake
+[2.984s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/cmake/objectpose_msgsConfig-version.cmake
+[2.987s] -- Up-to-date: /home/ubuntu/ros2ws/install/objectpose_msgs/share/objectpose_msgs/package.xml
+[2.987s] Invoked command in '/home/ubuntu/ros2ws/build/objectpose_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/launch_param_builder:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/robot_letter_writer:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/objectpose_msgs
