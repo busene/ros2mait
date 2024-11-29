@@ -38,7 +38,7 @@ def move_to_zero():
 def move_to_a():
     # Define movement for letter a
 
-    # Create a list to store all the actions
+    # Create a list to store all the actions so that they can be executed all. Otherwise it would only execute the last action
     actions = []
 
     # Move to the first point
@@ -110,7 +110,7 @@ def move_to_a():
     ACTION = Action()
     ACTION.action = "MoveJ"
     ACTION.speed = speed
-
+    # Returning to home so that the next letter has the same starting point
     INPUT = Joints()
     INPUT.joint1 = 0.0
     INPUT.joint2 = 0.0
@@ -119,6 +119,7 @@ def move_to_a():
     INPUT.joint5 = 90.0
     INPUT.joint6 = 0.0
     ACTION.movej = INPUT
+    actions.append(ACTION)
 
     return actions
 
