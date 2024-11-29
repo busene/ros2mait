@@ -45,7 +45,8 @@ class RobotLetterWriterNode(Node):
     def typed_text_callback(self, msg):
         char = msg.data
         if char == 'a':
-            self.execute_movement(move_to_a())
+            for action in move_to_a():
+                self.execute_movement(action)
         elif char == 'b':
             self.execute_movement(move_to_b())
         elif char == 'c':

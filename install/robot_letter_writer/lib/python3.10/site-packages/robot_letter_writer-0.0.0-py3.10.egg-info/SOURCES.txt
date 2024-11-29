@@ -11,8 +11,6 @@ setup.py
 resource/robot_letter_writer
 robot_letter_writer/__init__.py
 robot_letter_writer/letter_movements.py
-robot_letter_writer/robot_letter_writer (copy).py
-robot_letter_writer/robot_letter_writer_V2.py
 robot_letter_writer/robot_letter_writer_node.py
 test/test_copyright.py
 test/test_flake8.py
