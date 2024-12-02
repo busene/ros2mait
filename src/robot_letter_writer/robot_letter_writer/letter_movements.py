@@ -68,17 +68,15 @@ letter_movements = {
         move_to_position(-0.02, -0.01, 0.00),
         move_to_position(0.00, 0.00, -0.05),
         move_to_position(0.00, -0.02, 0.00),
+        lift_pen(),
         move_to_zero()
     ],
     'B': [
-        move_to_position(-0.04, 0.04, 0.00),
-        lift_pen(),
-        lower_pen(),
-        move_to_position(0.00, -0.08, 0.00),
-        move_to_position(0.02, 0.04, 0.00),
-        move_to_position(0.02, 0.00, 0.00),
-        move_to_position(0.02, -0.04, 0.00),
-        move_to_position(0.02, 0.00, 0.00),
+        move_to_position(-0.04, 0.00, 0.00),
+        move_to_position(0.01, 0.02, 0.00),
+        move_to_position(0.01, -0.02, 0.00),
+        move_to_position(0.01, 0.02, 0.00),
+        move_to_position(0.01, -0.02, 0.00),
         lift_pen(),
         move_to_zero()
     ],
