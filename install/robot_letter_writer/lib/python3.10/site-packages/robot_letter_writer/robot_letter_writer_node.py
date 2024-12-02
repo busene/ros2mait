@@ -25,7 +25,8 @@ from robot import RBT
 from std_msgs.msg import String 
 from rclpy.node import Node
 
-from .letter_movements import move_to_zero, move_to_a, move_to_b, move_to_c  # Import all letter movements
+# Import the refactored letter movements module
+from .letter_movements import get_letter_movements
 
 # ===================================================================== #
 # ===================================================================== #
@@ -44,13 +45,11 @@ class RobotLetterWriterNode(Node):
 
     def typed_text_callback(self, msg):
         char = msg.data
-        if char == 'a':
-            for action in move_to_a():
+        actions = get_letter_movements(char)
+
+        if actions:
+            for action in actions:
                 self.execute_movement(action)
-        elif char == 'b':
-            self.execute_movement(move_to_b())
-        elif char == 'c':
-            self.execute_movement(move_to_c())
         elif char == '0':
             self.execute_movement(move_to_zero())
         elif char == 'BackSpace':
