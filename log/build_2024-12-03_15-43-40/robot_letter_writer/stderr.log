@@ -1,0 +1,5 @@
+  File "/home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages/robot_letter_writer/letter_movements.py", line 75
+    'b': [
+         
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

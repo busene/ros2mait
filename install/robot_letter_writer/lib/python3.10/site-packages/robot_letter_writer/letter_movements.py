@@ -1,5 +1,6 @@
 import rclpy
 from ros2srrc_data.msg import Action, Joints, Xyz
+from svgpathtools import svg2paths, Path
 
 # Constant for the speed
 speed = 1.0
@@ -61,26 +62,68 @@ def move_to_position(x, y, z):
 
 # Define letter movements as lists of actions
 letter_movements = {
-    'A': [
+    'a': [
         move_to_position(-0.04, 0.02, 0.00),
         move_to_position(0.04, 0.02, 0.00),
-        move_to_position(0.00, 0.00, 0.05),
+        lift_pen(),
         move_to_position(-0.02, -0.01, 0.00),
-        move_to_position(0.00, 0.00, -0.05),
+        lower_pen(),
         move_to_position(0.00, -0.02, 0.00),
         lift_pen(),
         move_to_zero()
     ],
-    'B': [
+    'b': [
         move_to_position(-0.04, 0.00, 0.00),
-        move_to_position(0.01, 0.02, 0.00),
-        move_to_position(0.01, -0.02, 0.00),
-        move_to_position(0.01, 0.02, 0.00),
-        move_to_position(0.01, -0.02, 0.00),
+        move_to_position(0.00, 0.01, 0.00),
+        move_to_position(0.002, 0.01, 0.00),
+        move_to_position(0.003, 0.005, 0.00),
+        move_to_position(0.005, 0.005, 0.00), # first part of curve
+        move_to_position(0.005, -0.005, 0.00),
+        move_to_position(0.003, -0.005, 0.00),
+        move_to_position(0.002, -0.01, 0.00),
+        move_to_position(0.00, -0.01, 0.00), # second part of curve
+        # start second part B
+        move_to_position(0.00, 0.01, 0.00),
+        move_to_position(0.002, 0.01, 0.00),
+        move_to_position(0.003, 0.005, 0.00),
+        move_to_position(0.005, 0.005, 0.00), # first part of curve
+        move_to_position(0.005, -0.005, 0.00),
+        move_to_position(0.003, -0.005, 0.00),
+        move_to_position(0.002, -0.01, 0.00),
+        move_to_position(0.00, -0.01, 0.00), # second part of curve
+        lift_pen(),
+        move_to_zero()        
+
+    ],
+    'c': [
+        lift_pen(),
+        move_to_position(-0.04, 0.03, 0.00),
+        lower_pen(),
+        move_to_position(0.003, -0.01, 0.00),
+        move_to_position(0.003, -0.01, 0.00),
+        move_to_position(0.004, -0.005, 0.00),
+        move_to_position(0.01, -0.005, 0.00), # first curve
+        move_to_position(0.01, 0.005, 0.00),
+        move_to_position(0.004, 0.005, 0.00),
+        move_to_position(0.003, 0.01, 0.00),
+        move_to_position(0.003, 0.01, 0.00), # second part of the c
         lift_pen(),
         move_to_zero()
     ],
-    # Add more letters as needed
+    'd': [
+        move_to_position(-0.04, 0.00, 0.00),
+        move_to_position(0.00, 0.01, 0.00),
+        move_to_position(0.0025, 0.01, 0.00),
+        move_to_position(0.0025, 0.005, 0.00),
+        move_to_position(0.005, 0.0025, 0.00),
+        move_to_position(0.01, 0.0025, 0.00), # first curve
+        move_to_position(0.01, -0.0025, 0.00),
+        move_to_position(0.005, -0.0025, 0.00),
+        move_to_position(0.0025, -0.005, 0.00),
+        move_to_position(0.0025, -0.01, 0.00), # second curve
+        lift_pen(),
+        move_to_zero()
+    ]
 }
 
 def get_letter_movements(letter):

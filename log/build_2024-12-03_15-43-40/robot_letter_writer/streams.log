@@ -1,0 +1,29 @@
+[0.850s] Invoking command in '/home/ubuntu/ros2ws/src/robot_letter_writer': PYTHONPATH=/home/ubuntu/ros2ws/build/robot_letter_writer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_letter_writer build --build-base /home/ubuntu/ros2ws/build/robot_letter_writer/build install --record /home/ubuntu/ros2ws/build/robot_letter_writer/install.log --single-version-externally-managed install_data
+[1.167s] running egg_info
+[1.167s] writing ../../build/robot_letter_writer/robot_letter_writer.egg-info/PKG-INFO
+[1.167s] writing dependency_links to ../../build/robot_letter_writer/robot_letter_writer.egg-info/dependency_links.txt
+[1.167s] writing entry points to ../../build/robot_letter_writer/robot_letter_writer.egg-info/entry_points.txt
+[1.167s] writing requirements to ../../build/robot_letter_writer/robot_letter_writer.egg-info/requires.txt
+[1.167s] writing top-level names to ../../build/robot_letter_writer/robot_letter_writer.egg-info/top_level.txt
+[1.168s] reading manifest file '../../build/robot_letter_writer/robot_letter_writer.egg-info/SOURCES.txt'
+[1.169s] writing manifest file '../../build/robot_letter_writer/robot_letter_writer.egg-info/SOURCES.txt'
+[1.170s] running build
+[1.170s] running build_py
+[1.170s] copying robot_letter_writer/letter_movements.py -> /home/ubuntu/ros2ws/build/robot_letter_writer/build/lib/robot_letter_writer
+[1.171s] running install
+[1.171s] running install_lib
+[1.172s] copying /home/ubuntu/ros2ws/build/robot_letter_writer/build/lib/robot_letter_writer/letter_movements.py -> /home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages/robot_letter_writer
+[1.173s] byte-compiling /home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages/robot_letter_writer/letter_movements.py to letter_movements.cpython-310.pyc
+[1.174s]   File "/home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages/robot_letter_writer/letter_movements.py", line 75
+[1.174s]     'b': [
+[1.174s]          
+[1.174s] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[1.174s] 
+[1.175s] running install_data
+[1.175s] running install_egg_info
+[1.176s] removing '/home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages/robot_letter_writer-0.0.0-py3.10.egg-info' (and everything under it)
+[1.177s] Copying ../../build/robot_letter_writer/robot_letter_writer.egg-info to /home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages/robot_letter_writer-0.0.0-py3.10.egg-info
+[1.178s] running install_scripts
+[1.202s] Installing robot_letter_writer_node script to /home/ubuntu/ros2ws/install/robot_letter_writer/lib/robot_letter_writer
+[1.202s] writing list of installed files to '/home/ubuntu/ros2ws/build/robot_letter_writer/install.log'
+[1.227s] Invoked command in '/home/ubuntu/ros2ws/src/robot_letter_writer' returned '0': PYTHONPATH=/home/ubuntu/ros2ws/build/robot_letter_writer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_letter_writer build --build-base /home/ubuntu/ros2ws/build/robot_letter_writer/build install --record /home/ubuntu/ros2ws/build/robot_letter_writer/install.log --single-version-externally-managed install_data
