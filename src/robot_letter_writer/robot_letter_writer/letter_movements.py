@@ -62,7 +62,7 @@ def move_to_position(x, y, z):
 
 # Define letter movements as lists of actions
 letter_movements = {
-    'a': [
+    'a': [  #A
         move_to_position(-0.04, 0.02, 0.00),
         move_to_position(0.04, 0.02, 0.00),
         lift_pen(),
@@ -72,7 +72,7 @@ letter_movements = {
         lift_pen(),
         move_to_zero()
     ],
-    'b': [
+    'b': [  #B
         move_to_position(-0.04, 0.00, 0.00),
         move_to_position(0.00, 0.01, 0.00),
         move_to_position(0.002, 0.01, 0.00),
@@ -95,7 +95,7 @@ letter_movements = {
         move_to_zero()        
 
     ],
-    'c': [
+    'c': [  #C
         lift_pen(),
         move_to_position(-0.04, 0.03, 0.00),
         lower_pen(),
@@ -110,7 +110,7 @@ letter_movements = {
         lift_pen(),
         move_to_zero()
     ],
-    'd': [
+    'd': [  #D
         move_to_position(-0.04, 0.00, 0.00),
         move_to_position(0.00, 0.01, 0.00),
         move_to_position(0.0025, 0.01, 0.00),
