@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'robot_letter_writer_node = robot_letter_writer.robot_letter_writer_node:main',
+            'robot_letter_writer_robmove_node = robot_letter_writer.robot_letter_writer_robmove_node:main',
         ],
     },
 )

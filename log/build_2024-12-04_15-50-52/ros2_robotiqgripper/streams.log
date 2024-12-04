@@ -1,0 +1,123 @@
+[0.041s] Invoking command in '/home/ubuntu/ros2ws/build/ros2_robotiqgripper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2_robotiqgripper -- -j4 -l4
+[0.329s] [  9%] Built target ros2_robotiqgripper__rosidl_generator_c
+[0.338s] [ 12%] Built target ros2_robotiqgripper__cpp
+[0.424s] [ 12%] Built target ament_cmake_python_symlink_ros2_robotiqgripper
+[0.507s] [ 22%] Built target ros2_robotiqgripper__rosidl_typesupport_c
+[0.515s] [ 32%] Built target ros2_robotiqgripper__rosidl_typesupport_introspection_c
+[0.531s] [ 41%] Built target ros2_robotiqgripper__rosidl_typesupport_fastrtps_c
+[0.635s] [ 51%] Built target ros2_robotiqgripper__rosidl_typesupport_fastrtps_cpp
+[0.733s] [ 61%] Built target ros2_robotiqgripper__rosidl_typesupport_introspection_cpp
+[0.734s] [ 70%] Built target ros2_robotiqgripper__rosidl_typesupport_cpp
+[0.849s] [ 70%] Built target ros2_robotiqgripper
+[0.996s] [ 74%] Built target ros2_robotiqgripper__py
+[1.188s] [ 80%] Built target ros2_robotiqgripper__rosidl_generator_py
+[1.347s] [ 87%] Built target ros2_robotiqgripper__rosidl_typesupport_fastrtps_c__pyext
+[1.373s] [ 93%] Built target ros2_robotiqgripper__rosidl_typesupport_introspection_c__pyext
+[1.384s] [100%] Built target ros2_robotiqgripper__rosidl_typesupport_c__pyext
+[1.673s] running egg_info
+[1.675s] writing ros2_robotiqgripper.egg-info/PKG-INFO
+[1.676s] writing dependency_links to ros2_robotiqgripper.egg-info/dependency_links.txt
+[1.676s] writing top-level names to ros2_robotiqgripper.egg-info/top_level.txt
+[1.682s] reading manifest file 'ros2_robotiqgripper.egg-info/SOURCES.txt'
+[1.683s] writing manifest file 'ros2_robotiqgripper.egg-info/SOURCES.txt'
+[1.746s] [100%] Built target ament_cmake_python_build_ros2_robotiqgripper_egg
+[1.781s] Invoked command in '/home/ubuntu/ros2ws/build/ros2_robotiqgripper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2_robotiqgripper -- -j4 -l4
+[2.130s] Invoking command in '/home/ubuntu/ros2ws/build/ros2_robotiqgripper': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2_robotiqgripper
+[2.164s] -- Install configuration: ""
+[2.166s] -- Execute custom install script
+[2.167s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/srv/RobotiqGripper.srv
+[2.168s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/python/server.py
+[2.168s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/lib/ros2_robotiqgripper/server.py
+[2.169s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ament_index/resource_index/rosidl_interfaces/ros2_robotiqgripper
+[2.170s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/include/ros2_robotiqgripper/ros2_robotiqgripper/msg/rosidl_generator_c__visibility_control.h
+[2.170s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/include/ros2_robotiqgripper/ros2_robotiqgripper/srv/detail/robotiq_gripper__functions.h
+[2.170s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/include/ros2_robotiqgripper/ros2_robotiqgripper/srv/detail/robotiq_gripper__struct.h
+[2.171s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/include/ros2_robotiqgripper/ros2_robotiqgripper/srv/detail/robotiq_gripper__type_support.h
+[2.172s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/include/ros2_robotiqgripper/ros2_robotiqgripper/srv/robotiq_gripper.h
+[2.172s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/environment/library_path.sh
+[2.173s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/environment/library_path.dsv
+[2.175s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/include/ros2_robotiqgripper/ros2_robotiqgripper/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.176s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/include/ros2_robotiqgripper/ros2_robotiqgripper/srv/detail/robotiq_gripper__rosidl_typesupport_fastrtps_c.h
+[2.177s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/include/ros2_robotiqgripper/ros2_robotiqgripper/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.178s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/include/ros2_robotiqgripper/ros2_robotiqgripper/srv/detail/robotiq_gripper__rosidl_typesupport_introspection_c.h
+[2.180s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/include/ros2_robotiqgripper/ros2_robotiqgripper/srv/detail/robotiq_gripper__builder.hpp
+[2.180s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/include/ros2_robotiqgripper/ros2_robotiqgripper/srv/detail/robotiq_gripper__struct.hpp
+[2.180s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/include/ros2_robotiqgripper/ros2_robotiqgripper/srv/detail/robotiq_gripper__traits.hpp
+[2.181s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/include/ros2_robotiqgripper/ros2_robotiqgripper/srv/robotiq_gripper.hpp
+[2.181s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/include/ros2_robotiqgripper/ros2_robotiqgripper/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.181s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/include/ros2_robotiqgripper/ros2_robotiqgripper/srv/detail/robotiq_gripper__rosidl_typesupport_fastrtps_cpp.hpp
+[2.182s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/include/ros2_robotiqgripper/ros2_robotiqgripper/srv/detail/robotiq_gripper__rosidl_typesupport_introspection_cpp.hpp
+[2.182s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/environment/pythonpath.sh
+[2.183s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/environment/pythonpath.dsv
+[2.183s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper-1.0.0-py3.10.egg-info/PKG-INFO
+[2.184s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper-1.0.0-py3.10.egg-info/SOURCES.txt
+[2.185s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper-1.0.0-py3.10.egg-info/dependency_links.txt
+[2.189s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper-1.0.0-py3.10.egg-info/top_level.txt
+[2.189s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper/__init__.py
+[2.195s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper/_ros2_robotiqgripper_s.ep.rosidl_typesupport_c.c
+[2.195s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper/_ros2_robotiqgripper_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.198s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper/_ros2_robotiqgripper_s.ep.rosidl_typesupport_introspection_c.c
+[2.198s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper/libros2_robotiqgripper__rosidl_generator_py.so
+[2.199s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper/ros2_robotiqgripper_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.199s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper/ros2_robotiqgripper_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.199s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper/ros2_robotiqgripper_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.199s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper/srv/__init__.py
+[2.202s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper/srv/_robotiq_gripper.py
+[2.202s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper/srv/_robotiq_gripper_s.c
+[2.204s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper/ros2_robotiqgripper_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.204s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper/ros2_robotiqgripper_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.204s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper/ros2_robotiqgripper_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.204s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/srv/RobotiqGripper.idl
+[2.204s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/srv/RobotiqGripper.srv
+[2.204s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/srv/RobotiqGripper_Request.msg
+[2.204s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/srv/RobotiqGripper_Response.msg
+[2.204s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ament_index/resource_index/package_run_dependencies/ros2_robotiqgripper
+[2.204s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ament_index/resource_index/parent_prefix_path/ros2_robotiqgripper
+[2.204s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/environment/ament_prefix_path.sh
+[2.204s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/environment/ament_prefix_path.dsv
+[2.205s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/environment/path.sh
+[2.205s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/environment/path.dsv
+[2.205s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/local_setup.bash
+[2.205s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/local_setup.sh
+[2.205s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/local_setup.zsh
+[2.205s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/local_setup.dsv
+[2.205s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/package.dsv
+[2.231s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ament_index/resource_index/packages/ros2_robotiqgripper
+[2.231s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/rosidl_cmake-extras.cmake
+[2.231s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.234s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/ament_cmake_export_libraries-extras.cmake
+[2.234s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/ament_cmake_export_targets-extras.cmake
+[2.235s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.235s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.235s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.235s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/ros2_robotiqgripperConfig.cmake
+[2.236s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/ros2_robotiqgripperConfig-version.cmake
+[2.236s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/package.xml
+[2.236s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/lib/libros2_robotiqgripper__rosidl_generator_c.so
+[2.236s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/lib/libros2_robotiqgripper__rosidl_typesupport_fastrtps_c.so
+[2.237s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/lib/libros2_robotiqgripper__rosidl_typesupport_introspection_c.so
+[2.237s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/lib/libros2_robotiqgripper__rosidl_typesupport_c.so
+[2.237s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/lib/libros2_robotiqgripper__rosidl_typesupport_fastrtps_cpp.so
+[2.240s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/lib/libros2_robotiqgripper__rosidl_typesupport_introspection_cpp.so
+[2.240s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/lib/libros2_robotiqgripper__rosidl_typesupport_cpp.so
+[2.309s] Listing '/home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper'...
+[2.309s] Listing '/home/ubuntu/ros2ws/install/ros2_robotiqgripper/local/lib/python3.10/dist-packages/ros2_robotiqgripper/srv'...
+[2.317s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/lib/libros2_robotiqgripper__rosidl_generator_py.so
+[2.318s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/export_ros2_robotiqgripper__rosidl_generator_cExport.cmake
+[2.318s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/export_ros2_robotiqgripper__rosidl_generator_cExport-noconfig.cmake
+[2.318s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/export_ros2_robotiqgripper__rosidl_typesupport_fastrtps_cExport.cmake
+[2.318s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/export_ros2_robotiqgripper__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.319s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/ros2_robotiqgripper__rosidl_typesupport_introspection_cExport.cmake
+[2.319s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/ros2_robotiqgripper__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.319s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/ros2_robotiqgripper__rosidl_typesupport_cExport.cmake
+[2.319s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/ros2_robotiqgripper__rosidl_typesupport_cExport-noconfig.cmake
+[2.320s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/export_ros2_robotiqgripper__rosidl_generator_cppExport.cmake
+[2.322s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/export_ros2_robotiqgripper__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.323s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/export_ros2_robotiqgripper__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.323s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/ros2_robotiqgripper__rosidl_typesupport_introspection_cppExport.cmake
+[2.323s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/ros2_robotiqgripper__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.323s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/ros2_robotiqgripper__rosidl_typesupport_cppExport.cmake
+[2.324s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/ros2_robotiqgripper__rosidl_typesupport_cppExport-noconfig.cmake
+[2.324s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/export_ros2_robotiqgripper__rosidl_generator_pyExport.cmake
+[2.324s] -- Up-to-date: /home/ubuntu/ros2ws/install/ros2_robotiqgripper/share/ros2_robotiqgripper/cmake/export_ros2_robotiqgripper__rosidl_generator_pyExport-noconfig.cmake
+[2.331s] Invoked command in '/home/ubuntu/ros2ws/build/ros2_robotiqgripper' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2_robotiqgripper

@@ -1,0 +1,43 @@
+[0.098s] Invoking command in '/home/ubuntu/ros2ws/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/rosparam_shortcuts -- -j4 -l4
+[0.303s] [ 23%] Built target rosparam_shortcuts
+[0.382s] [ 38%] Built target gtest
+[0.460s] [ 53%] Built target rosparam_shortcuts_node_parameters_example
+[0.534s] [ 69%] Built target rosparam_shortcuts_example
+[0.608s] [ 84%] Built target gtest_main
+[0.693s] [100%] Built target test_node_parameters
+[0.732s] Invoked command in '/home/ubuntu/ros2ws/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/rosparam_shortcuts -- -j4 -l4
+[0.920s] Invoking command in '/home/ubuntu/ros2ws/build/rosparam_shortcuts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/rosparam_shortcuts
+[0.939s] -- Install configuration: ""
+[0.940s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/lib/librosparam_shortcuts.so
+[0.941s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/lib/rosparam_shortcuts/example
+[0.942s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/lib/rosparam_shortcuts/node_parameters_example
+[0.942s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/include
+[0.942s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/include/rosparam_shortcuts
+[0.943s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/include/rosparam_shortcuts/node_parameters.h
+[0.945s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/include/rosparam_shortcuts/rosparam_shortcuts.h
+[0.945s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/launch
+[0.946s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/launch/example.launch.py
+[0.946s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/config
+[0.946s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/config/example.yaml
+[0.947s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.sh
+[0.947s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/library_path.dsv
+[0.947s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/ament_index/resource_index/package_run_dependencies/rosparam_shortcuts
+[0.947s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/ament_index/resource_index/parent_prefix_path/rosparam_shortcuts
+[0.948s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.sh
+[0.952s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/ament_prefix_path.dsv
+[0.952s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.sh
+[0.952s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/environment/path.dsv
+[0.953s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.bash
+[0.953s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.sh
+[0.953s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.zsh
+[0.953s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/local_setup.dsv
+[0.954s] -- Installing: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/package.dsv
+[0.957s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/ament_index/resource_index/packages/rosparam_shortcuts
+[0.957s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport.cmake
+[0.958s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/export_rosparam_shortcutsExport-noconfig.cmake
+[0.958s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_targets-extras.cmake
+[0.959s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.959s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig.cmake
+[0.959s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/cmake/rosparam_shortcutsConfig-version.cmake
+[0.960s] -- Up-to-date: /home/ubuntu/ros2ws/install/rosparam_shortcuts/share/rosparam_shortcuts/package.xml
+[0.966s] Invoked command in '/home/ubuntu/ros2ws/build/rosparam_shortcuts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/rosparam_shortcuts

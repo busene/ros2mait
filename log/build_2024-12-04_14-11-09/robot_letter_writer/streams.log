@@ -1,0 +1,33 @@
+[0.816s] Invoking command in '/home/ubuntu/ros2ws/src/robot_letter_writer': PYTHONPATH=/home/ubuntu/ros2ws/build/robot_letter_writer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_letter_writer build --build-base /home/ubuntu/ros2ws/build/robot_letter_writer/build install --record /home/ubuntu/ros2ws/build/robot_letter_writer/install.log --single-version-externally-managed install_data
+[1.121s] running egg_info
+[1.122s] writing ../../build/robot_letter_writer/robot_letter_writer.egg-info/PKG-INFO
+[1.123s] writing dependency_links to ../../build/robot_letter_writer/robot_letter_writer.egg-info/dependency_links.txt
+[1.123s] writing entry points to ../../build/robot_letter_writer/robot_letter_writer.egg-info/entry_points.txt
+[1.123s] writing requirements to ../../build/robot_letter_writer/robot_letter_writer.egg-info/requires.txt
+[1.126s] writing top-level names to ../../build/robot_letter_writer/robot_letter_writer.egg-info/top_level.txt
+[1.126s] reading manifest file '../../build/robot_letter_writer/robot_letter_writer.egg-info/SOURCES.txt'
+[1.126s] writing manifest file '../../build/robot_letter_writer/robot_letter_writer.egg-info/SOURCES.txt'
+[1.126s] running build
+[1.127s] running build_py
+[1.127s] copying robot_letter_writer/letter_movements_robmove.py -> /home/ubuntu/ros2ws/build/robot_letter_writer/build/lib/robot_letter_writer
+[1.127s] copying robot_letter_writer/svg_parser.py -> /home/ubuntu/ros2ws/build/robot_letter_writer/build/lib/robot_letter_writer
+[1.127s] copying robot_letter_writer/letter_movements.py -> /home/ubuntu/ros2ws/build/robot_letter_writer/build/lib/robot_letter_writer
+[1.127s] copying robot_letter_writer/robot_letter_writer_node.py -> /home/ubuntu/ros2ws/build/robot_letter_writer/build/lib/robot_letter_writer
+[1.128s] running install
+[1.128s] running install_lib
+[1.129s] copying /home/ubuntu/ros2ws/build/robot_letter_writer/build/lib/robot_letter_writer/letter_movements_robmove.py -> /home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages/robot_letter_writer
+[1.129s] copying /home/ubuntu/ros2ws/build/robot_letter_writer/build/lib/robot_letter_writer/svg_parser.py -> /home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages/robot_letter_writer
+[1.130s] copying /home/ubuntu/ros2ws/build/robot_letter_writer/build/lib/robot_letter_writer/letter_movements.py -> /home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages/robot_letter_writer
+[1.130s] copying /home/ubuntu/ros2ws/build/robot_letter_writer/build/lib/robot_letter_writer/robot_letter_writer_node.py -> /home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages/robot_letter_writer
+[1.131s] byte-compiling /home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages/robot_letter_writer/letter_movements_robmove.py to letter_movements_robmove.cpython-310.pyc
+[1.132s] byte-compiling /home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages/robot_letter_writer/svg_parser.py to svg_parser.cpython-310.pyc
+[1.132s] byte-compiling /home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages/robot_letter_writer/letter_movements.py to letter_movements.cpython-310.pyc
+[1.133s] byte-compiling /home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages/robot_letter_writer/robot_letter_writer_node.py to robot_letter_writer_node.cpython-310.pyc
+[1.134s] running install_data
+[1.135s] running install_egg_info
+[1.137s] removing '/home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages/robot_letter_writer-0.0.0-py3.10.egg-info' (and everything under it)
+[1.137s] Copying ../../build/robot_letter_writer/robot_letter_writer.egg-info to /home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages/robot_letter_writer-0.0.0-py3.10.egg-info
+[1.138s] running install_scripts
+[1.161s] Installing robot_letter_writer_node script to /home/ubuntu/ros2ws/install/robot_letter_writer/lib/robot_letter_writer
+[1.161s] writing list of installed files to '/home/ubuntu/ros2ws/build/robot_letter_writer/install.log'
+[1.184s] Invoked command in '/home/ubuntu/ros2ws/src/robot_letter_writer' returned '0': PYTHONPATH=/home/ubuntu/ros2ws/build/robot_letter_writer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2ws/install/robot_letter_writer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_letter_writer build --build-base /home/ubuntu/ros2ws/build/robot_letter_writer/build install --record /home/ubuntu/ros2ws/build/robot_letter_writer/install.log --single-version-externally-managed install_data

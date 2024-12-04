@@ -1,0 +1,22 @@
+[0.058s] Invoking command in '/home/ubuntu/ros2ws/build/letter_writer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/letter_writer -- -j4 -l4
+[0.304s] [100%] Built target letter_input_node
+[0.841s] Invoked command in '/home/ubuntu/ros2ws/build/letter_writer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/letter_writer -- -j4 -l4
+[1.018s] Invoking command in '/home/ubuntu/ros2ws/build/letter_writer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/letter_writer
+[1.058s] -- Install configuration: ""
+[1.059s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/lib/letter_writer/letter_input_node
+[1.060s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/ament_index/resource_index/package_run_dependencies/letter_writer
+[1.060s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/ament_index/resource_index/parent_prefix_path/letter_writer
+[1.060s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/ament_prefix_path.sh
+[1.060s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/ament_prefix_path.dsv
+[1.061s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/path.sh
+[1.061s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/environment/path.dsv
+[1.061s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.bash
+[1.061s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.sh
+[1.061s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.zsh
+[1.062s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/local_setup.dsv
+[1.062s] -- Installing: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/package.dsv
+[1.062s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/ament_index/resource_index/packages/letter_writer
+[1.062s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/cmake/letter_writerConfig.cmake
+[1.062s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/cmake/letter_writerConfig-version.cmake
+[1.063s] -- Up-to-date: /home/ubuntu/ros2ws/install/letter_writer/share/letter_writer/package.xml
+[1.078s] Invoked command in '/home/ubuntu/ros2ws/build/letter_writer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/letter_writer

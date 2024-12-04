@@ -1,0 +1,21 @@
+[1.054s] Invoking command in '/home/ubuntu/ros2ws/src/launch_param_builder': PYTHONPATH=/home/ubuntu/ros2ws/build/launch_param_builder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_param_builder build --build-base /home/ubuntu/ros2ws/build/launch_param_builder/build install --record /home/ubuntu/ros2ws/build/launch_param_builder/install.log --single-version-externally-managed install_data
+[1.776s] running egg_info
+[1.776s] writing ../../build/launch_param_builder/launch_param_builder.egg-info/PKG-INFO
+[1.778s] writing dependency_links to ../../build/launch_param_builder/launch_param_builder.egg-info/dependency_links.txt
+[1.783s] writing entry points to ../../build/launch_param_builder/launch_param_builder.egg-info/entry_points.txt
+[1.784s] writing requirements to ../../build/launch_param_builder/launch_param_builder.egg-info/requires.txt
+[1.784s] writing top-level names to ../../build/launch_param_builder/launch_param_builder.egg-info/top_level.txt
+[1.794s] reading manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[1.794s] adding license file 'LICENSE'
+[1.805s] writing manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[1.808s] running build
+[1.808s] running build_py
+[1.809s] running install
+[1.813s] running install_lib
+[1.818s] running install_data
+[1.818s] running install_egg_info
+[1.829s] removing '/home/ubuntu/ros2ws/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder-0.1.1-py3.10.egg-info' (and everything under it)
+[1.836s] Copying ../../build/launch_param_builder/launch_param_builder.egg-info to /home/ubuntu/ros2ws/install/launch_param_builder/lib/python3.10/site-packages/launch_param_builder-0.1.1-py3.10.egg-info
+[1.837s] running install_scripts
+[1.912s] writing list of installed files to '/home/ubuntu/ros2ws/build/launch_param_builder/install.log'
+[1.989s] Invoked command in '/home/ubuntu/ros2ws/src/launch_param_builder' returned '0': PYTHONPATH=/home/ubuntu/ros2ws/build/launch_param_builder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2ws/install/launch_param_builder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_param_builder build --build-base /home/ubuntu/ros2ws/build/launch_param_builder/build install --record /home/ubuntu/ros2ws/build/launch_param_builder/install.log --single-version-externally-managed install_data

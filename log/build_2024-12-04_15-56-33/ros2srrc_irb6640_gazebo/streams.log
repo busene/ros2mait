@@ -1,0 +1,25 @@
+[0.093s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_irb6640_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_irb6640_gazebo -- -j4 -l4
+[0.215s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_irb6640_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_irb6640_gazebo -- -j4 -l4
+[0.308s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_irb6640_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_irb6640_gazebo
+[0.333s] -- Install configuration: ""
+[0.333s] -- Execute custom install script
+[0.333s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/config/configurations.yaml
+[0.334s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/urdf/irb6640.urdf.xacro
+[0.334s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/urdf/irb6640_gpp5010nc.urdf.xacro
+[0.335s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/worlds/ros2srrc_irb6640.world
+[0.335s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ament_index/resource_index/package_run_dependencies/ros2srrc_irb6640_gazebo
+[0.336s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ament_index/resource_index/parent_prefix_path/ros2srrc_irb6640_gazebo
+[0.338s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/environment/ament_prefix_path.sh
+[0.338s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/environment/ament_prefix_path.dsv
+[0.339s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/environment/path.sh
+[0.339s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/environment/path.dsv
+[0.339s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/local_setup.bash
+[0.339s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/local_setup.sh
+[0.340s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/local_setup.zsh
+[0.341s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/local_setup.dsv
+[0.341s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/package.dsv
+[0.369s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ament_index/resource_index/packages/ros2srrc_irb6640_gazebo
+[0.372s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/cmake/ros2srrc_irb6640_gazeboConfig.cmake
+[0.372s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/cmake/ros2srrc_irb6640_gazeboConfig-version.cmake
+[0.372s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_irb6640_gazebo/share/ros2srrc_irb6640_gazebo/package.xml
+[0.377s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_irb6640_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_irb6640_gazebo

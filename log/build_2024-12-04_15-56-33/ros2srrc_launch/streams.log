@@ -1,0 +1,25 @@
+[0.042s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_launch -- -j4 -l4
+[0.164s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_launch -- -j4 -l4
+[0.259s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_launch
+[0.288s] -- Install configuration: ""
+[0.289s] -- Execute custom install script
+[0.291s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/gazebo/simulation.launch.py
+[0.291s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/moveit2/moveit2.launch.py
+[0.291s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/bringup/bringup_abb.launch.py
+[0.291s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/bringup/bringup_ur.launch.py
+[0.292s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ament_index/resource_index/package_run_dependencies/ros2srrc_launch
+[0.293s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ament_index/resource_index/parent_prefix_path/ros2srrc_launch
+[0.294s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/environment/ament_prefix_path.sh
+[0.294s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/environment/ament_prefix_path.dsv
+[0.295s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/environment/path.sh
+[0.295s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/environment/path.dsv
+[0.297s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/local_setup.bash
+[0.297s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/local_setup.sh
+[0.297s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/local_setup.zsh
+[0.297s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/local_setup.dsv
+[0.298s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/package.dsv
+[0.329s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ament_index/resource_index/packages/ros2srrc_launch
+[0.329s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/cmake/ros2srrc_launchConfig.cmake
+[0.329s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/cmake/ros2srrc_launchConfig-version.cmake
+[0.329s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_launch/share/ros2srrc_launch/package.xml
+[0.391s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_launch

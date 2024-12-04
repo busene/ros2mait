@@ -1,0 +1,27 @@
+[0.100s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_ur16e_moveit2 -- -j4 -l4
+[0.219s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2srrc_ur16e_moveit2 -- -j4 -l4
+[0.318s] Invoking command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_ur16e_moveit2
+[0.341s] -- Install configuration: ""
+[0.342s] -- Execute custom install script
+[0.342s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/config/ur16e.srdf
+[0.343s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/config/ur16e_moveit2.rviz
+[0.344s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/config/ur16erobotiq_2f85.srdf
+[0.349s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/config/ur16erobotiq_2f85_moveit2.rviz
+[0.349s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/config/ur16erobotiq_hande.srdf
+[0.349s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/config/ur16erobotiq_hande_moveit2.rviz
+[0.351s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ament_index/resource_index/package_run_dependencies/ros2srrc_ur16e_moveit2
+[0.351s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ament_index/resource_index/parent_prefix_path/ros2srrc_ur16e_moveit2
+[0.352s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/environment/ament_prefix_path.sh
+[0.355s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/environment/ament_prefix_path.dsv
+[0.356s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/environment/path.sh
+[0.356s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/environment/path.dsv
+[0.356s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/local_setup.bash
+[0.357s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/local_setup.sh
+[0.357s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/local_setup.zsh
+[0.357s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/local_setup.dsv
+[0.357s] -- Symlinking: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/package.dsv
+[0.382s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ament_index/resource_index/packages/ros2srrc_ur16e_moveit2
+[0.385s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/cmake/ros2srrc_ur16e_moveit2Config.cmake
+[0.385s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/cmake/ros2srrc_ur16e_moveit2Config-version.cmake
+[0.385s] -- Up-to-date symlink: /home/ubuntu/ros2ws/install/ros2srrc_ur16e_moveit2/share/ros2srrc_ur16e_moveit2/package.xml
+[0.399s] Invoked command in '/home/ubuntu/ros2ws/build/ros2srrc_ur16e_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2ws/install/testV1:/home/ubuntu/ros2ws/install/gui_subscriber:/home/ubuntu/ros2ws/install/moveit_configs_utils:/home/ubuntu/ros2ws/install/robot_letter_writer:/home/ubuntu/ros2ws/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2srrc_ur16e_moveit2

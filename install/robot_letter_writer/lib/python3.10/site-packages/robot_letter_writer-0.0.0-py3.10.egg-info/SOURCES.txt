@@ -10,9 +10,11 @@ setup.py
 ../../build/robot_letter_writer/robot_letter_writer.egg-info/zip-safe
 resource/robot_letter_writer
 robot_letter_writer/__init__.py
-robot_letter_writer/letter_movements (copy).py
 robot_letter_writer/letter_movements.py
+robot_letter_writer/letter_movements_robmove.py
 robot_letter_writer/robot_letter_writer_node.py
+robot_letter_writer/robot_letter_writer_robmove_node.py
+robot_letter_writer/svg_parser.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
