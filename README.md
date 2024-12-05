@@ -79,6 +79,10 @@ and then type:
 
 `python3 maincontrol.py`
 
+To use the SVG parser, svgpathtools should be installed:
+
+`pip install svgpathtools`
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
