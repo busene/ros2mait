@@ -45,7 +45,7 @@ class RobotLetterWriterNode(Node):
 
         self.client = RBT()  # Initialize the robot client
 
-    def typed_text_callback(self, msg):
+    def typed_text_callback(self, msg): # receiving which character was pressed and execute needed function
         char = msg.data
         actions = get_letter_movements(char)
 
@@ -53,7 +53,7 @@ class RobotLetterWriterNode(Node):
             for action in actions:
                 self.execute_movement(action)
         elif char == '0':
-            self.execute_movement(RobotMovements().move_to_zero()[0])
+            self.execute_movement(RobotMovements().move_to_zero()[0]) # dit is nu kapot.
         elif char == 'BackSpace':
             self.get_logger().info("BackSpace pressed, ignoring.")
         elif char == ' ':

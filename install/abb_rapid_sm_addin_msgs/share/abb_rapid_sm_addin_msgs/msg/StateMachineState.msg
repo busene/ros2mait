@@ -1,1 +1,0 @@
-/home/ubuntu/ros2ws/src/ABBDriver/abb_ros2_msgs/abb_rapid_sm_addin_msgs/msg/StateMachineState.msg

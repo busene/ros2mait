@@ -1,4 +1,0 @@
-Invoking command in '/home/ubuntu/ros2ws/build/panda_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/panda_ros2_gazebo -- -j4 -l4
-Invoked command in '/home/ubuntu/ros2ws/build/panda_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/panda_ros2_gazebo -- -j4 -l4
-Invoking command in '/home/ubuntu/ros2ws/build/panda_ros2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/panda_ros2_gazebo
-Invoked command in '/home/ubuntu/ros2ws/build/panda_ros2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/panda_ros2_gazebo

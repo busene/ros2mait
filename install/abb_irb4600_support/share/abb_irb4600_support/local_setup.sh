@@ -1,1 +1,0 @@
-/home/ubuntu/ros2ws/build/abb_irb4600_support/ament_cmake_environment_hooks/local_setup.sh

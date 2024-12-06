@@ -1,3 +1,0 @@
-source;share/ros2_linkattacher/environment/ament_prefix_path.sh
-source;share/ros2_linkattacher/environment/library_path.sh
-source;share/ros2_linkattacher/environment/path.sh

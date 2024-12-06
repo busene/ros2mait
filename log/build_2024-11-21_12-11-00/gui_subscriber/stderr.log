@@ -1,5 +1,0 @@
-  File "/home/ubuntu/ros2ws/install/gui_subscriber/lib/python3.10/site-packages/gui_subscriber/gui_subscriber.py", line 55
-    elif msg.data == 'reset'
-                            ^
-SyntaxError: expected ':'
-

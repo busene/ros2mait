@@ -1,8 +1,0 @@
-[ 10%] Built target linkattacher_msgs__rosidl_generator_c
-[35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_c[0m
-[ 12%] Built target linkattacher_msgs__cpp
-[35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_fastrtps_c[0m
-[ 23%] Built target linkattacher_msgs__rosidl_typesupport_c
-[35m[1mConsolidate compiler generated dependencies of target linkattacher_msgs__rosidl_typesupport_introspection_c[0m
-[ 33%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c
-[ 43%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c

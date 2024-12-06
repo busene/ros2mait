@@ -1,1 +1,0 @@
-/home/ubuntu/ros2ws/build/ros2_robotiqgripper/rosidl_generator_py/ros2_robotiqgripper/srv/_robotiq_gripper_s.c

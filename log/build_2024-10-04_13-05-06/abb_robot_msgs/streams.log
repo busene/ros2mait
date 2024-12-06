@@ -1,9 +1,0 @@
-[0.019s] Invoking command in '/home/ubuntu/ros2ws/build/abb_robot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/abb_robot_msgs -- -j4 -l4
-[0.217s] failed to create symbolic link '/home/ubuntu/ros2ws/build/abb_robot_msgs/ament_cmake_python/abb_robot_msgs/abb_robot_msgs' because existing path cannot be removed: Is a directory
-[0.217s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_abb_robot_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_abb_robot_msgs] Error 1
-[0.217s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_abb_robot_msgs.dir/all] Error 2
-[0.217s] gmake[1]: *** Waiting for unfinished jobs....
-[0.223s] [  0%] Built target abb_robot_msgs__cpp
-[0.223s] [ 13%] Built target abb_robot_msgs__rosidl_generator_c
-[0.230s] gmake: *** [Makefile:146: all] Error 2
-[0.299s] Invoked command in '/home/ubuntu/ros2ws/build/abb_robot_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/abb_robot_msgs -- -j4 -l4

@@ -1,4 +1,0 @@
-source;share/linkattacher_msgs/local_setup.bash
-source;share/linkattacher_msgs/local_setup.dsv
-source;share/linkattacher_msgs/local_setup.sh
-source;share/linkattacher_msgs/local_setup.zsh

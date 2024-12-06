@@ -1,1 +1,0 @@
-/home/ubuntu/ros2ws/build/ros2srrc_ur3_moveit2/ament_cmake_core/ros2srrc_ur3_moveit2Config.cmake

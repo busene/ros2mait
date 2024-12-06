@@ -1,1 +1,0 @@
-/home/ubuntu/ros2ws/build/ros2_robotiqgripper/rosidl_cmake/srv/RobotiqGripper_Request.msg

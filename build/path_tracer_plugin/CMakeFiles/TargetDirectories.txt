@@ -1,9 +1,0 @@
-/home/ubuntu/ros2ws/build/path_tracer_plugin/CMakeFiles/uninstall.dir
-/home/ubuntu/ros2ws/build/path_tracer_plugin/CMakeFiles/path_tracer_plugin_uninstall.dir
-/home/ubuntu/ros2ws/build/path_tracer_plugin/CMakeFiles/test.dir
-/home/ubuntu/ros2ws/build/path_tracer_plugin/CMakeFiles/edit_cache.dir
-/home/ubuntu/ros2ws/build/path_tracer_plugin/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/ros2ws/build/path_tracer_plugin/CMakeFiles/list_install_components.dir
-/home/ubuntu/ros2ws/build/path_tracer_plugin/CMakeFiles/install.dir
-/home/ubuntu/ros2ws/build/path_tracer_plugin/CMakeFiles/install/local.dir
-/home/ubuntu/ros2ws/build/path_tracer_plugin/CMakeFiles/install/strip.dir

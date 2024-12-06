@@ -1,6 +1,0 @@
-Invoking command in '/home/ubuntu/ros2ws/build/ros2_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_execution -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2_execution
-Invoked command in '/home/ubuntu/ros2ws/build/ros2_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_execution -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2_execution
-Invoking command in '/home/ubuntu/ros2ws/build/ros2_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2_execution -- -j4 -l4
-Invoked command in '/home/ubuntu/ros2ws/build/ros2_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2_execution -- -j4 -l4
-Invoking command in '/home/ubuntu/ros2ws/build/ros2_execution': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2_execution
-Invoked command in '/home/ubuntu/ros2ws/build/ros2_execution' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/ros2_execution

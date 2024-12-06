@@ -1,4 +1,0 @@
-# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
-
-set(abb_rapid_sm_addin_msgs_IDL_FILES "msg/EGMActivateSettings.idl;msg/EGMRunSettings.idl;msg/EGMSettings.idl;msg/EGMSetupSettings.idl;msg/EGMStopSettings.idl;msg/RuntimeState.idl;msg/StateMachineState.idl;srv/GetEGMSettings.idl;srv/SetEGMSettings.idl;srv/SetRAPIDRoutine.idl;srv/SetSGCommand.idl")
-set(abb_rapid_sm_addin_msgs_INTERFACE_FILES "msg/EGMActivateSettings.msg;msg/EGMRunSettings.msg;msg/EGMSettings.msg;msg/EGMSetupSettings.msg;msg/EGMStopSettings.msg;msg/RuntimeState.msg;msg/StateMachineState.msg;srv/GetEGMSettings.srv;srv/GetEGMSettings_Request.msg;srv/GetEGMSettings_Response.msg;srv/SetEGMSettings.srv;srv/SetEGMSettings_Request.msg;srv/SetEGMSettings_Response.msg;srv/SetRAPIDRoutine.srv;srv/SetRAPIDRoutine_Request.msg;srv/SetRAPIDRoutine_Response.msg;srv/SetSGCommand.srv;srv/SetSGCommand_Request.msg;srv/SetSGCommand_Response.msg")

@@ -1,7 +1,0 @@
-[31mCMake Error at CMakeLists.txt:51:
-  Parse error.  Function missing ending ")".  End of file reached.
-
-[0m
--- Configuring incomplete, errors occurred!
-See also "/home/ubuntu/ros2ws/build/ros2srrc_execution/CMakeFiles/CMakeOutput.log".
-gmake: *** [Makefile:552: cmake_check_build_system] Error 1

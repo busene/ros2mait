@@ -1,4 +1,0 @@
-Invoking command in '/home/ubuntu/ros2ws/build/abb_resources': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/abb_resources -- -j4 -l4
-Invoked command in '/home/ubuntu/ros2ws/build/abb_resources' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/abb_resources -- -j4 -l4
-Invoking command in '/home/ubuntu/ros2ws/build/abb_resources': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/abb_resources
-Invoked command in '/home/ubuntu/ros2ws/build/abb_resources' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2ws/build/abb_resources

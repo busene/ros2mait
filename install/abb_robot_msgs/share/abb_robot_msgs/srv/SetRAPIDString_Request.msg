@@ -1,1 +1,0 @@
-/home/ubuntu/ros2ws/build/abb_robot_msgs/rosidl_cmake/srv/SetRAPIDString_Request.msg

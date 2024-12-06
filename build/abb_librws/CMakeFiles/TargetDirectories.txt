@@ -1,7 +1,0 @@
-/home/ubuntu/ros2ws/build/abb_librws/CMakeFiles/abb_librws.dir
-/home/ubuntu/ros2ws/build/abb_librws/CMakeFiles/edit_cache.dir
-/home/ubuntu/ros2ws/build/abb_librws/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/ros2ws/build/abb_librws/CMakeFiles/list_install_components.dir
-/home/ubuntu/ros2ws/build/abb_librws/CMakeFiles/install.dir
-/home/ubuntu/ros2ws/build/abb_librws/CMakeFiles/install/local.dir
-/home/ubuntu/ros2ws/build/abb_librws/CMakeFiles/install/strip.dir

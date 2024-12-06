@@ -1,8 +1,0 @@
-setup.py
-linkpose_msgs/__init__.py
-linkpose_msgs.egg-info/PKG-INFO
-linkpose_msgs.egg-info/SOURCES.txt
-linkpose_msgs.egg-info/dependency_links.txt
-linkpose_msgs.egg-info/top_level.txt
-linkpose_msgs/msg/__init__.py
-linkpose_msgs/msg/_link_pose.py

@@ -1,2 +1,0 @@
-/usr/bin/ar qc librws_client_lib.a CMakeFiles/rws_client_lib.dir/src/rws_service_provider_ros.cpp.o CMakeFiles/rws_client_lib.dir/src/rws_state_publisher_ros.cpp.o CMakeFiles/rws_client_lib.dir/src/mapping.cpp.o
-/usr/bin/ranlib librws_client_lib.a

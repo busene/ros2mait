@@ -1,4 +1,0 @@
-source;share/ros2srrc_ur5_gazebo/local_setup.bash
-source;share/ros2srrc_ur5_gazebo/local_setup.dsv
-source;share/ros2srrc_ur5_gazebo/local_setup.sh
-source;share/ros2srrc_ur5_gazebo/local_setup.zsh

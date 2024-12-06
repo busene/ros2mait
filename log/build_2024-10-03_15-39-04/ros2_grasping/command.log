@@ -1,3 +1,0 @@
-Invoking command in '/home/ubuntu/ros2ws/build/ros2_grasping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_grasping -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2_grasping
-Invoked command in '/home/ubuntu/ros2ws/build/ros2_grasping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2ws/src/ros2_RobotSimulation/ros2_grasping -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2ws/install/ros2_grasping
-Invoking command in '/home/ubuntu/ros2ws/build/ros2_grasping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2ws/build/ros2_grasping -- -j4 -l4
