@@ -51,9 +51,9 @@ class RobotMovements:
             movements = []
             for point in xy_coordinates:
                 # Divide coordinates by x, otherwise coordinates of SVG dont match up
-                x, y = point[0] / 5000 +0.1, point[1] / 5000 +0.1
+                x, y = point[0] / 5000 +0.15, point[1] / 5000 +0.15
 
-                # Define -> MOVEMENT TYPE: (PTP, LIN)
+                # Define -> MOVEMENT TYPE: (PTP, LIN) (point-to-point, lineair)
                 MovType = "PTP"
                 # Define -> SPEED:
                 Speed = 1.0
