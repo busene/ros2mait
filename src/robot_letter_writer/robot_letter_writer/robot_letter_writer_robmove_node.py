@@ -54,9 +54,7 @@ class RobotLetterWriterNode(Node):
                 self.execute_movement(action)
         elif char == '0':
             movements = RobotMovement()
-            self.execute_movement(movements.move_to_zero()[0])
-
-            #self.execute_movement(RobotMovements().move_to_zero()[0]) # dit is nu kapot.
+            self.execute_movement(movements.move_to_zero()[0]) 
         elif char == 'BackSpace':
             self.get_logger().info("BackSpace pressed, ignoring.")
         elif char == ' ':
