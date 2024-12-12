@@ -101,3 +101,6 @@ def get_letter_movements(char):
         movement_map[letter] = movements.movement_from_svg(letter)
 
     return movement_map.get(char.lower(), None)
+
+
+

@@ -3,15 +3,16 @@ import customtkinter as ctk
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
-import threading       # used
+import threading
 
+# Define a ROS 2 node for publishing messages
 class ROSPublisher(Node):
     def __init__(self):
         super().__init__('gui_publisher')
-        self.publisher_typed_text = self.create_publisher(String, 'typed_text', 10)     # publisher for the typed text, seperated from arm control
-        self.publisher_arm_control = self.create_publisher(String, 'arm_control', 10)   # publisher for the arm control, seperated from the typed text
+        self.publisher_typed_text = self.create_publisher(String, 'typed_text', 10) # publisher for the typed text, separated from arm control
+        self.publisher_arm_control = self.create_publisher(String, 'arm_control', 10) # publisher for the arm control, separated from the typed text
 
-# Method to publish a message to the ros topics
+    # Method to publish a message to the ros topics
     def publish_typed_text(self, text):
         msg = String()
         msg.data = text
@@ -25,6 +26,7 @@ class ROSPublisher(Node):
         self.publisher_arm_control.publish(msg)
         self.get_logger().info(f'Publishing: "{msg.data}"')
 
+# Custom application with customtkinter
 class App(ctk.CTk):
     def __init__(self):
         super().__init__()
@@ -33,23 +35,26 @@ class App(ctk.CTk):
         self.geometry("800x600")
         self.configure(fg_color="#2C3E50")
 
-        ctk.set_appearance_mode("dark")
-        ctk.set_default_color_theme("blue")
+        ctk.set_appearance_mode("dark") # theme
+        ctk.set_default_color_theme("blue") # theme
 
         # Frame for Letter Publisher
         self.letter_frame = ctk.CTkFrame(self, fg_color="transparent")
         self.letter_frame.pack(side="left", padx=10, pady=10)
 
+        # frame for typing text
         self.input_field = ctk.CTkEntry(self.letter_frame, width=300, height=40, 
                                         placeholder_text="Type here...",
                                         font=("Arial", 14))
         self.input_field.pack(pady=20)
 
+        # Input field for typing text
         self.output_label = ctk.CTkLabel(self.letter_frame, text="Output will appear here", 
                                          font=("Arial", 16), text_color="#ECF0F1",
                                          wraplength=400)
         self.output_label.pack(pady=20)
 
+        # Buttons for modes and send and clear
         self.button_frame = ctk.CTkFrame(self.letter_frame, fg_color="transparent")
         self.button_frame.pack(pady=10)
 
@@ -76,7 +81,7 @@ class App(ctk.CTk):
         self.arm_frame = ctk.CTkFrame(self, fg_color="transparent")
         self.arm_frame.pack(side="right", padx=10, pady=10)
 
-        # Step size entry
+        # Step size entry, variable field, starts with 0.01
         self.step_size_label = ctk.CTkLabel(self.arm_frame, text="Step Size:")
         self.step_size_label.grid(row=0, column=0, padx=(0, 10), pady=(10, 10))
         self.step_size = tk.StringVar(value="0.01")
@@ -116,18 +121,33 @@ class App(ctk.CTk):
             self.create_button(self.joint_frame, "+", i, 1, lambda j=i+1: self.move_joint(j, "positive"))
             self.create_button(self.joint_frame, "-", i, 2, lambda j=i+1: self.move_joint(j, "negative"))
 
+        # Create place buttons
+        self.place_frame = ctk.CTkFrame(self.arm_frame, fg_color="transparent")
+        self.place_frame.grid(row=6, column=0, columnspan=2, padx=(10, 10), pady=(10, 10))
+
+        self.place1_button = ctk.CTkButton(self.place_frame, text="Place 1", command=self.place1,
+                                           fg_color="#27AE60", hover_color="#2ECC71")
+        self.place1_button.grid(row=0, column=0, padx=(10, 10), pady=(10, 10))
+
+        self.place2_button = ctk.CTkButton(self.place_frame, text="Place 2", command=self.place2,
+                                           fg_color="#E74C3C", hover_color="#C0392B")
+        self.place2_button.grid(row=0, column=1, padx=(10, 10), pady=(10, 10))
+
         # Initialize ROS 2
         rclpy.init()
         self.ros_publisher = ROSPublisher()
         self.ros_thread = threading.Thread(target=self.ros_spin, daemon=True)
         self.ros_thread.start()
 
+        # Real-time mode
         self.realtime_mode = True
         self.toggle_realtime_mode()
 
+    # Spinning the ros node
     def ros_spin(self):
         rclpy.spin(self.ros_publisher)
 
+    # Toggling real-time or manual mode
     def toggle_realtime_mode(self):
         self.realtime_mode = True
         self.input_field.bind("<Key>", self.on_key_press)
@@ -142,6 +162,7 @@ class App(ctk.CTk):
         self.manual_button.configure(fg_color="#27AE60")
         self.realtime_button.configure(fg_color="#E74C3C")
 
+    # Methods to handle typed text in real-time or manual mode
     def on_key_press(self, event):
         if self.realtime_mode:
             if len(event.char) == 1 and event.char.isprintable():
@@ -158,6 +179,7 @@ class App(ctk.CTk):
             self.process_and_publish(char)
         self.update_output()
 
+    # Process and publish the typed text, and clear input field
     def process_and_publish(self, char):
         self.ros_publisher.publish_typed_text(char)
 
@@ -169,26 +191,40 @@ class App(ctk.CTk):
         self.input_field.delete(0, 'end')
         self.output_label.configure(text="Output will appear here")
 
+    # Helper method to create and place button
     def create_button(self, parent, text, row, col, command):
         button = ctk.CTkButton(parent, text=text, command=command, width=50, height=30)
         button.grid(row=row, column=col, padx=5, pady=5)
         return button
 
+    # Method to handle arm movement commands
     def move(self, direction):
         step = self.step_size.get()
         command = f"{direction}_{step}"
         print(f"Moving {direction} with step {step}")
         self.ros_publisher.publish_arm_control(command)
 
+    # Reset
     def reset(self):
         print("Resetting")
         self.ros_publisher.publish_arm_control("reset")
 
+    # Joint movements
     def move_joint(self, joint_number, direction):
         command = f"joint{joint_number}_{direction}"
         print(f"Moving joint {joint_number} {direction}")
         self.ros_publisher.publish_arm_control(command)
 
+    # Place 1 and Place 2 commands
+    def place1(self):
+        self.ros_publisher.publish_arm_control("Place 1")
+        print("Place 1 command sent")
+
+    def place2(self):
+        self.ros_publisher.publish_arm_control("Place 2")
+        print("Place 2 command sent")
+
+    # Closing
     def on_closing(self):
         rclpy.shutdown()
         self.quit()
