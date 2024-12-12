@@ -1,0 +1,3 @@
+JointValues are -> 'joint1': -46.617, 'joint2': 32.1747, 'joint3': 18.6833, 'joint4': -0.0115, 'joint5': 39.1489, 'joint6': -46.608
+
+this is the topleft of the whiteboard. Bottom right is unreachable
