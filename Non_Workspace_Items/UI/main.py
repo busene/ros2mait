@@ -1,3 +1,5 @@
+import sys
+import os
 import tkinter as tk
 import customtkinter as ctk
 import rclpy
@@ -5,14 +7,18 @@ from rclpy.node import Node
 from std_msgs.msg import String
 import threading
 
-# Define a ROS 2 node for publishing messages
+# Add the directory to the Python path if necessary
+sys.path.append('/home/ubuntu/ros2ws/src/robot_letter_writer/robot_letter_writer')
+
+# Initialize ROS 2 context
+rclpy.init()
+
 class ROSPublisher(Node):
     def __init__(self):
         super().__init__('gui_publisher')
-        self.publisher_typed_text = self.create_publisher(String, 'typed_text', 10) # publisher for the typed text, separated from arm control
-        self.publisher_arm_control = self.create_publisher(String, 'arm_control', 10) # publisher for the arm control, separated from the typed text
+        self.publisher_typed_text = self.create_publisher(String, 'typed_text', 10)
+        self.publisher_arm_control = self.create_publisher(String, 'arm_control', 10)
 
-    # Method to publish a message to the ros topics
     def publish_typed_text(self, text):
         msg = String()
         msg.data = text
@@ -26,7 +32,6 @@ class ROSPublisher(Node):
         self.publisher_arm_control.publish(msg)
         self.get_logger().info(f'Publishing: "{msg.data}"')
 
-# Custom application with customtkinter
 class App(ctk.CTk):
     def __init__(self):
         super().__init__()
@@ -34,7 +39,6 @@ class App(ctk.CTk):
         self.title("ROS 2 Letter and Arm Publisher")
         self.geometry("800x600")
         self.configure(fg_color="#2C3E50")
-
         ctk.set_appearance_mode("dark") # theme
         ctk.set_default_color_theme("blue") # theme
 
@@ -47,6 +51,32 @@ class App(ctk.CTk):
                                         placeholder_text="Type here...",
                                         font=("Arial", 14))
         self.input_field.pack(pady=20)
+
+        # Frame for changing constants
+        self.constants_frame = ctk.CTkFrame(self.letter_frame, fg_color="transparent")
+        self.constants_frame.pack(pady=10)
+
+        # FILTER
+        self.filter_label = ctk.CTkLabel(self.constants_frame, text="FILTER:")
+        self.filter_label.grid(row=0, column=0, padx=(10, 10), pady=(10, 10))
+        self.filter_entry = ctk.CTkEntry(self.constants_frame, width=100, height=30)
+        self.filter_entry.grid(row=0, column=1, padx=(10, 10), pady=(10, 10))
+
+        # COORD_DIV
+        self.coord_div_label = ctk.CTkLabel(self.constants_frame, text="COORD_DIV:")
+        self.coord_div_label.grid(row=1, column=0, padx=(10, 10), pady=(10, 10))
+        self.coord_div_entry = ctk.CTkEntry(self.constants_frame, width=100, height=30)
+        self.coord_div_entry.grid(row=1, column=1, padx=(10, 10), pady=(10, 10))
+
+        # SPEED
+        self.speed_label = ctk.CTkLabel(self.constants_frame, text="SPEED:")
+        self.speed_label.grid(row=2, column=0, padx=(10, 10), pady=(10, 10))
+        self.speed_entry = ctk.CTkEntry(self.constants_frame, width=100, height=30)
+        self.speed_entry.grid(row=2, column=1, padx=(10, 10), pady=(10, 10))
+
+        # Button to update constants
+        self.update_constants_button = ctk.CTkButton(self.constants_frame, text="Update Constants", command=self.update_constants)
+        self.update_constants_button.grid(row=3, column=0, columnspan=2, padx=(10, 10), pady=(10, 10))
 
         # Input field for typing text
         self.output_label = ctk.CTkLabel(self.letter_frame, text="Output will appear here", 
@@ -91,7 +121,6 @@ class App(ctk.CTk):
         # Create joystick-like control buttons
         self.joystick_frame = ctk.CTkFrame(self.arm_frame, fg_color="transparent")
         self.joystick_frame.grid(row=1, column=0, columnspan=2, padx=(10, 10), pady=(10, 10))
-
         self.create_button(self.joystick_frame, "↑", 0, 1, lambda: self.move("forward"))
         self.create_button(self.joystick_frame, "↓", 2, 1, lambda: self.move("backward"))
         self.create_button(self.joystick_frame, "←", 1, 0, lambda: self.move("left"))
@@ -114,7 +143,6 @@ class App(ctk.CTk):
         # Create joint control buttons
         self.joint_frame = ctk.CTkFrame(self.arm_frame, fg_color="transparent")
         self.joint_frame.grid(row=5, column=0, columnspan=2, padx=(10, 10), pady=(10, 10))
-
         for i in range(6):
             self.joint_label = ctk.CTkLabel(self.joint_frame, text=f"Joint {i+1}")
             self.joint_label.grid(row=i, column=0, padx=(0, 10), pady=(10, 10))
@@ -124,28 +152,47 @@ class App(ctk.CTk):
         # Create place buttons
         self.place_frame = ctk.CTkFrame(self.arm_frame, fg_color="transparent")
         self.place_frame.grid(row=6, column=0, columnspan=2, padx=(10, 10), pady=(10, 10))
-
-        self.place1_button = ctk.CTkButton(self.place_frame, text="Place 1", command=self.place1,
+        self.place1_button = ctk.CTkButton(self.place_frame, text="Place 1", command=self.place1, 
                                            fg_color="#27AE60", hover_color="#2ECC71")
         self.place1_button.grid(row=0, column=0, padx=(10, 10), pady=(10, 10))
-
-        self.place2_button = ctk.CTkButton(self.place_frame, text="Place 2", command=self.place2,
+        self.place2_button = ctk.CTkButton(self.place_frame, text="Place 2", command=self.place2, 
                                            fg_color="#E74C3C", hover_color="#C0392B")
         self.place2_button.grid(row=0, column=1, padx=(10, 10), pady=(10, 10))
 
-        # Initialize ROS 2
-        rclpy.init()
+        # Initialize ROS 2 node
         self.ros_publisher = ROSPublisher()
         self.ros_thread = threading.Thread(target=self.ros_spin, daemon=True)
         self.ros_thread.start()
 
-        # Real-time mode
+        # Real-time mode activated on start-up
         self.realtime_mode = True
         self.toggle_realtime_mode()
 
-    # Spinning the ros node
+
+    def update_constants(self):
+        try:
+            filter_value = int(self.filter_entry.get())
+            coord_div_value = int(self.coord_div_entry.get())
+            speed_value = float(self.speed_entry.get())
+
+            # Update the constants in the letter_movements_robmove module
+            import letter_movements_robmove
+            letter_movements_robmove.FILTER = filter_value
+            letter_movements_robmove.COORD_DIV = coord_div_value
+            letter_movements_robmove.SPEED = speed_value
+
+            print(f"Constants updated: FILTER={filter_value}, COORD_DIV={coord_div_value}, SPEED={speed_value}")
+        except ValueError:
+            print("Invalid input. Please enter valid numbers.")
+
     def ros_spin(self):
-        rclpy.spin(self.ros_publisher)
+        try:
+            rclpy.spin(self.ros_publisher)
+        except Exception as e:
+            print(f"Error spinning ROS node: {e}")
+
+    
+
 
     # Toggling real-time or manual mode
     def toggle_realtime_mode(self):
