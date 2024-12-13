@@ -5,7 +5,9 @@ import svgpathtools as svgt
 from svgpathtools import Path, Line, QuadraticBezier, CubicBezier, Arc
 from ros2srrc_data.msg import Robpose
 
-filter = 5 # filter voor aantal punten in een curve.
+FILTER = 5 # filter voor aantal punten in een curve.
+COORD_DIV = 7000 # number to divide the coordinates with. SVG coordinates are way to big for the robot to comprehend. 
+SPEED = 1.0
 
 class RobotMovements:
     def __init__(self):
@@ -23,18 +25,18 @@ class RobotMovements:
                     end = (segment.end.real, segment.end.imag)
                     path_coordinates.append(start)
                     path_coordinates.append(end)
-                elif isinstance(segment, QuadraticBezier):
-                    num_points = filter
+                elif isinstance(segment, QuadraticBezier):  # These isinstance are used when the svg has a curved path. It is divided by the filter constant to take out an x amount of points to replicate this curve
+                    num_points = FILTER
                     for t in [i / num_points for i in range(num_points + 1)]:
                         point = (segment.point(t).real, segment.point(t).imag)
                         path_coordinates.append(point)
                 elif isinstance(segment, CubicBezier):
-                    num_points = filter
+                    num_points = FILTER
                     for t in [i / num_points for i in range(num_points + 1)]:
                         point = (segment.point(t).real, segment.point(t).imag)
                         path_coordinates.append(point)
                 elif isinstance(segment, Arc):
-                    num_points = filter
+                    num_points = FILTER
                     for t in [i / num_points for i in range(num_points + 1)]:
                         point = (segment.point(t).real, segment.point(t).imag)
                         path_coordinates.append(point)
@@ -51,12 +53,12 @@ class RobotMovements:
             movements = []
             for point in xy_coordinates:
                 # Divide coordinates by x, otherwise coordinates of SVG dont match up
-                x, y = point[0] / 5000 +0.15, point[1] / 5000 +0.15
+                x, y = point[0] / COORD_DIV +0.15, point[1] / COORD_DIV +0.15
 
                 # Define -> MOVEMENT TYPE: (PTP, LIN) (point-to-point, lineair)
                 MovType = "PTP"
                 # Define -> SPEED:
-                Speed = 1.0
+                Speed = SPEED
 
                 # Define -> POSE:     
                 InputPose = Robpose()
