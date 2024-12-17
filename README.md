@@ -67,17 +67,13 @@ This repository is a copy of the ROS2 workspace on my system. Just use this fold
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To run gui_subscriber:
-
-`ros2 run gui_subscriber gui_subscriber_node`
-
 To open the controller UI that makes it possible to control the robot with cartesian paths. Navigate to:
 
-`cd ros2ws/Non_Workspace_Items/ControlUI`
+`cd ros2ws/Non_Workspace_Items/UI`
 
 and then type:
 
-`python3 maincontrol.py`
+`python3 main.py`
 
 To use the SVG parser, svgpathtools should be installed:
 
