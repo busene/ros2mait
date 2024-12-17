@@ -5,10 +5,13 @@ import customtkinter as ctk
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
+from tkinter import messagebox
 import threading
+import configparser
 
 # Add the directory to the Python path if necessary
 sys.path.append('/home/ubuntu/ros2ws/src/robot_letter_writer/robot_letter_writer')
+
 
 # Initialize ROS 2 context
 rclpy.init()
@@ -37,14 +40,68 @@ class App(ctk.CTk):
         super().__init__()
 
         self.title("ROS 2 Letter and Arm Publisher")
-        self.geometry("800x600")
+        self.geometry("900x800")
         self.configure(fg_color="#2C3E50")
         ctk.set_appearance_mode("dark") # theme
         ctk.set_default_color_theme("blue") # theme
 
+
+        # Initialize config parser
+        self.config = configparser.ConfigParser()
+        self.config_file_path = '/home/ubuntu/ros2ws/config.ini'
+
+        # Check if the file exists
+        if not os.path.exists(self.config_file_path):
+            print(f"File not found: {self.config_file_path}")
+            messagebox.showerror("Error", f"File not found: {self.config_file_path}")
+            return
+
+        # Read the configuration file
+        self.config.read(self.config_file_path)
+
+        # Ensure the 'RobotSettings' section exists
+        if not self.config.has_section('RobotSettings'):
+            self.config.add_section('RobotSettings')
+            self.config.set('RobotSettings', 'FILTER', '5')
+            self.config.set('RobotSettings', 'COORD_DIV', '7000')
+            self.config.set('RobotSettings', 'SPEED', '1.0')
+            try:
+                with open(self.config_file_path, 'w') as configfile:
+                    self.config.write(configfile)
+            except PermissionError:
+                print(f"Permission denied to write to file: {self.config_file_path}")
+                messagebox.showerror("Error", f"Permission denied to write to file: {self.config_file_path}")
+                return
+
         # Frame for Letter Publisher
         self.letter_frame = ctk.CTkFrame(self, fg_color="transparent")
         self.letter_frame.pack(side="left", padx=10, pady=10)
+
+        # Frame for configuration
+        self.config_frame = ctk.CTkFrame(self, fg_color="transparent")
+        self.config_frame.pack(side="right", padx=10, pady=10)
+
+        # Configuration entries
+        self.filter_label = ctk.CTkLabel(self.config_frame, text="FILTER:")
+        self.filter_label.grid(row=0, column=0, padx=(0, 10), pady=(10, 10))
+        self.filter_entry = ctk.CTkEntry(self.config_frame, width=100, height=30)
+        self.filter_entry.insert(0, self.config.get('RobotSettings', 'FILTER', fallback='5'))
+        self.filter_entry.grid(row=0, column=1, padx=(10, 10), pady=(10, 10))
+
+        self.coord_div_label = ctk.CTkLabel(self.config_frame, text="COORD_DIV:")
+        self.coord_div_label.grid(row=1, column=0, padx=(0, 10), pady=(10, 10))
+        self.coord_div_entry = ctk.CTkEntry(self.config_frame, width=100, height=30)
+        self.coord_div_entry.insert(0, self.config.get('RobotSettings', 'COORD_DIV', fallback='7000'))
+        self.coord_div_entry.grid(row=1, column=1, padx=(10, 10), pady=(10, 10))
+
+        self.speed_label = ctk.CTkLabel(self.config_frame, text="SPEED:")
+        self.speed_label.grid(row=2, column=0, padx=(0, 10), pady=(10, 10))
+        self.speed_entry = ctk.CTkEntry(self.config_frame, width=100, height=30)
+        self.speed_entry.insert(0, self.config.get('RobotSettings', 'SPEED', fallback='1.0'))
+        self.speed_entry.grid(row=2, column=1, padx=(10, 10), pady=(10, 10))
+
+        self.save_button = ctk.CTkButton(self.config_frame, text="Save Configuration", command=self.save_config)
+        self.save_button.grid(row=3, column=0, columnspan=2, padx=(10, 10), pady=(10, 10))
 
         # frame for typing text
         self.input_field = ctk.CTkEntry(self.letter_frame, width=300, height=40, 
@@ -52,31 +109,6 @@ class App(ctk.CTk):
                                         font=("Arial", 14))
         self.input_field.pack(pady=20)
 
-        # Frame for changing constants
-        self.constants_frame = ctk.CTkFrame(self.letter_frame, fg_color="transparent")
-        self.constants_frame.pack(pady=10)
-
-        # FILTER
-        self.filter_label = ctk.CTkLabel(self.constants_frame, text="FILTER:")
-        self.filter_label.grid(row=0, column=0, padx=(10, 10), pady=(10, 10))
-        self.filter_entry = ctk.CTkEntry(self.constants_frame, width=100, height=30)
-        self.filter_entry.grid(row=0, column=1, padx=(10, 10), pady=(10, 10))
-
-        # COORD_DIV
-        self.coord_div_label = ctk.CTkLabel(self.constants_frame, text="COORD_DIV:")
-        self.coord_div_label.grid(row=1, column=0, padx=(10, 10), pady=(10, 10))
-        self.coord_div_entry = ctk.CTkEntry(self.constants_frame, width=100, height=30)
-        self.coord_div_entry.grid(row=1, column=1, padx=(10, 10), pady=(10, 10))
-
-        # SPEED
-        self.speed_label = ctk.CTkLabel(self.constants_frame, text="SPEED:")
-        self.speed_label.grid(row=2, column=0, padx=(10, 10), pady=(10, 10))
-        self.speed_entry = ctk.CTkEntry(self.constants_frame, width=100, height=30)
-        self.speed_entry.grid(row=2, column=1, padx=(10, 10), pady=(10, 10))
-
-        # Button to update constants
-        self.update_constants_button = ctk.CTkButton(self.constants_frame, text="Update Constants", command=self.update_constants)
-        self.update_constants_button.grid(row=3, column=0, columnspan=2, padx=(10, 10), pady=(10, 10))
 
         # Input field for typing text
         self.output_label = ctk.CTkLabel(self.letter_frame, text="Output will appear here", 
@@ -168,31 +200,34 @@ class App(ctk.CTk):
         self.realtime_mode = True
         self.toggle_realtime_mode()
 
+#+++++++++++++++++++++++++++++++++++++++++++++++++
+    def save_config(self):
+        # Ensure the 'RobotSettings' section exists
+        if not self.config.has_section('RobotSettings'):
+            self.config.add_section('RobotSettings')
 
-    def update_constants(self):
+        self.config['RobotSettings']['FILTER'] = self.filter_entry.get()
+        self.config['RobotSettings']['COORD_DIV'] = self.coord_div_entry.get()
+        self.config['RobotSettings']['SPEED'] = self.speed_entry.get()
+
+        with open(self.config_file_path, 'w') as configfile:
+            self.config.write(configfile)
+        messagebox.showinfo("Success", "Configuration saved successfully")
+
+    def get_config_value(self, section, key, default=None):
         try:
-            filter_value = int(self.filter_entry.get())
-            coord_div_value = int(self.coord_div_entry.get())
-            speed_value = float(self.speed_entry.get())
+            return self.config.get(section, key)
+        except (configparser.NoSectionError, configparser.NoOptionError):
+            return default
 
-            # Update the constants in the letter_movements_robmove module
-            import letter_movements_robmove
-            letter_movements_robmove.FILTER = filter_value
-            letter_movements_robmove.COORD_DIV = coord_div_value
-            letter_movements_robmove.SPEED = speed_value
 
-            print(f"Constants updated: FILTER={filter_value}, COORD_DIV={coord_div_value}, SPEED={speed_value}")
-        except ValueError:
-            print("Invalid input. Please enter valid numbers.")
+#+++++++++++++++++++++++++++++++++++++++
 
     def ros_spin(self):
         try:
             rclpy.spin(self.ros_publisher)
         except Exception as e:
             print(f"Error spinning ROS node: {e}")
-
-    
-
 
     # Toggling real-time or manual mode
     def toggle_realtime_mode(self):

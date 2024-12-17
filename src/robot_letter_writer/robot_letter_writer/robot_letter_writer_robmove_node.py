@@ -33,6 +33,7 @@ from .letter_movements_robmove import get_letter_movements
 # ===================================================================== #
 # ===================================================================== #
 
+    # Created the subscriber node that subscribes to the typed_text topic
 class RobotLetterWriterNode(Node):
     def __init__(self):
         super().__init__('robot_letter_writer_node')
@@ -43,9 +44,9 @@ class RobotLetterWriterNode(Node):
             10)
         self.subscription  # prevent unused variable warning
 
-        self.client = RBT()  # Initialize the robot client
+        self.client = RBT()  # Initialize the robot client used from the IFRA package
 
-    def typed_text_callback(self, msg): # receiving which character was pressed and execute needed function
+    def typed_text_callback(self, msg): # receiving which character was pressed and execute needed function from the movements program
         char = msg.data
         actions = get_letter_movements(char)
 
@@ -56,7 +57,7 @@ class RobotLetterWriterNode(Node):
             movements = RobotMovement()
             self.execute_movement(movements.move_to_zero()[0]) 
         elif char == 'BackSpace':
-            self.get_logger().info("BackSpace pressed, ignoring.")
+            self.get_logger().info("BackSpace pressed, ignoring.")  # ignore special characters for now
         elif char == ' ':
             self.get_logger().info("Space pressed, ignoring.")
         else:

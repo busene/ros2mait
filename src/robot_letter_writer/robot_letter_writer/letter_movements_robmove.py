@@ -1,42 +1,67 @@
-# letter_movements.py
-
 import os
 import svgpathtools as svgt
 from svgpathtools import Path, Line, QuadraticBezier, CubicBezier, Arc
 from ros2srrc_data.msg import Robpose
+import configparser
 
-FILTER = 5 # filter voor aantal punten in een curve.
-COORD_DIV = 7000 # number to divide the coordinates with. SVG coordinates are way to big for the robot to comprehend. 
-SPEED = 1.0
+# Create a ConfigParser instance
+config = configparser.ConfigParser()
+config_file_path = '/home/ubuntu/ros2ws/config.ini'
+
+def load_config():      # Config file that includes some basic parameter that are changable using the GUI
+    """Load configuration from config.ini and return settings."""
+    if os.path.exists(config_file_path):
+        print(f"Found config file: {config_file_path}")
+        config.read(config_file_path)  # Read existing config
+    else:
+        print(f"Config file not found, creating default settings.")
+        # Define default settings if it doesn't exist, or if something goes wrong
+        config['RobotSettings'] = {
+            'filter': '5',
+            'coord_div': '5000',
+            'speed': '1.0'
+        }
+        with open(config_file_path, 'w') as configfile:
+            config.write(configfile)
+
+    # Return current settings as a dictionary
+    return {
+        'FILTER': int(config['RobotSettings']['filter']),
+        'COORD_DIV': int(config['RobotSettings']['coord_div']),
+        'SPEED': float(config['RobotSettings']['speed'])
+    }
 
 class RobotMovements:
     def __init__(self):
         self.svg_dir = os.path.join(os.path.expanduser('~'), 'ros2ws', 'src', 'robot_letter_writer', 'robot_letter_writer', 'SVG')
 
     def parse_svg_file(self, file_path):
+        # Reload configuration each time this method is called, otherwise it will use the last known config file
+        settings = load_config()  # Get updated settings
+        
         paths, attributes = svgt.svg2paths(file_path)
         xy_coordinates = []
 
-        for path, attr in zip(paths, attributes):       # this piece of codes takes the XY coordinates out of a SVG file
+        for path, attr in zip(paths, attributes):
             path_coordinates = []
             for segment in path:
-                if isinstance(segment, Line):
+                if isinstance(segment, Line):       # Line segments
                     start = (segment.start.real, segment.start.imag)
                     end = (segment.end.real, segment.end.imag)
                     path_coordinates.append(start)
                     path_coordinates.append(end)
-                elif isinstance(segment, QuadraticBezier):  # These isinstance are used when the svg has a curved path. It is divided by the filter constant to take out an x amount of points to replicate this curve
-                    num_points = FILTER
+                elif isinstance(segment, QuadraticBezier):      # If a curve is found, this divides it in multiple points so it can be drawn with straigh lines
+                    num_points = settings['FILTER']             # Using the filter value from the config file to filter how precise the curves are
                     for t in [i / num_points for i in range(num_points + 1)]:
                         point = (segment.point(t).real, segment.point(t).imag)
                         path_coordinates.append(point)
                 elif isinstance(segment, CubicBezier):
-                    num_points = FILTER
+                    num_points = settings['FILTER']
                     for t in [i / num_points for i in range(num_points + 1)]:
                         point = (segment.point(t).real, segment.point(t).imag)
                         path_coordinates.append(point)
                 elif isinstance(segment, Arc):
-                    num_points = FILTER
+                    num_points = settings['FILTER']
                     for t in [i / num_points for i in range(num_points + 1)]:
                         point = (segment.point(t).real, segment.point(t).imag)
                         path_coordinates.append(point)
@@ -45,26 +70,28 @@ class RobotMovements:
 
         return xy_coordinates
 
-    def movement_from_svg(self, char):
-        filename = f"{char.upper()}.svg"        # Get SVG filename (A,B,C,etc)
+    def movement_from_svg(self, char):      # get the xy coordinates from the svg files when a letter is called using the node
+        filename = f"{char.upper()}.svg"    # all the SVG files are uppercase named, so it changes the input to uppercase if needed
         file_path = os.path.join(self.svg_dir, filename)
         try:
             xy_coordinates = self.parse_svg_file(file_path)
             movements = []
+            settings = load_config()  # Get updated settings
+            
+            # using a offset to test. Has to be calibrated when usign the real 
             for point in xy_coordinates:
-                # Divide coordinates by x, otherwise coordinates of SVG dont match up
-                x, y = point[0] / COORD_DIV +0.15, point[1] / COORD_DIV +0.15
+                x, y = point[0] / settings['COORD_DIV'] + 0.20, point[1] / settings['COORD_DIV'] + 0.20
 
-                # Define -> MOVEMENT TYPE: (PTP, LIN) (point-to-point, lineair)
+                # rotate the letter writing paths 90 degrees so it faces the correct way for MA-IT
+                translated_x, translated_y = y, -x
+
                 MovType = "PTP"
-                # Define -> SPEED:
-                Speed = SPEED
+                Speed = settings['SPEED']
 
-                # Define -> POSE:     
                 InputPose = Robpose()
-                InputPose.x = x
-                InputPose.y = y
-                InputPose.z = 1.0  # Adjust z-coordinate as needed
+                InputPose.x = translated_x
+                InputPose.y = translated_y
+                InputPose.z = 0.5 + 0.30144  # Adjust z-coordinate as needed. 0.5 is the hight of the block it is on (as of right now)
                 InputPose.qx = 0.0
                 InputPose.qy = 1.0
                 InputPose.qz = 0.0
@@ -77,12 +104,9 @@ class RobotMovements:
             return []
 
     def move_to_zero(self):
-        # Define -> MOVEMENT TYPE: (PTP, LIN)
         MovType = "PTP"
-        # Define -> SPEED:
         Speed = 1.0
 
-        # Define -> POSE:     
         InputPose = Robpose()
         InputPose.x = 0.302
         InputPose.y = 0.0
@@ -98,11 +122,7 @@ def get_letter_movements(char):
     movements = RobotMovements()
     movement_map = {}
 
-    # Generate movement map for the entire alphabet, so that you dont need to include every character by hand
     for letter in 'abcdefghijklmnopqrstuvwxyz':
         movement_map[letter] = movements.movement_from_svg(letter)
 
     return movement_map.get(char.lower(), None)
-
-
-
