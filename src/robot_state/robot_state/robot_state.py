@@ -1,18 +1,13 @@
-# Thanks to Mikel from the IFRA group who helped creating this node, by giving the general concept
-
-
+# For /joint_states:
 import rclpy
 from rclpy.node import Node
 from ros2srrc_data.msg import Robpose
-import threading
-
 # Create NODE + SUBSCRIBER for /Robpose:
 class CreateSubscriber(Node):
-
+ 
     def __init__(self):
         # Declare NODE:
         super().__init__("RobPose_sub")
-        self.callback = callback
         # Declare SUBSCRIBER:
         self.subscription = self.create_subscription(
             Robpose,                                                                                                           
@@ -31,21 +26,20 @@ class CreateSubscriber(Node):
         qy = MSG.qy
         qz = MSG.qz
         qw = MSG.qw
-
         # Define the results, rounded with 4 values
         RESULT = f"Pose Values are -> 'x': {x:.4f}, 'y': {y:.4f}, 'z': {z:.4f}, 'qx': {qx:.4f}, 'qy': {qy:.4f}, 'qz': {qz:.4f}, 'qw': {qw:.4f}"
-        self.callback(RESULT)
         
+        print(RESULT)
  
 def main(args=None):
+ 
+    # 1. INITIALISE ROS NODE:
     rclpy.init(args=args)
-    node = CreateSubscriber(None)  # Initialize with None, will be updated later
-    return node
-
-def spin_node(node, callback):
-    node.callback = callback
-    rclpy.spin(node)
-
-def shutdown_node(node):
-    node.destroy_node()
+ 
+    RobPose_node = CreateSubscriber()
+    rclpy.spin_once(RobPose_node)
+    RobPose_node.destroy_node
     rclpy.shutdown()
+ 
+if __name__ == "__main__":
+    main()

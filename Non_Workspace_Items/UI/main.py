@@ -7,6 +7,8 @@ from rclpy.node import Node
 from std_msgs.msg import String
 from tkinter import messagebox
 import threading
+import subprocess
+
 import configparser
 
 # Add the directory to the Python path if necessary
@@ -191,6 +193,19 @@ class App(ctk.CTk):
                                            fg_color="#E74C3C", hover_color="#C0392B")
         self.place2_button.grid(row=0, column=1, padx=(10, 10), pady=(10, 10))
 
+        # Button to run robot_state node
+        run_ros_button = ctk.CTkButton(
+            self.button_frame,
+            text="Get current coordinates",
+            command=self.run_ros_node,
+            fg_color="#3498DB",
+            hover_color="#2980B9"
+        )
+        run_ros_button.pack(side="left", padx=10)
+
+
+
+
         # Initialize ROS 2 node
         self.ros_publisher = ROSPublisher()
         self.ros_thread = threading.Thread(target=self.ros_spin, daemon=True)
@@ -200,7 +215,15 @@ class App(ctk.CTk):
         self.realtime_mode = True
         self.toggle_realtime_mode()
 
-#+++++++++++++++++++++++++++++++++++++++++++++++++
+    # running robot_state node
+    def run_ros_node(self):
+         """Runs a ROS 2 node using subprocess."""
+         try:
+             subprocess.Popen(['ros2', 'run', 'robot_state', 'robot_state'])
+         except Exception as e:
+             messagebox.showerror("Error", f"Failed to start ROS 2 Node: {str(e)}")
+
+
     def save_config(self):
         # Ensure the 'RobotSettings' section exists
         if not self.config.has_section('RobotSettings'):
