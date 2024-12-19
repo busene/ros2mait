@@ -55,13 +55,15 @@
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
 
-You should have ROS2 and python3 installed.
 
 ### Installation
 
-This repository is a copy of the ROS2 workspace on my system. Just use this folder as your workspace.
+Follow the full instruction manuel from https://github.com/IFRA-Cranfield/ros2_SimRealRobotControl , except the last step. The SimRealRobot package has to be downloaded and built using this repository.
+
+After you downloaded and installed all the needed IFRA packages, you need to import the robot_letter_writer, gui_subscriber, and ros2_SimRealRobotControl from this repository in the src folder of your ros2 workspace. Then build your workspace.
+
+In your main workspace folder you should import the config2.ini file and the Non_Workspace_Items folder.
 
 
 <!-- USAGE EXAMPLES -->
