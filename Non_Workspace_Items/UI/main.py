@@ -75,13 +75,17 @@ class App(ctk.CTk):
                 messagebox.showerror("Error", f"Permission denied to write to file: {self.config_file_path}")
                 return
 
+        # Create a parent frame to hold both letter_frame and config_frame
+        self.main_frame = ctk.CTkFrame(self, fg_color="transparent")
+        self.main_frame.pack(side="left", padx=10, pady=10)
+
         # Frame for Letter Publisher
-        self.letter_frame = ctk.CTkFrame(self, fg_color="transparent")
-        self.letter_frame.pack(side="left", padx=10, pady=10)
+        self.letter_frame = ctk.CTkFrame(self.main_frame, fg_color="transparent")
+        self.letter_frame.pack(side="top", fill="x", padx=10, pady=10)
 
         # Frame for configuration
-        self.config_frame = ctk.CTkFrame(self, fg_color="transparent")
-        self.config_frame.pack(side="right", padx=10, pady=10)
+        self.config_frame = ctk.CTkFrame(self.main_frame, fg_color="transparent")
+        self.config_frame.pack(side="bottom", fill="x", padx=10, pady=10)
 
         # Configuration entries
         self.filter_label = ctk.CTkLabel(self.config_frame, text="FILTER:")
