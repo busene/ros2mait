@@ -8,7 +8,7 @@ import configparser
 config = configparser.ConfigParser()
 config_file_path = '/home/ubuntu/ros2ws/config.ini'
 
-def load_config():      # Config file that includes some basic parameter that are changable using the GUI
+def load_config():      # Config file that includes some basic parameters that are changeable using the GUI
     """Load configuration from config.ini and return settings."""
     if os.path.exists(config_file_path):
         print(f"Found config file: {config_file_path}")
@@ -36,8 +36,8 @@ class RobotMovements:
         self.svg_dir = os.path.join(os.path.expanduser('~'), 'ros2ws', 'src', 'robot_letter_writer', 'robot_letter_writer', 'SVG')
 
     def parse_svg_file(self, file_path):
-        # Reload configuration each time this method is called, otherwise it will use the last known config file
-        settings = load_config()  # Get updated settings
+        # Reload configuration each time this method is called to get updated settings
+        settings = load_config()  
         
         paths, attributes = svgt.svg2paths(file_path)
         xy_coordinates = []
@@ -50,7 +50,7 @@ class RobotMovements:
                     end = (segment.end.real, segment.end.imag)
                     path_coordinates.append(start)
                     path_coordinates.append(end)
-                elif isinstance(segment, QuadraticBezier):      # If a curve is found, this divides it in multiple points so it can be drawn with straigh lines
+                elif isinstance(segment, QuadraticBezier):      # If a curve is found, this divides it into multiple points so it can be drawn with straight lines
                     num_points = settings['FILTER']             # Using the filter value from the config file to filter how precise the curves are
                     for t in [i / num_points for i in range(num_points + 1)]:
                         point = (segment.point(t).real, segment.point(t).imag)
@@ -70,35 +70,37 @@ class RobotMovements:
 
         return xy_coordinates
 
-    def movement_from_svg(self, char):      # get the xy coordinates from the svg files when a letter is called using the node
-        filename = f"{char.upper()}.svg"    # all the SVG files are uppercase named, so it changes the input to uppercase if needed
+    def movement_from_svg(self, char):      # Get the xy coordinates from the SVG files when a letter is called using the node
+        filename = f"{char.upper()}.svg"    # All the SVG files are uppercase named, so it changes the input to uppercase if needed
         file_path = os.path.join(self.svg_dir, filename)
+        
         try:
             xy_coordinates = self.parse_svg_file(file_path)
             movements = []
             settings = load_config()  # Get updated settings
             
-            # using a offset to test. Has to be calibrated when usign the real 
             for point in xy_coordinates:
                 x, y = point[0] / settings['COORD_DIV'] + 0.20, point[1] / settings['COORD_DIV'] + 0.20
 
-                # rotate the letter writing paths 90 degrees so it faces the correct way for MA-IT
+                # Rotate the letter writing paths 90 degrees so it faces the correct way for MA-IT
                 translated_x, translated_y = y, -x
 
                 MovType = "PTP"
                 Speed = settings['SPEED']
 
                 InputPose = Robpose()
-                InputPose.x = translated_x
-                InputPose.y = translated_y
-                InputPose.z = 0.5 + 0.30144  # Adjust z-coordinate as needed. 0.5 is the hight of the block it is on (as of right now)
+                InputPose.x = translated_x 
+                InputPose.y = translated_y 
+                InputPose.z = 0.5 + 0.30144  # Adjust z-coordinate as needed. 0.5 is the height of the block it is on.
                 InputPose.qx = 0.0
                 InputPose.qy = 1.0
                 InputPose.qz = 0.0
                 InputPose.qw = 0.0
 
                 movements.append((MovType, Speed, InputPose))
+            
             return movements
+            
         except Exception as e:
             print(f"Error processing file {filename}: {str(e)}")
             return []

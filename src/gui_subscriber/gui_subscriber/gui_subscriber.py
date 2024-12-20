@@ -142,27 +142,23 @@ class RobotArmControlNode(Node):
         ACTION.mover = INPUT
         return ACTION
 
-    def execute_movement(self, action):
-        # Execute the movement action using the RBT client
+    def execute_movement(self, action):     # Execute the movement action using the RBT client
         try:
             RES = self.client.Move_EXECUTE(action)
             self.get_logger().info(f"Moved to position. Result: {RES['Message']}")
         except Exception as e:
             self.get_logger().error(f"Error executing movement: {e}")
 
-def main(args=None):
-    # Initialize the ROS2 system and create the node
+def main(args=None):                        # Initialize the ROS2 system and create the node
     rclpy.init(args=args)
     robot_arm_control_node = RobotArmControlNode()
-    try:
-        # Keep the node running and processing callbacks
+    try:                                    # Keep the node running and processing callbacks
         rclpy.spin(robot_arm_control_node)
     except KeyboardInterrupt:
         pass
     except Exception as e:
         robot_arm_control_node.get_logger().error(f"Unexpected error: {e}")
-    finally:
-        # Clean up the node when done
+    finally:                                # Clean up the node when done
         robot_arm_control_node.destroy_node()
         rclpy.shutdown()
 

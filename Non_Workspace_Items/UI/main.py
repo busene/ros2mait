@@ -23,13 +23,15 @@ class ROSPublisher(Node):
         super().__init__('gui_publisher')
         self.publisher_typed_text = self.create_publisher(String, 'typed_text', 10)
         self.publisher_arm_control = self.create_publisher(String, 'arm_control', 10)
+        # self.publisher_robot_state = self.create_publisher(String, 'robot_state', 10)
 
     def publish_typed_text(self, text):
         msg = String()
         msg.data = text
         current_time = self.get_clock().now()
         self.publisher_typed_text.publish(msg)
-        self.get_logger().info(f'Publishing: "{msg.data}" at {current_time.nanoseconds / 1e9:.6f} seconds')
+        seconds = current_time.nanoseconds / 1e9        # Make sure time is given in seconds
+        self.get_logger().info(f'Publishing: "{msg.data}" at {seconds:.6f} seconds')
 
     def publish_arm_control(self, command):
         msg = String()
@@ -203,7 +205,7 @@ class App(ctk.CTk):
             text="Get current coordinates",
             command=self.run_ros_node,
             fg_color="#3498DB",
-            hover_color="#2980B9"
+            hover_color="#2980B9" 
         )
         run_ros_button.pack(side="left", padx=10)
 

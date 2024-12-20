@@ -52,7 +52,7 @@ class RobotLetterWriterNode(Node):
 
         if actions:
             for action in actions:
-                self.execute_movement(action)
+                self.execute_movement(action)       # receives the proper movement from letter_movements_robmove.py
         elif char == '0':
             movements = RobotMovement()
             self.execute_movement(movements.move_to_zero()[0]) 
