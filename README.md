@@ -83,6 +83,8 @@ To use the SVG parser, svgpathtools should be installed:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+If you are using the real robot, and not the moveit bringup code, the newly created nodes have te be added to the gazebo launch file. See moveit launch code for referance.
+
 
 <!-- CONTRIBUTING -->
 ## Contributing
