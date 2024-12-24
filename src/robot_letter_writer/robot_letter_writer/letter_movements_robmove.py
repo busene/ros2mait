@@ -1,3 +1,5 @@
+# This code is used to split the robot_letter_writer node in more feasible parts. This code handles the movement (using an svg-parser)
+
 import os
 import svgpathtools as svgt
 from svgpathtools import Path, Line, QuadraticBezier, CubicBezier, Arc
@@ -24,7 +26,7 @@ def load_config():      # Config file that includes some basic parameters that a
         with open(config_file_path, 'w') as configfile:
             config.write(configfile)
 
-    # Return current settings as a dictionary
+    # Return current settings as a dictionary to be used later in the code
     return {
         'FILTER': int(config['RobotSettings']['filter']),
         'COORD_DIV': int(config['RobotSettings']['coord_div']),
@@ -33,11 +35,11 @@ def load_config():      # Config file that includes some basic parameters that a
 
 class RobotMovements:
     def __init__(self):
-        self.svg_dir = os.path.join(os.path.expanduser('~'), 'ros2ws', 'src', 'robot_letter_writer', 'robot_letter_writer', 'SVG')
+        self.svg_dir = os.path.join(os.path.expanduser('~'), 'ros2ws', 'src', 'robot_letter_writer', 'robot_letter_writer', 'SVG')  # Set the paths for the SVG-files
+        self.x_offset = 0.0                                                                                                         # Set the standard X offset 
 
     def parse_svg_file(self, file_path):
-        # Reload configuration each time this method is called to get updated settings
-        settings = load_config()  
+        settings = load_config()            # Reload configuration each time this method is called to get updated settings
         
         paths, attributes = svgt.svg2paths(file_path)
         xy_coordinates = []
@@ -45,23 +47,13 @@ class RobotMovements:
         for path, attr in zip(paths, attributes):
             path_coordinates = []
             for segment in path:
-                if isinstance(segment, Line):       # Line segments
+                if isinstance(segment, Line):
                     start = (segment.start.real, segment.start.imag)
                     end = (segment.end.real, segment.end.imag)
                     path_coordinates.append(start)
                     path_coordinates.append(end)
-                elif isinstance(segment, QuadraticBezier):      # If a curve is found, this divides it into multiple points so it can be drawn with straight lines
-                    num_points = settings['FILTER']             # Using the filter value from the config file to filter how precise the curves are
-                    for t in [i / num_points for i in range(num_points + 1)]:
-                        point = (segment.point(t).real, segment.point(t).imag)
-                        path_coordinates.append(point)
-                elif isinstance(segment, CubicBezier):
-                    num_points = settings['FILTER']
-                    for t in [i / num_points for i in range(num_points + 1)]:
-                        point = (segment.point(t).real, segment.point(t).imag)
-                        path_coordinates.append(point)
-                elif isinstance(segment, Arc):
-                    num_points = settings['FILTER']
+                elif isinstance(segment, (QuadraticBezier, CubicBezier, Arc)):  # If a curve is found, this divides it into multiple points so it can be drawn with straight lines
+                    num_points = settings['FILTER']                             # Using the filter value from the config file to filter how precise the curves are
                     for t in [i / num_points for i in range(num_points + 1)]:
                         point = (segment.point(t).real, segment.point(t).imag)
                         path_coordinates.append(point)
@@ -77,21 +69,26 @@ class RobotMovements:
         try:
             xy_coordinates = self.parse_svg_file(file_path)
             movements = []
-            settings = load_config()  # Get updated settings
+            settings = load_config()
+            
+            print(f"Processing letter {char} with x_offset: {self.x_offset}")
             
             for point in xy_coordinates:
                 x, y = point[0] / settings['COORD_DIV'] + 0.20, point[1] / settings['COORD_DIV'] + 0.20
 
-                # Rotate the letter writing paths 90 degrees so it faces the correct way for MA-IT
+                # Apply x_offset before rotation
+                x += self.x_offset
+
+                # Rotate the letter writing paths 90 degrees so it faces the correct way for MA-IT test cage
                 translated_x, translated_y = y, -x
 
                 MovType = "PTP"
                 Speed = settings['SPEED']
 
-                InputPose = Robpose()
+                InputPose = Robpose()           # Use Robpose from the IFRA package to be able to send robot EE to specific coordinate
                 InputPose.x = translated_x 
                 InputPose.y = translated_y 
-                InputPose.z = 0.5 + 0.30144  # Adjust z-coordinate as needed. 0.5 is the height of the block it is on.
+                InputPose.z = 0.5 + 0.30144     # Adjust z-coordinate as needed. 0.5 is the height of the block it is on.
                 InputPose.qx = 0.0
                 InputPose.qy = 1.0
                 InputPose.qz = 0.0
@@ -105,7 +102,11 @@ class RobotMovements:
             print(f"Error processing file {filename}: {str(e)}")
             return []
 
-    def move_to_zero(self):
+    def next_letter(self):      # The offset for the letters so the robot can write them next to each other
+        self.x_offset -= 0.1
+        print(f"Updated x_offset: {self.x_offset}")
+
+    def move_to_zero(self):         # Code to reset the robot to its 0 positions
         MovType = "PTP"
         Speed = 1.0
 
@@ -120,11 +121,14 @@ class RobotMovements:
 
         return [(MovType, Speed, InputPose)]
 
+# Global RobotMovements instance
+robot_movements = RobotMovements()
+
 def get_letter_movements(char):
-    movements = RobotMovements()
-    movement_map = {}
-
-    for letter in 'abcdefghijklmnopqrstuvwxyz':
-        movement_map[letter] = movements.movement_from_svg(letter)
-
-    return movement_map.get(char.lower(), None)
+    global robot_movements
+    if char.lower() == 'backspace':     
+        return None                     # Return None for Backspace, without updating x_offset. Just here for if you accidentally clear using backspace instead of the clear button
+    movements = robot_movements.movement_from_svg(char.lower())
+    if movements:                       # Only update x_offset if valid movements were generated
+        robot_movements.next_letter()
+    return movements                    # Return the movements

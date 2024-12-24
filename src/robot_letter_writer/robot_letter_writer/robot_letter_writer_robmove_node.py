@@ -1,4 +1,4 @@
-# robot_letter_writer.py
+# This node subscribes to the typed_text topic and reads the characters that are being typed, and translates that to motion (using the letter_movements code)
 
 #!/usr/bin/env python3
 

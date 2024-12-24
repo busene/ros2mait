@@ -1,3 +1,5 @@
+# This program can tell the current robot state.
+
 import rclpy
 from rclpy.node import Node
 from ros2srrc_data.msg import Robpose
